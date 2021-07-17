@@ -6,8 +6,8 @@
 
 <body onload='init()'>
     <div id="top"><img src="./files/Heading.png" alt="" width="600" height="50"></div>
-    <select id="selectButton" disabled><option value="JanMay2020">January 2020 - May 2020</option></select>
-    <a class="block" href="./stage2.html">Click to Next Stage</a>
+    <select id="selectButton" disabled><option value="JanMay2020">January 2020 - July 2021</option></select>
+    <a class="block" href="./index.html">Click to First Wave</a>
     <div id="data_runningsum"></div>
 
     <svg width="1100" height="500"></svg>
@@ -17,14 +17,12 @@
     <script>
 
 
-        d3.csv('https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/confirmed_cases_table1_location.csv')
+        d3.csv('https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/test.csv')
             .then(function (data) {
-                console.log("data loaded in pre stage")
-                //for (var i = 0; i < data.length; i++) {
-                    //console.log(data[i].TX);
-                    
-               // }
-
+                for (var i = 0; i < data.length; i++) {
+                    console.log(data[i].TX);
+                    console.log(data[i].TY);
+                }
             })
             .catch(function (error) {
                 // handle error
@@ -37,11 +35,9 @@
             //https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/test.csv
             d3.csv("https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/confirmed_cases_table1_location.csv")
                 .then(function (data) {
-                    console.log("data loaded in the function");
                     var parseTime = d3.timeParse("%m/%d/%Y");
-                    data = data.filter(function (d) { if (parseTime(d.notification_date) <= parseTime("5/31/2020")) return d; })
+                    //data = data.filter(function (d) { if (parseTime(d.notification_date) <= parseTime("5/31/2020")) return d; })
 
-                    console.log("data is filtered.")
                     var svg = d3.select("svg"),
                         margin = 200,
                         width = svg.attr("width") - margin,
@@ -89,7 +85,9 @@
                         .text('Total Case Number');
 
                     //Add axis
-                    h = height + 100;
+                    h = height + 100
+                    var startDate = new Date(parseTime("1/1/2020"));
+                    var endDate = new Date(parseTime("9/1/2021"))
                     svg.append("g")
                         .attr("transform", "translate(100," + h + ")")
                         .call(d3.axisBottom(xScale).ticks(d3.timeMonth));
@@ -98,23 +96,18 @@
                     svg.append("g")
                         .attr("transform", "translate(100,100)")
                         .call(d3.axisLeft(yScale));
-
-                    console.log("Axis is created.");
                     //d3.select("svg").append("g").attr("transform", "translate(" + margin + "," + margin + ")").call(d3.axisLeft(yScale));
                     //d3.select("svg").append("g").attr("transform", "translate(" + margin + "," + (margin + height) + ")").call(d3.axisBottom(xScale));
 
                     // Scatter dots
-                    //var data2 = d3.group(data, d => d.notification_date)
+                    var data2 = d3.group(data, d => d.notification_date)
                     //console.log(data2.get("1/27/2020"));
                     // This is for daily value
-                    //console.log("Total number for 1/27/2020");
-                    //console.log(d3.rollup(data, v => d3.sum(v, d => d.TY), d => d.notification_date).get("1/27/2020"));
+                    console.log("Total number for 1/27/2020");
+                    console.log(d3.rollup(data, v => d3.sum(v, d => d.TY), d => d.notification_date).get("1/27/2020"));
                     // This is for running sum
                     //var data_group = d3.rollup(data, v => d3.sum(v, d => d.TY), d => d.notification_date).get("1/27/2020")
                     //console.log(data_group);
-
-                    var data_daily = d3.rollup(data, v => d3.sum(v, d => d.TY), d => d.notification_date);
-                    console.log("daily data is rolled up");
 
                     svg.append('g')
                         .selectAll("dot")
@@ -133,13 +126,10 @@
                         .attr("transform", "translate(" + 100 + "," + 100 + ")")
                         .style("fill", "#CC0000");
 
-                    console.log("data is added in the Scatter dots")
                     // Plot Line
-                    //var data_daily = d3.rollup(data, v => d3.sum(v, d => d.TY), d => d.notification_date);
-                    //console.log("daily data is rolled up")
                     var line = d3.line()
                         .x(function (d) { return xScale(parseTime(d.notification_date)); })
-                        .y(function (d) { return yScale(data_daily.get(d.notification_date)); })
+                        .y(function (d) { return yScale(d3.rollup(data, v => d3.sum(v, d => d.TY), d => d.notification_date).get(d.notification_date)); })
                         .curve(d3.curveMonotoneX)
 
                     svg.append("path")
@@ -150,8 +140,6 @@
                         .style("fill", "none")
                         .style("stroke", "#CC0000")
                         .style("stroke-width", "2");
-
-                    console.log("ploted the line.");
 
                     // Vertical line for first wave
                     svg.append("g")
