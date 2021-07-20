@@ -6,7 +6,7 @@
 
 <body onload='init()'>
     <div id="top"><img src="./files/Heading.png" alt="" width="600" height="50"></div>
-    <select id="selectButton" disabled><option value="JunMay2021">January 2020 - May 2021</option></select>
+    <select id="selectButton" disabled><option value="JunMay2021">January 2020 - May 2020</option></select>
     <a class="block" href="./stage3.html">Click to Last Stage</a>
     <div id="data_runningsum"></div>
 
@@ -14,6 +14,7 @@
     <script src="https://d3js.org/d3.v7.min.js"></script>
     <!-- Load d3-annotation -->
     <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+    <script src="https://d3js.org/d3-voronoi.v1.min.js"></script>
     <script>
 
 
@@ -36,7 +37,7 @@
             d3.csv("https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/confirmed_cases_table1_location.csv")
                 .then(function (data) {
                     var parseTime = d3.timeParse("%m/%d/%Y");
-                    data = data.filter(function (d) { if (parseTime(d.notification_date) <= parseTime("5/31/2021")) return d; })
+                    //data = data.filter(function (d) { if (parseTime(d.notification_date) <= parseTime("5/31/2020")) return d; })
 
                     var svg = d3.select("svg"),
                         margin = 200,
@@ -163,16 +164,59 @@
                     ]
 
                     // Add annotation to the chart
-                    const makeAnnotations = d3.annotation()
+                    makeAnnotations = d3.annotation()
                         .annotations(annotations)
                     d3.select("svg")
                         .append("g")
                         .call(makeAnnotations)
                     //d3.select("svg").append("g").attr("class", "annotation-group").call(makeAnnotations);
+
+                    ////tooltips
+                    var data_daily = d3.rollup(data, v => d3.sum(v, d => d.TY), d => d.notification_date);
+                    const voronoi = d3.voronoi()
+                        .x(function (d) { console.log(xScale(parseTime(d.notification_date))); return xScale(parseTime(d.notification_date)); })
+                        .y(function (d) { console.log(yScale(d3.rollup(data, v => d3.sum(v, d => d.TY), d => d.notification_date).get(d.notification_date))); return yScale(d3.rollup(data, v => d3.sum(v, d => d.TY), d => d.notification_date).get(d.notification_date)); })
+                        .extent([[-margin, -margin], [width + margin, height + margin]]);
+
+                    d3.select("svg").selectAll('.voronoi')
+                        .data(voronoi.polygons(data))
+                        .enter().append('g')
+                        .attr('transform', "translate(100 ,100)")
+                        .attr('fill', 'none')
+                        //.attr('stroke', 'gold')
+                        .attr('pointer-events', 'all')
+                        .append('path')
+                        .attr('d', d => d ? 'M' + d.join('L') + 'Z' : null)
+                        .on('mouseover', function (d) {
+                            annotation = [
+                                {
+                                    note: {
+                                        label: "Test Label",
+                                        wrapSplitter: /\n/,
+                                        title: "Test Title",
+                                        wrap: 150
+                                    },
+                                    connector: { end: "arrow" },
+                                    x: xScale(parseTime(d.notification_date)) + margin,
+                                    y: yScale(d3.rollup(data, v => d3.sum(v, d => d.TY), d => d.notification_date).get(d.notification_date)) + margin,
+                                    dy: yScale(d3.rollup(data, v => d3.sum(v, d => d.TY), d => d.notification_date).get(d.notification_date)) + margin < 450 ? -18 : -120,
+                                    dx: xScale(parseTime(d.notification_date)) + margin < 300 ? 30 : -30
+                                }];
+                            makeAnnotations = d3.annotation().annotations(annotation);
+                            d3.select("svg").append("g").attr("class", "annotation-group").call(makeAnnotations);
+                            //console.log(makeAnnotations.annotations());
+
+                            //console.log(d.data.AverageCityMPG);
+                        })
+                        .on('mouseout', function (d) {
+                            makeAnnotations.annotations([]);
+                            d3.selectAll('.annotation-group').remove();
+                        });
+
                 })
 
         }
-                    /*
+                        /*
 // set the dimensions and margins of the graph
 var margin = { top: 10, right: 30, bottom: 30, left: 60 },
 width = 460 - margin.left - margin.right,
