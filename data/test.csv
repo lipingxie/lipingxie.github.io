@@ -1,4 +1,4 @@
-notification_date,postcode,lhd_2010_code,lhd_2010_name,lga_code19,lga_name19,TY,TX,DataType
+notification_date,postcode,lhd_2010_code,lhd_2010_name,lga_code19,lga_name19,TY,TX,SType
 1/25/2020,2134,X700,Sydney,11300,Burwood (A),10,10,All
 2/25/2020,2134,X700,Sydney,11300,Burwood (A),10,12,All
 3/27/2020,2033,X720,South Eastern Sydney,16550,Randwick (C),15,22,All

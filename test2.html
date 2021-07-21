@@ -24,7 +24,9 @@
                 .then(function (data) {
                     //var parseTime = d3.timeParse("%m/%d/%Y");
                     //data = data.filter(function (d) { if (parseTime(d.notification_date) <= parseTime("5/31/2020")) return d; })
-
+                    
+                    data = data.filter(function (d) { if (d.SType == "Sydney") return d; });
+                    console.log("data is: " + data);
                     var svg = d3.select("svg"),
                         margin = 200,
                         width = svg.attr("width") - margin,
