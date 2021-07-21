@@ -1,20 +1,39 @@
-notification_date,postcode,lhd_2010_code,lhd_2010_name,lga_code19,lga_name19,TY,TX
-1/25/2020,2134,X700,Sydney,11300,Burwood (A),10,10
-2/25/2020,2134,X700,Sydney,11300,Burwood (A),10,12
-3/27/2020,2033,X720,South Eastern Sydney,16550,Randwick (C),15,22
-4/27/2020,2033,X720,South Eastern Sydney,16550,Randwick (C),15,32
-5/1/2020,2163,X710,South Western Sydney,12850,Fairfield (C),20,42
-6/2/2020,2073,X760,Northern Sydney,14500,Ku-ring-gai (A),122,52
-7/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),150,60
-8/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),150,65
-9/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),150,70
-10/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),150,80
-11/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),150,90
-12/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),150,100
-1/3/2021,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),150,120
-2/25/2021,2134,X700,Sydney,11300,Burwood (A),10,130
-3/27/2021,2033,X720,South Eastern Sydney,16550,Randwick (C),15,135
-4/27/2021,2033,X720,South Eastern Sydney,16550,Randwick (C),15,140
-5/1/2021,2163,X710,South Western Sydney,12850,Fairfield (C),20,150
-6/2/2021,2073,X760,Northern Sydney,14500,Ku-ring-gai (A),122,160
-7/3/2021,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),150,170
+notification_date,postcode,lhd_2010_code,lhd_2010_name,lga_code19,lga_name19,TY,TX,DataType
+1/25/2020,2134,X700,Sydney,11300,Burwood (A),10,10,All
+2/25/2020,2134,X700,Sydney,11300,Burwood (A),10,12,All
+3/27/2020,2033,X720,South Eastern Sydney,16550,Randwick (C),15,22,All
+4/27/2020,2033,X720,South Eastern Sydney,16550,Randwick (C),15,32,All
+5/1/2020,2163,X710,South Western Sydney,12850,Fairfield (C),20,42,All
+6/2/2020,2073,X760,Northern Sydney,14500,Ku-ring-gai (A),122,52,All
+7/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),150,60,All
+8/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),150,65,All
+9/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),150,70,All
+10/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),150,80,All
+11/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),150,90,All
+12/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),150,100,All
+1/3/2021,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),150,120,All
+2/25/2021,2134,X700,Sydney,11300,Burwood (A),10,130,All
+3/27/2021,2033,X720,South Eastern Sydney,16550,Randwick (C),15,135,All
+4/27/2021,2033,X720,South Eastern Sydney,16550,Randwick (C),15,140,All
+5/1/2021,2163,X710,South Western Sydney,12850,Fairfield (C),20,150,All
+6/2/2021,2073,X760,Northern Sydney,14500,Ku-ring-gai (A),122,160,All
+7/3/2021,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),150,170,All
+1/25/2020,2134,X700,Sydney,11300,Burwood (A),1,,Sydney
+2/25/2020,2134,X700,Sydney,11300,Burwood (A),2,,Sydney
+3/27/2020,2033,X720,South Eastern Sydney,16550,Randwick (C),34,,Sydney
+4/27/2020,2033,X720,South Eastern Sydney,16550,Randwick (C),4,,Sydney
+5/1/2020,2163,X710,South Western Sydney,12850,Fairfield (C),5,,Sydney
+6/2/2020,2073,X760,Northern Sydney,14500,Ku-ring-gai (A),6,,Sydney
+7/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),8,,Sydney
+8/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),4,,Sydney
+9/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),33,,Sydney
+10/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),44,,Sydney
+11/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),55,,Sydney
+12/3/2020,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),33,,Sydney
+1/3/2021,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),33,,Sydney
+2/25/2021,2134,X700,Sydney,11300,Burwood (A),6,,Sydney
+3/27/2021,2033,X720,South Eastern Sydney,16550,Randwick (C),78,,Sydney
+4/27/2021,2033,X720,South Eastern Sydney,16550,Randwick (C),11,,Sydney
+5/1/2021,2163,X710,South Western Sydney,12850,Fairfield (C),33,,Sydney
+6/2/2021,2073,X760,Northern Sydney,14500,Ku-ring-gai (A),66,,Sydney
+7/3/2021,2232,X720,South Eastern Sydney,17150,Sutherland Shire (A),44,,Sydney

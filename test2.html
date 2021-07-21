@@ -8,27 +8,13 @@
     <div id="top"><img src="./files/Heading.png" alt="" width="600" height="50"></div>
     <select id="selectButton" disabled><option value="JunMay2021">January 2020 - May 2020</option></select>
     <a class="block" href="./stage3.html">Click to Last Stage</a>
-    <div id="data_runningsum"></div>
+
 
     <svg width="1100" height="500"></svg>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <!-- Load d3-annotation -->
     <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
     <script src="https://d3js.org/d3-voronoi.v1.min.js"></script>
-    <script>
-
-
-        d3.csv('https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/test.csv')
-            .then(function (data) {
-                for (var i = 0; i < data.length; i++) {
-                    console.log(data[i].TX);
-                    console.log(data[i].TY);
-                }
-            })
-            .catch(function (error) {
-                // handle error
-            })
-    </script>
 
     <script>
         async function init() {
@@ -36,7 +22,7 @@
             //https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/test.csv
             d3.csv("https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/test.csv")
                 .then(function (data) {
-                    var parseTime = d3.timeParse("%m/%d/%Y");
+                    //var parseTime = d3.timeParse("%m/%d/%Y");
                     //data = data.filter(function (d) { if (parseTime(d.notification_date) <= parseTime("5/31/2020")) return d; })
 
                     var svg = d3.select("svg"),
@@ -54,7 +40,7 @@
                     }
                     var domain = d3.extent(dates);
 
-                    //var xScale = d3.scaleLinear().domain([0, 100]).range([0, width]);
+                    //var xScale = d3.scaleLinear().domain([0, 200]).range([0, width]);
                     var xScale = d3.scaleTime().domain(domain).range([0, width]);
                     yScale = d3.scaleLinear().domain([0, 220]).range([height, 0]);
 
@@ -92,7 +78,7 @@
                     svg.append("g")
                         .attr("transform", "translate(100," + h + ")")
                         .call(d3.axisBottom(xScale).ticks(d3.timeMonth));
-
+                        //.call(d3.axisBottom(xScale));
 
                     svg.append("g")
                         .attr("transform", "translate(100,100)")
@@ -114,6 +100,7 @@
                         .style("fill", "#CC0000");
 
                     // Plot Line
+                    
                     var line = d3.line()
                         .x(function (d) { return xScale(parseTime(d.notification_date)); })
                         .y(function (d) { return yScale(d.TY); })
@@ -127,12 +114,7 @@
                         .style("fill", "none")
                         .style("stroke", "#CC0000")
                         .style("stroke-width", "2");
-
-                    // Vertical line for first wave
-                    svg.append("g")
-                        .attr("class", "line")
-                        .style("stroke-dasharray", ("3, 3"))  // <== This line here!!
-                        .attr("cx", xScale(parseTime("5/31/2020")));
+                        
 
                     ////annotations
                     const annotations = [
@@ -151,45 +133,61 @@
 
                     // Add annotation to the chart
                     makeAnnotations = d3.annotation()
-                        .annotations(annotations)
+                        .annotations(annotations);
                     //d3.select("svg")
                     //    .append("g")
-                      //  .call(makeAnnotations)
+                    //  .call(makeAnnotations)
                     d3.select("svg").append("g").attr("class", "annotation-group").call(makeAnnotations);
 
                     ////tooltips
-                    
+
+                    margin = 100;
+                    console.log("width + margin is " + (width + margin));
+                    console.log("height + margin is " + (height + margin));
                     const voronoi = d3.voronoi()
-                        .x(function (d) { console.log(xScale(parseTime(d.notification_date))); return xScale(parseTime(d.notification_date)); })
-                        .y(function (d) { console.log(yScale(d.TY)); return yScale(d.TY); })
-                        .extent([[-margin, -margin], [width + margin, height + margin]]);
+                        .x(function (d) { return xScale(parseTime(d.notification_date)); })
+                        .y(function (d) { return yScale(d.TY); })
+                        //.extent([[-margin, -margin], [width + margin, height + margin]]);
+                        .extent([[-100, -100], [1000, 400]]);
+
 
                     d3.select("svg").selectAll('.voronoi')
                         .data(voronoi.polygons(data))
                         .enter().append('g')
-                        .attr('transform', "translate(100 ,100)")
+                        .attr("transform", "translate(" + 100 + "," + 100 + ")")
                         .attr('fill', 'none')
                         //.attr('stroke', 'gold')
                         .attr('pointer-events', 'all')
                         .append('path')
                         .attr('d', d => d ? 'M' + d.join('L') + 'Z' : null)
+                        //.attr("d", function (d) { return d == null ? null : "M" + d.join("L") + "Z"; })
                         .on('mouseover', function (d) {
                             annotation = [
                                 {
                                     note: {
-                                        label: "Test Label",
+                                        label: "Case Number: " + d.data.TY,
                                         wrapSplitter: /\n/,
-                                        title: "Test Title",
+                                        title: "Date: " + d.data.notification_date,
                                         wrap: 150
                                     },
                                     connector: { end: "arrow" },
-                                    x: xScale(parseTime(d.notification_date)) + margin,
-                                    y: yScale(d.TY) + margin,
-                                    dy: yScale(d.TY) + margin < 450 ? -18 : -120,
-                                    dx: xScale(parseTime(d.notification_date)) + margin < 300 ? 30 : -30
+                                    x: xScale(parseTime(d.data.notification_date)) + margin,
+                                    y: yScale(d.data.TY) + margin,
+                                    dy: yScale(d.data.TY) + margin < 450 ? -18 : -120,
+                                    dx: xScale(parseTime(d.data.notification_date)) + margin < 300 ? 30 : -30
+                                    //x: 235,
+                                    //y: 180,
+                                    //dy: 100,
+                                    //dx: 100
                                 }];
                             makeAnnotations = d3.annotation().annotations(annotation);
                             d3.select("svg").append("g").attr("class", "annotation-group").call(makeAnnotations);
+
+                            //d3.select("svg")
+                            // .append("g")
+                            // .call(makeAnnotations)
+
+
                             //console.log(makeAnnotations.annotations());
 
                             //console.log(d.data.AverageCityMPG);
@@ -198,11 +196,11 @@
                             makeAnnotations.annotations([]);
                             d3.selectAll('.annotation-group').remove();
                         });
-                        
+
                 })
 
         }
-       
+
     </script>
 
 </body>
