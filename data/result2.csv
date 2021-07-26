@@ -1,0 +1,42 @@
+,notification_date,TY,SType
+0,2020-01-25,2,All
+1,2020-02-25,2,All
+2,2020-03-27,2,All
+3,2020-04-27,2,All
+4,2020-05-01,2,All
+5,2020-06-02,2,All
+6,2020-07-03,1,All
+7,2020-08-03,1,All
+8,2020-09-03,1,All
+9,2020-10-03,1,All
+10,2020-11-03,1,All
+11,2020-12-03,1,All
+12,2021-01-03,1,All
+13,2021-02-25,1,All
+14,2021-03-27,1,All
+15,2021-04-27,1,All
+16,2021-05-01,1,All
+17,2021-06-02,1,All
+18,2021-07-03,1,All
+0,2020-01-25,1,Burwood
+1,2020-02-25,1,Burwood
+2,2021-02-25,1,Burwood
+0,2020-01-25,1,Randwick
+1,2020-03-27,1,Randwick
+2,2020-04-27,2,Randwick
+3,2021-03-27,1,Randwick
+4,2021-04-27,1,Randwick
+0,2020-02-25,1,Fairfield
+1,2020-03-27,1,Fairfield
+2,2020-05-01,2,Fairfield
+3,2021-05-01,1,Fairfield
+0,2020-06-02,2,Ku-ring-gai
+1,2021-06-02,1,Ku-ring-gai
+0,2020-07-03,1,Sutherland Shire
+1,2020-08-03,1,Sutherland Shire
+2,2020-09-03,1,Sutherland Shire
+3,2020-10-03,1,Sutherland Shire
+4,2020-11-03,1,Sutherland Shire
+5,2020-12-03,1,Sutherland Shire
+6,2021-01-03,1,Sutherland Shire
+7,2021-07-03,1,Sutherland Shire

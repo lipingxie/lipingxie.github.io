@@ -6,24 +6,12 @@
 
 <body onload='init()'>
     <div id="top"><img src="./files/Heading.png" alt="" width="600" height="50"></div>
-    <div width="600" height="100">
-        <div>
-            <a class="block" href="./stage3.html">Click to Last Stage</a>
-        </div>
-        <div>
-            Filter data based on LGA and/or date range:
-        </div>
-        <div>
-            Select LGA name:
-            <select id="selectButton">                       </select>
-        </div>
-        <div>
-            From Date:
-            <input type="date" id="fromDate" name="fromDate">
-            To Date:
-            <input type="date" id="toDate" name="toDate">
-            <button id="selectButton2">Filter Data</button>
-        </div>
+    <div>
+        <a class="block" href="./stage3.html">Click to Last Stage</a>
+    </div>
+    <div>
+        Select LGA: 
+        <select id="selectButton">                       </select>
     </div>
     <svg width="1100" height="500"></svg>
     <script src="https://d3js.org/d3.v5.min.js"></script>
@@ -38,17 +26,8 @@
             d3.csv("https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/test.csv")
                 .then(function (data) {
                     var parseTime = d3.timeParse("%m/%d/%Y");
-                    data1 = data.filter(function (d) { if (parseTime(d.notification_date) <= parseTime("5/31/2020")) return d; })
-                    data2 = data.filter(function (d) {
-                        if (parseTime(d.notification_date) >= parseTime("5/31/2020")
-                            && parseTime(d.notification_date) <= parseTime("5/31/2021")) return d;
-                    })
-                    data3 = data.filter(function (d) {
-                        if (parseTime(d.notification_date) >= parseTime("5/31/2021")) return d;
-                    })
-                    data_Filtered1 = data1.filter(function (d) { if (d.SType == "All") return d; });
-                    data_Filtered2 = data2.filter(function (d) { if (d.SType == "All") return d; });
-                    data_Filtered3 = data3.filter(function (d) { if (d.SType == "All") return d; });
+                    //data = data.filter(function (d) { if (parseTime(d.notification_date) <= parseTime("5/31/2020")) return d; })
+                    
                     data_Filtered = data.filter(function (d) { if (d.SType == "All") return d; });
                     console.log("data is: " + data);
                     var svg = d3.select("svg"),
@@ -57,6 +36,28 @@
                         height = svg.attr("height") - margin
 
                     //var parseTime = d3.timeParse("%m/%d/%Y");
+                    var startDate = new Date(parseTime("1/1/2020"));
+                    var endDate = new Date(parseTime("4/1/2020"))
+                    console.log("start date is: " + startDate);
+                    console.log("end date is: " + endDate);
+                    console.log("end - start = " + (endDate - startDate));
+                    var ts;
+                    if ((endDate - startDate) <= 13136400000) {
+                        ts = d3.timeWeek;
+                    }
+                    else {
+                        ts = d3.timeMonth;
+                    };
+                    data_Filtered = data_Filtered.filter(function (d) {
+                        if (parseTime(d.notification_date) <= endDate
+                            && parseTime(d.notification_date) >= startDate) return d;
+                    });
+                    for (var i = 0; i < data_Filtered.length; i++) {
+                        console.log(data[i].notification_date);
+                        console.log(data[i].TY);
+                    };
+                    
+
                     var months = ["1/01/2020", "2/01/2020", "3/01/2020", "4/01/2020", "5/01/2020", "6/01/2020",
                         "7/01/2020", "8/01/2020", "9/01/2020", "10/01/2020", "11/01/2020", "12/01/2020", "1/01/2021",
                         "2/01/2021", "3/01/2021", "4/01/2021", "5/01/2021", "6/01/2021", "7/01/2021", "8/01/2021"];
@@ -67,7 +68,8 @@
                     var domain = d3.extent(dates);
 
                     //var xScale = d3.scaleLinear().domain([0, 200]).range([0, width]);
-                    var xScale = d3.scaleTime().domain(domain).range([0, width]);
+                    //var xScale = d3.scaleTime().domain(domain).range([0, width]);
+                    var xScale = d3.scaleTime().domain([startDate, endDate]).range([0, width]);
                     yScale = d3.scaleLinear().domain([0, 220]).range([height, 0]);
 
                     // Step 5
@@ -99,21 +101,21 @@
 
                     //Add axis
                     h = height + 100
-                    var startDate = new Date(parseTime("1/1/2020"));
-                    var endDate = new Date(parseTime("9/1/2021"))
-                    var xAxis = svg.append("g")
+                    
+                    svg.append("g")
                         .attr("transform", "translate(100," + h + ")")
-                        .call(d3.axisBottom(xScale).ticks(d3.timeMonth));
-                    //.call(d3.axisBottom(xScale));
+                        .call(d3.axisBottom(xScale).ticks(ts));
+                        //.call(d3.axisBottom(xScale).ticks(d3.timeMonth));
+                        //.call(d3.axisBottom(xScale));
 
                     svg.append("g")
                         .attr("transform", "translate(100,100)")
                         .call(d3.axisLeft(yScale));
 
                     // Scatter dots
-                    u = svg.append('g')
+                    svg.append('g')
                         .selectAll("dot")
-                        .data(data_Filtered1)
+                        .data(data_Filtered)
                         .enter()
                         .append("circle")
                         .attr("cx", function (d) { return xScale(parseTime(d.notification_date)); })
@@ -126,22 +128,21 @@
                         .style("fill", "#CC0000");
 
                     // Plot Line
-
+                    
                     var line = d3.line()
                         .x(function (d) { return xScale(parseTime(d.notification_date)); })
                         .y(function (d) { return yScale(d.TY); })
                         .curve(d3.curveMonotoneX)
 
                     svg.append("path")
-                        .datum(data_Filtered1)
+                        .datum(data_Filtered)
                         .attr("class", "line")
                         .attr("transform", "translate(100, 100)")
                         .attr("d", line)
                         .style("fill", "none")
                         .style("stroke", "#CC0000")
                         .style("stroke-width", "2");
-
-                    addChart2(data_Filtered2);
+                        
 
                     ////annotations
                     const annotations = [
@@ -175,7 +176,7 @@
                         .x(function (d) { return xScale(parseTime(d.notification_date)); })
                         .y(function (d) { return yScale(d.TY); })
                         .extent([[-margin, -margin], [width + margin, height + margin]]);
-                    //.extent([[-100, -100], [1000, 400]]);
+                        //.extent([[-100, -100], [1000, 400]]);
 
 
                     d3.select("svg").selectAll('.voronoi')
@@ -224,7 +225,7 @@
                             d3.selectAll('.annotation-group').remove();
                         });
                     var allGroup = [];
-                    //allGroup.push("All");
+                    //allGroup.push("All");                   
                     allGroup = allGroup.concat(d3.map(data, function (d) { return (d.SType) }).keys());
                     //console.log("allGroup is: " + allGroup);
                     d3.select("#selectButton")
@@ -235,87 +236,14 @@
                         .text(function (d) { return d; }) // text showed in the menu
                         .attr("value", function (d) { return d; }); // corresponding value returned by the button
 
-                    function addChart2(chart2data) {
-                        console.log("adding chart2")
-
-                        // Update X axis based on xScale
-                        //xAxis.transition().duration(10).call(d3.axisBottom(xScale).ticks(ts));
-
-                        //Plot the data again
-                        svg.append('g')
-                            .selectAll("dot")
-                            .data(chart2data)
-                            .enter()
-                            .append("circle")
-                            .attr("cx", function (d) { return xScale(parseTime(d.notification_date)); })
-                            .attr("cy", function (d) { return yScale(d.TY); })
-                            .attr("r", 2)
-                            .attr("transform", "translate(" + 100 + "," + 100 + ")")
-                            .style("fill", "#CC0000");
-
-                        // Plot Line
-                        var line = d3.line()
-                            .x(function (d) { return xScale(parseTime(d.notification_date)); })
-                            .y(function (d) { return yScale(d.TY); })
-                            .curve(d3.curveMonotoneX)
-
-                        var path = svg.append("path")
-                            .datum(chart2data)
-                            .attr("class", "line")
-                            .transition()
-                            .duration(1000)
-                            //.ease("linear")
-                            .attr("stroke-dashoffset", 0)
-                            .attr("transform", "translate(100, 100)")
-                            .attr("d", line)
-                            .style("fill", "none")
-                            .style("stroke", "#008000")
-                            .style("stroke-width", "2");
-
-
-                        //var totalLength = [path[0].getTotalLength()];
-                        /*
-                        d3.select(path[0][0])
-                            .attr("stroke-dasharray", totalLength[0] + " " + totalLength[0])
-                            .attr("stroke-dashoffset", totalLength[0])
-                            .transition()
-                            .duration(5000)
-                            .ease("linear")
-                            .attr("stroke-dashoffset", 0);
-                            */
-                    };
-
-                    function updateChart(selectedGroup, fromDate, ToDate) {
+                    function updateChart(selectedGroup) {
                         // Create new data with the selection?
-                        //var startDate = new Date(parseTime(fromDate));
-                        //var endDate = new Date(parseTime(ToDate));
-                        var startDate = fromDate;
-                        var endDate = ToDate;
                         var dataFilter = data.filter(function (d) { return d.SType == selectedGroup });
-                        dataFilter = dataFilter.filter(function (d) {
-                            if (parseTime(d.notification_date) <= endDate
-                                && parseTime(d.notification_date) >= startDate) return d;
-                        });
-                        var ts;
-                        if ((endDate - startDate) <= 13136400000) {
-                            ts = d3.timeWeek;
-                        }
-                        else {
-                            ts = d3.timeMonth;
-                        };
 
-                        xScale = d3.scaleTime().domain([startDate, endDate]).range([0, width]);
-
-                        //Remove circle
                         d3.select("svg")
                             .selectAll("circle").remove();
-                        //remove line
                         d3.select("path.line").remove();
 
-                        // Update X axis based on xScale
-                        xAxis.transition().duration(10).call(d3.axisBottom(xScale).ticks(ts));
-
-                        //Plot the data again
                         svg.append('g')
                             .selectAll("dot")
                             .data(dataFilter)
@@ -328,6 +256,7 @@
                             .style("fill", "#CC0000");
 
                         // Plot Line
+
                         var line = d3.line()
                             .x(function (d) { return xScale(parseTime(d.notification_date)); })
                             .y(function (d) { return yScale(d.TY); })
@@ -341,6 +270,7 @@
                             .style("fill", "none")
                             .style("stroke", "#CC0000")
                             .style("stroke-width", "2");
+
 
                         //reset voronoi
                         d3.select("svg").selectAll('.voronoi').remove();
@@ -380,37 +310,14 @@
                             });
 
                         makeAnnotations.annotations([]);
-                        //d3.selectAll(' ').remove(); //remove this line for test.
+                        d3.selectAll(' ').remove();
                     };
-                    /*
+
                     d3.select("#selectButton").on("change", function (d) {
                         // recover the option that has been chosen
                         var selectedOption = d3.select(this).property("value");
                         // run the updateChart function with this selected option
                         updateChart(selectedOption);
-                    });
-                    */
-
-                    d3.select("#selectButton2").on("click", function () {
-                        // recover the option that has been chosen
-                        var selectedOption = document.getElementById('selectButton');
-                        var selected_lga = selectedOption.options[selectedOption.selectedIndex].value
-                        console.log("selection option is: " + selectedOption.options[selectedOption.selectedIndex].value);
-                        var parseDate = d3.timeParse("%Y-%m-%d");
-                        var selected_fromDate = document.getElementById('fromDate').value;
-                        var selected_toDate = document.getElementById('toDate').value;
-                        if (!selected_fromDate) {
-                            selected_fromDate = "2020-01-01";
-                            console.log("from date is empty");
-                        };
-                        if (!selected_toDate) {
-                            selected_toDate = "2021-09-01";
-                            console.log("to date is empty");
-                        };
-                        console.log("from Date is: " + selected_fromDate);
-                        //var selectedOption = d3.select(this).property("value");
-                        // run the updateChart function with this selected option
-                        updateChart(selected_lga, parseDate(selected_fromDate), parseDate(selected_toDate));
                     });
 
                 })

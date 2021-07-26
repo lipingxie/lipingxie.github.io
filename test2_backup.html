@@ -38,17 +38,8 @@
             d3.csv("https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/test.csv")
                 .then(function (data) {
                     var parseTime = d3.timeParse("%m/%d/%Y");
-                    data1 = data.filter(function (d) { if (parseTime(d.notification_date) <= parseTime("5/31/2020")) return d; })
-                    data2 = data.filter(function (d) {
-                        if (parseTime(d.notification_date) >= parseTime("5/31/2020")
-                            && parseTime(d.notification_date) <= parseTime("5/31/2021")) return d;
-                    })
-                    data3 = data.filter(function (d) {
-                        if (parseTime(d.notification_date) >= parseTime("5/31/2021")) return d;
-                    })
-                    data_Filtered1 = data1.filter(function (d) { if (d.SType == "All") return d; });
-                    data_Filtered2 = data2.filter(function (d) { if (d.SType == "All") return d; });
-                    data_Filtered3 = data3.filter(function (d) { if (d.SType == "All") return d; });
+                    data = data.filter(function (d) { if (parseTime(d.notification_date) <= parseTime("1/31/2021")) return d; })
+
                     data_Filtered = data.filter(function (d) { if (d.SType == "All") return d; });
                     console.log("data is: " + data);
                     var svg = d3.select("svg"),
@@ -111,9 +102,9 @@
                         .call(d3.axisLeft(yScale));
 
                     // Scatter dots
-                    u = svg.append('g')
+                    svg.append('g')
                         .selectAll("dot")
-                        .data(data_Filtered1)
+                        .data(data_Filtered)
                         .enter()
                         .append("circle")
                         .attr("cx", function (d) { return xScale(parseTime(d.notification_date)); })
@@ -133,7 +124,7 @@
                         .curve(d3.curveMonotoneX)
 
                     svg.append("path")
-                        .datum(data_Filtered1)
+                        .datum(data_Filtered)
                         .attr("class", "line")
                         .attr("transform", "translate(100, 100)")
                         .attr("d", line)
@@ -141,7 +132,6 @@
                         .style("stroke", "#CC0000")
                         .style("stroke-width", "2");
 
-                    addChart2(data_Filtered2);
 
                     ////annotations
                     const annotations = [
@@ -234,56 +224,6 @@
                         .append('option')
                         .text(function (d) { return d; }) // text showed in the menu
                         .attr("value", function (d) { return d; }); // corresponding value returned by the button
-
-                    function addChart2(chart2data) {
-                        console.log("adding chart2")
-
-                        // Update X axis based on xScale
-                        //xAxis.transition().duration(10).call(d3.axisBottom(xScale).ticks(ts));
-
-                        //Plot the data again
-                        svg.append('g')
-                            .selectAll("dot")
-                            .data(chart2data)
-                            .enter()
-                            .append("circle")
-                            .attr("cx", function (d) { return xScale(parseTime(d.notification_date)); })
-                            .attr("cy", function (d) { return yScale(d.TY); })
-                            .attr("r", 2)
-                            .attr("transform", "translate(" + 100 + "," + 100 + ")")
-                            .style("fill", "#CC0000");
-
-                        // Plot Line
-                        var line = d3.line()
-                            .x(function (d) { return xScale(parseTime(d.notification_date)); })
-                            .y(function (d) { return yScale(d.TY); })
-                            .curve(d3.curveMonotoneX)
-
-                        var path = svg.append("path")
-                            .datum(chart2data)
-                            .attr("class", "line")
-                            .transition()
-                            .duration(1000)
-                            //.ease("linear")
-                            .attr("stroke-dashoffset", 0)
-                            .attr("transform", "translate(100, 100)")
-                            .attr("d", line)
-                            .style("fill", "none")
-                            .style("stroke", "#008000")
-                            .style("stroke-width", "2");
-
-
-                        //var totalLength = [path[0].getTotalLength()];
-                        /*
-                        d3.select(path[0][0])
-                            .attr("stroke-dasharray", totalLength[0] + " " + totalLength[0])
-                            .attr("stroke-dashoffset", totalLength[0])
-                            .transition()
-                            .duration(5000)
-                            .ease("linear")
-                            .attr("stroke-dashoffset", 0);
-                            */
-                    };
 
                     function updateChart(selectedGroup, fromDate, ToDate) {
                         // Create new data with the selection?
