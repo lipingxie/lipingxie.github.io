@@ -151,6 +151,9 @@
                                 title: "The First Outbreak",
                                 wrap: 290
                             },
+                            type: d3.annotationCalloutElbow,
+                            connector: { end: "arrow" },
+                            subject: { radius: 50, radiusPadding: 10 },
                             x: 235,
                             y: 180,
                             dy: 100,
@@ -198,6 +201,7 @@
                                         wrap: 150
                                     },
                                     connector: { end: "arrow" },
+                                    type: d3.annotationCalloutElbow,
                                     x: xScale(parseTime(d.data.notification_date)) + margin,
                                     y: yScale(d.data.TY) + margin,
                                     dy: yScale(d.data.TY) + margin < 450 ? -18 : -120,
@@ -363,6 +367,8 @@
                                             wrap: 150
                                         },
                                         connector: { end: "arrow" },
+                                        type: d3.annotationCalloutElbow,
+                                        color: ["#CC0000"],
                                         x: xScale(parseTime(d.data.notification_date)) + margin,
                                         y: yScale(d.data.TY) + margin,
                                         dy: yScale(d.data.TY) + margin < 450 ? -18 : -120,
