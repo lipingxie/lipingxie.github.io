@@ -29,5 +29,5 @@ for lga in lga_list:
     df2["SType"]=lga
     df1 = df1.append(df2)
 
-df1.to_csv('confirmed_cases_result.csv', index=True, encoding='utf-8')
+df1.to_csv('confirmed_cases_result_2807.csv', index=True, encoding='utf-8')
 
