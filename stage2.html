@@ -6,244 +6,244 @@
 
 <body onload='init()'>
     <div id="top"><img src="./files/Heading.png" alt="" width="600" height="40"></div>
-    <select id="selectButton" disabled><option value="JunMay2021">January 2020 - May 2021</option></select>
+    Data Range: January 2020 - May 2021
     <a type="button" class="block" href="./stage3.html">Click to View Next Stage</a>
     <div width="600" height="100"></div>
 
-        <svg width="1100" height="500"></svg>
-        <script src="https://d3js.org/d3.v5.min.js"></script>
-        <!-- Load d3-annotation -->
-        <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
-        <script>
-            async function init() {
-                //https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/confirmed_cases_table1_location.csv
-                //https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/confirmed_cases_result.csv
-                //https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/test.csv
-                d3.csv("https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/confirmed_cases_result.csv")
-                    .then(function (data) {
-                        var parseTime2 = d3.timeParse("%m/%d/%Y");
-                        var parseTime = d3.timeParse("%Y-%m-%d");
-                        data1 = data.filter(function (d) { if (parseTime(d.notification_date) <= parseTime2("5/31/2020")) return d; })
-                        data2 = data.filter(function (d) {
-                            if (parseTime(d.notification_date) >= parseTime2("5/31/2020")
-                                && parseTime(d.notification_date) <= parseTime2("5/31/2021")) return d;
-                        })
-                        data3 = data.filter(function (d) {
-                            if (parseTime(d.notification_date) >= parseTime("5/31/2021")) return d;
-                        })
-                        data_Filtered1 = data1.filter(function (d) { if (d.SType == "All") return d; });
-                        data_Filtered2 = data2.filter(function (d) { if (d.SType == "All") return d; });
-                        data_Filtered3 = data3.filter(function (d) { if (d.SType == "All") return d; });
-                        data_Filtered = data.filter(function (d) { if (d.SType == "All") return d; });
-                        console.log("data is: " + data);
-                        var svg = d3.select("svg"),
-                            margin = 200,
-                            width = svg.attr("width") - margin,
-                            height = svg.attr("height") - margin
+    <svg width="1100" height="500"></svg>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <!-- Load d3-annotation -->
+    <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+    <script>
+        async function init() {
+            //https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/confirmed_cases_table1_location.csv
+            //https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/confirmed_cases_result.csv
+            //https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/test.csv
+            d3.csv("https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/confirmed_cases_result.csv")
+                .then(function (data) {
+                    var parseTime2 = d3.timeParse("%m/%d/%Y");
+                    var parseTime = d3.timeParse("%Y-%m-%d");
+                    data1 = data.filter(function (d) { if (parseTime(d.notification_date) <= parseTime2("5/31/2020")) return d; })
+                    data2 = data.filter(function (d) {
+                        if (parseTime(d.notification_date) >= parseTime2("5/31/2020")
+                            && parseTime(d.notification_date) <= parseTime2("5/31/2021")) return d;
+                    })
+                    data3 = data.filter(function (d) {
+                        if (parseTime(d.notification_date) >= parseTime("5/31/2021")) return d;
+                    })
+                    data_Filtered1 = data1.filter(function (d) { if (d.SType == "All") return d; });
+                    data_Filtered2 = data2.filter(function (d) { if (d.SType == "All") return d; });
+                    data_Filtered3 = data3.filter(function (d) { if (d.SType == "All") return d; });
+                    data_Filtered = data.filter(function (d) { if (d.SType == "All") return d; });
+                    console.log("data is: " + data);
+                    var svg = d3.select("svg"),
+                        margin = 200,
+                        width = svg.attr("width") - margin,
+                        height = svg.attr("height") - margin
 
-                        //var parseTime = d3.timeParse("%m/%d/%Y");
-                        var months = ["1/01/2020", "2/01/2020", "3/01/2020", "4/01/2020", "5/01/2020", "6/01/2020",
-                            "7/01/2020", "8/01/2020", "9/01/2020", "10/01/2020", "11/01/2020", "12/01/2020", "1/01/2021",
-                            "2/01/2021", "3/01/2021", "4/01/2021", "5/01/2021", "6/01/2021", "7/01/2021", "8/01/2021"];
-                        var dates = [];
-                        for (let obj of months) {
-                            dates.push(parseTime2(obj));
+                    //var parseTime = d3.timeParse("%m/%d/%Y");
+                    var months = ["1/01/2020", "2/01/2020", "3/01/2020", "4/01/2020", "5/01/2020", "6/01/2020",
+                        "7/01/2020", "8/01/2020", "9/01/2020", "10/01/2020", "11/01/2020", "12/01/2020", "1/01/2021",
+                        "2/01/2021", "3/01/2021", "4/01/2021", "5/01/2021", "6/01/2021", "7/01/2021", "8/01/2021"];
+                    var dates = [];
+                    for (let obj of months) {
+                        dates.push(parseTime2(obj));
+                    }
+                    var domain = d3.extent(dates);
+
+                    //var xScale = d3.scaleLinear().domain([0, 200]).range([0, width]);
+                    var xScale = d3.scaleTime().domain(domain).range([0, width]);
+                    yScale = d3.scaleLinear().domain([0, 220]).range([height, 0]);
+
+                    // Step 5
+                    // Title
+                    svg.append('text')
+                        .attr('x', width / 2 + 100)
+                        .attr('y', 100)
+                        .attr('text-anchor', 'middle')
+                        .style('font-family', 'Helvetica')
+                        .style('font-size', 20)
+                        .text('Daily Case Count');
+
+                    // X label
+                    svg.append('text')
+                        .attr('x', width / 2 + 100)
+                        .attr('y', height - 15 + 150)
+                        .attr('text-anchor', 'middle')
+                        .style('font-family', 'Helvetica')
+                        .style('font-size', 12)
+                        .text('Data Date Range');
+
+                    // Y label
+                    svg.append('text')
+                        .attr('text-anchor', 'middle')
+                        .attr('transform', 'translate(60,' + height + ')rotate(-90)')
+                        .style('font-family', 'Helvetica')
+                        .style('font-size', 12)
+                        .text('Total Case Number');
+
+                    //Add axis
+                    h = height + 100
+                    var startDate = new Date(parseTime("1/1/2020"));
+                    var endDate = new Date(parseTime("9/1/2021"))
+                    var xAxis = svg.append("g")
+                        .attr("transform", "translate(100," + h + ")")
+                        .call(d3.axisBottom(xScale).ticks(d3.timeMonth));
+                    //.call(d3.axisBottom(xScale));
+
+                    svg.append("g")
+                        .attr("transform", "translate(100,100)")
+                        .call(d3.axisLeft(yScale));
+
+                    // Scatter dots
+                    u = svg.append('g')
+                        .selectAll("dot")
+                        .data(data_Filtered1)
+                        .enter()
+                        .append("circle")
+                        .attr("cx", function (d) { return xScale(parseTime(d.notification_date)); })
+                        //.attr("cy", function (d) { return yScale(d.TY); })
+                        .attr("cy", function (d) { return yScale(d.TY); })
+                        //.attr("cy", function (d) { return yScale(d3.rollup(data, v => d3.sum(v, d => d.TY), d => d.notification_date).get(d.notification_date))
+                        //    return
+                        .attr("r", 2)
+                        .attr("transform", "translate(" + 100 + "," + 100 + ")")
+                        .style("fill", "#CC0000");
+
+                    // Plot Line
+
+                    var line = d3.line()
+                        .x(function (d) { return xScale(parseTime(d.notification_date)); })
+                        .y(function (d) { return yScale(d.TY); })
+                        .curve(d3.curveMonotoneX)
+
+                    svg.append("path")
+                        .datum(data_Filtered1)
+                        .attr("class", "line")
+                        .attr("transform", "translate(100, 100)")
+                        .attr("d", line)
+                        .style("fill", "none")
+                        .style("stroke", "#CC0000")
+                        .style("stroke-width", "2");
+
+                    addChart2(data_Filtered2);
+                    console.log("yScale(3) is:" + yScale(3));
+
+                    // annotations 1
+                    const annotations = [
+                        {
+                            note: {
+                                label: "The first case was on 1/25/2020. The first wave happened around March and April 2020. The situation got under control after the lockdown of the Greater Sydney Area.",
+                                title: "The First Outbreak",
+                                wrap: 290
+
+                            },
+                            color: ["#CC0000"],
+                            connector: { end: "arrow" },
+                            x: xScale(parseTime2("3/31/2020")) + margin / 2,
+                            y: yScale(118) + margin / 2 - 10,
+                            dy: yScale(118) < 450 ? -18 : -120,
+                            dx: xScale(parseTime2("3/31/2020")) + margin / 2 < 300 ? 30 : -30
+                            //x: 235,
+                            //y: 180,
+                            //dy: 100,
+                            //dx: 100
                         }
-                        var domain = d3.extent(dates);
+                    ]
 
-                        //var xScale = d3.scaleLinear().domain([0, 200]).range([0, width]);
-                        var xScale = d3.scaleTime().domain(domain).range([0, width]);
-                        yScale = d3.scaleLinear().domain([0, 220]).range([height, 0]);
+                    // Add annotation to the chart
+                    makeAnnotations = d3.annotation()
+                        .annotations(annotations);
+                    //d3.select("svg")
+                    //    .append("g")
+                    //  .call(makeAnnotations)
+                    d3.select("svg").append("g").attr("class", "annotation-group").call(makeAnnotations);
 
-                        // Step 5
-                        // Title
-                        svg.append('text')
-                            .attr('x', width / 2 + 100)
-                            .attr('y', 100)
-                            .attr('text-anchor', 'middle')
-                            .style('font-family', 'Helvetica')
-                            .style('font-size', 20)
-                            .text('Daily Case Count');
+                    ////annotations 2
+                    const annotations2 = [
+                        {
+                            note: {
+                                label: "From June 2020 to May 2021, there were few small outbreaks started in different locations. The outbreaks were quickly under control via limited suburbs lockdown.",
+                                title: "The Relative Quiet Period",
+                                wrap: 290
+                            },
+                            connector: { end: "arrow" },
+                            color: ["#008000"],
+                            //x: 350,
+                            //y: 100,
+                            //dy: 50,
+                            //dx: 100
+                            x: xScale(parseTime2("11/22/2020")) + margin / 2 + 50,
+                            y: yScale(3) + margin / 2 - 30,
+                            dy: yScale(3) + margin / 2 + 50 < 450 ? -18 : -120,
+                            dx: xScale(parseTime2("11/22/2020")) + margin / 2 - 50 < 300 ? 30 : -30
+                        }
+                    ]
 
-                        // X label
-                        svg.append('text')
-                            .attr('x', width / 2 + 100)
-                            .attr('y', height - 15 + 150)
-                            .attr('text-anchor', 'middle')
-                            .style('font-family', 'Helvetica')
-                            .style('font-size', 12)
-                            .text('Data Date Range');
+                    // Add annotation to the chart
+                    makeAnnotations = d3.annotation()
+                        .annotations(annotations2);
+                    //d3.select("svg")
+                    //    .append("g")
+                    //  .call(makeAnnotations)
+                    d3.select("svg").append("g").attr("class", "annotation-group").call(makeAnnotations);
 
-                        // Y label
-                        svg.append('text')
-                            .attr('text-anchor', 'middle')
-                            .attr('transform', 'translate(60,' + height + ')rotate(-90)')
-                            .style('font-family', 'Helvetica')
-                            .style('font-size', 12)
-                            .text('Total Case Number');
 
-                        //Add axis
-                        h = height + 100
-                        var startDate = new Date(parseTime("1/1/2020"));
-                        var endDate = new Date(parseTime("9/1/2021"))
-                        var xAxis = svg.append("g")
-                            .attr("transform", "translate(100," + h + ")")
-                            .call(d3.axisBottom(xScale).ticks(d3.timeMonth));
-                        //.call(d3.axisBottom(xScale));
+                    function addChart2(chart2data) {
+                        console.log("adding chart2")
 
-                        svg.append("g")
-                            .attr("transform", "translate(100,100)")
-                            .call(d3.axisLeft(yScale));
+                        // Update X axis based on xScale
+                        //xAxis.transition().duration(10).call(d3.axisBottom(xScale).ticks(ts));
 
-                        // Scatter dots
-                        u = svg.append('g')
+                        //Plot the data again
+                        svg.append('g')
                             .selectAll("dot")
-                            .data(data_Filtered1)
+                            .data(chart2data)
                             .enter()
                             .append("circle")
                             .attr("cx", function (d) { return xScale(parseTime(d.notification_date)); })
-                            //.attr("cy", function (d) { return yScale(d.TY); })
                             .attr("cy", function (d) { return yScale(d.TY); })
-                            //.attr("cy", function (d) { return yScale(d3.rollup(data, v => d3.sum(v, d => d.TY), d => d.notification_date).get(d.notification_date))
-                            //    return
                             .attr("r", 2)
                             .attr("transform", "translate(" + 100 + "," + 100 + ")")
-                            .style("fill", "#CC0000");
+                            .style("fill", "#008000");
 
                         // Plot Line
-
                         var line = d3.line()
                             .x(function (d) { return xScale(parseTime(d.notification_date)); })
                             .y(function (d) { return yScale(d.TY); })
                             .curve(d3.curveMonotoneX)
 
-                        svg.append("path")
-                            .datum(data_Filtered1)
+                        var path = svg.append("path")
+                            .datum(chart2data)
                             .attr("class", "line")
+                            //.transition()
+                            //.duration(1000)
+                            //.ease("linear")
+                            .attr("stroke-dashoffset", 0)
                             .attr("transform", "translate(100, 100)")
                             .attr("d", line)
                             .style("fill", "none")
-                            .style("stroke", "#CC0000")
+                            .style("stroke", "#008000")
                             .style("stroke-width", "2");
 
-                        addChart2(data_Filtered2);
-                        console.log("yScale(3) is:" + yScale(3));
 
-                        // annotations 1
-                        const annotations = [
-                            {
-                                note: {
-                                    label: "The first case was on 1/25/2020. The first wave happened around March and April 2020. The situation got under control after the lockdown of the Greater Sydney Area.",
-                                    title: "The First Outbreak",
-                                    wrap: 290
-
-                                },
-                                color: ["#CC0000"],
-                                connector: { end: "arrow" },
-                                x: xScale(parseTime2("3/31/2020")) + margin / 2,
-                                y: yScale(118) + margin / 2 - 10,
-                                dy: yScale(118) < 450 ? -18 : -120,
-                                dx: xScale(parseTime2("3/31/2020")) + margin / 2 < 300 ? 30 : -30
-                                //x: 235,
-                                //y: 180,
-                                //dy: 100,
-                                //dx: 100
-                            }
-                        ]
-
-                        // Add annotation to the chart
-                        makeAnnotations = d3.annotation()
-                            .annotations(annotations);
-                        //d3.select("svg")
-                        //    .append("g")
-                        //  .call(makeAnnotations)
-                        d3.select("svg").append("g").attr("class", "annotation-group").call(makeAnnotations);
-
-                        ////annotations 2
-                        const annotations2 = [
-                            {
-                                note: {
-                                    label: "From June 2020 to June 2021, there were few small outbreaks started in different locations. The outbreaks were quickly under control via limited suburbs lockdown.",
-                                    title: "The Relative Quiet Period",
-                                    wrap: 290
-                                },
-                                connector: { end: "arrow" },
-                                color: ["#008000"],
-                                //x: 350,
-                                //y: 100,
-                                //dy: 50,
-                                //dx: 100
-                                x: xScale(parseTime2("11/22/2020")) + margin / 2 + 50,
-                                y: yScale(3) + margin / 2 - 30,
-                                dy: yScale(3) + margin / 2 + 50 < 450 ? -18 : -120,
-                                dx: xScale(parseTime2("11/22/2020")) + margin / 2 - 50 < 300 ? 30 : -30
-                            }
-                        ]
-
-                        // Add annotation to the chart
-                        makeAnnotations = d3.annotation()
-                            .annotations(annotations2);
-                        //d3.select("svg")
-                        //    .append("g")
-                        //  .call(makeAnnotations)
-                        d3.select("svg").append("g").attr("class", "annotation-group").call(makeAnnotations);
+                        //var totalLength = [path[0].getTotalLength()];
+                        /*
+                        d3.select(path[0][0])
+                            .attr("stroke-dasharray", totalLength[0] + " " + totalLength[0])
+                            .attr("stroke-dashoffset", totalLength[0])
+                            .transition()
+                            .duration(5000)
+                            .ease("linear")
+                            .attr("stroke-dashoffset", 0);
+                            */
+                    };
 
 
-                        function addChart2(chart2data) {
-                            console.log("adding chart2")
+                })
+        }
 
-                            // Update X axis based on xScale
-                            //xAxis.transition().duration(10).call(d3.axisBottom(xScale).ticks(ts));
-
-                            //Plot the data again
-                            svg.append('g')
-                                .selectAll("dot")
-                                .data(chart2data)
-                                .enter()
-                                .append("circle")
-                                .attr("cx", function (d) { return xScale(parseTime(d.notification_date)); })
-                                .attr("cy", function (d) { return yScale(d.TY); })
-                                .attr("r", 2)
-                                .attr("transform", "translate(" + 100 + "," + 100 + ")")
-                                .style("fill", "#008000");
-
-                            // Plot Line
-                            var line = d3.line()
-                                .x(function (d) { return xScale(parseTime(d.notification_date)); })
-                                .y(function (d) { return yScale(d.TY); })
-                                .curve(d3.curveMonotoneX)
-
-                            var path = svg.append("path")
-                                .datum(chart2data)
-                                .attr("class", "line")
-                                //.transition()
-                                //.duration(1000)
-                                //.ease("linear")
-                                .attr("stroke-dashoffset", 0)
-                                .attr("transform", "translate(100, 100)")
-                                .attr("d", line)
-                                .style("fill", "none")
-                                .style("stroke", "#008000")
-                                .style("stroke-width", "2");
-
-
-                            //var totalLength = [path[0].getTotalLength()];
-                            /*
-                            d3.select(path[0][0])
-                                .attr("stroke-dasharray", totalLength[0] + " " + totalLength[0])
-                                .attr("stroke-dashoffset", totalLength[0])
-                                .transition()
-                                .duration(5000)
-                                .ease("linear")
-                                .attr("stroke-dashoffset", 0);
-                                */
-                        };
-
-
-                    })
-            }
-
-        </script>
+    </script>
 
 </body>
 </html>
