@@ -1,0 +1,3404 @@
+,notification_date,TY,SType
+0,2020-01-25,3,All
+1,2020-01-27,1,All
+2,2020-03-01,2,All
+3,2020-03-02,3,All
+4,2020-03-03,6,All
+5,2020-03-04,6,All
+6,2020-03-05,4,All
+7,2020-03-06,7,All
+8,2020-03-07,1,All
+9,2020-03-08,7,All
+10,2020-03-09,13,All
+11,2020-03-10,6,All
+12,2020-03-11,16,All
+13,2020-03-12,14,All
+14,2020-03-13,19,All
+15,2020-03-14,20,All
+16,2020-03-15,36,All
+17,2020-03-16,29,All
+18,2020-03-17,64,All
+19,2020-03-18,45,All
+20,2020-03-19,56,All
+21,2020-03-20,86,All
+22,2020-03-21,122,All
+23,2020-03-22,121,All
+24,2020-03-23,176,All
+25,2020-03-24,189,All
+26,2020-03-25,203,All
+27,2020-03-26,181,All
+28,2020-03-27,211,All
+29,2020-03-28,141,All
+30,2020-03-29,119,All
+31,2020-03-30,85,All
+32,2020-03-31,118,All
+33,2020-04-01,113,All
+34,2020-04-02,89,All
+35,2020-04-03,101,All
+36,2020-04-04,69,All
+37,2020-04-05,52,All
+38,2020-04-06,32,All
+39,2020-04-07,38,All
+40,2020-04-08,43,All
+41,2020-04-09,36,All
+42,2020-04-10,24,All
+43,2020-04-11,15,All
+44,2020-04-12,7,All
+45,2020-04-13,5,All
+46,2020-04-14,21,All
+47,2020-04-15,20,All
+48,2020-04-16,22,All
+49,2020-04-17,14,All
+50,2020-04-18,17,All
+51,2020-04-19,7,All
+52,2020-04-20,2,All
+53,2020-04-21,6,All
+54,2020-04-22,3,All
+55,2020-04-23,8,All
+56,2020-04-24,14,All
+57,2020-04-25,3,All
+58,2020-04-26,1,All
+59,2020-04-27,5,All
+60,2020-04-28,10,All
+61,2020-04-29,3,All
+62,2020-04-30,14,All
+63,2020-05-01,2,All
+64,2020-05-02,2,All
+65,2020-05-03,1,All
+66,2020-05-04,4,All
+67,2020-05-05,4,All
+68,2020-05-06,3,All
+69,2020-05-07,2,All
+70,2020-05-08,4,All
+71,2020-05-09,1,All
+72,2020-05-12,5,All
+73,2020-05-13,3,All
+74,2020-05-14,3,All
+75,2020-05-18,1,All
+76,2020-05-19,3,All
+77,2020-05-20,1,All
+78,2020-05-21,3,All
+79,2020-05-23,1,All
+80,2020-05-24,1,All
+81,2020-05-25,1,All
+82,2020-05-28,1,All
+83,2020-05-30,2,All
+84,2020-05-31,4,All
+85,2020-06-01,4,All
+86,2020-06-02,1,All
+87,2020-06-03,2,All
+88,2020-06-04,3,All
+89,2020-06-06,1,All
+90,2020-06-07,2,All
+91,2020-06-08,1,All
+92,2020-06-09,3,All
+93,2020-06-11,3,All
+94,2020-06-12,3,All
+95,2020-06-13,8,All
+96,2020-06-14,6,All
+97,2020-06-17,2,All
+98,2020-06-18,1,All
+99,2020-06-19,1,All
+100,2020-06-20,6,All
+101,2020-06-21,1,All
+102,2020-06-22,1,All
+103,2020-06-23,7,All
+104,2020-06-24,4,All
+105,2020-06-25,4,All
+106,2020-06-26,5,All
+107,2020-06-27,6,All
+108,2020-06-28,3,All
+109,2020-06-29,2,All
+110,2020-06-30,8,All
+111,2020-07-01,2,All
+112,2020-07-02,1,All
+113,2020-07-03,7,All
+114,2020-07-04,9,All
+115,2020-07-05,3,All
+116,2020-07-06,7,All
+117,2020-07-07,2,All
+118,2020-07-08,6,All
+119,2020-07-09,7,All
+120,2020-07-10,4,All
+121,2020-07-11,2,All
+122,2020-07-12,12,All
+123,2020-07-13,15,All
+124,2020-07-14,9,All
+125,2020-07-15,7,All
+126,2020-07-16,9,All
+127,2020-07-17,9,All
+128,2020-07-18,14,All
+129,2020-07-19,18,All
+130,2020-07-20,13,All
+131,2020-07-21,14,All
+132,2020-07-22,16,All
+133,2020-07-23,7,All
+134,2020-07-24,16,All
+135,2020-07-25,16,All
+136,2020-07-26,6,All
+137,2020-07-27,14,All
+138,2020-07-28,22,All
+139,2020-07-29,14,All
+140,2020-07-30,21,All
+141,2020-07-31,15,All
+142,2020-08-01,14,All
+143,2020-08-02,10,All
+144,2020-08-03,13,All
+145,2020-08-04,8,All
+146,2020-08-05,13,All
+147,2020-08-06,11,All
+148,2020-08-07,7,All
+149,2020-08-08,14,All
+150,2020-08-09,12,All
+151,2020-08-10,20,All
+152,2020-08-11,15,All
+153,2020-08-12,6,All
+154,2020-08-13,12,All
+155,2020-08-14,7,All
+156,2020-08-15,6,All
+157,2020-08-16,5,All
+158,2020-08-17,2,All
+159,2020-08-18,8,All
+160,2020-08-19,1,All
+161,2020-08-20,5,All
+162,2020-08-21,7,All
+163,2020-08-22,2,All
+164,2020-08-23,2,All
+165,2020-08-24,2,All
+166,2020-08-25,6,All
+167,2020-08-26,12,All
+168,2020-08-27,15,All
+169,2020-08-28,9,All
+170,2020-08-29,7,All
+171,2020-08-30,8,All
+172,2020-08-31,12,All
+173,2020-09-01,15,All
+174,2020-09-02,9,All
+175,2020-09-03,6,All
+176,2020-09-04,7,All
+177,2020-09-05,8,All
+178,2020-09-06,4,All
+179,2020-09-07,9,All
+180,2020-09-08,5,All
+181,2020-09-09,10,All
+182,2020-09-10,6,All
+183,2020-09-11,8,All
+184,2020-09-12,3,All
+185,2020-09-13,4,All
+186,2020-09-14,3,All
+187,2020-09-15,3,All
+188,2020-09-16,4,All
+189,2020-09-17,2,All
+190,2020-09-18,2,All
+191,2020-09-19,1,All
+192,2020-09-20,1,All
+193,2020-09-22,5,All
+194,2020-09-23,2,All
+195,2020-09-24,1,All
+196,2020-09-25,1,All
+197,2020-09-28,3,All
+198,2020-09-29,2,All
+199,2020-09-30,3,All
+200,2020-10-01,2,All
+201,2020-10-03,1,All
+202,2020-10-04,2,All
+203,2020-10-05,3,All
+204,2020-10-06,1,All
+205,2020-10-07,15,All
+206,2020-10-08,5,All
+207,2020-10-09,4,All
+208,2020-10-10,6,All
+209,2020-10-11,3,All
+210,2020-10-12,10,All
+211,2020-10-13,12,All
+212,2020-10-14,8,All
+213,2020-10-15,2,All
+214,2020-10-16,6,All
+215,2020-10-17,4,All
+216,2020-10-18,5,All
+217,2020-10-19,9,All
+218,2020-10-20,3,All
+219,2020-10-21,4,All
+220,2020-10-22,2,All
+221,2020-10-23,4,All
+222,2020-10-24,4,All
+223,2020-10-25,2,All
+224,2020-10-26,13,All
+225,2020-10-27,2,All
+226,2020-10-28,4,All
+227,2020-10-29,7,All
+228,2020-10-30,2,All
+229,2020-10-31,4,All
+230,2020-11-01,4,All
+231,2020-11-02,4,All
+232,2020-11-03,6,All
+233,2020-11-04,1,All
+234,2020-11-05,8,All
+235,2020-11-06,4,All
+236,2020-11-07,2,All
+237,2020-11-08,4,All
+238,2020-11-09,3,All
+239,2020-11-11,1,All
+240,2020-11-13,4,All
+241,2020-11-14,5,All
+242,2020-11-15,1,All
+243,2020-11-16,2,All
+244,2020-11-17,1,All
+245,2020-11-18,3,All
+246,2020-11-19,1,All
+247,2020-11-20,2,All
+248,2020-11-21,4,All
+249,2020-11-22,3,All
+250,2020-11-23,1,All
+251,2020-11-24,2,All
+252,2020-11-26,1,All
+253,2020-11-27,6,All
+254,2020-11-28,2,All
+255,2020-11-29,5,All
+256,2020-11-30,7,All
+257,2020-12-01,5,All
+258,2020-12-02,6,All
+259,2020-12-03,3,All
+260,2020-12-04,2,All
+261,2020-12-05,3,All
+262,2020-12-06,4,All
+263,2020-12-07,2,All
+264,2020-12-08,1,All
+265,2020-12-09,5,All
+266,2020-12-10,4,All
+267,2020-12-11,2,All
+268,2020-12-12,3,All
+269,2020-12-13,4,All
+270,2020-12-14,4,All
+271,2020-12-15,2,All
+272,2020-12-16,8,All
+273,2020-12-17,24,All
+274,2020-12-18,24,All
+275,2020-12-19,29,All
+276,2020-12-20,23,All
+277,2020-12-21,10,All
+278,2020-12-22,13,All
+279,2020-12-23,15,All
+280,2020-12-24,10,All
+281,2020-12-25,9,All
+282,2020-12-26,12,All
+283,2020-12-27,7,All
+284,2020-12-28,7,All
+285,2020-12-29,27,All
+286,2020-12-30,7,All
+287,2020-12-31,10,All
+288,2021-01-01,14,All
+289,2021-01-02,6,All
+290,2021-01-03,8,All
+291,2021-01-04,4,All
+292,2021-01-05,3,All
+293,2021-01-06,8,All
+294,2021-01-07,4,All
+295,2021-01-08,9,All
+296,2021-01-09,4,All
+297,2021-01-10,8,All
+298,2021-01-11,9,All
+299,2021-01-12,3,All
+300,2021-01-14,1,All
+301,2021-01-15,8,All
+302,2021-01-16,12,All
+303,2021-01-18,1,All
+304,2021-01-19,2,All
+305,2021-01-20,3,All
+306,2021-01-23,1,All
+307,2021-01-25,3,All
+308,2021-01-27,3,All
+309,2021-01-29,2,All
+310,2021-01-30,1,All
+311,2021-01-31,3,All
+312,2021-02-03,1,All
+313,2021-02-05,2,All
+314,2021-02-07,4,All
+315,2021-02-08,3,All
+316,2021-02-09,1,All
+317,2021-02-10,1,All
+318,2021-02-15,1,All
+319,2021-02-16,1,All
+320,2021-02-18,1,All
+321,2021-02-20,2,All
+322,2021-02-21,1,All
+323,2021-02-22,3,All
+324,2021-02-23,3,All
+325,2021-02-24,3,All
+326,2021-02-25,4,All
+327,2021-02-26,3,All
+328,2021-02-27,2,All
+329,2021-02-28,3,All
+330,2021-03-01,1,All
+331,2021-03-02,4,All
+332,2021-03-03,1,All
+333,2021-03-04,9,All
+334,2021-03-05,2,All
+335,2021-03-06,1,All
+336,2021-03-08,3,All
+337,2021-03-09,4,All
+338,2021-03-10,3,All
+339,2021-03-11,4,All
+340,2021-03-13,2,All
+341,2021-03-14,1,All
+342,2021-03-16,3,All
+343,2021-03-17,5,All
+344,2021-03-19,2,All
+345,2021-03-20,1,All
+346,2021-03-21,3,All
+347,2021-03-23,4,All
+348,2021-03-24,1,All
+349,2021-03-25,2,All
+350,2021-03-26,1,All
+351,2021-03-28,2,All
+352,2021-03-29,1,All
+353,2021-03-30,5,All
+354,2021-03-31,2,All
+355,2021-04-02,2,All
+356,2021-04-03,1,All
+357,2021-04-04,3,All
+358,2021-04-05,5,All
+359,2021-04-08,1,All
+360,2021-04-09,2,All
+361,2021-04-10,5,All
+362,2021-04-11,2,All
+363,2021-04-12,3,All
+364,2021-04-13,2,All
+365,2021-04-14,2,All
+366,2021-04-15,1,All
+367,2021-04-16,6,All
+368,2021-04-17,4,All
+369,2021-04-18,7,All
+370,2021-04-19,4,All
+371,2021-04-20,3,All
+372,2021-04-21,5,All
+373,2021-04-22,2,All
+374,2021-04-24,4,All
+375,2021-04-25,3,All
+376,2021-04-26,3,All
+377,2021-04-27,2,All
+378,2021-04-28,9,All
+379,2021-04-29,1,All
+380,2021-04-30,2,All
+381,2021-05-01,2,All
+382,2021-05-02,5,All
+383,2021-05-03,7,All
+384,2021-05-04,4,All
+385,2021-05-05,8,All
+386,2021-05-06,2,All
+387,2021-05-07,4,All
+388,2021-05-08,4,All
+389,2021-05-09,5,All
+390,2021-05-10,2,All
+391,2021-05-11,1,All
+392,2021-05-12,5,All
+393,2021-05-13,2,All
+394,2021-05-14,1,All
+395,2021-05-15,2,All
+396,2021-05-16,2,All
+397,2021-05-17,3,All
+398,2021-05-18,1,All
+399,2021-05-19,1,All
+400,2021-05-21,3,All
+401,2021-05-23,1,All
+402,2021-05-25,1,All
+403,2021-05-27,3,All
+404,2021-05-28,1,All
+405,2021-05-29,1,All
+406,2021-06-02,2,All
+407,2021-06-04,2,All
+408,2021-06-05,1,All
+409,2021-06-06,4,All
+410,2021-06-07,6,All
+411,2021-06-08,1,All
+412,2021-06-09,2,All
+413,2021-06-10,1,All
+414,2021-06-13,2,All
+415,2021-06-14,3,All
+416,2021-06-15,1,All
+417,2021-06-16,3,All
+418,2021-06-17,1,All
+419,2021-06-18,5,All
+420,2021-06-19,4,All
+421,2021-06-20,2,All
+422,2021-06-21,5,All
+423,2021-06-22,17,All
+424,2021-06-23,12,All
+425,2021-06-24,22,All
+426,2021-06-25,28,All
+427,2021-06-26,25,All
+428,2021-06-27,23,All
+429,2021-06-28,15,All
+430,2021-06-29,27,All
+431,2021-06-30,30,All
+432,2021-07-01,30,All
+433,2021-07-02,36,All
+434,2021-07-03,22,All
+435,2021-07-04,31,All
+436,2021-07-05,16,All
+437,2021-07-06,33,All
+438,2021-07-07,37,All
+439,2021-07-08,45,All
+440,2021-07-09,50,All
+441,2021-07-10,105,All
+442,2021-07-11,121,All
+443,2021-07-12,73,All
+444,2021-07-13,90,All
+445,2021-07-14,75,All
+446,2021-07-15,102,All
+447,2021-07-16,112,All
+448,2021-07-17,98,All
+449,2021-07-18,112,All
+450,2021-07-19,65,All
+451,2021-07-20,107,All
+452,2021-07-21,141,All
+453,2021-07-22,142,All
+454,2021-07-23,149,All
+455,2021-07-24,142,All
+456,2021-07-25,171,All
+457,2021-07-26,140,All
+458,2021-07-27,142,All
+0,2020-01-25,1,Burwood
+1,2020-03-17,1,Burwood
+2,2020-03-23,1,Burwood
+3,2020-03-26,1,Burwood
+4,2020-03-29,1,Burwood
+5,2020-03-30,1,Burwood
+6,2020-04-02,1,Burwood
+7,2020-04-08,1,Burwood
+8,2020-08-27,1,Burwood
+9,2020-09-06,1,Burwood
+10,2020-09-07,2,Burwood
+11,2020-09-10,1,Burwood
+12,2020-10-23,1,Burwood
+13,2020-12-25,1,Burwood
+14,2020-12-28,1,Burwood
+15,2020-12-29,3,Burwood
+16,2021-04-12,1,Burwood
+17,2021-07-01,2,Burwood
+18,2021-07-06,2,Burwood
+19,2021-07-07,2,Burwood
+20,2021-07-11,1,Burwood
+21,2021-07-21,4,Burwood
+22,2021-07-23,1,Burwood
+23,2021-07-25,2,Burwood
+0,2020-01-25,1,Parramatta
+1,2020-03-06,2,Parramatta
+2,2020-03-08,3,Parramatta
+3,2020-03-09,3,Parramatta
+4,2020-03-12,1,Parramatta
+5,2020-03-14,1,Parramatta
+6,2020-03-15,3,Parramatta
+7,2020-03-16,1,Parramatta
+8,2020-03-17,1,Parramatta
+9,2020-03-19,1,Parramatta
+10,2020-03-20,1,Parramatta
+11,2020-03-21,1,Parramatta
+12,2020-03-22,2,Parramatta
+13,2020-03-23,3,Parramatta
+14,2020-03-25,3,Parramatta
+15,2020-03-26,1,Parramatta
+16,2020-03-27,1,Parramatta
+17,2020-03-28,1,Parramatta
+18,2020-03-29,2,Parramatta
+19,2020-03-31,4,Parramatta
+20,2020-04-01,3,Parramatta
+21,2020-04-02,1,Parramatta
+22,2020-04-03,3,Parramatta
+23,2020-04-06,1,Parramatta
+24,2020-04-07,1,Parramatta
+25,2020-05-06,1,Parramatta
+26,2020-05-13,1,Parramatta
+27,2020-06-03,1,Parramatta
+28,2020-06-27,1,Parramatta
+29,2020-06-30,2,Parramatta
+30,2020-07-06,1,Parramatta
+31,2020-07-13,1,Parramatta
+32,2020-07-15,1,Parramatta
+33,2020-07-19,1,Parramatta
+34,2020-07-20,1,Parramatta
+35,2020-07-23,2,Parramatta
+36,2020-07-24,1,Parramatta
+37,2020-07-25,3,Parramatta
+38,2020-07-27,4,Parramatta
+39,2020-07-30,4,Parramatta
+40,2020-08-01,2,Parramatta
+41,2020-08-05,2,Parramatta
+42,2020-08-06,1,Parramatta
+43,2020-08-09,1,Parramatta
+44,2020-08-10,2,Parramatta
+45,2020-08-28,1,Parramatta
+46,2020-09-09,1,Parramatta
+47,2020-09-11,1,Parramatta
+48,2020-09-17,1,Parramatta
+49,2020-10-07,4,Parramatta
+50,2020-10-11,1,Parramatta
+51,2020-10-12,1,Parramatta
+52,2020-10-13,1,Parramatta
+53,2020-10-21,1,Parramatta
+54,2020-10-22,1,Parramatta
+55,2020-10-23,1,Parramatta
+56,2020-10-26,1,Parramatta
+57,2020-11-09,1,Parramatta
+58,2020-11-13,1,Parramatta
+59,2020-11-29,1,Parramatta
+60,2020-12-02,1,Parramatta
+61,2020-12-06,2,Parramatta
+62,2020-12-07,1,Parramatta
+63,2020-12-23,1,Parramatta
+64,2021-01-03,1,Parramatta
+65,2021-02-03,1,Parramatta
+66,2021-02-05,1,Parramatta
+67,2021-02-24,1,Parramatta
+68,2021-03-01,1,Parramatta
+69,2021-03-09,2,Parramatta
+70,2021-03-21,1,Parramatta
+71,2021-03-28,1,Parramatta
+72,2021-04-13,1,Parramatta
+73,2021-04-18,1,Parramatta
+74,2021-04-22,2,Parramatta
+75,2021-04-25,1,Parramatta
+76,2021-04-28,1,Parramatta
+77,2021-04-29,1,Parramatta
+78,2021-05-02,2,Parramatta
+79,2021-05-05,2,Parramatta
+80,2021-05-06,1,Parramatta
+81,2021-05-07,1,Parramatta
+82,2021-06-07,1,Parramatta
+83,2021-06-29,1,Parramatta
+84,2021-06-30,2,Parramatta
+85,2021-07-01,3,Parramatta
+86,2021-07-05,2,Parramatta
+87,2021-07-07,1,Parramatta
+88,2021-07-08,4,Parramatta
+89,2021-07-11,3,Parramatta
+90,2021-07-12,1,Parramatta
+91,2021-07-15,2,Parramatta
+92,2021-07-16,1,Parramatta
+93,2021-07-18,1,Parramatta
+94,2021-07-19,3,Parramatta
+95,2021-07-20,6,Parramatta
+96,2021-07-21,3,Parramatta
+97,2021-07-22,10,Parramatta
+98,2021-07-23,2,Parramatta
+99,2021-07-24,3,Parramatta
+100,2021-07-25,10,Parramatta
+101,2021-07-26,8,Parramatta
+102,2021-07-27,3,Parramatta
+0,2020-01-25,1,Ku-ring-gai
+1,2020-03-02,1,Ku-ring-gai
+2,2020-03-10,1,Ku-ring-gai
+3,2020-03-16,2,Ku-ring-gai
+4,2020-03-17,3,Ku-ring-gai
+5,2020-03-19,3,Ku-ring-gai
+6,2020-03-20,1,Ku-ring-gai
+7,2020-03-21,5,Ku-ring-gai
+8,2020-03-22,2,Ku-ring-gai
+9,2020-03-23,2,Ku-ring-gai
+10,2020-03-24,5,Ku-ring-gai
+11,2020-03-25,3,Ku-ring-gai
+12,2020-03-26,2,Ku-ring-gai
+13,2020-03-27,8,Ku-ring-gai
+14,2020-03-28,3,Ku-ring-gai
+15,2020-03-30,1,Ku-ring-gai
+16,2020-03-31,6,Ku-ring-gai
+17,2020-04-01,2,Ku-ring-gai
+18,2020-04-02,4,Ku-ring-gai
+19,2020-04-03,4,Ku-ring-gai
+20,2020-04-05,1,Ku-ring-gai
+21,2020-04-07,3,Ku-ring-gai
+22,2020-04-08,2,Ku-ring-gai
+23,2020-04-09,2,Ku-ring-gai
+24,2020-04-10,2,Ku-ring-gai
+25,2020-05-01,1,Ku-ring-gai
+26,2020-05-18,1,Ku-ring-gai
+27,2020-05-20,1,Ku-ring-gai
+28,2020-06-26,1,Ku-ring-gai
+29,2020-07-09,1,Ku-ring-gai
+30,2020-08-10,1,Ku-ring-gai
+31,2020-08-26,2,Ku-ring-gai
+32,2020-08-27,1,Ku-ring-gai
+33,2020-08-28,2,Ku-ring-gai
+34,2020-08-29,1,Ku-ring-gai
+35,2020-08-30,1,Ku-ring-gai
+36,2020-09-01,2,Ku-ring-gai
+37,2020-09-04,2,Ku-ring-gai
+38,2020-09-08,1,Ku-ring-gai
+39,2020-10-12,1,Ku-ring-gai
+40,2020-10-13,1,Ku-ring-gai
+41,2020-12-11,1,Ku-ring-gai
+42,2020-12-19,1,Ku-ring-gai
+43,2020-12-20,2,Ku-ring-gai
+44,2021-01-02,1,Ku-ring-gai
+45,2021-01-03,1,Ku-ring-gai
+46,2021-03-02,2,Ku-ring-gai
+47,2021-04-18,1,Ku-ring-gai
+48,2021-04-25,1,Ku-ring-gai
+49,2021-04-28,1,Ku-ring-gai
+50,2021-05-12,3,Ku-ring-gai
+51,2021-06-02,2,Ku-ring-gai
+52,2021-06-05,1,Ku-ring-gai
+53,2021-06-21,1,Ku-ring-gai
+54,2021-07-23,1,Ku-ring-gai
+0,2020-01-27,1,Randwick
+1,2020-03-14,1,Randwick
+2,2020-03-15,1,Randwick
+3,2020-03-16,3,Randwick
+4,2020-03-17,1,Randwick
+5,2020-03-19,4,Randwick
+6,2020-03-20,1,Randwick
+7,2020-03-21,2,Randwick
+8,2020-03-23,5,Randwick
+9,2020-03-24,7,Randwick
+10,2020-03-25,5,Randwick
+11,2020-03-26,5,Randwick
+12,2020-03-27,6,Randwick
+13,2020-03-28,1,Randwick
+14,2020-03-29,1,Randwick
+15,2020-03-31,3,Randwick
+16,2020-04-01,5,Randwick
+17,2020-04-02,3,Randwick
+18,2020-04-03,6,Randwick
+19,2020-04-04,4,Randwick
+20,2020-04-05,2,Randwick
+21,2020-04-06,2,Randwick
+22,2020-04-07,3,Randwick
+23,2020-04-08,1,Randwick
+24,2020-04-09,3,Randwick
+25,2020-04-10,3,Randwick
+26,2020-04-11,1,Randwick
+27,2020-04-13,1,Randwick
+28,2020-04-15,1,Randwick
+29,2020-04-18,1,Randwick
+30,2020-04-30,1,Randwick
+31,2020-05-05,1,Randwick
+32,2020-06-18,1,Randwick
+33,2020-07-27,1,Randwick
+34,2020-07-28,1,Randwick
+35,2020-08-25,1,Randwick
+36,2020-08-26,1,Randwick
+37,2020-08-27,1,Randwick
+38,2020-08-28,1,Randwick
+39,2020-09-01,1,Randwick
+40,2020-09-02,1,Randwick
+41,2020-09-03,1,Randwick
+42,2020-09-07,1,Randwick
+43,2020-09-10,1,Randwick
+44,2020-09-13,1,Randwick
+45,2020-09-22,1,Randwick
+46,2020-10-04,1,Randwick
+47,2020-10-05,3,Randwick
+48,2020-10-07,1,Randwick
+49,2020-10-10,1,Randwick
+50,2020-10-15,1,Randwick
+51,2020-10-17,1,Randwick
+52,2020-10-27,1,Randwick
+53,2020-11-28,1,Randwick
+54,2020-11-30,1,Randwick
+55,2020-12-02,1,Randwick
+56,2020-12-08,1,Randwick
+57,2020-12-16,2,Randwick
+58,2020-12-22,1,Randwick
+59,2021-01-27,1,Randwick
+60,2021-02-22,1,Randwick
+61,2021-03-17,1,Randwick
+62,2021-04-10,1,Randwick
+63,2021-06-19,1,Randwick
+64,2021-06-23,1,Randwick
+65,2021-06-24,3,Randwick
+66,2021-06-25,6,Randwick
+67,2021-06-26,1,Randwick
+68,2021-06-27,3,Randwick
+69,2021-06-28,2,Randwick
+70,2021-06-29,5,Randwick
+71,2021-06-30,4,Randwick
+72,2021-07-01,1,Randwick
+73,2021-07-02,5,Randwick
+74,2021-07-04,7,Randwick
+75,2021-07-05,2,Randwick
+76,2021-07-06,4,Randwick
+77,2021-07-07,2,Randwick
+78,2021-07-08,3,Randwick
+79,2021-07-09,2,Randwick
+80,2021-07-10,3,Randwick
+81,2021-07-13,1,Randwick
+82,2021-07-15,5,Randwick
+83,2021-07-16,1,Randwick
+84,2021-07-17,2,Randwick
+85,2021-07-18,1,Randwick
+86,2021-07-20,3,Randwick
+87,2021-07-22,1,Randwick
+88,2021-07-25,1,Randwick
+89,2021-07-26,2,Randwick
+90,2021-07-27,1,Randwick
+0,2020-03-01,1,Hornsby
+1,2020-03-02,1,Hornsby
+2,2020-03-05,1,Hornsby
+3,2020-03-06,2,Hornsby
+4,2020-03-08,1,Hornsby
+5,2020-03-11,3,Hornsby
+6,2020-03-12,1,Hornsby
+7,2020-03-15,1,Hornsby
+8,2020-03-16,1,Hornsby
+9,2020-03-18,1,Hornsby
+10,2020-03-19,1,Hornsby
+11,2020-03-20,3,Hornsby
+12,2020-03-21,2,Hornsby
+13,2020-03-23,3,Hornsby
+14,2020-03-24,7,Hornsby
+15,2020-03-25,3,Hornsby
+16,2020-03-26,2,Hornsby
+17,2020-03-27,7,Hornsby
+18,2020-03-28,1,Hornsby
+19,2020-03-30,1,Hornsby
+20,2020-03-31,1,Hornsby
+21,2020-04-03,1,Hornsby
+22,2020-04-05,1,Hornsby
+23,2020-04-07,1,Hornsby
+24,2020-04-08,2,Hornsby
+25,2020-04-14,1,Hornsby
+26,2020-04-18,1,Hornsby
+27,2020-04-19,1,Hornsby
+28,2020-04-21,2,Hornsby
+29,2020-04-24,2,Hornsby
+30,2020-04-27,1,Hornsby
+31,2020-04-30,1,Hornsby
+32,2020-06-30,1,Hornsby
+33,2020-08-08,3,Hornsby
+34,2020-08-10,2,Hornsby
+35,2020-08-13,1,Hornsby
+36,2020-08-20,1,Hornsby
+37,2020-08-30,1,Hornsby
+38,2020-08-31,1,Hornsby
+39,2020-09-08,1,Hornsby
+40,2020-11-04,1,Hornsby
+41,2020-11-06,1,Hornsby
+42,2020-11-14,1,Hornsby
+43,2020-11-24,1,Hornsby
+44,2020-12-03,1,Hornsby
+45,2020-12-19,2,Hornsby
+46,2020-12-20,1,Hornsby
+47,2021-01-01,1,Hornsby
+48,2021-01-19,1,Hornsby
+49,2021-01-23,1,Hornsby
+50,2021-02-25,1,Hornsby
+51,2021-03-10,1,Hornsby
+52,2021-07-04,3,Hornsby
+53,2021-07-17,1,Hornsby
+54,2021-07-26,2,Hornsby
+0,2020-03-01,1,Fairfield
+1,2020-03-07,1,Fairfield
+2,2020-03-15,1,Fairfield
+3,2020-03-24,2,Fairfield
+4,2020-03-25,1,Fairfield
+5,2020-03-26,3,Fairfield
+6,2020-03-28,1,Fairfield
+7,2020-03-30,1,Fairfield
+8,2020-03-31,1,Fairfield
+9,2020-04-01,2,Fairfield
+10,2020-04-02,1,Fairfield
+11,2020-04-03,3,Fairfield
+12,2020-04-04,1,Fairfield
+13,2020-04-05,3,Fairfield
+14,2020-04-07,1,Fairfield
+15,2020-04-08,1,Fairfield
+16,2020-04-09,2,Fairfield
+17,2020-04-10,2,Fairfield
+18,2020-04-14,1,Fairfield
+19,2020-04-22,1,Fairfield
+20,2020-04-23,1,Fairfield
+21,2020-05-04,1,Fairfield
+22,2020-05-05,1,Fairfield
+23,2020-05-07,1,Fairfield
+24,2020-05-25,1,Fairfield
+25,2020-06-03,1,Fairfield
+26,2020-06-07,2,Fairfield
+27,2020-06-12,1,Fairfield
+28,2020-06-14,1,Fairfield
+29,2020-07-04,1,Fairfield
+30,2020-07-12,1,Fairfield
+31,2020-07-13,1,Fairfield
+32,2020-07-16,1,Fairfield
+33,2020-07-18,3,Fairfield
+34,2020-07-19,3,Fairfield
+35,2020-07-20,3,Fairfield
+36,2020-07-21,5,Fairfield
+37,2020-07-22,2,Fairfield
+38,2020-07-23,2,Fairfield
+39,2020-07-24,5,Fairfield
+40,2020-07-25,1,Fairfield
+41,2020-07-27,1,Fairfield
+42,2020-07-28,3,Fairfield
+43,2020-07-29,3,Fairfield
+44,2020-07-31,6,Fairfield
+45,2020-08-01,1,Fairfield
+46,2020-08-02,1,Fairfield
+47,2020-08-03,3,Fairfield
+48,2020-08-04,4,Fairfield
+49,2020-08-05,3,Fairfield
+50,2020-08-06,2,Fairfield
+51,2020-08-07,5,Fairfield
+52,2020-08-08,4,Fairfield
+53,2020-08-10,3,Fairfield
+54,2020-08-11,4,Fairfield
+55,2020-08-12,2,Fairfield
+56,2020-08-13,4,Fairfield
+57,2020-08-14,3,Fairfield
+58,2020-08-15,1,Fairfield
+59,2020-08-18,3,Fairfield
+60,2020-08-20,2,Fairfield
+61,2020-08-21,1,Fairfield
+62,2020-08-24,1,Fairfield
+63,2020-08-26,2,Fairfield
+64,2020-08-27,3,Fairfield
+65,2020-08-30,1,Fairfield
+66,2020-09-16,1,Fairfield
+67,2020-09-28,1,Fairfield
+68,2020-10-26,1,Fairfield
+69,2020-10-30,1,Fairfield
+70,2020-11-02,1,Fairfield
+71,2020-11-03,2,Fairfield
+72,2020-12-13,1,Fairfield
+73,2020-12-22,1,Fairfield
+74,2021-02-05,1,Fairfield
+75,2021-03-19,2,Fairfield
+76,2021-05-03,1,Fairfield
+77,2021-06-06,1,Fairfield
+78,2021-06-26,2,Fairfield
+79,2021-06-27,1,Fairfield
+80,2021-06-30,1,Fairfield
+81,2021-07-01,3,Fairfield
+82,2021-07-02,4,Fairfield
+83,2021-07-03,3,Fairfield
+84,2021-07-04,1,Fairfield
+85,2021-07-05,2,Fairfield
+86,2021-07-06,11,Fairfield
+87,2021-07-07,10,Fairfield
+88,2021-07-08,9,Fairfield
+89,2021-07-09,19,Fairfield
+90,2021-07-10,59,Fairfield
+91,2021-07-11,74,Fairfield
+92,2021-07-12,38,Fairfield
+93,2021-07-13,48,Fairfield
+94,2021-07-14,41,Fairfield
+95,2021-07-15,56,Fairfield
+96,2021-07-16,60,Fairfield
+97,2021-07-17,63,Fairfield
+98,2021-07-18,51,Fairfield
+99,2021-07-19,27,Fairfield
+100,2021-07-20,33,Fairfield
+101,2021-07-21,41,Fairfield
+102,2021-07-22,29,Fairfield
+103,2021-07-23,36,Fairfield
+104,2021-07-24,33,Fairfield
+105,2021-07-25,16,Fairfield
+106,2021-07-26,26,Fairfield
+107,2021-07-27,37,Fairfield
+0,2020-03-02,1,Bayside
+1,2020-03-11,3,Bayside
+2,2020-03-13,1,Bayside
+3,2020-03-16,1,Bayside
+4,2020-03-17,2,Bayside
+5,2020-03-20,1,Bayside
+6,2020-03-22,2,Bayside
+7,2020-03-23,2,Bayside
+8,2020-03-24,2,Bayside
+9,2020-03-25,3,Bayside
+10,2020-03-27,3,Bayside
+11,2020-03-28,3,Bayside
+12,2020-03-29,7,Bayside
+13,2020-03-30,3,Bayside
+14,2020-03-31,5,Bayside
+15,2020-04-01,1,Bayside
+16,2020-04-02,1,Bayside
+17,2020-04-03,2,Bayside
+18,2020-04-04,5,Bayside
+19,2020-04-05,3,Bayside
+20,2020-04-06,6,Bayside
+21,2020-04-07,2,Bayside
+22,2020-04-08,2,Bayside
+23,2020-04-10,1,Bayside
+24,2020-04-11,1,Bayside
+25,2020-04-12,1,Bayside
+26,2020-04-13,1,Bayside
+27,2020-04-16,1,Bayside
+28,2020-07-10,1,Bayside
+29,2020-07-12,1,Bayside
+30,2020-07-16,1,Bayside
+31,2020-07-19,1,Bayside
+32,2020-07-30,1,Bayside
+33,2020-08-27,1,Bayside
+34,2020-09-02,1,Bayside
+35,2020-09-22,3,Bayside
+36,2020-10-14,1,Bayside
+37,2020-10-20,1,Bayside
+38,2020-10-30,1,Bayside
+39,2020-11-01,1,Bayside
+40,2020-11-22,1,Bayside
+41,2020-12-29,1,Bayside
+42,2021-01-01,1,Bayside
+43,2021-01-20,1,Bayside
+44,2021-01-29,1,Bayside
+45,2021-02-10,1,Bayside
+46,2021-03-17,2,Bayside
+47,2021-03-20,1,Bayside
+48,2021-05-02,1,Bayside
+49,2021-05-08,1,Bayside
+50,2021-06-15,1,Bayside
+51,2021-06-20,1,Bayside
+52,2021-06-21,1,Bayside
+53,2021-06-22,1,Bayside
+54,2021-06-25,1,Bayside
+55,2021-06-26,3,Bayside
+56,2021-06-27,1,Bayside
+57,2021-06-29,1,Bayside
+58,2021-06-30,2,Bayside
+59,2021-07-02,2,Bayside
+60,2021-07-04,1,Bayside
+61,2021-07-05,1,Bayside
+62,2021-07-08,4,Bayside
+63,2021-07-09,4,Bayside
+64,2021-07-10,1,Bayside
+65,2021-07-12,6,Bayside
+66,2021-07-13,3,Bayside
+67,2021-07-14,3,Bayside
+68,2021-07-15,1,Bayside
+69,2021-07-16,1,Bayside
+70,2021-07-17,1,Bayside
+71,2021-07-18,1,Bayside
+72,2021-07-19,3,Bayside
+73,2021-07-20,3,Bayside
+74,2021-07-21,3,Bayside
+75,2021-07-22,4,Bayside
+76,2021-07-23,2,Bayside
+77,2021-07-24,1,Bayside
+78,2021-07-25,4,Bayside
+79,2021-07-26,3,Bayside
+80,2021-07-27,4,Bayside
+0,2020-03-03,2,Canterbury-Bankstown
+1,2020-03-15,1,Canterbury-Bankstown
+2,2020-03-16,1,Canterbury-Bankstown
+3,2020-03-18,1,Canterbury-Bankstown
+4,2020-03-19,3,Canterbury-Bankstown
+5,2020-03-20,6,Canterbury-Bankstown
+6,2020-03-21,1,Canterbury-Bankstown
+7,2020-03-22,6,Canterbury-Bankstown
+8,2020-03-23,5,Canterbury-Bankstown
+9,2020-03-24,6,Canterbury-Bankstown
+10,2020-03-25,9,Canterbury-Bankstown
+11,2020-03-26,8,Canterbury-Bankstown
+12,2020-03-27,4,Canterbury-Bankstown
+13,2020-03-28,5,Canterbury-Bankstown
+14,2020-03-29,4,Canterbury-Bankstown
+15,2020-03-30,5,Canterbury-Bankstown
+16,2020-03-31,5,Canterbury-Bankstown
+17,2020-04-01,1,Canterbury-Bankstown
+18,2020-04-02,3,Canterbury-Bankstown
+19,2020-04-03,3,Canterbury-Bankstown
+20,2020-04-04,1,Canterbury-Bankstown
+21,2020-04-05,1,Canterbury-Bankstown
+22,2020-04-08,3,Canterbury-Bankstown
+23,2020-04-09,1,Canterbury-Bankstown
+24,2020-04-10,1,Canterbury-Bankstown
+25,2020-04-15,1,Canterbury-Bankstown
+26,2020-04-18,1,Canterbury-Bankstown
+27,2020-04-19,1,Canterbury-Bankstown
+28,2020-04-23,2,Canterbury-Bankstown
+29,2020-04-28,3,Canterbury-Bankstown
+30,2020-04-29,1,Canterbury-Bankstown
+31,2020-05-19,1,Canterbury-Bankstown
+32,2020-06-09,1,Canterbury-Bankstown
+33,2020-06-12,1,Canterbury-Bankstown
+34,2020-06-13,1,Canterbury-Bankstown
+35,2020-06-21,1,Canterbury-Bankstown
+36,2020-06-23,1,Canterbury-Bankstown
+37,2020-06-26,1,Canterbury-Bankstown
+38,2020-06-27,1,Canterbury-Bankstown
+39,2020-06-30,1,Canterbury-Bankstown
+40,2020-07-04,3,Canterbury-Bankstown
+41,2020-07-05,1,Canterbury-Bankstown
+42,2020-07-06,2,Canterbury-Bankstown
+43,2020-07-12,1,Canterbury-Bankstown
+44,2020-07-16,2,Canterbury-Bankstown
+45,2020-07-17,1,Canterbury-Bankstown
+46,2020-07-18,3,Canterbury-Bankstown
+47,2020-07-21,1,Canterbury-Bankstown
+48,2020-07-24,4,Canterbury-Bankstown
+49,2020-07-25,4,Canterbury-Bankstown
+50,2020-07-26,1,Canterbury-Bankstown
+51,2020-07-27,3,Canterbury-Bankstown
+52,2020-07-30,3,Canterbury-Bankstown
+53,2020-07-31,1,Canterbury-Bankstown
+54,2020-08-03,1,Canterbury-Bankstown
+55,2020-08-05,1,Canterbury-Bankstown
+56,2020-08-10,1,Canterbury-Bankstown
+57,2020-08-11,1,Canterbury-Bankstown
+58,2020-08-12,2,Canterbury-Bankstown
+59,2020-08-13,3,Canterbury-Bankstown
+60,2020-08-15,2,Canterbury-Bankstown
+61,2020-08-21,1,Canterbury-Bankstown
+62,2020-08-28,1,Canterbury-Bankstown
+63,2020-08-30,1,Canterbury-Bankstown
+64,2020-09-01,1,Canterbury-Bankstown
+65,2020-09-02,2,Canterbury-Bankstown
+66,2020-09-03,2,Canterbury-Bankstown
+67,2020-09-04,2,Canterbury-Bankstown
+68,2020-09-05,3,Canterbury-Bankstown
+69,2020-09-07,1,Canterbury-Bankstown
+70,2020-09-13,1,Canterbury-Bankstown
+71,2020-09-16,1,Canterbury-Bankstown
+72,2020-10-01,1,Canterbury-Bankstown
+73,2020-10-10,1,Canterbury-Bankstown
+74,2020-10-11,1,Canterbury-Bankstown
+75,2020-10-13,2,Canterbury-Bankstown
+76,2020-10-14,1,Canterbury-Bankstown
+77,2020-10-18,1,Canterbury-Bankstown
+78,2020-11-05,1,Canterbury-Bankstown
+79,2020-11-07,1,Canterbury-Bankstown
+80,2020-11-11,1,Canterbury-Bankstown
+81,2020-11-18,1,Canterbury-Bankstown
+82,2020-11-19,1,Canterbury-Bankstown
+83,2020-11-30,1,Canterbury-Bankstown
+84,2020-12-01,1,Canterbury-Bankstown
+85,2020-12-14,1,Canterbury-Bankstown
+86,2020-12-16,1,Canterbury-Bankstown
+87,2020-12-18,4,Canterbury-Bankstown
+88,2020-12-21,1,Canterbury-Bankstown
+89,2020-12-24,1,Canterbury-Bankstown
+90,2020-12-29,5,Canterbury-Bankstown
+91,2020-12-31,1,Canterbury-Bankstown
+92,2021-01-01,1,Canterbury-Bankstown
+93,2021-01-03,1,Canterbury-Bankstown
+94,2021-01-04,1,Canterbury-Bankstown
+95,2021-01-07,1,Canterbury-Bankstown
+96,2021-01-08,3,Canterbury-Bankstown
+97,2021-01-09,3,Canterbury-Bankstown
+98,2021-01-10,1,Canterbury-Bankstown
+99,2021-01-11,3,Canterbury-Bankstown
+100,2021-01-14,1,Canterbury-Bankstown
+101,2021-01-15,1,Canterbury-Bankstown
+102,2021-01-16,1,Canterbury-Bankstown
+103,2021-01-25,1,Canterbury-Bankstown
+104,2021-01-30,1,Canterbury-Bankstown
+105,2021-02-07,1,Canterbury-Bankstown
+106,2021-02-22,1,Canterbury-Bankstown
+107,2021-02-25,2,Canterbury-Bankstown
+108,2021-02-26,2,Canterbury-Bankstown
+109,2021-03-02,2,Canterbury-Bankstown
+110,2021-03-04,4,Canterbury-Bankstown
+111,2021-03-05,2,Canterbury-Bankstown
+112,2021-03-06,1,Canterbury-Bankstown
+113,2021-03-11,3,Canterbury-Bankstown
+114,2021-03-13,1,Canterbury-Bankstown
+115,2021-03-23,1,Canterbury-Bankstown
+116,2021-03-25,2,Canterbury-Bankstown
+117,2021-04-02,1,Canterbury-Bankstown
+118,2021-04-04,1,Canterbury-Bankstown
+119,2021-04-18,1,Canterbury-Bankstown
+120,2021-04-21,1,Canterbury-Bankstown
+121,2021-04-26,1,Canterbury-Bankstown
+122,2021-05-03,1,Canterbury-Bankstown
+123,2021-05-05,1,Canterbury-Bankstown
+124,2021-05-07,1,Canterbury-Bankstown
+125,2021-05-09,2,Canterbury-Bankstown
+126,2021-05-13,2,Canterbury-Bankstown
+127,2021-05-15,2,Canterbury-Bankstown
+128,2021-05-21,1,Canterbury-Bankstown
+129,2021-06-06,1,Canterbury-Bankstown
+130,2021-06-07,1,Canterbury-Bankstown
+131,2021-06-08,1,Canterbury-Bankstown
+132,2021-06-09,1,Canterbury-Bankstown
+133,2021-06-13,1,Canterbury-Bankstown
+134,2021-06-25,2,Canterbury-Bankstown
+135,2021-06-26,3,Canterbury-Bankstown
+136,2021-06-27,6,Canterbury-Bankstown
+137,2021-06-28,2,Canterbury-Bankstown
+138,2021-06-29,1,Canterbury-Bankstown
+139,2021-06-30,4,Canterbury-Bankstown
+140,2021-07-01,3,Canterbury-Bankstown
+141,2021-07-02,4,Canterbury-Bankstown
+142,2021-07-03,1,Canterbury-Bankstown
+143,2021-07-04,1,Canterbury-Bankstown
+144,2021-07-05,3,Canterbury-Bankstown
+145,2021-07-06,5,Canterbury-Bankstown
+146,2021-07-07,8,Canterbury-Bankstown
+147,2021-07-08,13,Canterbury-Bankstown
+148,2021-07-09,10,Canterbury-Bankstown
+149,2021-07-10,12,Canterbury-Bankstown
+150,2021-07-11,10,Canterbury-Bankstown
+151,2021-07-12,8,Canterbury-Bankstown
+152,2021-07-13,14,Canterbury-Bankstown
+153,2021-07-14,5,Canterbury-Bankstown
+154,2021-07-15,7,Canterbury-Bankstown
+155,2021-07-16,14,Canterbury-Bankstown
+156,2021-07-17,9,Canterbury-Bankstown
+157,2021-07-18,12,Canterbury-Bankstown
+158,2021-07-19,12,Canterbury-Bankstown
+159,2021-07-20,18,Canterbury-Bankstown
+160,2021-07-21,30,Canterbury-Bankstown
+161,2021-07-22,30,Canterbury-Bankstown
+162,2021-07-23,30,Canterbury-Bankstown
+163,2021-07-24,37,Canterbury-Bankstown
+164,2021-07-25,50,Canterbury-Bankstown
+165,2021-07-26,28,Canterbury-Bankstown
+166,2021-07-27,28,Canterbury-Bankstown
+0,2020-03-03,1,Ryde
+1,2020-03-04,4,Ryde
+2,2020-03-05,1,Ryde
+3,2020-03-09,1,Ryde
+4,2020-03-11,1,Ryde
+5,2020-03-12,1,Ryde
+6,2020-03-13,1,Ryde
+7,2020-03-15,1,Ryde
+8,2020-03-16,1,Ryde
+9,2020-03-17,1,Ryde
+10,2020-03-19,1,Ryde
+11,2020-03-20,4,Ryde
+12,2020-03-21,1,Ryde
+13,2020-03-22,3,Ryde
+14,2020-03-23,4,Ryde
+15,2020-03-24,5,Ryde
+16,2020-03-25,3,Ryde
+17,2020-03-26,3,Ryde
+18,2020-03-27,5,Ryde
+19,2020-03-28,7,Ryde
+20,2020-03-29,1,Ryde
+21,2020-03-30,4,Ryde
+22,2020-03-31,3,Ryde
+23,2020-04-01,5,Ryde
+24,2020-04-03,1,Ryde
+25,2020-04-04,1,Ryde
+26,2020-04-05,1,Ryde
+27,2020-04-06,1,Ryde
+28,2020-04-10,2,Ryde
+29,2020-04-15,2,Ryde
+30,2020-07-14,2,Ryde
+31,2020-07-22,1,Ryde
+32,2020-08-10,1,Ryde
+33,2020-10-09,2,Ryde
+34,2020-12-02,1,Ryde
+35,2020-12-18,1,Ryde
+36,2020-12-29,1,Ryde
+37,2020-12-30,1,Ryde
+38,2021-01-05,1,Ryde
+39,2021-01-27,1,Ryde
+40,2021-03-08,1,Ryde
+41,2021-03-17,1,Ryde
+42,2021-03-21,1,Ryde
+43,2021-04-04,1,Ryde
+44,2021-04-16,1,Ryde
+45,2021-04-20,1,Ryde
+46,2021-04-21,1,Ryde
+47,2021-05-07,1,Ryde
+48,2021-06-04,1,Ryde
+49,2021-06-09,1,Ryde
+50,2021-06-13,1,Ryde
+51,2021-06-21,1,Ryde
+52,2021-07-11,1,Ryde
+53,2021-07-20,1,Ryde
+54,2021-07-23,3,Ryde
+55,2021-07-25,1,Ryde
+56,2021-07-26,1,Ryde
+0,2020-03-03,2,The Hills Shire
+1,2020-03-14,1,The Hills Shire
+2,2020-03-16,2,The Hills Shire
+3,2020-03-18,1,The Hills Shire
+4,2020-03-19,2,The Hills Shire
+5,2020-03-20,1,The Hills Shire
+6,2020-03-21,2,The Hills Shire
+7,2020-03-22,4,The Hills Shire
+8,2020-03-23,3,The Hills Shire
+9,2020-03-24,4,The Hills Shire
+10,2020-03-25,3,The Hills Shire
+11,2020-03-26,1,The Hills Shire
+12,2020-03-27,1,The Hills Shire
+13,2020-03-28,8,The Hills Shire
+14,2020-03-29,6,The Hills Shire
+15,2020-03-30,1,The Hills Shire
+16,2020-03-31,5,The Hills Shire
+17,2020-04-01,4,The Hills Shire
+18,2020-04-02,3,The Hills Shire
+19,2020-04-04,2,The Hills Shire
+20,2020-04-05,1,The Hills Shire
+21,2020-04-11,1,The Hills Shire
+22,2020-04-17,1,The Hills Shire
+23,2020-04-25,1,The Hills Shire
+24,2020-04-28,1,The Hills Shire
+25,2020-05-14,1,The Hills Shire
+26,2020-05-30,2,The Hills Shire
+27,2020-07-05,1,The Hills Shire
+28,2020-07-19,2,The Hills Shire
+29,2020-07-20,2,The Hills Shire
+30,2020-07-21,1,The Hills Shire
+31,2020-07-23,1,The Hills Shire
+32,2020-07-28,1,The Hills Shire
+33,2020-08-02,1,The Hills Shire
+34,2020-08-07,1,The Hills Shire
+35,2020-08-08,1,The Hills Shire
+36,2020-08-09,7,The Hills Shire
+37,2020-08-10,3,The Hills Shire
+38,2020-08-11,1,The Hills Shire
+39,2020-08-12,1,The Hills Shire
+40,2020-08-14,1,The Hills Shire
+41,2020-08-15,2,The Hills Shire
+42,2020-08-18,2,The Hills Shire
+43,2020-08-20,1,The Hills Shire
+44,2020-08-21,1,The Hills Shire
+45,2020-08-24,1,The Hills Shire
+46,2020-09-06,1,The Hills Shire
+47,2020-10-10,1,The Hills Shire
+48,2020-10-16,1,The Hills Shire
+49,2020-10-18,1,The Hills Shire
+50,2020-10-23,1,The Hills Shire
+51,2020-10-26,1,The Hills Shire
+52,2020-12-05,1,The Hills Shire
+53,2020-12-10,1,The Hills Shire
+54,2020-12-17,1,The Hills Shire
+55,2020-12-22,1,The Hills Shire
+56,2020-12-24,1,The Hills Shire
+57,2020-12-26,1,The Hills Shire
+58,2020-12-29,1,The Hills Shire
+59,2021-01-31,1,The Hills Shire
+60,2021-02-20,1,The Hills Shire
+61,2021-02-22,1,The Hills Shire
+62,2021-02-23,2,The Hills Shire
+63,2021-02-26,1,The Hills Shire
+64,2021-03-23,1,The Hills Shire
+65,2021-04-20,2,The Hills Shire
+66,2021-05-03,1,The Hills Shire
+67,2021-05-08,2,The Hills Shire
+68,2021-05-16,1,The Hills Shire
+69,2021-05-28,1,The Hills Shire
+70,2021-05-29,1,The Hills Shire
+71,2021-06-04,1,The Hills Shire
+72,2021-06-06,1,The Hills Shire
+73,2021-06-07,1,The Hills Shire
+74,2021-06-14,1,The Hills Shire
+75,2021-06-23,1,The Hills Shire
+76,2021-06-25,1,The Hills Shire
+77,2021-06-29,1,The Hills Shire
+78,2021-06-30,1,The Hills Shire
+79,2021-07-03,5,The Hills Shire
+80,2021-07-04,3,The Hills Shire
+81,2021-07-06,1,The Hills Shire
+82,2021-07-14,2,The Hills Shire
+83,2021-07-22,1,The Hills Shire
+84,2021-07-25,5,The Hills Shire
+85,2021-07-26,1,The Hills Shire
+0,2020-03-03,1,Sutherland Shire
+1,2020-03-05,1,Sutherland Shire
+2,2020-03-06,1,Sutherland Shire
+3,2020-03-12,1,Sutherland Shire
+4,2020-03-13,1,Sutherland Shire
+5,2020-03-14,1,Sutherland Shire
+6,2020-03-15,1,Sutherland Shire
+7,2020-03-16,1,Sutherland Shire
+8,2020-03-17,7,Sutherland Shire
+9,2020-03-18,4,Sutherland Shire
+10,2020-03-19,2,Sutherland Shire
+11,2020-03-20,4,Sutherland Shire
+12,2020-03-21,7,Sutherland Shire
+13,2020-03-22,9,Sutherland Shire
+14,2020-03-23,8,Sutherland Shire
+15,2020-03-24,2,Sutherland Shire
+16,2020-03-25,5,Sutherland Shire
+17,2020-03-26,6,Sutherland Shire
+18,2020-03-27,2,Sutherland Shire
+19,2020-03-28,11,Sutherland Shire
+20,2020-03-29,3,Sutherland Shire
+21,2020-03-30,2,Sutherland Shire
+22,2020-03-31,4,Sutherland Shire
+23,2020-04-01,4,Sutherland Shire
+24,2020-04-02,8,Sutherland Shire
+25,2020-04-03,2,Sutherland Shire
+26,2020-04-04,2,Sutherland Shire
+27,2020-04-05,3,Sutherland Shire
+28,2020-04-06,2,Sutherland Shire
+29,2020-04-07,3,Sutherland Shire
+30,2020-04-08,1,Sutherland Shire
+31,2020-04-09,1,Sutherland Shire
+32,2020-04-11,1,Sutherland Shire
+33,2020-04-16,1,Sutherland Shire
+34,2020-04-17,1,Sutherland Shire
+35,2020-04-18,1,Sutherland Shire
+36,2020-05-12,2,Sutherland Shire
+37,2020-06-12,1,Sutherland Shire
+38,2020-06-13,1,Sutherland Shire
+39,2020-07-03,1,Sutherland Shire
+40,2020-07-17,1,Sutherland Shire
+41,2020-07-19,3,Sutherland Shire
+42,2020-07-22,1,Sutherland Shire
+43,2020-07-30,1,Sutherland Shire
+44,2020-08-01,1,Sutherland Shire
+45,2020-08-08,1,Sutherland Shire
+46,2020-08-18,1,Sutherland Shire
+47,2020-08-27,2,Sutherland Shire
+48,2020-08-30,1,Sutherland Shire
+49,2020-09-04,1,Sutherland Shire
+50,2020-09-07,1,Sutherland Shire
+51,2020-09-18,1,Sutherland Shire
+52,2020-09-25,1,Sutherland Shire
+53,2020-10-18,1,Sutherland Shire
+54,2020-10-19,1,Sutherland Shire
+55,2020-10-29,1,Sutherland Shire
+56,2020-11-14,1,Sutherland Shire
+57,2020-11-20,1,Sutherland Shire
+58,2020-11-21,2,Sutherland Shire
+59,2020-12-05,2,Sutherland Shire
+60,2020-12-09,2,Sutherland Shire
+61,2020-12-17,1,Sutherland Shire
+62,2020-12-25,1,Sutherland Shire
+63,2020-12-28,1,Sutherland Shire
+64,2021-01-15,1,Sutherland Shire
+65,2021-05-11,1,Sutherland Shire
+66,2021-06-20,1,Sutherland Shire
+67,2021-06-23,1,Sutherland Shire
+68,2021-06-24,1,Sutherland Shire
+69,2021-07-06,1,Sutherland Shire
+70,2021-07-07,1,Sutherland Shire
+71,2021-07-09,4,Sutherland Shire
+72,2021-07-10,2,Sutherland Shire
+73,2021-07-12,4,Sutherland Shire
+74,2021-07-13,3,Sutherland Shire
+75,2021-07-14,3,Sutherland Shire
+76,2021-07-16,1,Sutherland Shire
+77,2021-07-18,3,Sutherland Shire
+78,2021-07-20,1,Sutherland Shire
+79,2021-07-22,1,Sutherland Shire
+80,2021-07-23,3,Sutherland Shire
+81,2021-07-24,4,Sutherland Shire
+82,2021-07-25,2,Sutherland Shire
+83,2021-07-27,1,Sutherland Shire
+0,2020-03-04,1,Sydney
+1,2020-03-09,2,Sydney
+2,2020-03-11,1,Sydney
+3,2020-03-13,2,Sydney
+4,2020-03-14,3,Sydney
+5,2020-03-15,2,Sydney
+6,2020-03-17,5,Sydney
+7,2020-03-18,10,Sydney
+8,2020-03-19,6,Sydney
+9,2020-03-20,5,Sydney
+10,2020-03-21,4,Sydney
+11,2020-03-22,5,Sydney
+12,2020-03-23,7,Sydney
+13,2020-03-24,13,Sydney
+14,2020-03-25,8,Sydney
+15,2020-03-26,10,Sydney
+16,2020-03-27,9,Sydney
+17,2020-03-28,3,Sydney
+18,2020-03-29,10,Sydney
+19,2020-03-30,2,Sydney
+20,2020-03-31,3,Sydney
+21,2020-04-01,12,Sydney
+22,2020-04-02,6,Sydney
+23,2020-04-03,5,Sydney
+24,2020-04-04,8,Sydney
+25,2020-04-05,6,Sydney
+26,2020-04-08,1,Sydney
+27,2020-04-09,1,Sydney
+28,2020-04-11,1,Sydney
+29,2020-04-13,2,Sydney
+30,2020-04-14,1,Sydney
+31,2020-04-15,1,Sydney
+32,2020-04-16,1,Sydney
+33,2020-04-17,1,Sydney
+34,2020-04-22,1,Sydney
+35,2020-04-24,1,Sydney
+36,2020-06-06,1,Sydney
+37,2020-06-14,2,Sydney
+38,2020-06-23,1,Sydney
+39,2020-07-12,1,Sydney
+40,2020-07-17,1,Sydney
+41,2020-07-22,2,Sydney
+42,2020-07-24,1,Sydney
+43,2020-07-26,1,Sydney
+44,2020-07-27,1,Sydney
+45,2020-07-28,2,Sydney
+46,2020-07-29,1,Sydney
+47,2020-07-30,2,Sydney
+48,2020-08-02,1,Sydney
+49,2020-08-03,3,Sydney
+50,2020-08-05,3,Sydney
+51,2020-08-07,1,Sydney
+52,2020-08-26,1,Sydney
+53,2020-08-28,1,Sydney
+54,2020-08-29,1,Sydney
+55,2020-08-31,1,Sydney
+56,2020-09-01,2,Sydney
+57,2020-09-09,1,Sydney
+58,2020-09-16,1,Sydney
+59,2020-09-23,1,Sydney
+60,2020-10-26,2,Sydney
+61,2020-11-07,1,Sydney
+62,2020-11-09,1,Sydney
+63,2020-11-14,1,Sydney
+64,2020-11-18,1,Sydney
+65,2020-11-21,1,Sydney
+66,2020-11-26,1,Sydney
+67,2020-11-27,1,Sydney
+68,2020-12-15,2,Sydney
+69,2020-12-19,1,Sydney
+70,2020-12-20,1,Sydney
+71,2020-12-22,1,Sydney
+72,2020-12-24,2,Sydney
+73,2020-12-25,1,Sydney
+74,2020-12-28,2,Sydney
+75,2020-12-29,1,Sydney
+76,2020-12-30,1,Sydney
+77,2020-12-31,1,Sydney
+78,2021-01-12,1,Sydney
+79,2021-02-07,1,Sydney
+80,2021-02-16,1,Sydney
+81,2021-03-10,1,Sydney
+82,2021-04-10,1,Sydney
+83,2021-04-17,1,Sydney
+84,2021-04-21,2,Sydney
+85,2021-05-14,1,Sydney
+86,2021-05-25,1,Sydney
+87,2021-06-16,1,Sydney
+88,2021-06-22,3,Sydney
+89,2021-06-23,2,Sydney
+90,2021-06-24,2,Sydney
+91,2021-06-25,3,Sydney
+92,2021-06-26,3,Sydney
+93,2021-06-27,2,Sydney
+94,2021-06-30,2,Sydney
+95,2021-07-01,1,Sydney
+96,2021-07-02,4,Sydney
+97,2021-07-04,1,Sydney
+98,2021-07-10,7,Sydney
+99,2021-07-11,1,Sydney
+100,2021-07-12,3,Sydney
+101,2021-07-13,1,Sydney
+102,2021-07-14,1,Sydney
+103,2021-07-16,2,Sydney
+104,2021-07-19,1,Sydney
+105,2021-07-21,2,Sydney
+106,2021-07-22,3,Sydney
+107,2021-07-23,1,Sydney
+108,2021-07-24,1,Sydney
+109,2021-07-25,1,Sydney
+110,2021-07-26,2,Sydney
+111,2021-07-27,3,Sydney
+0,2020-03-04,1,Northern Beaches
+1,2020-03-06,1,Northern Beaches
+2,2020-03-11,1,Northern Beaches
+3,2020-03-14,2,Northern Beaches
+4,2020-03-15,1,Northern Beaches
+5,2020-03-17,7,Northern Beaches
+6,2020-03-19,3,Northern Beaches
+7,2020-03-20,4,Northern Beaches
+8,2020-03-21,12,Northern Beaches
+9,2020-03-22,7,Northern Beaches
+10,2020-03-23,6,Northern Beaches
+11,2020-03-24,11,Northern Beaches
+12,2020-03-25,11,Northern Beaches
+13,2020-03-26,12,Northern Beaches
+14,2020-03-27,8,Northern Beaches
+15,2020-03-28,11,Northern Beaches
+16,2020-03-29,6,Northern Beaches
+17,2020-03-30,7,Northern Beaches
+18,2020-03-31,10,Northern Beaches
+19,2020-04-01,7,Northern Beaches
+20,2020-04-02,2,Northern Beaches
+21,2020-04-03,7,Northern Beaches
+22,2020-04-04,3,Northern Beaches
+23,2020-04-05,2,Northern Beaches
+24,2020-04-06,1,Northern Beaches
+25,2020-04-07,1,Northern Beaches
+26,2020-04-08,2,Northern Beaches
+27,2020-04-09,2,Northern Beaches
+28,2020-04-10,1,Northern Beaches
+29,2020-04-11,1,Northern Beaches
+30,2020-04-13,1,Northern Beaches
+31,2020-04-15,2,Northern Beaches
+32,2020-04-16,1,Northern Beaches
+33,2020-04-19,2,Northern Beaches
+34,2020-04-20,1,Northern Beaches
+35,2020-04-27,1,Northern Beaches
+36,2020-07-03,1,Northern Beaches
+37,2020-07-12,1,Northern Beaches
+38,2020-07-13,1,Northern Beaches
+39,2020-07-29,1,Northern Beaches
+40,2020-08-04,1,Northern Beaches
+41,2020-08-17,1,Northern Beaches
+42,2020-08-18,1,Northern Beaches
+43,2020-08-25,1,Northern Beaches
+44,2020-08-31,1,Northern Beaches
+45,2020-10-25,1,Northern Beaches
+46,2020-11-02,1,Northern Beaches
+47,2020-11-03,1,Northern Beaches
+48,2020-11-23,1,Northern Beaches
+49,2020-11-27,2,Northern Beaches
+50,2020-11-29,1,Northern Beaches
+51,2020-12-03,2,Northern Beaches
+52,2020-12-13,1,Northern Beaches
+53,2020-12-16,3,Northern Beaches
+54,2020-12-17,21,Northern Beaches
+55,2020-12-18,14,Northern Beaches
+56,2020-12-19,22,Northern Beaches
+57,2020-12-20,10,Northern Beaches
+58,2020-12-21,4,Northern Beaches
+59,2020-12-22,3,Northern Beaches
+60,2020-12-23,7,Northern Beaches
+61,2020-12-24,2,Northern Beaches
+62,2020-12-25,4,Northern Beaches
+63,2020-12-26,4,Northern Beaches
+64,2020-12-27,5,Northern Beaches
+65,2020-12-28,1,Northern Beaches
+66,2020-12-29,5,Northern Beaches
+67,2020-12-30,1,Northern Beaches
+68,2021-01-02,1,Northern Beaches
+69,2021-01-07,1,Northern Beaches
+70,2021-01-08,1,Northern Beaches
+71,2021-01-10,1,Northern Beaches
+72,2021-01-11,1,Northern Beaches
+73,2021-01-16,2,Northern Beaches
+74,2021-01-25,1,Northern Beaches
+75,2021-04-18,1,Northern Beaches
+76,2021-07-11,1,Northern Beaches
+77,2021-07-12,1,Northern Beaches
+78,2021-07-13,1,Northern Beaches
+79,2021-07-15,1,Northern Beaches
+80,2021-07-18,1,Northern Beaches
+81,2021-07-20,2,Northern Beaches
+82,2021-07-21,2,Northern Beaches
+83,2021-07-22,1,Northern Beaches
+84,2021-07-24,2,Northern Beaches
+85,2021-07-25,9,Northern Beaches
+86,2021-07-26,2,Northern Beaches
+87,2021-07-27,1,Northern Beaches
+0,2020-03-05,1,Goulburn Mulwaree
+1,2020-03-23,2,Goulburn Mulwaree
+2,2020-03-24,1,Goulburn Mulwaree
+3,2020-03-25,1,Goulburn Mulwaree
+4,2020-03-26,1,Goulburn Mulwaree
+5,2020-03-28,1,Goulburn Mulwaree
+6,2020-03-30,1,Goulburn Mulwaree
+7,2020-05-12,2,Goulburn Mulwaree
+8,2020-10-08,1,Goulburn Mulwaree
+9,2020-10-19,1,Goulburn Mulwaree
+10,2020-11-09,1,Goulburn Mulwaree
+11,2021-07-26,1,Goulburn Mulwaree
+0,2020-03-06,1,Cumberland
+1,2020-03-12,1,Cumberland
+2,2020-03-14,1,Cumberland
+3,2020-03-15,2,Cumberland
+4,2020-03-17,1,Cumberland
+5,2020-03-18,2,Cumberland
+6,2020-03-19,3,Cumberland
+7,2020-03-21,3,Cumberland
+8,2020-03-22,3,Cumberland
+9,2020-03-23,3,Cumberland
+10,2020-03-24,2,Cumberland
+11,2020-03-25,1,Cumberland
+12,2020-03-26,3,Cumberland
+13,2020-03-27,6,Cumberland
+14,2020-03-28,3,Cumberland
+15,2020-03-29,4,Cumberland
+16,2020-03-30,2,Cumberland
+17,2020-03-31,5,Cumberland
+18,2020-04-01,5,Cumberland
+19,2020-04-02,3,Cumberland
+20,2020-04-03,4,Cumberland
+21,2020-04-04,3,Cumberland
+22,2020-04-05,5,Cumberland
+23,2020-04-06,1,Cumberland
+24,2020-04-09,1,Cumberland
+25,2020-04-30,1,Cumberland
+26,2020-05-02,1,Cumberland
+27,2020-05-04,1,Cumberland
+28,2020-05-19,1,Cumberland
+29,2020-05-21,2,Cumberland
+30,2020-05-31,1,Cumberland
+31,2020-06-01,2,Cumberland
+32,2020-06-11,1,Cumberland
+33,2020-06-13,3,Cumberland
+34,2020-06-19,1,Cumberland
+35,2020-06-22,1,Cumberland
+36,2020-06-23,1,Cumberland
+37,2020-06-24,2,Cumberland
+38,2020-06-25,1,Cumberland
+39,2020-06-27,1,Cumberland
+40,2020-06-28,1,Cumberland
+41,2020-07-01,2,Cumberland
+42,2020-07-03,2,Cumberland
+43,2020-07-05,1,Cumberland
+44,2020-07-07,1,Cumberland
+45,2020-07-08,1,Cumberland
+46,2020-07-10,1,Cumberland
+47,2020-07-18,4,Cumberland
+48,2020-07-20,2,Cumberland
+49,2020-07-21,2,Cumberland
+50,2020-07-23,2,Cumberland
+51,2020-07-24,4,Cumberland
+52,2020-07-26,1,Cumberland
+53,2020-07-28,6,Cumberland
+54,2020-07-29,4,Cumberland
+55,2020-07-31,1,Cumberland
+56,2020-08-01,1,Cumberland
+57,2020-08-02,1,Cumberland
+58,2020-08-05,2,Cumberland
+59,2020-08-06,4,Cumberland
+60,2020-08-09,1,Cumberland
+61,2020-08-11,2,Cumberland
+62,2020-08-14,3,Cumberland
+63,2020-08-15,1,Cumberland
+64,2020-08-16,2,Cumberland
+65,2020-08-30,1,Cumberland
+66,2020-08-31,6,Cumberland
+67,2020-09-01,3,Cumberland
+68,2020-09-02,2,Cumberland
+69,2020-09-07,1,Cumberland
+70,2020-09-09,1,Cumberland
+71,2020-09-11,1,Cumberland
+72,2020-09-13,1,Cumberland
+73,2020-09-29,2,Cumberland
+74,2020-10-01,1,Cumberland
+75,2020-10-04,1,Cumberland
+76,2020-10-07,3,Cumberland
+77,2020-10-12,2,Cumberland
+78,2020-10-13,3,Cumberland
+79,2020-10-14,1,Cumberland
+80,2020-10-17,1,Cumberland
+81,2020-10-23,1,Cumberland
+82,2020-10-29,5,Cumberland
+83,2020-11-03,1,Cumberland
+84,2020-11-08,1,Cumberland
+85,2020-11-14,1,Cumberland
+86,2020-11-15,1,Cumberland
+87,2020-11-27,1,Cumberland
+88,2020-11-29,1,Cumberland
+89,2020-12-02,1,Cumberland
+90,2020-12-18,1,Cumberland
+91,2020-12-20,1,Cumberland
+92,2020-12-23,1,Cumberland
+93,2020-12-29,1,Cumberland
+94,2020-12-30,1,Cumberland
+95,2020-12-31,7,Cumberland
+96,2021-01-01,1,Cumberland
+97,2021-01-02,1,Cumberland
+98,2021-01-03,2,Cumberland
+99,2021-01-04,1,Cumberland
+100,2021-01-05,2,Cumberland
+101,2021-01-06,2,Cumberland
+102,2021-01-08,2,Cumberland
+103,2021-01-09,1,Cumberland
+104,2021-01-10,1,Cumberland
+105,2021-01-11,1,Cumberland
+106,2021-01-12,1,Cumberland
+107,2021-01-15,2,Cumberland
+108,2021-01-16,5,Cumberland
+109,2021-02-09,1,Cumberland
+110,2021-02-21,1,Cumberland
+111,2021-02-28,2,Cumberland
+112,2021-03-04,1,Cumberland
+113,2021-03-11,1,Cumberland
+114,2021-03-17,1,Cumberland
+115,2021-03-24,1,Cumberland
+116,2021-03-28,1,Cumberland
+117,2021-04-04,1,Cumberland
+118,2021-04-05,1,Cumberland
+119,2021-04-09,1,Cumberland
+120,2021-04-15,1,Cumberland
+121,2021-04-17,2,Cumberland
+122,2021-04-18,1,Cumberland
+123,2021-04-19,1,Cumberland
+124,2021-04-24,1,Cumberland
+125,2021-04-26,1,Cumberland
+126,2021-04-28,4,Cumberland
+127,2021-05-02,1,Cumberland
+128,2021-05-04,2,Cumberland
+129,2021-05-05,3,Cumberland
+130,2021-05-12,2,Cumberland
+131,2021-05-16,1,Cumberland
+132,2021-05-17,1,Cumberland
+133,2021-05-19,1,Cumberland
+134,2021-05-21,1,Cumberland
+135,2021-05-27,2,Cumberland
+136,2021-06-07,2,Cumberland
+137,2021-06-10,1,Cumberland
+138,2021-06-18,3,Cumberland
+139,2021-06-19,1,Cumberland
+140,2021-06-24,2,Cumberland
+141,2021-06-29,2,Cumberland
+142,2021-06-30,1,Cumberland
+143,2021-07-01,1,Cumberland
+144,2021-07-02,2,Cumberland
+145,2021-07-03,1,Cumberland
+146,2021-07-04,2,Cumberland
+147,2021-07-06,2,Cumberland
+148,2021-07-07,2,Cumberland
+149,2021-07-08,1,Cumberland
+150,2021-07-09,2,Cumberland
+151,2021-07-10,5,Cumberland
+152,2021-07-11,2,Cumberland
+153,2021-07-13,3,Cumberland
+154,2021-07-14,1,Cumberland
+155,2021-07-15,8,Cumberland
+156,2021-07-16,7,Cumberland
+157,2021-07-17,6,Cumberland
+158,2021-07-18,11,Cumberland
+159,2021-07-19,5,Cumberland
+160,2021-07-20,22,Cumberland
+161,2021-07-21,20,Cumberland
+162,2021-07-22,15,Cumberland
+163,2021-07-23,28,Cumberland
+164,2021-07-24,22,Cumberland
+165,2021-07-25,32,Cumberland
+166,2021-07-26,15,Cumberland
+167,2021-07-27,9,Cumberland
+0,2020-03-08,1,Liverpool
+1,2020-03-12,1,Liverpool
+2,2020-03-16,2,Liverpool
+3,2020-03-19,1,Liverpool
+4,2020-03-20,2,Liverpool
+5,2020-03-21,1,Liverpool
+6,2020-03-22,4,Liverpool
+7,2020-03-23,2,Liverpool
+8,2020-03-24,2,Liverpool
+9,2020-03-25,2,Liverpool
+10,2020-03-26,4,Liverpool
+11,2020-03-27,7,Liverpool
+12,2020-03-29,2,Liverpool
+13,2020-03-31,1,Liverpool
+14,2020-04-02,1,Liverpool
+15,2020-04-07,2,Liverpool
+16,2020-04-08,5,Liverpool
+17,2020-04-09,4,Liverpool
+18,2020-04-10,1,Liverpool
+19,2020-04-11,1,Liverpool
+20,2020-04-14,2,Liverpool
+21,2020-04-15,1,Liverpool
+22,2020-04-18,1,Liverpool
+23,2020-06-13,1,Liverpool
+24,2020-06-28,1,Liverpool
+25,2020-07-04,1,Liverpool
+26,2020-07-08,1,Liverpool
+27,2020-07-11,1,Liverpool
+28,2020-07-12,6,Liverpool
+29,2020-07-13,5,Liverpool
+30,2020-07-14,3,Liverpool
+31,2020-07-15,2,Liverpool
+32,2020-07-17,2,Liverpool
+33,2020-07-18,1,Liverpool
+34,2020-07-19,1,Liverpool
+35,2020-07-20,2,Liverpool
+36,2020-07-21,2,Liverpool
+37,2020-07-22,3,Liverpool
+38,2020-07-24,1,Liverpool
+39,2020-07-25,3,Liverpool
+40,2020-07-26,1,Liverpool
+41,2020-07-27,1,Liverpool
+42,2020-07-29,2,Liverpool
+43,2020-07-30,2,Liverpool
+44,2020-07-31,1,Liverpool
+45,2020-08-01,4,Liverpool
+46,2020-08-03,4,Liverpool
+47,2020-08-05,1,Liverpool
+48,2020-08-11,3,Liverpool
+49,2020-08-16,1,Liverpool
+50,2020-08-19,1,Liverpool
+51,2020-08-21,1,Liverpool
+52,2020-08-23,1,Liverpool
+53,2020-08-30,1,Liverpool
+54,2020-09-03,1,Liverpool
+55,2020-09-19,1,Liverpool
+56,2020-09-30,1,Liverpool
+57,2020-10-08,1,Liverpool
+58,2020-10-10,2,Liverpool
+59,2020-10-14,1,Liverpool
+60,2020-10-18,1,Liverpool
+61,2020-10-21,1,Liverpool
+62,2020-10-24,3,Liverpool
+63,2020-10-28,4,Liverpool
+64,2020-11-01,1,Liverpool
+65,2020-11-05,3,Liverpool
+66,2020-11-21,1,Liverpool
+67,2020-11-24,1,Liverpool
+68,2020-12-26,2,Liverpool
+69,2020-12-28,1,Liverpool
+70,2020-12-29,1,Liverpool
+71,2021-01-16,2,Liverpool
+72,2021-01-20,1,Liverpool
+73,2021-02-08,1,Liverpool
+74,2021-03-14,1,Liverpool
+75,2021-04-05,2,Liverpool
+76,2021-04-08,1,Liverpool
+77,2021-04-16,1,Liverpool
+78,2021-05-01,1,Liverpool
+79,2021-05-03,1,Liverpool
+80,2021-05-17,1,Liverpool
+81,2021-05-27,1,Liverpool
+82,2021-06-07,1,Liverpool
+83,2021-06-22,1,Liverpool
+84,2021-06-23,2,Liverpool
+85,2021-06-24,6,Liverpool
+86,2021-06-25,5,Liverpool
+87,2021-06-26,1,Liverpool
+88,2021-06-27,1,Liverpool
+89,2021-06-28,2,Liverpool
+90,2021-06-29,5,Liverpool
+91,2021-06-30,1,Liverpool
+92,2021-07-02,1,Liverpool
+93,2021-07-05,2,Liverpool
+94,2021-07-06,4,Liverpool
+95,2021-07-07,1,Liverpool
+96,2021-07-08,4,Liverpool
+97,2021-07-09,2,Liverpool
+98,2021-07-10,3,Liverpool
+99,2021-07-11,8,Liverpool
+100,2021-07-12,1,Liverpool
+101,2021-07-13,7,Liverpool
+102,2021-07-14,7,Liverpool
+103,2021-07-15,8,Liverpool
+104,2021-07-16,14,Liverpool
+105,2021-07-17,3,Liverpool
+106,2021-07-18,20,Liverpool
+107,2021-07-19,4,Liverpool
+108,2021-07-20,5,Liverpool
+109,2021-07-21,11,Liverpool
+110,2021-07-22,14,Liverpool
+111,2021-07-23,7,Liverpool
+112,2021-07-24,14,Liverpool
+113,2021-07-25,11,Liverpool
+114,2021-07-26,9,Liverpool
+115,2021-07-27,14,Liverpool
+0,2020-03-08,1,Woollahra
+1,2020-03-10,1,Woollahra
+2,2020-03-11,1,Woollahra
+3,2020-03-13,4,Woollahra
+4,2020-03-14,1,Woollahra
+5,2020-03-15,4,Woollahra
+6,2020-03-16,1,Woollahra
+7,2020-03-17,4,Woollahra
+8,2020-03-18,3,Woollahra
+9,2020-03-19,4,Woollahra
+10,2020-03-20,10,Woollahra
+11,2020-03-21,8,Woollahra
+12,2020-03-22,4,Woollahra
+13,2020-03-23,9,Woollahra
+14,2020-03-24,4,Woollahra
+15,2020-03-25,10,Woollahra
+16,2020-03-26,2,Woollahra
+17,2020-03-27,4,Woollahra
+18,2020-03-28,2,Woollahra
+19,2020-03-29,1,Woollahra
+20,2020-03-30,3,Woollahra
+21,2020-03-31,3,Woollahra
+22,2020-04-01,1,Woollahra
+23,2020-04-02,1,Woollahra
+24,2020-04-04,1,Woollahra
+25,2020-04-05,1,Woollahra
+26,2020-04-09,1,Woollahra
+27,2020-04-10,2,Woollahra
+28,2020-04-11,1,Woollahra
+29,2020-04-29,1,Woollahra
+30,2020-06-11,1,Woollahra
+31,2020-07-19,1,Woollahra
+32,2020-08-13,3,Woollahra
+33,2020-08-28,2,Woollahra
+34,2020-09-01,1,Woollahra
+35,2020-09-03,1,Woollahra
+36,2020-11-28,1,Woollahra
+37,2020-12-17,1,Woollahra
+38,2020-12-20,1,Woollahra
+39,2020-12-21,1,Woollahra
+40,2020-12-23,1,Woollahra
+41,2020-12-24,1,Woollahra
+42,2020-12-26,2,Woollahra
+43,2020-12-30,1,Woollahra
+44,2021-01-01,4,Woollahra
+45,2021-01-06,4,Woollahra
+46,2021-01-15,1,Woollahra
+47,2021-01-25,1,Woollahra
+48,2021-05-05,2,Woollahra
+49,2021-06-18,1,Woollahra
+50,2021-06-21,1,Woollahra
+51,2021-06-23,1,Woollahra
+52,2021-06-24,2,Woollahra
+53,2021-06-25,3,Woollahra
+54,2021-06-26,2,Woollahra
+55,2021-06-28,1,Woollahra
+56,2021-06-29,1,Woollahra
+57,2021-06-30,3,Woollahra
+58,2021-07-01,1,Woollahra
+59,2021-07-02,2,Woollahra
+60,2021-07-05,1,Woollahra
+61,2021-07-09,1,Woollahra
+62,2021-07-11,3,Woollahra
+63,2021-07-15,1,Woollahra
+64,2021-07-27,1,Woollahra
+0,2020-03-08,1,Blue Mountains
+1,2020-03-10,1,Blue Mountains
+2,2020-03-13,1,Blue Mountains
+3,2020-03-19,1,Blue Mountains
+4,2020-03-20,1,Blue Mountains
+5,2020-03-23,2,Blue Mountains
+6,2020-03-24,2,Blue Mountains
+7,2020-03-25,3,Blue Mountains
+8,2020-03-26,2,Blue Mountains
+9,2020-03-27,1,Blue Mountains
+10,2020-03-28,1,Blue Mountains
+11,2020-03-29,1,Blue Mountains
+12,2020-03-30,3,Blue Mountains
+13,2020-04-01,1,Blue Mountains
+14,2020-04-03,1,Blue Mountains
+15,2020-04-23,2,Blue Mountains
+16,2020-04-24,1,Blue Mountains
+17,2020-05-03,1,Blue Mountains
+18,2020-05-13,1,Blue Mountains
+19,2020-07-09,2,Blue Mountains
+20,2020-07-10,2,Blue Mountains
+21,2020-07-20,1,Blue Mountains
+22,2020-09-09,2,Blue Mountains
+23,2020-09-11,1,Blue Mountains
+24,2020-09-14,1,Blue Mountains
+25,2020-09-15,2,Blue Mountains
+26,2021-01-08,1,Blue Mountains
+27,2021-07-16,1,Blue Mountains
+28,2021-07-17,1,Blue Mountains
+0,2020-03-09,3,Blacktown
+1,2020-03-11,2,Blacktown
+2,2020-03-12,1,Blacktown
+3,2020-03-13,1,Blacktown
+4,2020-03-17,1,Blacktown
+5,2020-03-18,1,Blacktown
+6,2020-03-20,2,Blacktown
+7,2020-03-21,1,Blacktown
+8,2020-03-22,3,Blacktown
+9,2020-03-23,5,Blacktown
+10,2020-03-24,4,Blacktown
+11,2020-03-25,8,Blacktown
+12,2020-03-26,6,Blacktown
+13,2020-03-27,7,Blacktown
+14,2020-03-28,4,Blacktown
+15,2020-03-29,12,Blacktown
+16,2020-03-30,6,Blacktown
+17,2020-03-31,6,Blacktown
+18,2020-04-01,7,Blacktown
+19,2020-04-02,5,Blacktown
+20,2020-04-03,7,Blacktown
+21,2020-04-04,2,Blacktown
+22,2020-04-05,1,Blacktown
+23,2020-04-06,2,Blacktown
+24,2020-04-07,1,Blacktown
+25,2020-04-08,1,Blacktown
+26,2020-04-09,6,Blacktown
+27,2020-04-11,2,Blacktown
+28,2020-04-14,1,Blacktown
+29,2020-04-19,1,Blacktown
+30,2020-04-28,2,Blacktown
+31,2020-04-30,1,Blacktown
+32,2020-05-04,1,Blacktown
+33,2020-05-13,1,Blacktown
+34,2020-05-14,2,Blacktown
+35,2020-05-24,1,Blacktown
+36,2020-05-31,3,Blacktown
+37,2020-06-01,2,Blacktown
+38,2020-06-02,1,Blacktown
+39,2020-06-04,3,Blacktown
+40,2020-06-11,1,Blacktown
+41,2020-06-23,2,Blacktown
+42,2020-06-24,1,Blacktown
+43,2020-06-26,2,Blacktown
+44,2020-06-27,1,Blacktown
+45,2020-06-29,2,Blacktown
+46,2020-06-30,3,Blacktown
+47,2020-07-03,2,Blacktown
+48,2020-07-04,1,Blacktown
+49,2020-07-08,1,Blacktown
+50,2020-07-14,1,Blacktown
+51,2020-07-15,1,Blacktown
+52,2020-07-18,1,Blacktown
+53,2020-07-19,1,Blacktown
+54,2020-07-20,2,Blacktown
+55,2020-07-22,1,Blacktown
+56,2020-07-26,1,Blacktown
+57,2020-07-28,2,Blacktown
+58,2020-07-29,1,Blacktown
+59,2020-07-30,2,Blacktown
+60,2020-07-31,1,Blacktown
+61,2020-08-08,1,Blacktown
+62,2020-08-09,1,Blacktown
+63,2020-08-10,1,Blacktown
+64,2020-08-18,1,Blacktown
+65,2020-08-21,1,Blacktown
+66,2020-08-23,1,Blacktown
+67,2020-08-25,2,Blacktown
+68,2020-08-26,3,Blacktown
+69,2020-08-27,2,Blacktown
+70,2020-08-29,1,Blacktown
+71,2020-08-30,1,Blacktown
+72,2020-09-05,1,Blacktown
+73,2020-09-07,1,Blacktown
+74,2020-09-08,1,Blacktown
+75,2020-09-09,2,Blacktown
+76,2020-09-11,1,Blacktown
+77,2020-09-14,1,Blacktown
+78,2020-09-22,1,Blacktown
+79,2020-09-24,1,Blacktown
+80,2020-09-28,1,Blacktown
+81,2020-09-30,2,Blacktown
+82,2020-10-08,2,Blacktown
+83,2020-10-13,1,Blacktown
+84,2020-10-14,2,Blacktown
+85,2020-10-15,1,Blacktown
+86,2020-10-26,1,Blacktown
+87,2020-11-30,1,Blacktown
+88,2020-12-09,2,Blacktown
+89,2020-12-12,1,Blacktown
+90,2020-12-20,1,Blacktown
+91,2020-12-21,2,Blacktown
+92,2020-12-22,4,Blacktown
+93,2020-12-23,1,Blacktown
+94,2020-12-26,1,Blacktown
+95,2020-12-27,1,Blacktown
+96,2021-01-01,1,Blacktown
+97,2021-01-02,1,Blacktown
+98,2021-01-03,1,Blacktown
+99,2021-01-04,1,Blacktown
+100,2021-01-10,1,Blacktown
+101,2021-01-11,1,Blacktown
+102,2021-01-15,1,Blacktown
+103,2021-01-29,1,Blacktown
+104,2021-02-24,1,Blacktown
+105,2021-02-27,1,Blacktown
+106,2021-03-04,4,Blacktown
+107,2021-03-08,1,Blacktown
+108,2021-03-09,1,Blacktown
+109,2021-03-30,3,Blacktown
+110,2021-04-05,1,Blacktown
+111,2021-04-10,1,Blacktown
+112,2021-04-11,1,Blacktown
+113,2021-04-12,1,Blacktown
+114,2021-04-17,1,Blacktown
+115,2021-04-18,1,Blacktown
+116,2021-04-19,1,Blacktown
+117,2021-04-28,2,Blacktown
+118,2021-05-03,2,Blacktown
+119,2021-05-04,1,Blacktown
+120,2021-05-17,1,Blacktown
+121,2021-05-18,1,Blacktown
+122,2021-06-06,1,Blacktown
+123,2021-06-27,1,Blacktown
+124,2021-06-29,1,Blacktown
+125,2021-06-30,1,Blacktown
+126,2021-07-02,1,Blacktown
+127,2021-07-06,1,Blacktown
+128,2021-07-07,1,Blacktown
+129,2021-07-08,1,Blacktown
+130,2021-07-09,1,Blacktown
+131,2021-07-10,1,Blacktown
+132,2021-07-11,2,Blacktown
+133,2021-07-12,1,Blacktown
+134,2021-07-13,1,Blacktown
+135,2021-07-14,3,Blacktown
+136,2021-07-15,5,Blacktown
+137,2021-07-16,4,Blacktown
+138,2021-07-17,3,Blacktown
+139,2021-07-18,2,Blacktown
+140,2021-07-19,4,Blacktown
+141,2021-07-20,6,Blacktown
+142,2021-07-21,13,Blacktown
+143,2021-07-22,9,Blacktown
+144,2021-07-23,20,Blacktown
+145,2021-07-24,13,Blacktown
+146,2021-07-25,8,Blacktown
+147,2021-07-26,15,Blacktown
+148,2021-07-27,20,Blacktown
+0,2020-03-09,1,Inner West
+1,2020-03-12,1,Inner West
+2,2020-03-15,2,Inner West
+3,2020-03-16,1,Inner West
+4,2020-03-17,1,Inner West
+5,2020-03-18,1,Inner West
+6,2020-03-19,1,Inner West
+7,2020-03-20,1,Inner West
+8,2020-03-21,3,Inner West
+9,2020-03-22,4,Inner West
+10,2020-03-23,5,Inner West
+11,2020-03-25,8,Inner West
+12,2020-03-26,5,Inner West
+13,2020-03-27,7,Inner West
+14,2020-03-28,3,Inner West
+15,2020-03-29,3,Inner West
+16,2020-03-30,3,Inner West
+17,2020-03-31,2,Inner West
+18,2020-04-01,2,Inner West
+19,2020-04-02,6,Inner West
+20,2020-04-03,7,Inner West
+21,2020-04-04,2,Inner West
+22,2020-04-05,3,Inner West
+23,2020-04-21,1,Inner West
+24,2020-04-28,1,Inner West
+25,2020-05-04,1,Inner West
+26,2020-05-08,1,Inner West
+27,2020-07-04,1,Inner West
+28,2020-07-26,1,Inner West
+29,2020-07-28,1,Inner West
+30,2020-07-30,2,Inner West
+31,2020-08-01,2,Inner West
+32,2020-08-25,1,Inner West
+33,2020-08-27,1,Inner West
+34,2020-08-29,1,Inner West
+35,2020-09-01,1,Inner West
+36,2020-09-05,1,Inner West
+37,2020-10-19,1,Inner West
+38,2020-10-20,1,Inner West
+39,2020-10-25,1,Inner West
+40,2020-10-26,2,Inner West
+41,2020-11-16,1,Inner West
+42,2020-12-23,2,Inner West
+43,2020-12-24,1,Inner West
+44,2021-01-07,1,Inner West
+45,2021-01-31,1,Inner West
+46,2021-02-08,2,Inner West
+47,2021-03-09,1,Inner West
+48,2021-07-02,1,Inner West
+49,2021-07-09,1,Inner West
+50,2021-07-10,1,Inner West
+51,2021-07-12,1,Inner West
+52,2021-07-15,2,Inner West
+53,2021-07-16,1,Inner West
+54,2021-07-18,1,Inner West
+55,2021-07-21,2,Inner West
+56,2021-07-22,2,Inner West
+57,2021-07-26,3,Inner West
+58,2021-07-27,3,Inner West
+0,2020-03-09,1,Canada Bay
+1,2020-03-10,1,Canada Bay
+2,2020-03-14,1,Canada Bay
+3,2020-03-25,3,Canada Bay
+4,2020-03-26,2,Canada Bay
+5,2020-03-27,2,Canada Bay
+6,2020-03-28,3,Canada Bay
+7,2020-03-29,3,Canada Bay
+8,2020-04-01,1,Canada Bay
+9,2020-04-04,1,Canada Bay
+10,2020-04-06,1,Canada Bay
+11,2020-04-07,1,Canada Bay
+12,2020-04-08,2,Canada Bay
+13,2020-04-14,1,Canada Bay
+14,2020-04-16,1,Canada Bay
+15,2020-04-18,1,Canada Bay
+16,2020-04-24,1,Canada Bay
+17,2020-04-27,2,Canada Bay
+18,2020-04-28,1,Canada Bay
+19,2020-05-05,2,Canada Bay
+20,2020-07-30,1,Canada Bay
+21,2020-07-31,1,Canada Bay
+22,2020-08-01,1,Canada Bay
+23,2020-08-04,1,Canada Bay
+24,2020-08-06,1,Canada Bay
+25,2020-08-21,1,Canada Bay
+26,2020-09-01,1,Canada Bay
+27,2020-09-12,2,Canada Bay
+28,2020-12-09,1,Canada Bay
+29,2020-12-21,1,Canada Bay
+30,2021-01-20,1,Canada Bay
+31,2021-04-19,1,Canada Bay
+32,2021-06-19,1,Canada Bay
+33,2021-06-25,1,Canada Bay
+34,2021-06-26,1,Canada Bay
+35,2021-06-27,1,Canada Bay
+36,2021-06-28,1,Canada Bay
+37,2021-07-04,2,Canada Bay
+38,2021-07-13,1,Canada Bay
+0,2020-03-09,1,Lane Cove
+1,2020-03-10,1,Lane Cove
+2,2020-03-15,2,Lane Cove
+3,2020-03-19,2,Lane Cove
+4,2020-03-21,4,Lane Cove
+5,2020-03-22,1,Lane Cove
+6,2020-03-23,4,Lane Cove
+7,2020-03-24,3,Lane Cove
+8,2020-03-25,2,Lane Cove
+9,2020-03-26,1,Lane Cove
+10,2020-03-27,2,Lane Cove
+11,2020-03-28,1,Lane Cove
+12,2020-03-29,2,Lane Cove
+13,2020-03-31,3,Lane Cove
+14,2020-04-01,2,Lane Cove
+15,2020-04-03,3,Lane Cove
+16,2020-04-04,3,Lane Cove
+17,2020-04-05,1,Lane Cove
+18,2020-04-06,1,Lane Cove
+19,2020-04-10,1,Lane Cove
+20,2020-06-24,1,Lane Cove
+21,2020-08-12,1,Lane Cove
+22,2020-08-27,1,Lane Cove
+23,2020-12-19,1,Lane Cove
+24,2020-12-23,1,Lane Cove
+25,2021-01-15,1,Lane Cove
+26,2021-02-07,1,Lane Cove
+27,2021-04-18,1,Lane Cove
+28,2021-07-18,1,Lane Cove
+29,2021-07-24,1,Lane Cove
+0,2020-03-09,1,Willoughby
+1,2020-03-14,1,Willoughby
+2,2020-03-17,3,Willoughby
+3,2020-03-21,3,Willoughby
+4,2020-03-23,2,Willoughby
+5,2020-03-24,2,Willoughby
+6,2020-03-25,1,Willoughby
+7,2020-03-26,1,Willoughby
+8,2020-03-27,3,Willoughby
+9,2020-03-28,1,Willoughby
+10,2020-03-29,1,Willoughby
+11,2020-03-31,1,Willoughby
+12,2020-04-14,1,Willoughby
+13,2020-04-16,1,Willoughby
+14,2020-04-23,1,Willoughby
+15,2020-07-04,1,Willoughby
+16,2020-07-30,1,Willoughby
+17,2020-09-03,1,Willoughby
+18,2020-09-28,1,Willoughby
+19,2020-12-30,1,Willoughby
+20,2021-01-01,1,Willoughby
+21,2021-01-27,1,Willoughby
+22,2021-04-03,1,Willoughby
+23,2021-04-21,1,Willoughby
+24,2021-04-26,1,Willoughby
+25,2021-06-30,1,Willoughby
+26,2021-07-01,1,Willoughby
+27,2021-07-04,1,Willoughby
+28,2021-07-22,1,Willoughby
+29,2021-07-26,1,Willoughby
+0,2020-03-10,1,Penrith
+1,2020-03-14,1,Penrith
+2,2020-03-17,3,Penrith
+3,2020-03-18,2,Penrith
+4,2020-03-19,1,Penrith
+5,2020-03-21,3,Penrith
+6,2020-03-22,1,Penrith
+7,2020-03-23,3,Penrith
+8,2020-03-24,10,Penrith
+9,2020-03-25,4,Penrith
+10,2020-03-26,3,Penrith
+11,2020-03-27,6,Penrith
+12,2020-03-28,5,Penrith
+13,2020-03-29,1,Penrith
+14,2020-03-30,4,Penrith
+15,2020-03-31,2,Penrith
+16,2020-04-01,2,Penrith
+17,2020-04-02,2,Penrith
+18,2020-04-03,3,Penrith
+19,2020-04-04,2,Penrith
+20,2020-04-08,1,Penrith
+21,2020-04-10,2,Penrith
+22,2020-04-11,1,Penrith
+23,2020-04-12,2,Penrith
+24,2020-04-14,9,Penrith
+25,2020-04-15,9,Penrith
+26,2020-04-16,9,Penrith
+27,2020-04-17,2,Penrith
+28,2020-04-18,8,Penrith
+29,2020-04-19,2,Penrith
+30,2020-04-21,1,Penrith
+31,2020-04-24,9,Penrith
+32,2020-04-25,1,Penrith
+33,2020-04-27,1,Penrith
+34,2020-04-28,1,Penrith
+35,2020-04-29,1,Penrith
+36,2020-04-30,5,Penrith
+37,2020-05-06,1,Penrith
+38,2020-05-07,1,Penrith
+39,2020-05-12,1,Penrith
+40,2020-06-23,1,Penrith
+41,2020-06-25,1,Penrith
+42,2020-06-30,1,Penrith
+43,2020-07-08,1,Penrith
+44,2020-07-09,2,Penrith
+45,2020-07-16,1,Penrith
+46,2020-07-18,1,Penrith
+47,2020-07-19,1,Penrith
+48,2020-07-27,1,Penrith
+49,2020-08-11,1,Penrith
+50,2020-09-07,1,Penrith
+51,2020-09-11,1,Penrith
+52,2020-10-18,1,Penrith
+53,2020-10-19,1,Penrith
+54,2020-10-29,1,Penrith
+55,2020-10-31,1,Penrith
+56,2021-03-29,1,Penrith
+57,2021-04-13,1,Penrith
+58,2021-04-16,1,Penrith
+59,2021-04-19,1,Penrith
+60,2021-05-10,1,Penrith
+61,2021-07-08,4,Penrith
+62,2021-07-11,2,Penrith
+63,2021-07-12,1,Penrith
+64,2021-07-13,1,Penrith
+65,2021-07-14,2,Penrith
+66,2021-07-15,1,Penrith
+67,2021-07-20,1,Penrith
+68,2021-07-21,1,Penrith
+69,2021-07-22,1,Penrith
+70,2021-07-24,1,Penrith
+71,2021-07-26,1,Penrith
+72,2021-07-27,2,Penrith
+0,2020-03-11,2,Orange
+1,2020-03-12,1,Orange
+2,2020-03-17,1,Orange
+3,2020-03-20,1,Orange
+4,2020-03-27,2,Orange
+5,2020-04-03,1,Orange
+6,2020-04-06,1,Orange
+7,2020-04-17,1,Orange
+8,2020-05-19,1,Orange
+9,2020-06-20,1,Orange
+10,2020-07-30,1,Orange
+11,2020-12-27,1,Orange
+0,2020-03-11,1,Hunters Hill
+1,2020-03-14,1,Hunters Hill
+2,2020-03-15,1,Hunters Hill
+3,2020-03-17,1,Hunters Hill
+4,2020-03-19,1,Hunters Hill
+5,2020-03-22,1,Hunters Hill
+6,2020-03-24,1,Hunters Hill
+7,2020-03-25,2,Hunters Hill
+8,2020-03-26,2,Hunters Hill
+9,2020-03-30,1,Hunters Hill
+10,2020-04-01,1,Hunters Hill
+11,2020-04-02,1,Hunters Hill
+12,2020-04-03,2,Hunters Hill
+13,2020-04-05,1,Hunters Hill
+14,2020-04-07,3,Hunters Hill
+15,2020-04-08,1,Hunters Hill
+16,2020-04-17,1,Hunters Hill
+17,2020-08-10,1,Hunters Hill
+18,2020-08-26,1,Hunters Hill
+19,2020-09-06,1,Hunters Hill
+20,2020-09-10,1,Hunters Hill
+21,2020-09-15,1,Hunters Hill
+22,2020-10-03,1,Hunters Hill
+23,2020-12-19,1,Hunters Hill
+24,2020-12-29,1,Hunters Hill
+25,2021-07-02,1,Hunters Hill
+0,2020-03-11,1,Central Coast
+1,2020-03-15,1,Central Coast
+2,2020-03-17,1,Central Coast
+3,2020-03-18,2,Central Coast
+4,2020-03-19,2,Central Coast
+5,2020-03-20,1,Central Coast
+6,2020-03-21,8,Central Coast
+7,2020-03-22,4,Central Coast
+8,2020-03-23,6,Central Coast
+9,2020-03-24,13,Central Coast
+10,2020-03-25,11,Central Coast
+11,2020-03-26,11,Central Coast
+12,2020-03-27,15,Central Coast
+13,2020-03-28,6,Central Coast
+14,2020-03-29,7,Central Coast
+15,2020-03-30,1,Central Coast
+16,2020-03-31,9,Central Coast
+17,2020-04-01,2,Central Coast
+18,2020-04-02,4,Central Coast
+19,2020-04-03,2,Central Coast
+20,2020-04-04,3,Central Coast
+21,2020-04-05,1,Central Coast
+22,2020-04-06,1,Central Coast
+23,2020-04-07,1,Central Coast
+24,2020-04-08,1,Central Coast
+25,2020-04-09,2,Central Coast
+26,2020-04-18,1,Central Coast
+27,2020-04-30,1,Central Coast
+28,2020-05-08,1,Central Coast
+29,2020-06-13,2,Central Coast
+30,2020-06-26,1,Central Coast
+31,2020-06-27,1,Central Coast
+32,2020-07-02,1,Central Coast
+33,2020-07-28,1,Central Coast
+34,2020-08-10,1,Central Coast
+35,2020-08-26,1,Central Coast
+36,2020-08-31,1,Central Coast
+37,2020-10-17,1,Central Coast
+38,2020-12-13,1,Central Coast
+39,2020-12-18,2,Central Coast
+40,2020-12-28,1,Central Coast
+41,2020-12-29,1,Central Coast
+42,2021-01-04,1,Central Coast
+43,2021-01-18,1,Central Coast
+44,2021-01-31,1,Central Coast
+45,2021-03-10,1,Central Coast
+46,2021-07-02,2,Central Coast
+47,2021-07-10,1,Central Coast
+48,2021-07-23,4,Central Coast
+49,2021-07-25,1,Central Coast
+0,2020-03-12,2,Waverley
+1,2020-03-13,2,Waverley
+2,2020-03-14,4,Waverley
+3,2020-03-15,2,Waverley
+4,2020-03-16,5,Waverley
+5,2020-03-17,3,Waverley
+6,2020-03-18,8,Waverley
+7,2020-03-19,3,Waverley
+8,2020-03-20,16,Waverley
+9,2020-03-21,21,Waverley
+10,2020-03-22,4,Waverley
+11,2020-03-23,15,Waverley
+12,2020-03-24,13,Waverley
+13,2020-03-25,10,Waverley
+14,2020-03-26,17,Waverley
+15,2020-03-27,10,Waverley
+16,2020-03-28,2,Waverley
+17,2020-03-30,2,Waverley
+18,2020-03-31,4,Waverley
+19,2020-04-01,9,Waverley
+20,2020-04-02,4,Waverley
+21,2020-04-03,3,Waverley
+22,2020-04-04,4,Waverley
+23,2020-04-05,4,Waverley
+24,2020-04-07,3,Waverley
+25,2020-04-08,4,Waverley
+26,2020-04-09,1,Waverley
+27,2020-04-11,1,Waverley
+28,2020-04-12,1,Waverley
+29,2020-04-18,2,Waverley
+30,2020-06-14,1,Waverley
+31,2020-07-27,1,Waverley
+32,2020-07-28,1,Waverley
+33,2020-07-29,1,Waverley
+34,2020-07-31,2,Waverley
+35,2020-08-02,1,Waverley
+36,2020-08-25,1,Waverley
+37,2020-08-28,1,Waverley
+38,2020-08-29,3,Waverley
+39,2020-09-01,2,Waverley
+40,2020-09-02,1,Waverley
+41,2020-09-04,1,Waverley
+42,2020-09-05,2,Waverley
+43,2020-09-08,1,Waverley
+44,2020-09-09,2,Waverley
+45,2020-09-10,1,Waverley
+46,2020-09-11,2,Waverley
+47,2020-10-08,1,Waverley
+48,2020-10-21,1,Waverley
+49,2020-10-31,2,Waverley
+50,2020-11-01,1,Waverley
+51,2020-11-13,1,Waverley
+52,2020-11-27,1,Waverley
+53,2020-12-01,2,Waverley
+54,2020-12-06,2,Waverley
+55,2020-12-10,2,Waverley
+56,2020-12-11,1,Waverley
+57,2020-12-12,1,Waverley
+58,2020-12-20,1,Waverley
+59,2020-12-24,1,Waverley
+60,2020-12-29,3,Waverley
+61,2021-03-31,1,Waverley
+62,2021-04-10,1,Waverley
+63,2021-06-16,2,Waverley
+64,2021-06-17,1,Waverley
+65,2021-06-22,7,Waverley
+66,2021-06-23,2,Waverley
+67,2021-06-24,5,Waverley
+68,2021-06-25,3,Waverley
+69,2021-06-26,7,Waverley
+70,2021-06-27,5,Waverley
+71,2021-06-28,4,Waverley
+72,2021-06-29,5,Waverley
+73,2021-06-30,5,Waverley
+74,2021-07-01,3,Waverley
+75,2021-07-02,1,Waverley
+76,2021-07-03,4,Waverley
+77,2021-07-04,5,Waverley
+78,2021-07-05,2,Waverley
+79,2021-07-07,3,Waverley
+80,2021-07-08,1,Waverley
+81,2021-07-09,2,Waverley
+82,2021-07-10,2,Waverley
+83,2021-07-11,8,Waverley
+84,2021-07-12,5,Waverley
+85,2021-07-13,1,Waverley
+86,2021-07-14,1,Waverley
+87,2021-07-15,1,Waverley
+88,2021-07-16,3,Waverley
+89,2021-07-17,2,Waverley
+90,2021-07-19,1,Waverley
+91,2021-07-20,1,Waverley
+92,2021-07-23,1,Waverley
+93,2021-07-24,3,Waverley
+94,2021-07-27,1,Waverley
+0,2020-03-12,1,Camden
+1,2020-03-17,3,Camden
+2,2020-03-18,1,Camden
+3,2020-03-19,2,Camden
+4,2020-03-21,3,Camden
+5,2020-03-22,3,Camden
+6,2020-03-23,1,Camden
+7,2020-03-25,1,Camden
+8,2020-03-26,6,Camden
+9,2020-03-27,4,Camden
+10,2020-03-28,1,Camden
+11,2020-03-31,2,Camden
+12,2020-04-01,1,Camden
+13,2020-04-03,2,Camden
+14,2020-04-04,1,Camden
+15,2020-04-05,1,Camden
+16,2020-04-06,1,Camden
+17,2020-04-07,1,Camden
+18,2020-04-08,1,Camden
+19,2020-04-16,2,Camden
+20,2020-04-30,1,Camden
+21,2020-05-08,1,Camden
+22,2020-06-14,1,Camden
+23,2020-06-17,2,Camden
+24,2020-06-25,1,Camden
+25,2020-06-28,1,Camden
+26,2020-07-17,1,Camden
+27,2020-10-07,4,Camden
+28,2020-10-09,1,Camden
+29,2020-10-12,6,Camden
+30,2020-10-16,5,Camden
+31,2020-10-17,1,Camden
+32,2020-10-19,3,Camden
+33,2020-10-20,1,Camden
+34,2020-10-21,1,Camden
+35,2020-10-26,2,Camden
+36,2020-12-21,1,Camden
+37,2020-12-24,1,Camden
+38,2021-03-03,1,Camden
+39,2021-03-23,1,Camden
+40,2021-04-24,1,Camden
+41,2021-06-22,3,Camden
+42,2021-06-23,1,Camden
+43,2021-06-24,1,Camden
+44,2021-06-25,1,Camden
+45,2021-07-04,1,Camden
+46,2021-07-15,1,Camden
+47,2021-07-20,1,Camden
+48,2021-07-23,1,Camden
+49,2021-07-25,1,Camden
+50,2021-07-26,3,Camden
+0,2020-03-12,1,Hawkesbury
+1,2020-03-15,1,Hawkesbury
+2,2020-03-19,1,Hawkesbury
+3,2020-03-21,1,Hawkesbury
+4,2020-03-22,1,Hawkesbury
+5,2020-03-23,1,Hawkesbury
+6,2020-03-24,5,Hawkesbury
+7,2020-03-25,2,Hawkesbury
+8,2020-03-26,2,Hawkesbury
+9,2020-03-27,3,Hawkesbury
+10,2020-03-28,1,Hawkesbury
+11,2020-03-29,1,Hawkesbury
+12,2020-03-31,1,Hawkesbury
+13,2020-04-01,1,Hawkesbury
+14,2020-04-03,1,Hawkesbury
+15,2020-04-09,1,Hawkesbury
+16,2020-04-16,1,Hawkesbury
+17,2020-12-12,1,Hawkesbury
+18,2020-12-20,1,Hawkesbury
+19,2021-07-10,3,Hawkesbury
+20,2021-07-12,1,Hawkesbury
+21,2021-07-17,2,Hawkesbury
+0,2020-03-12,1,Campbelltown
+1,2020-03-21,3,Campbelltown
+2,2020-03-22,4,Campbelltown
+3,2020-03-23,1,Campbelltown
+4,2020-03-25,4,Campbelltown
+5,2020-03-26,4,Campbelltown
+6,2020-03-27,3,Campbelltown
+7,2020-03-28,2,Campbelltown
+8,2020-03-29,3,Campbelltown
+9,2020-03-31,2,Campbelltown
+10,2020-04-01,1,Campbelltown
+11,2020-04-03,1,Campbelltown
+12,2020-04-04,1,Campbelltown
+13,2020-04-05,1,Campbelltown
+14,2020-04-09,1,Campbelltown
+15,2020-04-11,1,Campbelltown
+16,2020-04-16,1,Campbelltown
+17,2020-06-09,2,Campbelltown
+18,2020-07-07,1,Campbelltown
+19,2020-07-08,1,Campbelltown
+20,2020-07-13,2,Campbelltown
+21,2020-07-14,1,Campbelltown
+22,2020-07-15,1,Campbelltown
+23,2020-07-16,1,Campbelltown
+24,2020-07-17,1,Campbelltown
+25,2020-07-21,1,Campbelltown
+26,2020-07-25,2,Campbelltown
+27,2020-07-28,1,Campbelltown
+28,2020-07-30,1,Campbelltown
+29,2020-07-31,1,Campbelltown
+30,2020-08-01,1,Campbelltown
+31,2020-08-02,2,Campbelltown
+32,2020-08-03,2,Campbelltown
+33,2020-08-04,2,Campbelltown
+34,2020-08-06,1,Campbelltown
+35,2020-08-08,3,Campbelltown
+36,2020-08-09,2,Campbelltown
+37,2020-08-10,1,Campbelltown
+38,2020-08-11,2,Campbelltown
+39,2020-08-13,1,Campbelltown
+40,2020-08-16,1,Campbelltown
+41,2020-08-17,1,Campbelltown
+42,2020-08-20,1,Campbelltown
+43,2020-08-21,1,Campbelltown
+44,2020-08-26,1,Campbelltown
+45,2020-08-27,1,Campbelltown
+46,2020-09-11,1,Campbelltown
+47,2020-09-12,1,Campbelltown
+48,2020-09-14,1,Campbelltown
+49,2020-09-17,1,Campbelltown
+50,2020-09-23,1,Campbelltown
+51,2020-10-06,1,Campbelltown
+52,2020-10-07,1,Campbelltown
+53,2020-10-13,3,Campbelltown
+54,2020-10-14,1,Campbelltown
+55,2020-10-19,1,Campbelltown
+56,2020-10-24,1,Campbelltown
+57,2020-10-27,1,Campbelltown
+58,2020-11-03,1,Campbelltown
+59,2020-12-02,1,Campbelltown
+60,2020-12-20,1,Campbelltown
+61,2021-01-01,4,Campbelltown
+62,2021-01-08,1,Campbelltown
+63,2021-01-12,1,Campbelltown
+64,2021-02-15,1,Campbelltown
+65,2021-03-30,1,Campbelltown
+66,2021-03-31,1,Campbelltown
+67,2021-04-10,1,Campbelltown
+68,2021-04-11,1,Campbelltown
+69,2021-04-14,1,Campbelltown
+70,2021-05-03,1,Campbelltown
+71,2021-05-10,1,Campbelltown
+72,2021-06-23,1,Campbelltown
+73,2021-06-25,1,Campbelltown
+74,2021-06-27,1,Campbelltown
+75,2021-06-28,1,Campbelltown
+76,2021-06-29,1,Campbelltown
+77,2021-07-02,1,Campbelltown
+78,2021-07-03,4,Campbelltown
+79,2021-07-06,1,Campbelltown
+80,2021-07-07,1,Campbelltown
+81,2021-07-10,2,Campbelltown
+82,2021-07-15,1,Campbelltown
+83,2021-07-16,1,Campbelltown
+84,2021-07-19,1,Campbelltown
+85,2021-07-21,1,Campbelltown
+86,2021-07-22,5,Campbelltown
+87,2021-07-23,2,Campbelltown
+88,2021-07-24,2,Campbelltown
+89,2021-07-25,6,Campbelltown
+90,2021-07-26,12,Campbelltown
+91,2021-07-27,6,Campbelltown
+0,2020-03-13,1,Georges River
+1,2020-03-19,1,Georges River
+2,2020-03-20,1,Georges River
+3,2020-03-21,2,Georges River
+4,2020-03-22,2,Georges River
+5,2020-03-23,2,Georges River
+6,2020-03-24,2,Georges River
+7,2020-03-25,1,Georges River
+8,2020-03-26,2,Georges River
+9,2020-03-27,10,Georges River
+10,2020-03-28,3,Georges River
+11,2020-03-29,5,Georges River
+12,2020-03-31,2,Georges River
+13,2020-04-01,1,Georges River
+14,2020-04-02,3,Georges River
+15,2020-04-03,4,Georges River
+16,2020-04-04,4,Georges River
+17,2020-04-05,2,Georges River
+18,2020-04-06,3,Georges River
+19,2020-04-07,1,Georges River
+20,2020-04-08,2,Georges River
+21,2020-04-09,1,Georges River
+22,2020-04-10,1,Georges River
+23,2020-04-15,1,Georges River
+24,2020-04-17,1,Georges River
+25,2020-04-23,1,Georges River
+26,2020-07-14,1,Georges River
+27,2020-07-16,1,Georges River
+28,2020-07-17,1,Georges River
+29,2020-07-21,1,Georges River
+30,2020-07-28,1,Georges River
+31,2020-09-13,1,Georges River
+32,2020-09-18,1,Georges River
+33,2020-09-20,1,Georges River
+34,2020-10-11,1,Georges River
+35,2020-12-01,1,Georges River
+36,2020-12-07,1,Georges River
+37,2020-12-16,2,Georges River
+38,2020-12-20,1,Georges River
+39,2021-01-02,1,Georges River
+40,2021-02-23,1,Georges River
+41,2021-02-24,1,Georges River
+42,2021-03-13,1,Georges River
+43,2021-04-24,1,Georges River
+44,2021-06-25,1,Georges River
+45,2021-06-26,1,Georges River
+46,2021-06-28,1,Georges River
+47,2021-06-30,1,Georges River
+48,2021-07-01,6,Georges River
+49,2021-07-02,2,Georges River
+50,2021-07-03,3,Georges River
+51,2021-07-04,2,Georges River
+52,2021-07-05,1,Georges River
+53,2021-07-06,1,Georges River
+54,2021-07-07,5,Georges River
+55,2021-07-08,1,Georges River
+56,2021-07-09,2,Georges River
+57,2021-07-10,3,Georges River
+58,2021-07-11,2,Georges River
+59,2021-07-12,2,Georges River
+60,2021-07-13,4,Georges River
+61,2021-07-14,5,Georges River
+62,2021-07-15,2,Georges River
+63,2021-07-16,1,Georges River
+64,2021-07-17,3,Georges River
+65,2021-07-18,3,Georges River
+66,2021-07-19,3,Georges River
+67,2021-07-20,3,Georges River
+68,2021-07-21,7,Georges River
+69,2021-07-22,10,Georges River
+70,2021-07-23,6,Georges River
+71,2021-07-24,3,Georges River
+72,2021-07-25,6,Georges River
+73,2021-07-26,3,Georges River
+74,2021-07-27,4,Georges River
+0,2020-03-13,1,North Sydney
+1,2020-03-15,1,North Sydney
+2,2020-03-16,1,North Sydney
+3,2020-03-17,1,North Sydney
+4,2020-03-18,1,North Sydney
+5,2020-03-20,1,North Sydney
+6,2020-03-21,2,North Sydney
+7,2020-03-22,2,North Sydney
+8,2020-03-23,3,North Sydney
+9,2020-03-24,3,North Sydney
+10,2020-03-25,5,North Sydney
+11,2020-03-26,1,North Sydney
+12,2020-03-27,10,North Sydney
+13,2020-03-28,1,North Sydney
+14,2020-03-29,1,North Sydney
+15,2020-03-30,1,North Sydney
+16,2020-03-31,2,North Sydney
+17,2020-04-01,3,North Sydney
+18,2020-04-02,2,North Sydney
+19,2020-04-03,1,North Sydney
+20,2020-04-04,1,North Sydney
+21,2020-04-08,1,North Sydney
+22,2020-04-09,1,North Sydney
+23,2020-04-14,1,North Sydney
+24,2020-04-20,1,North Sydney
+25,2020-08-27,1,North Sydney
+26,2020-08-31,1,North Sydney
+27,2020-09-08,1,North Sydney
+28,2020-11-20,1,North Sydney
+29,2020-12-02,1,North Sydney
+30,2020-12-14,3,North Sydney
+31,2020-12-18,2,North Sydney
+32,2020-12-19,1,North Sydney
+33,2020-12-25,1,North Sydney
+34,2020-12-31,1,North Sydney
+35,2021-03-16,3,North Sydney
+36,2021-04-16,1,North Sydney
+37,2021-05-06,1,North Sydney
+38,2021-05-08,1,North Sydney
+39,2021-06-27,1,North Sydney
+40,2021-07-02,2,North Sydney
+41,2021-07-17,1,North Sydney
+0,2020-03-13,1,Cessnock
+1,2020-03-15,2,Cessnock
+2,2020-03-17,1,Cessnock
+3,2020-03-20,1,Cessnock
+4,2020-03-23,3,Cessnock
+5,2020-03-24,1,Cessnock
+6,2020-03-25,2,Cessnock
+7,2020-03-26,1,Cessnock
+8,2020-03-27,1,Cessnock
+9,2020-03-28,3,Cessnock
+10,2020-03-30,3,Cessnock
+11,2020-04-01,3,Cessnock
+12,2020-04-02,2,Cessnock
+0,2020-03-13,1,Wingecarribee
+1,2020-03-15,1,Wingecarribee
+2,2020-03-16,1,Wingecarribee
+3,2020-03-17,1,Wingecarribee
+4,2020-03-20,4,Wingecarribee
+5,2020-03-22,2,Wingecarribee
+6,2020-03-23,1,Wingecarribee
+7,2020-03-24,1,Wingecarribee
+8,2020-03-25,1,Wingecarribee
+9,2020-03-27,2,Wingecarribee
+10,2020-03-28,1,Wingecarribee
+11,2020-03-29,1,Wingecarribee
+12,2020-03-30,1,Wingecarribee
+13,2020-04-02,1,Wingecarribee
+14,2020-04-04,1,Wingecarribee
+15,2020-04-05,1,Wingecarribee
+16,2020-04-06,3,Wingecarribee
+17,2020-04-10,1,Wingecarribee
+18,2020-04-23,1,Wingecarribee
+19,2020-07-14,1,Wingecarribee
+20,2020-11-05,4,Wingecarribee
+21,2020-11-06,1,Wingecarribee
+22,2021-03-26,1,Wingecarribee
+23,2021-04-09,1,Wingecarribee
+24,2021-07-18,1,Wingecarribee
+25,2021-07-23,1,Wingecarribee
+0,2020-03-13,2,Coffs Harbour
+1,2020-03-15,1,Coffs Harbour
+2,2020-03-25,2,Coffs Harbour
+3,2020-03-26,2,Coffs Harbour
+4,2020-03-28,1,Coffs Harbour
+5,2020-03-30,1,Coffs Harbour
+6,2020-04-01,2,Coffs Harbour
+7,2020-04-02,1,Coffs Harbour
+8,2020-04-03,1,Coffs Harbour
+9,2020-04-05,1,Coffs Harbour
+10,2020-04-09,1,Coffs Harbour
+11,2020-04-21,2,Coffs Harbour
+12,2020-06-23,1,Coffs Harbour
+13,2020-06-25,1,Coffs Harbour
+14,2021-04-02,1,Coffs Harbour
+0,2020-03-14,1,Byron
+1,2020-03-17,1,Byron
+2,2020-03-24,1,Byron
+3,2020-03-25,1,Byron
+4,2020-03-26,1,Byron
+5,2020-03-29,2,Byron
+6,2020-03-30,4,Byron
+7,2020-04-01,2,Byron
+8,2020-04-06,1,Byron
+9,2020-04-08,2,Byron
+10,2020-07-25,2,Byron
+11,2020-11-01,1,Byron
+12,2020-11-14,1,Byron
+13,2021-03-08,1,Byron
+0,2020-03-15,1,Lake Macquarie
+1,2020-03-19,3,Lake Macquarie
+2,2020-03-20,3,Lake Macquarie
+3,2020-03-21,1,Lake Macquarie
+4,2020-03-22,1,Lake Macquarie
+5,2020-03-23,8,Lake Macquarie
+6,2020-03-24,5,Lake Macquarie
+7,2020-03-25,6,Lake Macquarie
+8,2020-03-26,2,Lake Macquarie
+9,2020-03-27,3,Lake Macquarie
+10,2020-03-28,3,Lake Macquarie
+11,2020-03-29,3,Lake Macquarie
+12,2020-03-30,2,Lake Macquarie
+13,2020-04-01,1,Lake Macquarie
+14,2020-04-02,2,Lake Macquarie
+15,2020-04-03,1,Lake Macquarie
+16,2020-04-04,1,Lake Macquarie
+17,2020-04-06,2,Lake Macquarie
+18,2020-04-09,1,Lake Macquarie
+19,2020-04-10,1,Lake Macquarie
+20,2020-04-12,3,Lake Macquarie
+21,2020-04-17,1,Lake Macquarie
+22,2020-04-30,2,Lake Macquarie
+23,2020-06-08,1,Lake Macquarie
+24,2020-07-13,1,Lake Macquarie
+25,2020-07-16,1,Lake Macquarie
+26,2020-07-22,1,Lake Macquarie
+27,2020-10-10,1,Lake Macquarie
+28,2020-11-30,1,Lake Macquarie
+29,2020-12-20,1,Lake Macquarie
+30,2021-01-06,1,Lake Macquarie
+31,2021-04-05,1,Lake Macquarie
+0,2020-03-15,1,Wollongong
+1,2020-03-16,1,Wollongong
+2,2020-03-18,1,Wollongong
+3,2020-03-19,1,Wollongong
+4,2020-03-20,2,Wollongong
+5,2020-03-21,2,Wollongong
+6,2020-03-22,4,Wollongong
+7,2020-03-23,5,Wollongong
+8,2020-03-24,3,Wollongong
+9,2020-03-25,5,Wollongong
+10,2020-03-26,4,Wollongong
+11,2020-03-27,5,Wollongong
+12,2020-03-28,3,Wollongong
+13,2020-03-29,1,Wollongong
+14,2020-03-30,3,Wollongong
+15,2020-03-31,2,Wollongong
+16,2020-04-01,3,Wollongong
+17,2020-04-02,1,Wollongong
+18,2020-04-03,3,Wollongong
+19,2020-04-07,1,Wollongong
+20,2020-04-17,1,Wollongong
+21,2020-04-30,1,Wollongong
+22,2020-05-28,1,Wollongong
+23,2020-06-27,1,Wollongong
+24,2020-07-22,2,Wollongong
+25,2020-07-25,1,Wollongong
+26,2020-07-31,1,Wollongong
+27,2020-09-04,1,Wollongong
+28,2020-09-09,1,Wollongong
+29,2020-09-10,1,Wollongong
+30,2020-10-26,3,Wollongong
+31,2020-11-06,1,Wollongong
+32,2020-11-17,1,Wollongong
+33,2020-11-18,1,Wollongong
+34,2020-11-22,1,Wollongong
+35,2020-12-29,2,Wollongong
+36,2021-01-02,1,Wollongong
+37,2021-02-07,1,Wollongong
+38,2021-02-18,1,Wollongong
+39,2021-04-30,2,Wollongong
+40,2021-05-09,1,Wollongong
+41,2021-05-23,1,Wollongong
+42,2021-06-18,1,Wollongong
+43,2021-06-19,1,Wollongong
+44,2021-06-21,1,Wollongong
+45,2021-06-22,2,Wollongong
+46,2021-06-30,1,Wollongong
+47,2021-07-18,3,Wollongong
+48,2021-07-19,1,Wollongong
+49,2021-07-21,1,Wollongong
+50,2021-07-22,1,Wollongong
+51,2021-07-25,2,Wollongong
+52,2021-07-27,1,Wollongong
+0,2020-03-15,2,Mosman
+1,2020-03-16,2,Mosman
+2,2020-03-17,4,Mosman
+3,2020-03-18,1,Mosman
+4,2020-03-21,2,Mosman
+5,2020-03-22,8,Mosman
+6,2020-03-24,4,Mosman
+7,2020-03-25,2,Mosman
+8,2020-03-26,2,Mosman
+9,2020-03-27,1,Mosman
+10,2020-03-30,1,Mosman
+11,2020-03-31,1,Mosman
+12,2020-04-02,2,Mosman
+13,2020-04-03,4,Mosman
+14,2020-04-04,2,Mosman
+15,2020-04-05,1,Mosman
+16,2020-04-07,1,Mosman
+17,2020-04-11,1,Mosman
+18,2020-09-01,1,Mosman
+19,2020-11-30,1,Mosman
+20,2020-12-23,1,Mosman
+21,2021-01-10,2,Mosman
+22,2021-01-11,1,Mosman
+23,2021-01-16,2,Mosman
+24,2021-02-25,1,Mosman
+0,2020-03-16,2,Mid-Coast
+1,2020-03-19,1,Mid-Coast
+2,2020-03-20,2,Mid-Coast
+3,2020-03-21,1,Mid-Coast
+4,2020-03-22,1,Mid-Coast
+5,2020-03-23,2,Mid-Coast
+6,2020-03-24,6,Mid-Coast
+7,2020-03-25,5,Mid-Coast
+8,2020-03-26,3,Mid-Coast
+9,2020-03-27,5,Mid-Coast
+10,2020-03-28,2,Mid-Coast
+11,2020-03-29,1,Mid-Coast
+12,2020-04-01,2,Mid-Coast
+13,2020-04-02,2,Mid-Coast
+14,2020-04-04,2,Mid-Coast
+15,2020-04-26,1,Mid-Coast
+16,2020-05-08,1,Mid-Coast
+17,2020-08-31,1,Mid-Coast
+18,2021-02-28,1,Mid-Coast
+19,2021-07-11,3,Mid-Coast
+0,2020-03-17,1,Bathurst Regional
+1,2020-03-20,1,Bathurst Regional
+2,2020-03-22,2,Bathurst Regional
+3,2020-03-24,2,Bathurst Regional
+4,2020-03-26,1,Bathurst Regional
+5,2020-03-28,1,Bathurst Regional
+6,2020-03-29,1,Bathurst Regional
+0,2020-03-17,3,Newcastle
+1,2020-03-18,1,Newcastle
+2,2020-03-21,4,Newcastle
+3,2020-03-22,3,Newcastle
+4,2020-03-23,7,Newcastle
+5,2020-03-24,4,Newcastle
+6,2020-03-25,6,Newcastle
+7,2020-03-26,3,Newcastle
+8,2020-03-27,2,Newcastle
+9,2020-03-28,4,Newcastle
+10,2020-03-29,3,Newcastle
+11,2020-03-30,1,Newcastle
+12,2020-03-31,2,Newcastle
+13,2020-04-01,3,Newcastle
+14,2020-04-03,1,Newcastle
+15,2020-04-05,1,Newcastle
+16,2020-04-07,4,Newcastle
+17,2020-04-08,1,Newcastle
+18,2020-04-09,1,Newcastle
+19,2020-04-15,1,Newcastle
+20,2020-07-06,1,Newcastle
+21,2020-07-18,1,Newcastle
+22,2020-08-05,1,Newcastle
+23,2020-08-06,2,Newcastle
+24,2020-10-09,1,Newcastle
+25,2020-11-08,1,Newcastle
+26,2021-01-08,1,Newcastle
+27,2021-01-19,1,Newcastle
+28,2021-03-21,1,Newcastle
+29,2021-04-12,1,Newcastle
+30,2021-04-14,1,Newcastle
+31,2021-04-16,1,Newcastle
+0,2020-03-17,1,Kiama
+1,2020-03-19,1,Kiama
+2,2020-03-23,1,Kiama
+3,2020-03-31,1,Kiama
+4,2020-04-02,1,Kiama
+5,2020-04-04,2,Kiama
+0,2020-03-17,1,Shoalhaven
+1,2020-03-18,1,Shoalhaven
+2,2020-03-22,1,Shoalhaven
+3,2020-03-23,2,Shoalhaven
+4,2020-03-24,2,Shoalhaven
+5,2020-03-25,1,Shoalhaven
+6,2020-03-27,6,Shoalhaven
+7,2020-03-28,2,Shoalhaven
+8,2020-03-29,3,Shoalhaven
+9,2020-03-30,2,Shoalhaven
+10,2020-03-31,1,Shoalhaven
+11,2020-04-01,3,Shoalhaven
+12,2020-04-02,1,Shoalhaven
+13,2020-04-03,3,Shoalhaven
+14,2020-04-07,1,Shoalhaven
+15,2020-04-10,1,Shoalhaven
+16,2020-07-08,1,Shoalhaven
+17,2020-07-15,1,Shoalhaven
+18,2020-08-22,1,Shoalhaven
+19,2020-12-13,1,Shoalhaven
+20,2020-12-20,1,Shoalhaven
+21,2021-01-07,1,Shoalhaven
+0,2020-03-18,2,Tweed
+1,2020-03-23,6,Tweed
+2,2020-03-26,3,Tweed
+3,2020-03-30,1,Tweed
+4,2020-04-04,1,Tweed
+5,2020-04-07,1,Tweed
+6,2020-10-22,1,Tweed
+7,2020-12-26,1,Tweed
+8,2021-01-15,1,Tweed
+9,2021-04-24,1,Tweed
+0,2020-03-18,1,Maitland
+1,2020-03-20,2,Maitland
+2,2020-03-22,1,Maitland
+3,2020-03-23,3,Maitland
+4,2020-03-24,3,Maitland
+5,2020-03-25,5,Maitland
+6,2020-03-26,4,Maitland
+7,2020-03-27,2,Maitland
+8,2020-03-28,1,Maitland
+9,2020-03-29,2,Maitland
+10,2020-03-31,2,Maitland
+11,2020-04-01,2,Maitland
+12,2020-04-03,1,Maitland
+13,2020-04-11,1,Maitland
+14,2020-04-16,1,Maitland
+15,2020-11-08,1,Maitland
+16,2020-11-13,1,Maitland
+17,2021-05-09,1,Maitland
+0,2020-03-19,1,Dungog
+1,2020-03-20,1,Dungog
+2,2020-03-23,1,Dungog
+3,2020-03-28,1,Dungog
+4,2020-04-01,1,Dungog
+0,2020-03-20,1,Strathfield
+1,2020-03-21,1,Strathfield
+2,2020-03-24,1,Strathfield
+3,2020-03-25,1,Strathfield
+4,2020-03-31,1,Strathfield
+5,2020-04-03,1,Strathfield
+6,2020-04-05,2,Strathfield
+7,2020-04-07,1,Strathfield
+8,2020-04-08,3,Strathfield
+9,2020-04-14,1,Strathfield
+10,2020-04-25,1,Strathfield
+11,2020-05-01,1,Strathfield
+12,2020-05-06,1,Strathfield
+13,2020-05-21,1,Strathfield
+14,2020-05-23,1,Strathfield
+15,2020-07-03,1,Strathfield
+16,2020-07-09,2,Strathfield
+17,2020-08-22,1,Strathfield
+18,2020-09-02,1,Strathfield
+19,2020-11-06,1,Strathfield
+20,2020-11-13,1,Strathfield
+21,2020-11-22,1,Strathfield
+22,2020-12-29,1,Strathfield
+23,2021-04-16,1,Strathfield
+24,2021-04-25,1,Strathfield
+25,2021-05-09,1,Strathfield
+26,2021-06-28,1,Strathfield
+27,2021-06-29,3,Strathfield
+28,2021-07-01,3,Strathfield
+29,2021-07-02,1,Strathfield
+30,2021-07-03,1,Strathfield
+31,2021-07-04,1,Strathfield
+32,2021-07-14,1,Strathfield
+33,2021-07-22,4,Strathfield
+34,2021-07-24,2,Strathfield
+35,2021-07-25,2,Strathfield
+36,2021-07-26,2,Strathfield
+37,2021-07-27,2,Strathfield
+0,2020-03-20,1,Clarence Valley
+1,2020-03-22,2,Clarence Valley
+2,2020-03-24,1,Clarence Valley
+3,2020-03-27,3,Clarence Valley
+4,2020-03-28,1,Clarence Valley
+0,2020-03-20,1,Liverpool Plains
+1,2020-03-23,1,Liverpool Plains
+0,2020-03-21,1,Port Macquarie-Hastings
+1,2020-03-22,2,Port Macquarie-Hastings
+2,2020-03-23,1,Port Macquarie-Hastings
+3,2020-03-24,3,Port Macquarie-Hastings
+4,2020-03-26,2,Port Macquarie-Hastings
+5,2020-03-27,3,Port Macquarie-Hastings
+6,2020-03-28,5,Port Macquarie-Hastings
+7,2020-03-29,2,Port Macquarie-Hastings
+8,2020-03-30,1,Port Macquarie-Hastings
+9,2020-03-31,2,Port Macquarie-Hastings
+10,2020-04-03,2,Port Macquarie-Hastings
+11,2020-04-14,1,Port Macquarie-Hastings
+12,2020-04-17,1,Port Macquarie-Hastings
+0,2020-03-21,2,Queanbeyan-Palerang Regional
+1,2020-03-22,1,Queanbeyan-Palerang Regional
+2,2020-03-23,1,Queanbeyan-Palerang Regional
+3,2020-03-24,1,Queanbeyan-Palerang Regional
+4,2020-03-26,2,Queanbeyan-Palerang Regional
+5,2020-03-27,1,Queanbeyan-Palerang Regional
+6,2020-03-28,1,Queanbeyan-Palerang Regional
+7,2020-04-03,1,Queanbeyan-Palerang Regional
+8,2020-07-04,1,Queanbeyan-Palerang Regional
+9,2020-12-22,1,Queanbeyan-Palerang Regional
+10,2020-12-25,1,Queanbeyan-Palerang Regional
+11,2020-12-26,1,Queanbeyan-Palerang Regional
+12,2021-01-10,1,Queanbeyan-Palerang Regional
+13,2021-06-14,2,Queanbeyan-Palerang Regional
+0,2020-03-21,2,Bega Valley
+1,2020-03-22,1,Bega Valley
+2,2020-03-24,1,Bega Valley
+3,2020-03-25,1,Bega Valley
+4,2020-03-26,2,Bega Valley
+5,2020-03-27,1,Bega Valley
+6,2020-03-31,1,Bega Valley
+7,2021-02-20,1,Bega Valley
+0,2020-03-21,2,Eurobodalla
+1,2020-03-24,1,Eurobodalla
+2,2020-03-25,1,Eurobodalla
+3,2020-03-27,2,Eurobodalla
+4,2020-03-28,2,Eurobodalla
+5,2020-03-30,1,Eurobodalla
+6,2020-04-03,1,Eurobodalla
+7,2020-07-19,3,Eurobodalla
+8,2020-08-10,3,Eurobodalla
+9,2020-09-16,1,Eurobodalla
+10,2020-10-31,1,Eurobodalla
+0,2020-03-21,1,Shellharbour
+1,2020-03-22,3,Shellharbour
+2,2020-03-23,2,Shellharbour
+3,2020-03-25,5,Shellharbour
+4,2020-03-27,3,Shellharbour
+5,2020-03-28,1,Shellharbour
+6,2020-03-29,2,Shellharbour
+7,2020-03-30,1,Shellharbour
+8,2020-03-31,1,Shellharbour
+9,2020-04-02,1,Shellharbour
+10,2020-04-05,1,Shellharbour
+11,2020-06-14,1,Shellharbour
+12,2020-06-20,5,Shellharbour
+13,2020-07-13,1,Shellharbour
+14,2020-07-17,1,Shellharbour
+15,2020-09-05,1,Shellharbour
+16,2020-10-19,1,Shellharbour
+0,2020-03-22,1,Albury
+1,2020-03-24,1,Albury
+2,2020-03-25,2,Albury
+3,2020-03-26,2,Albury
+4,2020-04-09,1,Albury
+5,2020-04-16,1,Albury
+6,2020-07-06,3,Albury
+0,2020-03-22,1,Blayney
+1,2020-03-23,2,Blayney
+0,2020-03-22,1,Ballina
+1,2020-03-23,1,Ballina
+2,2020-03-25,1,Ballina
+3,2020-03-28,1,Ballina
+4,2020-04-02,2,Ballina
+5,2020-04-08,1,Ballina
+6,2020-04-14,1,Ballina
+7,2020-11-30,1,Ballina
+8,2020-12-30,1,Ballina
+9,2021-01-03,2,Ballina
+10,2021-03-23,1,Ballina
+11,2021-03-30,1,Ballina
+12,2021-07-01,1,Ballina
+0,2020-03-22,2,Tenterfield
+1,2020-03-27,1,Tenterfield
+0,2020-03-22,1,Port Stephens
+1,2020-03-23,3,Port Stephens
+2,2020-03-24,4,Port Stephens
+3,2020-03-25,3,Port Stephens
+4,2020-03-26,3,Port Stephens
+5,2020-03-27,2,Port Stephens
+6,2020-03-28,5,Port Stephens
+7,2020-03-29,2,Port Stephens
+8,2020-03-30,1,Port Stephens
+9,2020-03-31,1,Port Stephens
+10,2020-04-01,2,Port Stephens
+11,2020-04-02,1,Port Stephens
+12,2020-04-04,2,Port Stephens
+13,2020-04-07,1,Port Stephens
+14,2020-04-08,1,Port Stephens
+15,2020-04-10,1,Port Stephens
+16,2020-07-21,1,Port Stephens
+17,2020-07-22,3,Port Stephens
+18,2020-07-27,1,Port Stephens
+19,2020-07-28,1,Port Stephens
+20,2020-07-29,1,Port Stephens
+21,2020-11-08,1,Port Stephens
+22,2020-12-10,1,Port Stephens
+23,2021-01-11,1,Port Stephens
+24,2021-04-28,1,Port Stephens
+25,2021-05-01,1,Port Stephens
+26,2021-05-02,1,Port Stephens
+0,2020-03-22,2,Tamworth Regional
+1,2020-03-23,1,Tamworth Regional
+2,2020-03-24,4,Tamworth Regional
+3,2020-03-25,1,Tamworth Regional
+4,2020-03-26,1,Tamworth Regional
+5,2020-03-27,1,Tamworth Regional
+6,2020-03-28,1,Tamworth Regional
+7,2020-03-29,1,Tamworth Regional
+8,2020-04-17,1,Tamworth Regional
+0,2020-03-23,1,Kempsey
+1,2020-03-27,1,Kempsey
+2,2020-03-30,1,Kempsey
+3,2020-04-01,1,Kempsey
+0,2020-03-23,2,Inverell
+1,2020-03-25,1,Inverell
+2,2020-11-02,1,Inverell
+3,2021-07-01,1,Inverell
+0,2020-03-23,1,Lithgow
+1,2020-04-02,1,Lithgow
+2,2020-04-03,1,Lithgow
+3,2020-04-22,1,Lithgow
+4,2020-11-29,1,Lithgow
+5,2020-12-01,1,Lithgow
+6,2021-05-07,1,Lithgow
+0,2020-03-23,2,Dubbo Regional
+1,2020-03-25,3,Dubbo Regional
+2,2021-04-27,2,Dubbo Regional
+3,2021-05-04,1,Dubbo Regional
+0,2020-03-23,1,Nambucca
+1,2020-03-31,1,Nambucca
+2,2020-04-02,1,Nambucca
+0,2020-03-23,1,Mid-Western Regional
+1,2020-03-25,1,Mid-Western Regional
+2,2020-03-28,2,Mid-Western Regional
+3,2020-04-15,1,Mid-Western Regional
+4,2020-04-16,1,Mid-Western Regional
+0,2020-03-23,1,Warrumbungle Shire
+1,2020-03-27,1,Warrumbungle Shire
+0,2020-03-23,1,Lismore
+1,2020-03-25,1,Lismore
+2,2020-03-27,2,Lismore
+3,2020-03-29,1,Lismore
+4,2020-07-15,1,Lismore
+0,2020-03-24,1,Cabonne
+1,2020-03-27,1,Cabonne
+2,2020-04-04,3,Cabonne
+3,2021-07-20,1,Cabonne
+0,2020-03-24,1,Griffith
+1,2020-03-26,2,Griffith
+0,2020-03-24,2,Federation
+1,2020-03-26,2,Federation
+2,2020-03-27,2,Federation
+3,2020-03-31,1,Federation
+0,2020-03-24,1,Cootamundra-Gundagai Regional
+1,2020-04-09,1,Cootamundra-Gundagai Regional
+0,2020-03-24,2,Wagga Wagga
+1,2020-03-25,1,Wagga Wagga
+2,2020-03-26,1,Wagga Wagga
+3,2020-03-30,4,Wagga Wagga
+4,2020-03-31,1,Wagga Wagga
+5,2020-04-02,1,Wagga Wagga
+6,2020-08-01,1,Wagga Wagga
+7,2020-08-02,3,Wagga Wagga
+8,2020-09-07,1,Wagga Wagga
+9,2020-12-04,2,Wagga Wagga
+10,2021-02-27,1,Wagga Wagga
+11,2021-05-21,1,Wagga Wagga
+0,2020-03-24,2,Singleton
+1,2020-03-28,1,Singleton
+2,2020-04-02,1,Singleton
+3,2020-07-28,1,Singleton
+4,2021-07-27,1,Singleton
+0,2020-03-25,2,Glen Innes Severn
+1,2021-06-26,1,Glen Innes Severn
+0,2020-03-25,1,Upper Hunter Shire
+1,2020-09-10,1,Upper Hunter Shire
+2,2020-11-16,1,Upper Hunter Shire
+0,2020-03-25,1,Weddin
+0,2020-03-25,1,Wollondilly
+1,2020-03-26,1,Wollondilly
+2,2020-05-02,1,Wollondilly
+3,2020-05-09,1,Wollondilly
+4,2020-07-12,1,Wollondilly
+5,2020-07-13,3,Wollondilly
+6,2020-07-19,1,Wollondilly
+7,2020-08-11,1,Wollondilly
+8,2020-08-16,1,Wollondilly
+9,2020-09-06,1,Wollondilly
+10,2020-10-07,2,Wollondilly
+11,2020-10-13,1,Wollondilly
+12,2020-10-14,1,Wollondilly
+13,2021-07-13,1,Wollondilly
+14,2021-07-25,1,Wollondilly
+0,2020-03-25,1,Snowy Monaro Regional
+1,2020-03-26,4,Snowy Monaro Regional
+2,2020-03-30,1,Snowy Monaro Regional
+3,2020-11-29,1,Snowy Monaro Regional
+4,2020-11-30,1,Snowy Monaro Regional
+5,2020-12-22,1,Snowy Monaro Regional
+6,2021-01-06,1,Snowy Monaro Regional
+7,2021-01-11,1,Snowy Monaro Regional
+0,2020-03-25,1,Narromine
+0,2020-03-25,2,Greater Hume Shire
+1,2020-03-29,1,Greater Hume Shire
+0,2020-03-26,1,Muswellbrook
+0,2020-03-26,2,Yass Valley
+1,2020-03-29,4,Yass Valley
+2,2020-11-02,1,Yass Valley
+3,2020-11-03,1,Yass Valley
+0,2020-03-26,1,Warren
+0,2020-03-27,2,Upper Lachlan Shire
+1,2020-03-31,1,Upper Lachlan Shire
+0,2020-03-27,2,Murrumbidgee
+1,2020-03-28,1,Murrumbidgee
+0,2020-03-28,1,Hay
+0,2020-03-28,1,Bellingen
+0,2020-03-28,1,Armidale Regional
+1,2020-04-06,1,Armidale Regional
+2,2020-04-10,1,Armidale Regional
+3,2020-04-17,1,Armidale Regional
+4,2021-01-10,1,Armidale Regional
+0,2020-03-29,1,Berrigan
+1,2020-03-31,1,Berrigan
+2,2020-04-02,1,Berrigan
+3,2020-04-03,2,Berrigan
+0,2020-03-30,1,Narrandera
+0,2020-03-31,1,Richmond Valley
+1,2020-04-28,1,Richmond Valley
+0,2020-03-31,1,Broken Hill
+1,2020-04-02,1,Broken Hill
+0,2020-03-31,1,Uralla
+0,2020-04-01,2,Hilltops
+0,2020-04-02,1,Gunnedah
+1,2021-07-17,1,Gunnedah
+0,2020-04-06,1,Parkes
+1,2020-08-08,1,Parkes
+0,2020-04-17,1,Moree Plains
+0,2020-07-11,1,Snowy Valleys
+0,2020-07-16,1,Junee
+0,2020-09-02,1,Temora
+0,2020-11-27,1,Coonamble

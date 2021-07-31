@@ -3,108 +3,51 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/c;charset=utf-8">
-    <style>
-        ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #6d87eb;
-        }
-
-        li {
-            float: left;
-            border-right: 1px solid #bbb;
-        }
-
-            li:first-child {
-                border-right: none;
-            }
-
-            li a {
-                display: block;
-                color: white;
-                text-align: center;
-                padding: 14px 16px;
-                text-decoration: none;
-            }
-
-                li a:hover:not(.active) {
-                    background-color: #0026ff;
-                }
-
-        .active {
-            background-color: #04AA6D;
-        }
-
-        ulb {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            overflow: hidden;
-            background-color: #0094ff;
-        }
-
-        lib {
-            float: left;
-        }
-
-            lib b {
-                display: block;
-                color: blue;
-                text-align: center;
-                padding: 10px 16px;
-                text-decoration: none;
-            }
-        .button {
-            background-color: #4CAF50; /* Green */
-            border: none;
-            color: white;
-            padding: 5px;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 12px;
-            margin: 1px 2px;
-            cursor: pointer;
-        }
-        .button {
-            transition-duration: 0.4s;
-        }
-
-            .button:hover {
-                background-color: #ede81a; /* Green */
-                color: darkblue;
-            }
-        .button1 {
-            border-radius: 8px;
-        }
-    </style>
 </head>
 
 <body onload='init()'>
     <div id="top"><img src="./files/Heading.png" alt="" width="600" height="40"></div>
-    <ul>
-        <li><a>Data Range: January 2020 - July 2021</a></li>
-        <li style="float:right"><a href="stage3.html">Reflesh Page</a></li>
-        <li style="float:right"><a href="stage2.html">Second Stage</a></li>
-        <li style="float:right"><a href="index.html">First Stage</a></li>
-    </ul>
-    <ulb>
-        <lib><b>Filter Data by: </b></lib>
-        <lib><b>LGA name: <select id="selectButton">                       </select></b></lib>
-        <lib><b>From Date: <input type="date" id="fromDate" name="fromDate"></b></lib>
-        <lib><b>To Date: <input type="date" id="toDate" name="fromDate"></b></lib>
-        <lib><b><button id="FilterData" class="button button1">Filter Data</button></b></lib>
+    <div>
+        Data Range: January 2020 - July 2021
 
-     </ulb>
-
+        <a class="block" href="./Index.html">Back to the First Wave</a>
+        <a class="block" href="./stage3.html">Refresh Page to View Message Again</a>
+    </div>
     <svg width="1100" height="500"></svg>
-
+    <div width="600" height="100">
+        <div>
+            Filter data based on LGA and/or date range:
+        </div>
+        <div>
+            Select LGA name:
+            <select id="selectButton">                       </select>
+        </div>
+        <div>
+            From Date:
+            <input type="date" id="fromDate" name="fromDate">
+            To Date:
+            <input type="date" id="toDate" name="toDate">
+            <button id="FilterData">Filter Data</button>
+        </div>
+    </div>
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://d3js.org/d3-voronoi.v1.min.js"></script>
     <!-- Load d3-annotation -->
     <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
+
+    <script>
+        d3.csv('https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/test.csv')
+            .then(function (data) {
+                for (var i = 0; i < data.length; i++) {
+                    console.log(data[i].TX);
+                    console.log(data[i].TY);
+                }
+            })
+            .catch(function (error) {
+                // handle error
+            })
+    </script>
+
     <script>
         async function init() {
             //https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/confirmed_cases_table1_location.csv //https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/test.csv d3.csv("https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/confirmed_cases_table1_location.csv") .then(function (data) {
@@ -124,7 +67,7 @@
                     data_Filtered2 = data2.filter(function (d) { if (d.SType == "All") return d; });
                     data_Filtered3 = data3.filter(function (d) { if (d.SType == "All") return d; });
                     data_Filtered = data.filter(function (d) { if (d.SType == "All") return d; });
-                    //console.log("data is: " + data);
+                    console.log("data is: " + data);
                     var svg = d3.select("svg"),
                         margin = 200,
                         width = svg.attr("width") - margin,
@@ -217,7 +160,7 @@
 
                     addChart2(data_Filtered2);
                     addChart3(data_Filtered3);
-                    //console.log("yScale(3) is:" + yScale(3));
+                    console.log("yScale(3) is:" + yScale(3));
 
                     // annotations 1
                     const annotations = [
@@ -228,7 +171,7 @@
                                 wrap: 290
 
                             },
-                            color: ["#FCDDDD"],
+                            color: ["#CC0000"],
                             connector: { end: "arrow" },
                             x: xScale(parseTime2("3/31/2020")) + margin / 2,
                             y: yScale(118) + margin / 2 - 10,
@@ -258,7 +201,7 @@
                                 wrap: 290
                             },
                             connector: { end: "arrow" },
-                            color: ["#CEFCC0"],
+                            color: ["#008000"],
                             //x: 350,
                             //y: 100,
                             //dy: 50,
@@ -279,7 +222,7 @@
                         {
                             note: {
                                 label: "The first case caused by Delta variant appeared in mid June and this variant spread quickly. Greater Sydney is locked down two weeks after the first case, but the case number keeps increasing rapidly. We cannot see the end at this stage.",
-                                title: "The Delta Variant Outbreak",
+                                title: "The Second Wave",
                                 wrap: 290
                             },
                             connector: { end: "arrow" },
@@ -299,8 +242,8 @@
                     ////tooltips
 
                     margin = 100;
-                    //console.log("width + margin is " + (width + margin));
-                    //console.log("height + margin is " + (height + margin));
+                    console.log("width + margin is " + (width + margin));
+                    console.log("height + margin is " + (height + margin));
                     const voronoi = d3.voronoi()
                         .x(function (d) { return xScale(parseTime(d.notification_date)); })
                         .y(function (d) { return yScale(d.TY); })
@@ -322,14 +265,13 @@
                             annotation = [
                                 {
                                     note: {
-                                        label: "Case Number on this date: " + d.data.TY,
+                                        label: "Case Number: " + d.data.TY,
                                         wrapSplitter: /\n/,
                                         title: "Date: " + d.data.notification_date,
                                         wrap: 150
                                     },
                                     connector: { end: "arrow" },
                                     type: d3.annotationCalloutElbow,
-                                    color: ["#091335"],
                                     x: xScale(parseTime(d.data.notification_date)) + margin,
                                     y: yScale(d.data.TY) + margin,
                                     dy: yScale(d.data.TY) + margin < 450 ? -18 : -120,
@@ -342,6 +284,14 @@
                             makeAnnotations = d3.annotation().annotations(annotation);
                             d3.select("svg").append("g").attr("class", "annotation-group").call(makeAnnotations);
 
+                            //d3.select("svg")
+                            // .append("g")
+                            // .call(makeAnnotations)
+
+
+                            //console.log(makeAnnotations.annotations());
+
+                            //console.log(d.data.AverageCityMPG);
                         })
                         .on('mouseout', function (d) {
                             makeAnnotations.annotations([]);
@@ -350,8 +300,8 @@
                     var allGroup = [];
                     //allGroup.push("All");
                     //allGroup = allGroup.concat(d3.map(data, function (d) { return (d.SType) }).keys().sort());
-                    allGroup = ['All', 'Albury', 'Armidale Regional', 'Ballina', 'Bathurst Regional', 'Bayside', 'Bega Valley', 'Bellingen', 'Berrigan', 'Blacktown', 'Blayney', 'Blue Mountains', 'Broken Hill', 'Burwood', 'Byron', 'Cabonne', 'Camden', 'Campbelltown', 'Canada Bay', 'Canterbury-Bankstown', 'Central Coast', 'Cessnock', 'Clarence Valley', 'Coffs Harbour', 'Coonamble', 'Cootamundra-Gundagai Regional', 'Cumberland', 'Dubbo Regional', 'Dungog', 'Eurobodalla', 'Fairfield', 'Federation', 'Georges River', 'Glen Innes Severn', 'Goulburn Mulwaree', 'Greater Hume Shire', 'Griffith', 'Gunnedah', 'Hawkesbury', 'Hay', 'Hilltops', 'Hornsby', 'Hunters Hill', 'Inner West', 'Inverell', 'Junee', 'Kempsey', 'Kiama', 'Ku-ring-gai', 'Lake Macquarie', 'Lane Cove', 'Lismore', 'Lithgow', 'Liverpool', 'Liverpool Plains', 'Maitland', 'Mid-Coast', 'Mid-Western Regional', 'Moree Plains', 'Mosman', 'Murrumbidgee', 'Muswellbrook', 'Nambucca', 'Narrandera', 'Narromine', 'Newcastle', 'North Sydney', 'Northern Beaches', 'Orange', 'Parkes', 'Parramatta', 'Penrith', 'Port Macquarie-Hastings', 'Port Stephens', 'Queanbeyan-Palerang Regional', 'Randwick', 'Richmond Valley', 'Ryde', 'Shellharbour', 'Shoalhaven', 'Singleton', 'Snowy Monaro Regional', 'Snowy Valleys', 'Strathfield', 'Sutherland Shire', 'Sydney', 'Tamworth Regional', 'Temora', 'Tenterfield', 'The Hills Shire', 'Tweed', 'Upper Hunter Shire', 'Upper Lachlan Shire', 'Uralla', 'Wagga Wagga', 'Warren', 'Warrumbungle Shire', 'Waverley', 'Weddin', 'Willoughby', 'Wingecarribee', 'Wollondilly', 'Wollongong', 'Woollahra', 'Yass Valley']
-                    //console.log("allGroup is: " + allGroup[1]);
+                    allGroup = ['All','Albury', 'Armidale Regional', 'Ballina', 'Bathurst Regional', 'Bayside', 'Bega Valley', 'Bellingen', 'Berrigan', 'Blacktown', 'Blayney', 'Blue Mountains', 'Broken Hill', 'Burwood', 'Byron', 'Cabonne', 'Camden', 'Campbelltown', 'Canada Bay', 'Canterbury-Bankstown', 'Central Coast', 'Cessnock', 'Clarence Valley', 'Coffs Harbour', 'Coonamble', 'Cootamundra-Gundagai Regional', 'Cumberland', 'Dubbo Regional', 'Dungog', 'Eurobodalla', 'Fairfield', 'Federation', 'Georges River', 'Glen Innes Severn', 'Goulburn Mulwaree', 'Greater Hume Shire', 'Griffith', 'Gunnedah', 'Hawkesbury', 'Hay', 'Hilltops', 'Hornsby', 'Hunters Hill', 'Inner West', 'Inverell', 'Junee', 'Kempsey', 'Kiama', 'Ku-ring-gai', 'Lake Macquarie', 'Lane Cove', 'Lismore', 'Lithgow', 'Liverpool', 'Liverpool Plains', 'Maitland', 'Mid-Coast', 'Mid-Western Regional', 'Moree Plains', 'Mosman', 'Murrumbidgee', 'Muswellbrook', 'Nambucca', 'Narrandera', 'Narromine', 'Newcastle', 'North Sydney', 'Northern Beaches', 'Orange', 'Parkes', 'Parramatta', 'Penrith', 'Port Macquarie-Hastings', 'Port Stephens', 'Queanbeyan-Palerang Regional', 'Randwick', 'Richmond Valley', 'Ryde', 'Shellharbour', 'Shoalhaven', 'Singleton', 'Snowy Monaro Regional', 'Snowy Valleys', 'Strathfield', 'Sutherland Shire', 'Sydney', 'Tamworth Regional', 'Temora', 'Tenterfield', 'The Hills Shire', 'Tweed', 'Upper Hunter Shire', 'Upper Lachlan Shire', 'Uralla', 'Wagga Wagga', 'Warren', 'Warrumbungle Shire', 'Waverley', 'Weddin', 'Willoughby', 'Wingecarribee', 'Wollondilly', 'Wollongong', 'Woollahra', 'Yass Valley']
+                    console.log("allGroup is: " + allGroup[1]);
                     d3.select("#selectButton")
                         .selectAll('myOptions')
                         .data(allGroup)
@@ -361,7 +311,7 @@
                         .attr("value", function (d) { return d; }); // corresponding value returned by the button
 
                     function addChart2(chart2data) {
-                        //console.log("adding chart2")
+                        console.log("adding chart2")
 
                         // Update X axis based on xScale
                         //xAxis.transition().duration(10).call(d3.axisBottom(xScale).ticks(ts));
@@ -410,7 +360,7 @@
                             */
                     };
                     function addChart3(chart3data) {
-                        //console.log("adding chart3")
+                        console.log("adding chart3")
 
                         // Update X axis based on xScale
                         //xAxis.transition().duration(10).call(d3.axisBottom(xScale).ticks(ts));
@@ -581,19 +531,19 @@
                         // recover the option that has been chosen
                         var selectedOption = document.getElementById('selectButton');
                         var selected_lga = selectedOption.options[selectedOption.selectedIndex].value
-                        //console.log("selection option is: " + selectedOption.options[selectedOption.selectedIndex].value);
+                        console.log("selection option is: " + selectedOption.options[selectedOption.selectedIndex].value);
                         var parseDate = d3.timeParse("%Y-%m-%d");
                         var selected_fromDate = document.getElementById('fromDate').value;
                         var selected_toDate = document.getElementById('toDate').value;
                         if (!selected_fromDate) {
                             selected_fromDate = "2020-01-01";
-                            //console.log("from date is empty");
+                            console.log("from date is empty");
                         };
                         if (!selected_toDate) {
-                            selected_toDate = "2021-08-01";
-                            //console.log("to date is empty");
+                            selected_toDate = "2021-09-01";
+                            console.log("to date is empty");
                         };
-                        //console.log("from Date is: " + selected_fromDate);
+                        console.log("from Date is: " + selected_fromDate);
                         //var selectedOption = d3.select(this).property("value");
                         // run the updateChart function with this selected option
                         updateChart(selected_lga, parseDate(selected_fromDate), parseDate(selected_toDate));

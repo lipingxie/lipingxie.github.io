@@ -2,12 +2,72 @@
 <html>
 <head>
     <meta http-equiv="Content-Type" content="text/c;charset=utf-8">
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #6d87eb;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid #bbb;
+        }
+
+            li:first-child {
+                border-right: none;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover:not(.active) {
+                    background-color: #0026ff;
+                }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        ulb {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #0094ff;
+        }
+
+        lib {
+            float: left;
+        }
+
+            lib b {
+                display: block;
+                color: blue;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+    </style>
 </head>
 
 <body onload='init()'>
     <div id="top"><img src="./files/Heading.png" alt="" width="600" height="40"></div>
-    Data Range: January 2020 - May 2021
-    <a type="button" class="block" href="./stage3.html">Click to View Next Stage</a>
+    <ul>
+        <li><a>Data Range: January 2020 - May 2021</a></li>
+        <li style="float:right"><a href="stage3.html">Click to View Last Stage</a></li>
+        <li style="float:right"><a href="index.html">Click to View First Stage</a></li>
+    </ul>
+    <ulb>
+        <lib><b>View how the new Covid-19 cases number changes over time, and get further details at the end. </b></lib>
+    </ulb>
     <div width="600" height="100"></div>
 
     <svg width="1100" height="500"></svg>
@@ -35,7 +95,7 @@
                     data_Filtered2 = data2.filter(function (d) { if (d.SType == "All") return d; });
                     data_Filtered3 = data3.filter(function (d) { if (d.SType == "All") return d; });
                     data_Filtered = data.filter(function (d) { if (d.SType == "All") return d; });
-                    console.log("data is: " + data);
+                    //console.log("data is: " + data);
                     var svg = d3.select("svg"),
                         margin = 200,
                         width = svg.attr("width") - margin,
@@ -127,7 +187,7 @@
                         .style("stroke-width", "2");
 
                     addChart2(data_Filtered2);
-                    console.log("yScale(3) is:" + yScale(3));
+                    //console.log("yScale(3) is:" + yScale(3));
 
                     // annotations 1
                     const annotations = [
@@ -138,7 +198,7 @@
                                 wrap: 290
 
                             },
-                            color: ["#CC0000"],
+                            color: ["#FCDDDD"],
                             connector: { end: "arrow" },
                             x: xScale(parseTime2("3/31/2020")) + margin / 2,
                             y: yScale(118) + margin / 2 - 10,
@@ -190,7 +250,7 @@
 
 
                     function addChart2(chart2data) {
-                        console.log("adding chart2")
+                        //console.log("adding chart2")
 
                         // Update X axis based on xScale
                         //xAxis.transition().duration(10).call(d3.axisBottom(xScale).ticks(ts));
