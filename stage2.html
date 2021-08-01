@@ -66,7 +66,7 @@
         <li style="float:right"><a href="index.html">Click to View First Stage</a></li>
     </ul>
     <ulb>
-        <lib><b>View how the new Covid-19 cases number changes over time, and get further details at the end. </b></lib>
+        <lib><b>View how the new Covid-19 cases number changes over time, and at the end, you can filter the data for more details.</b></lib>
     </ulb>
     <div width="600" height="100"></div>
 
@@ -86,7 +86,7 @@
                     data1 = data.filter(function (d) { if (parseTime(d.notification_date) <= parseTime2("5/31/2020")) return d; })
                     data2 = data.filter(function (d) {
                         if (parseTime(d.notification_date) >= parseTime2("5/31/2020")
-                            && parseTime(d.notification_date) <= parseTime2("5/31/2021")) return d;
+                            && parseTime(d.notification_date) <= parseTime2("6/01/2021")) return d;
                     })
                     data3 = data.filter(function (d) {
                         if (parseTime(d.notification_date) >= parseTime("5/31/2021")) return d;
@@ -140,7 +140,7 @@
                         .attr('transform', 'translate(60,' + height + ')rotate(-90)')
                         .style('font-family', 'Helvetica')
                         .style('font-size', 12)
-                        .text('Total Case Number');
+                        .text('Case Number');
 
                     //Add axis
                     h = height + 100
@@ -193,7 +193,7 @@
                     const annotations = [
                         {
                             note: {
-                                label: "The first case was on 1/25/2020. The first wave happened around March and April 2020. The situation got under control after the lockdown of the Greater Sydney Area.",
+                                label: "The first case appeared on 1/25/2020. The first wave happened around March and April 2020. The situation got under control after the lockdown of the Greater Sydney Area.",
                                 title: "The First Outbreak",
                                 wrap: 290
 

@@ -115,7 +115,7 @@
                     data1 = data.filter(function (d) { if (parseTime(d.notification_date) <= parseTime2("5/31/2020")) return d; })
                     data2 = data.filter(function (d) {
                         if (parseTime(d.notification_date) >= parseTime2("5/31/2020")
-                            && parseTime(d.notification_date) <= parseTime2("6/01/2021")) return d;
+                            && parseTime(d.notification_date) <= parseTime2("6/02/2021")) return d;
                     })
                     data3 = data.filter(function (d) {
                         if (parseTime(d.notification_date) >= parseTime2("5/31/2021")) return d;
@@ -169,7 +169,7 @@
                         .attr('transform', 'translate(60,' + height + ')rotate(-90)')
                         .style('font-family', 'Helvetica')
                         .style('font-size', 12)
-                        .text('Total Case Number');
+                        .text('Case Number');
 
                     //Add axis
                     h = height + 100
@@ -223,7 +223,7 @@
                     const annotations = [
                         {
                             note: {
-                                label: "The first case was on 1/25/2020. The first wave happened around March and April 2020. The situation got under control after the lockdown of the Greater Sydney Area.",
+                                label: "The first case appeared on 1/25/2020. The first wave happened around March and April 2020. The situation got under control after the lockdown of the Greater Sydney Area.",
                                 title: "The First Outbreak",
                                 wrap: 290
 
@@ -348,9 +348,17 @@
                             d3.selectAll('.annotation-group').remove();
                         });
                     var allGroup = [];
-                    //allGroup.push("All");
-                    //allGroup = allGroup.concat(d3.map(data, function (d) { return (d.SType) }).keys().sort());
-                    allGroup = ['All', 'Albury', 'Armidale Regional', 'Ballina', 'Bathurst Regional', 'Bayside', 'Bega Valley', 'Bellingen', 'Berrigan', 'Blacktown', 'Blayney', 'Blue Mountains', 'Broken Hill', 'Burwood', 'Byron', 'Cabonne', 'Camden', 'Campbelltown', 'Canada Bay', 'Canterbury-Bankstown', 'Central Coast', 'Cessnock', 'Clarence Valley', 'Coffs Harbour', 'Coonamble', 'Cootamundra-Gundagai Regional', 'Cumberland', 'Dubbo Regional', 'Dungog', 'Eurobodalla', 'Fairfield', 'Federation', 'Georges River', 'Glen Innes Severn', 'Goulburn Mulwaree', 'Greater Hume Shire', 'Griffith', 'Gunnedah', 'Hawkesbury', 'Hay', 'Hilltops', 'Hornsby', 'Hunters Hill', 'Inner West', 'Inverell', 'Junee', 'Kempsey', 'Kiama', 'Ku-ring-gai', 'Lake Macquarie', 'Lane Cove', 'Lismore', 'Lithgow', 'Liverpool', 'Liverpool Plains', 'Maitland', 'Mid-Coast', 'Mid-Western Regional', 'Moree Plains', 'Mosman', 'Murrumbidgee', 'Muswellbrook', 'Nambucca', 'Narrandera', 'Narromine', 'Newcastle', 'North Sydney', 'Northern Beaches', 'Orange', 'Parkes', 'Parramatta', 'Penrith', 'Port Macquarie-Hastings', 'Port Stephens', 'Queanbeyan-Palerang Regional', 'Randwick', 'Richmond Valley', 'Ryde', 'Shellharbour', 'Shoalhaven', 'Singleton', 'Snowy Monaro Regional', 'Snowy Valleys', 'Strathfield', 'Sutherland Shire', 'Sydney', 'Tamworth Regional', 'Temora', 'Tenterfield', 'The Hills Shire', 'Tweed', 'Upper Hunter Shire', 'Upper Lachlan Shire', 'Uralla', 'Wagga Wagga', 'Warren', 'Warrumbungle Shire', 'Waverley', 'Weddin', 'Willoughby', 'Wingecarribee', 'Wollondilly', 'Wollongong', 'Woollahra', 'Yass Valley']
+                    var allGroup2 = [];
+                    allGroup.push("All");
+                    allGroup2 = d3.map(data, function (d) { return (d.SType) }).keys().sort();
+                    var allGroup2 = allGroup2.filter(function (value, index, arr) {
+                        return value != "All";
+                    });
+                    allGroup = allGroup.concat(allGroup2)
+                    //allGroup2 = allGroup2.concat(d3.map(data, function (d) { return (d.SType) }).keys().sort());
+
+                    //console.log("allGroup2: " + allGroup);
+                    //allGroup = ['All', 'Albury', 'Armidale Regional', 'Ballina', 'Bathurst Regional', 'Bayside', 'Bega Valley', 'Bellingen', 'Berrigan', 'Blacktown', 'Blayney', 'Blue Mountains', 'Broken Hill', 'Burwood', 'Byron', 'Cabonne', 'Camden', 'Campbelltown', 'Canada Bay', 'Canterbury-Bankstown', 'Central Coast', 'Cessnock', 'Clarence Valley', 'Coffs Harbour', 'Coonamble', 'Cootamundra-Gundagai Regional', 'Cumberland', 'Dubbo Regional', 'Dungog', 'Eurobodalla', 'Fairfield', 'Federation', 'Georges River', 'Glen Innes Severn', 'Goulburn Mulwaree', 'Greater Hume Shire', 'Griffith', 'Gunnedah', 'Hawkesbury', 'Hay', 'Hilltops', 'Hornsby', 'Hunters Hill', 'Inner West', 'Inverell', 'Junee', 'Kempsey', 'Kiama', 'Ku-ring-gai', 'Lake Macquarie', 'Lane Cove', 'Lismore', 'Lithgow', 'Liverpool', 'Liverpool Plains', 'Maitland', 'Mid-Coast', 'Mid-Western Regional', 'Moree Plains', 'Mosman', 'Murrumbidgee', 'Muswellbrook', 'Nambucca', 'Narrandera', 'Narromine', 'Newcastle', 'North Sydney', 'Northern Beaches', 'Orange', 'Parkes', 'Parramatta', 'Penrith', 'Port Macquarie-Hastings', 'Port Stephens', 'Queanbeyan-Palerang Regional', 'Randwick', 'Richmond Valley', 'Ryde', 'Shellharbour', 'Shoalhaven', 'Singleton', 'Snowy Monaro Regional', 'Snowy Valleys', 'Strathfield', 'Sutherland Shire', 'Sydney', 'Tamworth Regional', 'Temora', 'Tenterfield', 'The Hills Shire', 'Tweed', 'Upper Hunter Shire', 'Upper Lachlan Shire', 'Uralla', 'Wagga Wagga', 'Warren', 'Warrumbungle Shire', 'Waverley', 'Weddin', 'Willoughby', 'Wingecarribee', 'Wollondilly', 'Wollongong', 'Woollahra', 'Yass Valley']
                     //console.log("allGroup is: " + allGroup[1]);
                     d3.select("#selectButton")
                         .selectAll('myOptions')
@@ -518,7 +526,7 @@
                             .attr("cy", function (d) { return yScale(d.TY); })
                             .attr("r", 2)
                             .attr("transform", "translate(" + 100 + "," + 100 + ")")
-                            .style("fill", "#CC0000");
+                            .style("fill", "#5D3C91");
 
                         // Plot Line
                         var line = d3.line()
@@ -532,7 +540,7 @@
                             .attr("transform", "translate(100, 100)")
                             .attr("d", line)
                             .style("fill", "none")
-                            .style("stroke", "#CC0000")
+                            .style("stroke", "#5D3C91")
                             .style("stroke-width", "2");
 
                         //reset voronoi

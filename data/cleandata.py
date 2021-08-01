@@ -8,7 +8,7 @@ dtypes = {
 }
 
 df = pd.read_csv(
-    "confirmed_cases_2807_2.csv",
+    "confirmed_cases_3107.csv",
     dtype=dtypes,
     usecols=list(dtypes) + ["notification_date", "TY"],
     parse_dates=["notification_date"]
@@ -29,5 +29,5 @@ for lga in lga_list:
     df2["SType"]=lga
     df1 = df1.append(df2)
 
-df1.to_csv('confirmed_cases_result_2807_2.csv', index=True, encoding='utf-8')
+df1.to_csv('confirmed_cases_3107_result.csv', index=True, encoding='utf-8')
 
