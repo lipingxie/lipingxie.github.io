@@ -3,14 +3,13 @@ from collections import defaultdict
 
 
 dtypes = {
-    "lga_name19": "category",
-    "SType": "category"
+    "lga_name19": "category"
 }
 
 df = pd.read_csv(
-    "confirmed_cases_3107.csv",
+    "confirmed_cases_14082021.csv",
     dtype=dtypes,
-    usecols=list(dtypes) + ["notification_date", "TY"],
+    usecols=list(dtypes) + ["notification_date"],
     parse_dates=["notification_date"]
 )
 
@@ -29,5 +28,5 @@ for lga in lga_list:
     df2["SType"]=lga
     df1 = df1.append(df2)
 
-df1.to_csv('confirmed_cases_3107_result.csv', index=True, encoding='utf-8')
+df1.to_csv('confirmed_cases_14082021_result.csv', index=True, encoding='utf-8')
 

@@ -1,56 +1,130 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta http-equiv="Content-Type" content="text/c;charset=utf-8">
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #6d87eb;
+        }
+
+        li {
+            float: left;
+            border-right: 1px solid #bbb;
+        }
+
+            li:first-child {
+                border-right: none;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+                li a:hover:not(.active) {
+                    background-color: #0026ff;
+                }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        ulb {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #0094ff;
+        }
+
+        lib {
+            float: left;
+        }
+
+            lib b {
+                display: block;
+                color: blue;
+                text-align: center;
+                padding: 10px 16px;
+                text-decoration: none;
+            }
+        .button {
+            background-color: #4CAF50; /* Green */
+            border: none;
+            color: white;
+            padding: 5px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            margin: 1px 2px;
+            cursor: pointer;
+        }
+        .button {
+            transition-duration: 0.4s;
+        }
+
+            .button:hover {
+                background-color: #ede81a; /* Green */
+                color: darkblue;
+            }
+        .button1 {
+            border-radius: 8px;
+        }
+    </style>
 </head>
 
 <body onload='init()'>
-    <div id="top"><img src="./files/Heading.png" alt="" width="600" height="50"></div>
-    <div width="600" height="100">
-        <div>
-            <a class="block" href="./stage3.html">Click to Last Stage</a>
-        </div>
-        <div>
-            Filter data based on LGA and/or date range:
-        </div>
-        <div>
-            Select LGA name:
-            <select id="selectButton">                       </select>
-        </div>
-        <div>
-            From Date:
-            <input type="date" id="fromDate" name="fromDate">
-            To Date:
-            <input type="date" id="toDate" name="toDate">
-            <button id="selectButton2">Filter Data</button>
-        </div>
-    </div>
+    <div id="top"><img src="./files/Heading.png" alt="" width="600" height="40"></div>
+    <ul>
+        <li><a>Data Range: January 2020 - July 2021</a></li>
+        <li style="float:right"><a href="stage3.html">Refresh Page</a></li>
+        <li style="float:right"><a href="stage2.html">Second Stage</a></li>
+        <li style="float:right"><a href="index.html">First Stage</a></li>
+    </ul>
+    <ulb>
+        <lib><b>Filter Data by: </b></lib>
+        <lib><b>LGA name: <select id="selectButton">                       </select></b></lib>
+        <lib><b>From Date: <input type="date" id="fromDate" name="fromDate"></b></lib>
+        <lib><b>To Date: <input type="date" id="toDate" name="fromDate"></b></lib>
+        <lib><b><button id="FilterData" class="button button1">Filter Data</button></b></lib>
+
+     </ulb>
+
     <svg width="1100" height="500"></svg>
+
     <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/d3-voronoi.v1.min.js"></script>
     <!-- Load d3-annotation -->
     <script src="https://rawgit.com/susielu/d3-annotation/master/d3-annotation.min.js"></script>
-    <script src="https://d3js.org/d3-voronoi.v1.min.js"></script>
-
     <script>
         async function init() {
-            //https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/confirmed_cases_table1_location.csv
-            //https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/test.csv
-            d3.csv("https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/test.csv")
+            //https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/confirmed_cases_table1_location.csv //https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/test.csv d3.csv("https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/confirmed_cases_table1_location.csv") .then(function (data) {
+            d3.csv("https://raw.githubusercontent.com/lipingxie/lipingxie.github.io/main/data/confirmed_cases_3107_result.csv")
                 .then(function (data) {
-                    var parseTime = d3.timeParse("%m/%d/%Y");
-                    data1 = data.filter(function (d) { if (parseTime(d.notification_date) <= parseTime("5/31/2020")) return d; })
+                    var parseTime2 = d3.timeParse("%m/%d/%Y");
+                    var parseTime = d3.timeParse("%Y-%m-%d");
+                    data1 = data.filter(function (d) { if (parseTime(d.notification_date) <= parseTime2("5/31/2020")) return d; })
                     data2 = data.filter(function (d) {
-                        if (parseTime(d.notification_date) >= parseTime("5/31/2020")
-                            && parseTime(d.notification_date) <= parseTime("5/31/2021")) return d;
+                        if (parseTime(d.notification_date) >= parseTime2("5/31/2020")
+                            && parseTime(d.notification_date) <= parseTime2("6/02/2021")) return d;
                     })
                     data3 = data.filter(function (d) {
-                        if (parseTime(d.notification_date) >= parseTime("5/31/2021")) return d;
+                        if (parseTime(d.notification_date) >= parseTime2("5/31/2021")) return d;
                     })
                     data_Filtered1 = data1.filter(function (d) { if (d.SType == "All") return d; });
                     data_Filtered2 = data2.filter(function (d) { if (d.SType == "All") return d; });
                     data_Filtered3 = data3.filter(function (d) { if (d.SType == "All") return d; });
                     data_Filtered = data.filter(function (d) { if (d.SType == "All") return d; });
-                    console.log("data is: " + data);
+                    //console.log("data is: " + data);
                     var svg = d3.select("svg"),
                         margin = 200,
                         width = svg.attr("width") - margin,
@@ -62,13 +136,13 @@
                         "2/01/2021", "3/01/2021", "4/01/2021", "5/01/2021", "6/01/2021", "7/01/2021", "8/01/2021"];
                     var dates = [];
                     for (let obj of months) {
-                        dates.push(parseTime(obj));
+                        dates.push(parseTime2(obj));
                     }
                     var domain = d3.extent(dates);
 
                     //var xScale = d3.scaleLinear().domain([0, 200]).range([0, width]);
                     var xScale = d3.scaleTime().domain(domain).range([0, width]);
-                    yScale = d3.scaleLinear().domain([0, 220]).range([height, 0]);
+                    yScale = d3.scaleLinear().domain([0, 265]).range([height, 0]);
 
                     // Step 5
                     // Title
@@ -95,7 +169,7 @@
                         .attr('transform', 'translate(60,' + height + ')rotate(-90)')
                         .style('font-family', 'Helvetica')
                         .style('font-size', 12)
-                        .text('Total Case Number');
+                        .text('Case Number');
 
                     //Add axis
                     h = height + 100
@@ -142,22 +216,28 @@
                         .style("stroke-width", "2");
 
                     addChart2(data_Filtered2);
+                    addChart3(data_Filtered3);
+                    //console.log("yScale(3) is:" + yScale(3));
 
-                    ////annotations
+                    // annotations 1
                     const annotations = [
                         {
                             note: {
-                                label: "The first wave happened around March and April 2020. The situation got under control after the lockdown of the Greater Sydney Area.",
+                                label: "The first case appeared on 1/25/2020. The first wave happened around March and April 2020. The situation got under control after the lockdown of the Greater Sydney Area.",
                                 title: "The First Outbreak",
                                 wrap: 290
+
                             },
-                            type: d3.annotationCalloutElbow,
+                            color: ["#FCDDDD"],
                             connector: { end: "arrow" },
-                            subject: { radius: 50, radiusPadding: 10 },
-                            x: xScale(parseTime("11/22/2020")) + margin,
-                            y: yScale(3) + margin,
-                            dy: yScale(3) + margin < 450 ? -18 : -120,
-                            dx: xScale(parseTime("11/22/2020")) + margin < 300 ? 30 : -30
+                            x: xScale(parseTime2("3/31/2020")) + margin / 2,
+                            y: yScale(118) + margin / 2 - 10,
+                            dy: yScale(118) < 450 ? -18 : -120,
+                            dx: xScale(parseTime2("3/31/2020")) + margin / 2 < 300 ? 30 : -30
+                            //x: 235,
+                            //y: 180,
+                            //dy: 100,
+                            //dx: 100
                         }
                     ]
 
@@ -169,11 +249,58 @@
                     //  .call(makeAnnotations)
                     d3.select("svg").append("g").attr("class", "annotation-group").call(makeAnnotations);
 
+                    ////annotations 2
+                    const annotations2 = [
+                        {
+                            note: {
+                                label: "From June 2020 to May 2021, there were few small outbreaks started in different locations. The outbreaks were quickly under control via limited suburbs lockdown.",
+                                title: "The Relative Quiet Period",
+                                wrap: 290
+                            },
+                            connector: { end: "arrow" },
+                            color: ["#CEFCC0"],
+                            //x: 350,
+                            //y: 100,
+                            //dy: 50,
+                            //dx: 100
+                            x: xScale(parseTime2("11/22/2020")) + margin / 2 + 50,
+                            y: yScale(3) + margin / 2 - 30,
+                            dy: yScale(3) + margin / 2 + 50 < 450 ? -18 : -120,
+                            dx: xScale(parseTime2("11/22/2020")) + margin / 2 - 50 < 300 ? 30 : -30
+                        }
+                    ]
+
+                    // Add annotation3 to the chart
+                    makeAnnotations = d3.annotation()
+                        .annotations(annotations2);
+                    d3.select("svg").append("g").attr("class", "annotation-group").call(makeAnnotations);
+
+                    const annotations3 = [
+                        {
+                            note: {
+                                label: "The first case caused by Delta variant appeared in mid June and this variant spread quickly. Greater Sydney is locked down two weeks after the first case, but the case number keeps increasing rapidly. We cannot see the end at this stage.",
+                                title: "The Delta Variant Outbreak",
+                                wrap: 290
+                            },
+                            connector: { end: "arrow" },
+                            color: ["#8B008B"],
+                            x: xScale(parseTime2("07/12/2021")) + margin / 2,
+                            y: yScale(73) + margin / 2 - 30,
+                            dy: yScale(73) + margin / 2 + 50 < 450 ? -18 : -120,
+                            dx: xScale(parseTime2("07/12/2021")) + margin / 2 - 50 < 300 ? 30 : -30
+                        }
+                    ]
+
+                    // Add annotation to the chart
+                    makeAnnotations = d3.annotation()
+                        .annotations(annotations3);
+                    d3.select("svg").append("g").attr("class", "annotation-group").call(makeAnnotations);
+
                     ////tooltips
 
                     margin = 100;
-                    console.log("width + margin is " + (width + margin));
-                    console.log("height + margin is " + (height + margin));
+                    //console.log("width + margin is " + (width + margin));
+                    //console.log("height + margin is " + (height + margin));
                     const voronoi = d3.voronoi()
                         .x(function (d) { return xScale(parseTime(d.notification_date)); })
                         .y(function (d) { return yScale(d.TY); })
@@ -195,13 +322,14 @@
                             annotation = [
                                 {
                                     note: {
-                                        label: "Case Number: " + d.data.TY,
+                                        label: "Case Number on this date: " + d.data.TY,
                                         wrapSplitter: /\n/,
                                         title: "Date: " + d.data.notification_date,
                                         wrap: 150
                                     },
                                     connector: { end: "arrow" },
                                     type: d3.annotationCalloutElbow,
+                                    color: ["#091335"],
                                     x: xScale(parseTime(d.data.notification_date)) + margin,
                                     y: yScale(d.data.TY) + margin,
                                     dy: yScale(d.data.TY) + margin < 450 ? -18 : -120,
@@ -214,23 +342,24 @@
                             makeAnnotations = d3.annotation().annotations(annotation);
                             d3.select("svg").append("g").attr("class", "annotation-group").call(makeAnnotations);
 
-                            //d3.select("svg")
-                            // .append("g")
-                            // .call(makeAnnotations)
-
-
-                            //console.log(makeAnnotations.annotations());
-
-                            //console.log(d.data.AverageCityMPG);
                         })
                         .on('mouseout', function (d) {
                             makeAnnotations.annotations([]);
                             d3.selectAll('.annotation-group').remove();
                         });
                     var allGroup = [];
-                    //allGroup.push("All");
-                    allGroup = allGroup.concat(d3.map(data, function (d) { return (d.SType) }).keys());
-                    //console.log("allGroup is: " + allGroup);
+                    var allGroup2 = [];
+                    allGroup.push("All");
+                    allGroup2 = d3.map(data, function (d) { return (d.SType) }).keys().sort();
+                    var allGroup2 = allGroup2.filter(function (value, index, arr) {
+                        return value != "All";
+                    });
+                    allGroup = allGroup.concat(allGroup2)
+                    //allGroup2 = allGroup2.concat(d3.map(data, function (d) { return (d.SType) }).keys().sort());
+
+                    //console.log("allGroup2: " + allGroup);
+                    //allGroup = ['All', 'Albury', 'Armidale Regional', 'Ballina', 'Bathurst Regional', 'Bayside', 'Bega Valley', 'Bellingen', 'Berrigan', 'Blacktown', 'Blayney', 'Blue Mountains', 'Broken Hill', 'Burwood', 'Byron', 'Cabonne', 'Camden', 'Campbelltown', 'Canada Bay', 'Canterbury-Bankstown', 'Central Coast', 'Cessnock', 'Clarence Valley', 'Coffs Harbour', 'Coonamble', 'Cootamundra-Gundagai Regional', 'Cumberland', 'Dubbo Regional', 'Dungog', 'Eurobodalla', 'Fairfield', 'Federation', 'Georges River', 'Glen Innes Severn', 'Goulburn Mulwaree', 'Greater Hume Shire', 'Griffith', 'Gunnedah', 'Hawkesbury', 'Hay', 'Hilltops', 'Hornsby', 'Hunters Hill', 'Inner West', 'Inverell', 'Junee', 'Kempsey', 'Kiama', 'Ku-ring-gai', 'Lake Macquarie', 'Lane Cove', 'Lismore', 'Lithgow', 'Liverpool', 'Liverpool Plains', 'Maitland', 'Mid-Coast', 'Mid-Western Regional', 'Moree Plains', 'Mosman', 'Murrumbidgee', 'Muswellbrook', 'Nambucca', 'Narrandera', 'Narromine', 'Newcastle', 'North Sydney', 'Northern Beaches', 'Orange', 'Parkes', 'Parramatta', 'Penrith', 'Port Macquarie-Hastings', 'Port Stephens', 'Queanbeyan-Palerang Regional', 'Randwick', 'Richmond Valley', 'Ryde', 'Shellharbour', 'Shoalhaven', 'Singleton', 'Snowy Monaro Regional', 'Snowy Valleys', 'Strathfield', 'Sutherland Shire', 'Sydney', 'Tamworth Regional', 'Temora', 'Tenterfield', 'The Hills Shire', 'Tweed', 'Upper Hunter Shire', 'Upper Lachlan Shire', 'Uralla', 'Wagga Wagga', 'Warren', 'Warrumbungle Shire', 'Waverley', 'Weddin', 'Willoughby', 'Wingecarribee', 'Wollondilly', 'Wollongong', 'Woollahra', 'Yass Valley']
+                    //console.log("allGroup is: " + allGroup[1]);
                     d3.select("#selectButton")
                         .selectAll('myOptions')
                         .data(allGroup)
@@ -240,7 +369,7 @@
                         .attr("value", function (d) { return d; }); // corresponding value returned by the button
 
                     function addChart2(chart2data) {
-                        console.log("adding chart2")
+                        //console.log("adding chart2")
 
                         // Update X axis based on xScale
                         //xAxis.transition().duration(10).call(d3.axisBottom(xScale).ticks(ts));
@@ -255,7 +384,7 @@
                             .attr("cy", function (d) { return yScale(d.TY); })
                             .attr("r", 2)
                             .attr("transform", "translate(" + 100 + "," + 100 + ")")
-                            .style("fill", "#CC0000");
+                            .style("fill", "#008000");
 
                         // Plot Line
                         var line = d3.line()
@@ -266,14 +395,63 @@
                         var path = svg.append("path")
                             .datum(chart2data)
                             .attr("class", "line")
-                            .transition()
-                            .duration(1000)
+                            //.transition()
+                            //.duration(1000)
                             //.ease("linear")
                             .attr("stroke-dashoffset", 0)
                             .attr("transform", "translate(100, 100)")
                             .attr("d", line)
                             .style("fill", "none")
                             .style("stroke", "#008000")
+                            .style("stroke-width", "2");
+
+
+                        //var totalLength = [path[0].getTotalLength()];
+                        /*
+                        d3.select(path[0][0])
+                            .attr("stroke-dasharray", totalLength[0] + " " + totalLength[0])
+                            .attr("stroke-dashoffset", totalLength[0])
+                            .transition()
+                            .duration(5000)
+                            .ease("linear")
+                            .attr("stroke-dashoffset", 0);
+                            */
+                    };
+                    function addChart3(chart3data) {
+                        //console.log("adding chart3")
+
+                        // Update X axis based on xScale
+                        //xAxis.transition().duration(10).call(d3.axisBottom(xScale).ticks(ts));
+
+                        //Plot the data again
+                        svg.append('g')
+                            .selectAll("dot")
+                            .data(chart3data)
+                            .enter()
+                            .append("circle")
+                            .attr("cx", function (d) { return xScale(parseTime(d.notification_date)); })
+                            .attr("cy", function (d) { return yScale(d.TY); })
+                            .attr("r", 2)
+                            .attr("transform", "translate(" + 100 + "," + 100 + ")")
+                            .style("fill", "#8B008B");
+
+                        // Plot Line
+                        var line = d3.line()
+                            .x(function (d) { return xScale(parseTime(d.notification_date)); })
+                            .y(function (d) { return yScale(d.TY); })
+                            .curve(d3.curveMonotoneX)
+
+                        var path = svg.append("path")
+                            .datum(chart3data)
+                            .attr("class", "line")
+                            //.transition()
+                            //.duration(1000)
+                            //.ease("linear")
+                            .attr("stroke-dashoffset", 0)
+                            .attr("transform", "translate(100, 100)")
+                            .attr("d", line)
+                            .style("fill", "none")
+                            .style("stroke", "#8B008B")
                             .style("stroke-width", "2");
 
 
@@ -310,9 +488,28 @@
 
                         xScale = d3.scaleTime().domain([startDate, endDate]).range([0, width]);
 
+                        //Remove 1st time
                         //Remove circle
                         d3.select("svg")
                             .selectAll("circle").remove();
+                        d3.select("svg")
+                            .selectAll("dot").remove();
+                        //remove line
+                        d3.select("path.line").remove();
+
+                        //Remove second time
+                        d3.select("svg")
+                            .selectAll("circle").remove();
+                        d3.select("svg")
+                            .selectAll("dot").remove();
+                        //remove line
+                        d3.select("path.line").remove();
+
+                        //Remove third time
+                        d3.select("svg")
+                            .selectAll("circle").remove();
+                        d3.select("svg")
+                            .selectAll("dot").remove();
                         //remove line
                         d3.select("path.line").remove();
 
@@ -329,7 +526,7 @@
                             .attr("cy", function (d) { return yScale(d.TY); })
                             .attr("r", 2)
                             .attr("transform", "translate(" + 100 + "," + 100 + ")")
-                            .style("fill", "#CC0000");
+                            .style("fill", "#5D3C91");
 
                         // Plot Line
                         var line = d3.line()
@@ -343,7 +540,7 @@
                             .attr("transform", "translate(100, 100)")
                             .attr("d", line)
                             .style("fill", "none")
-                            .style("stroke", "#CC0000")
+                            .style("stroke", "#5D3C91")
                             .style("stroke-width", "2");
 
                         //reset voronoi
@@ -388,43 +585,33 @@
                         makeAnnotations.annotations([]);
                         //d3.selectAll(' ').remove(); //remove this line for test.
                     };
-                    /*
-                    d3.select("#selectButton").on("change", function (d) {
-                        // recover the option that has been chosen
-                        var selectedOption = d3.select(this).property("value");
-                        // run the updateChart function with this selected option
-                        updateChart(selectedOption);
-                    });
-                    */
-
-                    d3.select("#selectButton2").on("click", function () {
+                    d3.select("#FilterData").on("click", function () {
                         // recover the option that has been chosen
                         var selectedOption = document.getElementById('selectButton');
                         var selected_lga = selectedOption.options[selectedOption.selectedIndex].value
-                        console.log("selection option is: " + selectedOption.options[selectedOption.selectedIndex].value);
+                        //console.log("selection option is: " + selectedOption.options[selectedOption.selectedIndex].value);
                         var parseDate = d3.timeParse("%Y-%m-%d");
                         var selected_fromDate = document.getElementById('fromDate').value;
                         var selected_toDate = document.getElementById('toDate').value;
                         if (!selected_fromDate) {
                             selected_fromDate = "2020-01-01";
-                            console.log("from date is empty");
+                            //console.log("from date is empty");
                         };
                         if (!selected_toDate) {
-                            selected_toDate = "2021-09-01";
-                            console.log("to date is empty");
+                            selected_toDate = "2021-08-01";
+                            //console.log("to date is empty");
                         };
-                        console.log("from Date is: " + selected_fromDate);
+                        //console.log("from Date is: " + selected_fromDate);
                         //var selectedOption = d3.select(this).property("value");
                         // run the updateChart function with this selected option
                         updateChart(selected_lga, parseDate(selected_fromDate), parseDate(selected_toDate));
                     });
+
 
                 })
 
         }
 
     </script>
-
 </body>
 </html>
-

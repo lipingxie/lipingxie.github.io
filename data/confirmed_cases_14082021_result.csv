@@ -1,0 +1,3840 @@
+,notification_date,TY,SType
+0,1/25/2020,3,All
+1,1/27/2020,1,All
+2,3/1/2020,2,All
+3,3/2/2020,3,All
+4,3/3/2020,6,All
+5,3/4/2020,6,All
+6,3/5/2020,4,All
+7,3/6/2020,7,All
+8,3/7/2020,2,All
+9,3/8/2020,7,All
+10,3/9/2020,13,All
+11,3/10/2020,6,All
+12,3/11/2020,16,All
+13,3/12/2020,14,All
+14,3/13/2020,19,All
+15,3/14/2020,20,All
+16,3/15/2020,38,All
+17,3/16/2020,29,All
+18,3/17/2020,64,All
+19,3/18/2020,45,All
+20,3/19/2020,56,All
+21,3/20/2020,88,All
+22,3/21/2020,122,All
+23,3/22/2020,121,All
+24,3/23/2020,177,All
+25,3/24/2020,192,All
+26,3/25/2020,206,All
+27,3/26/2020,185,All
+28,3/27/2020,213,All
+29,3/28/2020,143,All
+30,3/29/2020,124,All
+31,3/30/2020,90,All
+32,3/31/2020,131,All
+33,4/1/2020,124,All
+34,4/2/2020,92,All
+35,4/3/2020,106,All
+36,4/4/2020,73,All
+37,4/5/2020,63,All
+38,4/6/2020,40,All
+39,4/7/2020,44,All
+40,4/8/2020,44,All
+41,4/9/2020,41,All
+42,4/10/2020,30,All
+43,4/11/2020,18,All
+44,4/12/2020,9,All
+45,4/13/2020,7,All
+46,4/14/2020,21,All
+47,4/15/2020,22,All
+48,4/16/2020,22,All
+49,4/17/2020,15,All
+50,4/18/2020,17,All
+51,4/19/2020,7,All
+52,4/20/2020,2,All
+53,4/21/2020,6,All
+54,4/22/2020,3,All
+55,4/23/2020,8,All
+56,4/24/2020,14,All
+57,4/25/2020,3,All
+58,4/26/2020,1,All
+59,4/27/2020,5,All
+60,4/28/2020,10,All
+61,4/29/2020,3,All
+62,4/30/2020,15,All
+63,5/1/2020,2,All
+64,5/2/2020,2,All
+65,5/3/2020,1,All
+66,5/4/2020,4,All
+67,5/5/2020,5,All
+68,5/6/2020,3,All
+69,5/7/2020,2,All
+70,5/8/2020,4,All
+71,5/9/2020,1,All
+72,5/10/2020,1,All
+73,5/12/2020,5,All
+74,5/13/2020,4,All
+75,5/14/2020,3,All
+76,5/15/2020,2,All
+77,5/17/2020,1,All
+78,5/18/2020,2,All
+79,5/19/2020,4,All
+80,5/20/2020,1,All
+81,5/21/2020,3,All
+82,5/23/2020,1,All
+83,5/24/2020,1,All
+84,5/25/2020,2,All
+85,5/27/2020,1,All
+86,5/28/2020,2,All
+87,5/29/2020,1,All
+88,5/30/2020,2,All
+89,5/31/2020,5,All
+90,6/1/2020,4,All
+91,6/2/2020,1,All
+92,6/3/2020,2,All
+93,6/4/2020,3,All
+94,6/6/2020,1,All
+95,6/7/2020,3,All
+96,6/8/2020,1,All
+97,6/9/2020,3,All
+98,6/11/2020,3,All
+99,6/12/2020,3,All
+100,6/13/2020,9,All
+101,6/14/2020,6,All
+102,6/17/2020,2,All
+103,6/18/2020,7,All
+104,6/19/2020,1,All
+105,6/20/2020,6,All
+106,6/21/2020,1,All
+107,6/22/2020,1,All
+108,6/23/2020,10,All
+109,6/24/2020,4,All
+110,6/25/2020,6,All
+111,6/26/2020,5,All
+112,6/27/2020,10,All
+113,6/28/2020,3,All
+114,6/29/2020,6,All
+115,6/30/2020,11,All
+116,7/1/2020,6,All
+117,7/2/2020,5,All
+118,7/3/2020,8,All
+119,7/4/2020,12,All
+120,7/5/2020,8,All
+121,7/6/2020,13,All
+122,7/7/2020,6,All
+123,7/8/2020,13,All
+124,7/9/2020,9,All
+125,7/10/2020,8,All
+126,7/11/2020,2,All
+127,7/12/2020,15,All
+128,7/13/2020,17,All
+129,7/14/2020,10,All
+130,7/15/2020,9,All
+131,7/16/2020,9,All
+132,7/17/2020,13,All
+133,7/18/2020,17,All
+134,7/19/2020,20,All
+135,7/20/2020,14,All
+136,7/21/2020,14,All
+137,7/22/2020,16,All
+138,7/23/2020,7,All
+139,7/24/2020,18,All
+140,7/25/2020,18,All
+141,7/26/2020,9,All
+142,7/27/2020,15,All
+143,7/28/2020,22,All
+144,7/29/2020,15,All
+145,7/30/2020,22,All
+146,7/31/2020,15,All
+147,8/1/2020,14,All
+148,8/2/2020,11,All
+149,8/3/2020,13,All
+150,8/4/2020,9,All
+151,8/5/2020,13,All
+152,8/6/2020,11,All
+153,8/7/2020,8,All
+154,8/8/2020,14,All
+155,8/9/2020,13,All
+156,8/10/2020,22,All
+157,8/11/2020,15,All
+158,8/12/2020,10,All
+159,8/13/2020,14,All
+160,8/14/2020,7,All
+161,8/15/2020,6,All
+162,8/16/2020,5,All
+163,8/17/2020,3,All
+164,8/18/2020,8,All
+165,8/19/2020,2,All
+166,8/20/2020,5,All
+167,8/21/2020,7,All
+168,8/22/2020,2,All
+169,8/23/2020,3,All
+170,8/24/2020,4,All
+171,8/25/2020,6,All
+172,8/26/2020,12,All
+173,8/27/2020,15,All
+174,8/28/2020,10,All
+175,8/29/2020,7,All
+176,8/30/2020,11,All
+177,8/31/2020,12,All
+178,9/1/2020,15,All
+179,9/2/2020,10,All
+180,9/3/2020,7,All
+181,9/4/2020,7,All
+182,9/5/2020,8,All
+183,9/6/2020,4,All
+184,9/7/2020,11,All
+185,9/8/2020,5,All
+186,9/9/2020,10,All
+187,9/10/2020,8,All
+188,9/11/2020,8,All
+189,9/12/2020,6,All
+190,9/13/2020,7,All
+191,9/14/2020,7,All
+192,9/15/2020,5,All
+193,9/16/2020,7,All
+194,9/17/2020,3,All
+195,9/18/2020,4,All
+196,9/19/2020,1,All
+197,9/20/2020,5,All
+198,9/21/2020,1,All
+199,9/22/2020,6,All
+200,9/23/2020,3,All
+201,9/24/2020,2,All
+202,9/25/2020,1,All
+203,9/28/2020,5,All
+204,9/29/2020,2,All
+205,9/30/2020,4,All
+206,10/1/2020,3,All
+207,10/3/2020,3,All
+208,10/4/2020,2,All
+209,10/5/2020,9,All
+210,10/6/2020,3,All
+211,10/7/2020,15,All
+212,10/8/2020,6,All
+213,10/9/2020,4,All
+214,10/10/2020,7,All
+215,10/11/2020,5,All
+216,10/12/2020,15,All
+217,10/13/2020,12,All
+218,10/14/2020,10,All
+219,10/15/2020,3,All
+220,10/16/2020,7,All
+221,10/17/2020,6,All
+222,10/18/2020,6,All
+223,10/19/2020,10,All
+224,10/20/2020,4,All
+225,10/21/2020,9,All
+226,10/22/2020,3,All
+227,10/23/2020,6,All
+228,10/24/2020,7,All
+229,10/25/2020,3,All
+230,10/26/2020,15,All
+231,10/27/2020,5,All
+232,10/28/2020,4,All
+233,10/29/2020,7,All
+234,10/30/2020,4,All
+235,10/31/2020,5,All
+236,11/1/2020,5,All
+237,11/2/2020,4,All
+238,11/3/2020,7,All
+239,11/4/2020,3,All
+240,11/5/2020,10,All
+241,11/6/2020,5,All
+242,11/7/2020,4,All
+243,11/8/2020,7,All
+244,11/9/2020,5,All
+245,11/10/2020,2,All
+246,11/11/2020,5,All
+247,11/12/2020,2,All
+248,11/13/2020,6,All
+249,11/14/2020,8,All
+250,11/15/2020,2,All
+251,11/16/2020,4,All
+252,11/17/2020,6,All
+253,11/18/2020,7,All
+254,11/19/2020,3,All
+255,11/20/2020,10,All
+256,11/21/2020,9,All
+257,11/22/2020,5,All
+258,11/23/2020,7,All
+259,11/24/2020,2,All
+260,11/26/2020,5,All
+261,11/27/2020,8,All
+262,11/28/2020,4,All
+263,11/29/2020,7,All
+264,11/30/2020,8,All
+265,12/1/2020,6,All
+266,12/2/2020,8,All
+267,12/3/2020,4,All
+268,12/4/2020,2,All
+269,12/5/2020,5,All
+270,12/6/2020,7,All
+271,12/7/2020,4,All
+272,12/8/2020,2,All
+273,12/9/2020,9,All
+274,12/10/2020,6,All
+275,12/11/2020,3,All
+276,12/12/2020,3,All
+277,12/13/2020,5,All
+278,12/14/2020,7,All
+279,12/15/2020,3,All
+280,12/16/2020,9,All
+281,12/17/2020,25,All
+282,12/18/2020,28,All
+283,12/19/2020,32,All
+284,12/20/2020,28,All
+285,12/21/2020,12,All
+286,12/22/2020,13,All
+287,12/23/2020,21,All
+288,12/24/2020,12,All
+289,12/25/2020,11,All
+290,12/26/2020,13,All
+291,12/27/2020,10,All
+292,12/28/2020,9,All
+293,12/29/2020,30,All
+294,12/30/2020,10,All
+295,12/31/2020,11,All
+296,1/1/2021,17,All
+297,1/2/2021,7,All
+298,1/3/2021,11,All
+299,1/4/2021,4,All
+300,1/5/2021,4,All
+301,1/6/2021,12,All
+302,1/7/2021,5,All
+303,1/8/2021,11,All
+304,1/9/2021,7,All
+305,1/10/2021,12,All
+306,1/11/2021,11,All
+307,1/12/2021,5,All
+308,1/13/2021,2,All
+309,1/14/2021,2,All
+310,1/15/2021,14,All
+311,1/16/2021,14,All
+312,1/17/2021,2,All
+313,1/18/2021,1,All
+314,1/19/2021,4,All
+315,1/20/2021,5,All
+316,1/22/2021,1,All
+317,1/23/2021,5,All
+318,1/24/2021,1,All
+319,1/25/2021,3,All
+320,1/26/2021,1,All
+321,1/27/2021,4,All
+322,1/28/2021,4,All
+323,1/29/2021,3,All
+324,1/30/2021,2,All
+325,1/31/2021,4,All
+326,2/1/2021,2,All
+327,2/2/2021,2,All
+328,2/3/2021,3,All
+329,2/5/2021,4,All
+330,2/7/2021,5,All
+331,2/8/2021,4,All
+332,2/9/2021,1,All
+333,2/10/2021,2,All
+334,2/11/2021,2,All
+335,2/12/2021,2,All
+336,2/13/2021,2,All
+337,2/15/2021,2,All
+338,2/16/2021,3,All
+339,2/17/2021,1,All
+340,2/18/2021,2,All
+341,2/19/2021,1,All
+342,2/20/2021,3,All
+343,2/21/2021,1,All
+344,2/22/2021,4,All
+345,2/23/2021,4,All
+346,2/24/2021,5,All
+347,2/25/2021,4,All
+348,2/26/2021,4,All
+349,2/27/2021,4,All
+350,2/28/2021,6,All
+351,3/1/2021,1,All
+352,3/2/2021,5,All
+353,3/3/2021,6,All
+354,3/4/2021,9,All
+355,3/5/2021,4,All
+356,3/6/2021,1,All
+357,3/7/2021,1,All
+358,3/8/2021,5,All
+359,3/9/2021,6,All
+360,3/10/2021,7,All
+361,3/11/2021,6,All
+362,3/13/2021,5,All
+363,3/14/2021,3,All
+364,3/15/2021,1,All
+365,3/16/2021,6,All
+366,3/17/2021,8,All
+367,3/18/2021,1,All
+368,3/19/2021,2,All
+369,3/20/2021,5,All
+370,3/21/2021,4,All
+371,3/22/2021,2,All
+372,3/23/2021,4,All
+373,3/24/2021,3,All
+374,3/25/2021,2,All
+375,3/26/2021,3,All
+376,3/28/2021,4,All
+377,3/29/2021,4,All
+378,3/30/2021,5,All
+379,3/31/2021,2,All
+380,4/2/2021,3,All
+381,4/3/2021,1,All
+382,4/4/2021,4,All
+383,4/5/2021,9,All
+384,4/6/2021,5,All
+385,4/7/2021,1,All
+386,4/8/2021,3,All
+387,4/9/2021,5,All
+388,4/10/2021,7,All
+389,4/11/2021,6,All
+390,4/12/2021,4,All
+391,4/13/2021,4,All
+392,4/14/2021,12,All
+393,4/15/2021,1,All
+394,4/16/2021,9,All
+395,4/17/2021,4,All
+396,4/18/2021,9,All
+397,4/19/2021,4,All
+398,4/20/2021,7,All
+399,4/21/2021,15,All
+400,4/22/2021,5,All
+401,4/23/2021,1,All
+402,4/24/2021,4,All
+403,4/25/2021,7,All
+404,4/26/2021,16,All
+405,4/27/2021,12,All
+406,4/28/2021,17,All
+407,4/29/2021,2,All
+408,4/30/2021,4,All
+409,5/1/2021,2,All
+410,5/2/2021,8,All
+411,5/3/2021,9,All
+412,5/4/2021,7,All
+413,5/5/2021,9,All
+414,5/6/2021,4,All
+415,5/7/2021,5,All
+416,5/8/2021,7,All
+417,5/9/2021,6,All
+418,5/10/2021,4,All
+419,5/11/2021,2,All
+420,5/12/2021,5,All
+421,5/13/2021,3,All
+422,5/14/2021,2,All
+423,5/15/2021,2,All
+424,5/16/2021,2,All
+425,5/17/2021,3,All
+426,5/18/2021,2,All
+427,5/19/2021,2,All
+428,5/21/2021,3,All
+429,5/23/2021,2,All
+430,5/24/2021,2,All
+431,5/25/2021,2,All
+432,5/27/2021,4,All
+433,5/28/2021,2,All
+434,5/29/2021,3,All
+435,5/30/2021,2,All
+436,6/1/2021,1,All
+437,6/2/2021,2,All
+438,6/4/2021,4,All
+439,6/5/2021,3,All
+440,6/6/2021,4,All
+441,6/7/2021,8,All
+442,6/8/2021,1,All
+443,6/9/2021,2,All
+444,6/10/2021,2,All
+445,6/12/2021,1,All
+446,6/13/2021,8,All
+447,6/14/2021,4,All
+448,6/15/2021,1,All
+449,6/16/2021,4,All
+450,6/17/2021,1,All
+451,6/18/2021,7,All
+452,6/19/2021,7,All
+453,6/20/2021,3,All
+454,6/21/2021,5,All
+455,6/22/2021,19,All
+456,6/23/2021,12,All
+457,6/24/2021,22,All
+458,6/25/2021,28,All
+459,6/26/2021,28,All
+460,6/27/2021,23,All
+461,6/28/2021,16,All
+462,6/29/2021,31,All
+463,6/30/2021,31,All
+464,7/1/2021,31,All
+465,7/2/2021,42,All
+466,7/3/2021,24,All
+467,7/4/2021,31,All
+468,7/5/2021,17,All
+469,7/6/2021,34,All
+470,7/7/2021,37,All
+471,7/8/2021,46,All
+472,7/9/2021,52,All
+473,7/10/2021,107,All
+474,7/11/2021,121,All
+475,7/12/2021,73,All
+476,7/13/2021,91,All
+477,7/14/2021,76,All
+478,7/15/2021,103,All
+479,7/16/2021,115,All
+480,7/17/2021,100,All
+481,7/18/2021,112,All
+482,7/19/2021,66,All
+483,7/20/2021,108,All
+484,7/21/2021,143,All
+485,7/22/2021,144,All
+486,7/23/2021,151,All
+487,7/24/2021,142,All
+488,7/25/2021,176,All
+489,7/26/2021,144,All
+490,7/27/2021,162,All
+491,7/28/2021,259,All
+492,7/29/2021,183,All
+493,7/30/2021,200,All
+494,7/31/2021,248,All
+495,8/1/2021,196,All
+496,8/2/2021,213,All
+497,8/3/2021,240,All
+498,8/4/2021,250,All
+499,8/5/2021,320,All
+500,8/6/2021,303,All
+501,8/7/2021,258,All
+502,8/8/2021,267,All
+503,8/9/2021,372,All
+504,8/10/2021,343,All
+505,8/11/2021,383,All
+506,8/12/2021,288,All
+0,1/25/2020,1,Burwood
+1,3/17/2020,1,Burwood
+2,3/23/2020,1,Burwood
+3,3/26/2020,1,Burwood
+4,3/29/2020,1,Burwood
+5,3/30/2020,1,Burwood
+6,4/2/2020,1,Burwood
+7,4/8/2020,1,Burwood
+8,8/27/2020,1,Burwood
+9,9/6/2020,1,Burwood
+10,9/7/2020,2,Burwood
+11,9/10/2020,1,Burwood
+12,10/23/2020,1,Burwood
+13,12/25/2020,1,Burwood
+14,12/28/2020,1,Burwood
+15,12/29/2020,3,Burwood
+16,4/12/2021,1,Burwood
+17,7/1/2021,2,Burwood
+18,7/6/2021,2,Burwood
+19,7/7/2021,2,Burwood
+20,7/11/2021,1,Burwood
+21,7/21/2021,4,Burwood
+22,7/23/2021,1,Burwood
+23,7/25/2021,2,Burwood
+24,8/2/2021,1,Burwood
+25,8/4/2021,2,Burwood
+26,8/6/2021,3,Burwood
+27,8/8/2021,1,Burwood
+28,8/9/2021,2,Burwood
+29,8/11/2021,2,Burwood
+30,8/12/2021,1,Burwood
+0,1/25/2020,1,Parramatta
+1,3/6/2020,2,Parramatta
+2,3/8/2020,3,Parramatta
+3,3/9/2020,3,Parramatta
+4,3/12/2020,1,Parramatta
+5,3/14/2020,1,Parramatta
+6,3/15/2020,3,Parramatta
+7,3/16/2020,1,Parramatta
+8,3/17/2020,1,Parramatta
+9,3/19/2020,1,Parramatta
+10,3/20/2020,1,Parramatta
+11,3/21/2020,1,Parramatta
+12,3/22/2020,2,Parramatta
+13,3/23/2020,3,Parramatta
+14,3/25/2020,3,Parramatta
+15,3/26/2020,1,Parramatta
+16,3/27/2020,1,Parramatta
+17,3/28/2020,1,Parramatta
+18,3/29/2020,2,Parramatta
+19,3/31/2020,4,Parramatta
+20,4/1/2020,3,Parramatta
+21,4/2/2020,1,Parramatta
+22,4/3/2020,3,Parramatta
+23,4/6/2020,1,Parramatta
+24,4/7/2020,1,Parramatta
+25,5/6/2020,1,Parramatta
+26,5/13/2020,1,Parramatta
+27,6/3/2020,1,Parramatta
+28,6/27/2020,1,Parramatta
+29,6/30/2020,2,Parramatta
+30,7/6/2020,1,Parramatta
+31,7/13/2020,1,Parramatta
+32,7/15/2020,1,Parramatta
+33,7/19/2020,1,Parramatta
+34,7/20/2020,1,Parramatta
+35,7/23/2020,2,Parramatta
+36,7/24/2020,1,Parramatta
+37,7/25/2020,3,Parramatta
+38,7/27/2020,4,Parramatta
+39,7/30/2020,4,Parramatta
+40,8/1/2020,2,Parramatta
+41,8/5/2020,2,Parramatta
+42,8/6/2020,1,Parramatta
+43,8/9/2020,1,Parramatta
+44,8/10/2020,2,Parramatta
+45,8/28/2020,1,Parramatta
+46,9/9/2020,1,Parramatta
+47,9/11/2020,1,Parramatta
+48,9/17/2020,1,Parramatta
+49,10/7/2020,4,Parramatta
+50,10/11/2020,1,Parramatta
+51,10/12/2020,1,Parramatta
+52,10/13/2020,1,Parramatta
+53,10/21/2020,1,Parramatta
+54,10/22/2020,1,Parramatta
+55,10/23/2020,1,Parramatta
+56,10/26/2020,1,Parramatta
+57,11/9/2020,1,Parramatta
+58,11/13/2020,1,Parramatta
+59,11/29/2020,1,Parramatta
+60,12/2/2020,1,Parramatta
+61,12/6/2020,2,Parramatta
+62,12/7/2020,1,Parramatta
+63,12/23/2020,1,Parramatta
+64,1/3/2021,1,Parramatta
+65,2/3/2021,1,Parramatta
+66,2/5/2021,1,Parramatta
+67,2/24/2021,1,Parramatta
+68,3/1/2021,1,Parramatta
+69,3/9/2021,2,Parramatta
+70,3/21/2021,1,Parramatta
+71,3/28/2021,1,Parramatta
+72,4/13/2021,1,Parramatta
+73,4/18/2021,1,Parramatta
+74,4/22/2021,2,Parramatta
+75,4/25/2021,1,Parramatta
+76,4/28/2021,1,Parramatta
+77,4/29/2021,1,Parramatta
+78,5/2/2021,2,Parramatta
+79,5/5/2021,2,Parramatta
+80,5/6/2021,1,Parramatta
+81,5/7/2021,1,Parramatta
+82,6/7/2021,1,Parramatta
+83,6/29/2021,1,Parramatta
+84,6/30/2021,2,Parramatta
+85,7/1/2021,3,Parramatta
+86,7/5/2021,2,Parramatta
+87,7/7/2021,1,Parramatta
+88,7/8/2021,4,Parramatta
+89,7/11/2021,3,Parramatta
+90,7/12/2021,1,Parramatta
+91,7/15/2021,2,Parramatta
+92,7/16/2021,1,Parramatta
+93,7/18/2021,1,Parramatta
+94,7/19/2021,3,Parramatta
+95,7/20/2021,6,Parramatta
+96,7/21/2021,4,Parramatta
+97,7/22/2021,10,Parramatta
+98,7/23/2021,2,Parramatta
+99,7/24/2021,4,Parramatta
+100,7/25/2021,10,Parramatta
+101,7/26/2021,9,Parramatta
+102,7/27/2021,2,Parramatta
+103,7/28/2021,9,Parramatta
+104,7/29/2021,5,Parramatta
+105,7/30/2021,11,Parramatta
+106,7/31/2021,3,Parramatta
+107,8/1/2021,8,Parramatta
+108,8/2/2021,3,Parramatta
+109,8/3/2021,15,Parramatta
+110,8/4/2021,14,Parramatta
+111,8/5/2021,17,Parramatta
+112,8/6/2021,20,Parramatta
+113,8/7/2021,6,Parramatta
+114,8/8/2021,12,Parramatta
+115,8/9/2021,17,Parramatta
+116,8/10/2021,13,Parramatta
+117,8/11/2021,8,Parramatta
+118,8/12/2021,12,Parramatta
+0,1/25/2020,1,Ku-ring-gai
+1,3/2/2020,1,Ku-ring-gai
+2,3/10/2020,1,Ku-ring-gai
+3,3/16/2020,2,Ku-ring-gai
+4,3/17/2020,3,Ku-ring-gai
+5,3/19/2020,3,Ku-ring-gai
+6,3/20/2020,1,Ku-ring-gai
+7,3/21/2020,5,Ku-ring-gai
+8,3/22/2020,2,Ku-ring-gai
+9,3/23/2020,2,Ku-ring-gai
+10,3/24/2020,5,Ku-ring-gai
+11,3/25/2020,3,Ku-ring-gai
+12,3/26/2020,2,Ku-ring-gai
+13,3/27/2020,8,Ku-ring-gai
+14,3/28/2020,3,Ku-ring-gai
+15,3/30/2020,1,Ku-ring-gai
+16,3/31/2020,6,Ku-ring-gai
+17,4/1/2020,2,Ku-ring-gai
+18,4/2/2020,4,Ku-ring-gai
+19,4/3/2020,4,Ku-ring-gai
+20,4/5/2020,1,Ku-ring-gai
+21,4/7/2020,3,Ku-ring-gai
+22,4/8/2020,2,Ku-ring-gai
+23,4/9/2020,2,Ku-ring-gai
+24,4/10/2020,2,Ku-ring-gai
+25,5/1/2020,1,Ku-ring-gai
+26,5/18/2020,1,Ku-ring-gai
+27,5/20/2020,1,Ku-ring-gai
+28,6/26/2020,1,Ku-ring-gai
+29,7/9/2020,1,Ku-ring-gai
+30,8/10/2020,1,Ku-ring-gai
+31,8/26/2020,2,Ku-ring-gai
+32,8/27/2020,1,Ku-ring-gai
+33,8/28/2020,2,Ku-ring-gai
+34,8/29/2020,1,Ku-ring-gai
+35,8/30/2020,1,Ku-ring-gai
+36,9/1/2020,2,Ku-ring-gai
+37,9/4/2020,2,Ku-ring-gai
+38,9/8/2020,1,Ku-ring-gai
+39,10/12/2020,1,Ku-ring-gai
+40,10/13/2020,1,Ku-ring-gai
+41,12/11/2020,1,Ku-ring-gai
+42,12/19/2020,1,Ku-ring-gai
+43,12/20/2020,2,Ku-ring-gai
+44,1/2/2021,1,Ku-ring-gai
+45,1/3/2021,1,Ku-ring-gai
+46,3/2/2021,2,Ku-ring-gai
+47,4/18/2021,1,Ku-ring-gai
+48,4/25/2021,1,Ku-ring-gai
+49,4/28/2021,1,Ku-ring-gai
+50,5/12/2021,3,Ku-ring-gai
+51,6/2/2021,2,Ku-ring-gai
+52,6/5/2021,1,Ku-ring-gai
+53,6/21/2021,1,Ku-ring-gai
+54,7/23/2021,1,Ku-ring-gai
+55,8/6/2021,1,Ku-ring-gai
+56,8/7/2021,1,Ku-ring-gai
+57,8/8/2021,1,Ku-ring-gai
+58,8/9/2021,1,Ku-ring-gai
+59,8/10/2021,1,Ku-ring-gai
+0,1/27/2020,1,Randwick
+1,3/14/2020,1,Randwick
+2,3/15/2020,1,Randwick
+3,3/16/2020,3,Randwick
+4,3/17/2020,1,Randwick
+5,3/19/2020,4,Randwick
+6,3/20/2020,1,Randwick
+7,3/21/2020,2,Randwick
+8,3/23/2020,5,Randwick
+9,3/24/2020,7,Randwick
+10,3/25/2020,5,Randwick
+11,3/26/2020,5,Randwick
+12,3/27/2020,6,Randwick
+13,3/28/2020,1,Randwick
+14,3/29/2020,1,Randwick
+15,3/31/2020,3,Randwick
+16,4/1/2020,5,Randwick
+17,4/2/2020,3,Randwick
+18,4/3/2020,6,Randwick
+19,4/4/2020,4,Randwick
+20,4/5/2020,2,Randwick
+21,4/6/2020,2,Randwick
+22,4/7/2020,3,Randwick
+23,4/8/2020,1,Randwick
+24,4/9/2020,3,Randwick
+25,4/10/2020,3,Randwick
+26,4/11/2020,1,Randwick
+27,4/13/2020,1,Randwick
+28,4/15/2020,1,Randwick
+29,4/18/2020,1,Randwick
+30,4/30/2020,1,Randwick
+31,5/5/2020,1,Randwick
+32,6/18/2020,1,Randwick
+33,7/27/2020,1,Randwick
+34,7/28/2020,1,Randwick
+35,8/25/2020,1,Randwick
+36,8/26/2020,1,Randwick
+37,8/27/2020,1,Randwick
+38,8/28/2020,1,Randwick
+39,9/1/2020,1,Randwick
+40,9/2/2020,1,Randwick
+41,9/3/2020,1,Randwick
+42,9/7/2020,1,Randwick
+43,9/10/2020,1,Randwick
+44,9/13/2020,1,Randwick
+45,9/22/2020,1,Randwick
+46,10/4/2020,1,Randwick
+47,10/5/2020,3,Randwick
+48,10/7/2020,1,Randwick
+49,10/10/2020,1,Randwick
+50,10/15/2020,1,Randwick
+51,10/17/2020,1,Randwick
+52,10/27/2020,1,Randwick
+53,11/28/2020,1,Randwick
+54,11/30/2020,1,Randwick
+55,12/2/2020,1,Randwick
+56,12/8/2020,1,Randwick
+57,12/16/2020,2,Randwick
+58,12/22/2020,1,Randwick
+59,1/27/2021,1,Randwick
+60,2/22/2021,1,Randwick
+61,3/17/2021,1,Randwick
+62,4/10/2021,1,Randwick
+63,6/19/2021,1,Randwick
+64,6/23/2021,1,Randwick
+65,6/24/2021,3,Randwick
+66,6/25/2021,6,Randwick
+67,6/26/2021,1,Randwick
+68,6/27/2021,3,Randwick
+69,6/28/2021,2,Randwick
+70,6/29/2021,5,Randwick
+71,6/30/2021,4,Randwick
+72,7/1/2021,1,Randwick
+73,7/2/2021,5,Randwick
+74,7/4/2021,7,Randwick
+75,7/5/2021,2,Randwick
+76,7/6/2021,4,Randwick
+77,7/7/2021,2,Randwick
+78,7/8/2021,3,Randwick
+79,7/9/2021,2,Randwick
+80,7/10/2021,3,Randwick
+81,7/13/2021,1,Randwick
+82,7/15/2021,5,Randwick
+83,7/16/2021,1,Randwick
+84,7/17/2021,2,Randwick
+85,7/18/2021,1,Randwick
+86,7/20/2021,3,Randwick
+87,7/22/2021,1,Randwick
+88,7/25/2021,1,Randwick
+89,7/26/2021,2,Randwick
+90,7/27/2021,1,Randwick
+91,7/29/2021,2,Randwick
+92,7/30/2021,1,Randwick
+93,8/6/2021,1,Randwick
+94,8/8/2021,1,Randwick
+95,8/9/2021,5,Randwick
+96,8/10/2021,1,Randwick
+97,8/11/2021,3,Randwick
+98,8/12/2021,2,Randwick
+0,3/1/2020,1,Hornsby
+1,3/2/2020,1,Hornsby
+2,3/5/2020,1,Hornsby
+3,3/6/2020,2,Hornsby
+4,3/8/2020,1,Hornsby
+5,3/11/2020,3,Hornsby
+6,3/12/2020,1,Hornsby
+7,3/15/2020,1,Hornsby
+8,3/16/2020,1,Hornsby
+9,3/18/2020,1,Hornsby
+10,3/19/2020,1,Hornsby
+11,3/20/2020,3,Hornsby
+12,3/21/2020,2,Hornsby
+13,3/23/2020,3,Hornsby
+14,3/24/2020,7,Hornsby
+15,3/25/2020,3,Hornsby
+16,3/26/2020,2,Hornsby
+17,3/27/2020,7,Hornsby
+18,3/28/2020,1,Hornsby
+19,3/30/2020,1,Hornsby
+20,3/31/2020,1,Hornsby
+21,4/3/2020,1,Hornsby
+22,4/5/2020,1,Hornsby
+23,4/7/2020,1,Hornsby
+24,4/8/2020,2,Hornsby
+25,4/14/2020,1,Hornsby
+26,4/18/2020,1,Hornsby
+27,4/19/2020,1,Hornsby
+28,4/21/2020,2,Hornsby
+29,4/24/2020,2,Hornsby
+30,4/27/2020,1,Hornsby
+31,4/30/2020,1,Hornsby
+32,6/30/2020,1,Hornsby
+33,8/8/2020,3,Hornsby
+34,8/10/2020,2,Hornsby
+35,8/13/2020,1,Hornsby
+36,8/20/2020,1,Hornsby
+37,8/30/2020,1,Hornsby
+38,8/31/2020,1,Hornsby
+39,9/8/2020,1,Hornsby
+40,11/4/2020,1,Hornsby
+41,11/6/2020,1,Hornsby
+42,11/14/2020,1,Hornsby
+43,11/24/2020,1,Hornsby
+44,12/3/2020,1,Hornsby
+45,12/19/2020,2,Hornsby
+46,12/20/2020,1,Hornsby
+47,1/1/2021,1,Hornsby
+48,1/19/2021,1,Hornsby
+49,1/23/2021,1,Hornsby
+50,2/25/2021,1,Hornsby
+51,3/10/2021,1,Hornsby
+52,7/4/2021,3,Hornsby
+53,7/17/2021,1,Hornsby
+54,7/26/2021,2,Hornsby
+55,8/9/2021,1,Hornsby
+0,3/1/2020,1,Fairfield
+1,3/7/2020,1,Fairfield
+2,3/15/2020,1,Fairfield
+3,3/24/2020,2,Fairfield
+4,3/25/2020,1,Fairfield
+5,3/26/2020,3,Fairfield
+6,3/28/2020,1,Fairfield
+7,3/30/2020,1,Fairfield
+8,3/31/2020,1,Fairfield
+9,4/1/2020,2,Fairfield
+10,4/2/2020,1,Fairfield
+11,4/3/2020,3,Fairfield
+12,4/4/2020,1,Fairfield
+13,4/5/2020,3,Fairfield
+14,4/7/2020,1,Fairfield
+15,4/8/2020,1,Fairfield
+16,4/9/2020,2,Fairfield
+17,4/10/2020,2,Fairfield
+18,4/14/2020,1,Fairfield
+19,4/22/2020,1,Fairfield
+20,4/23/2020,1,Fairfield
+21,5/4/2020,1,Fairfield
+22,5/5/2020,1,Fairfield
+23,5/7/2020,1,Fairfield
+24,5/25/2020,1,Fairfield
+25,6/3/2020,1,Fairfield
+26,6/7/2020,2,Fairfield
+27,6/12/2020,1,Fairfield
+28,6/14/2020,1,Fairfield
+29,7/4/2020,1,Fairfield
+30,7/12/2020,1,Fairfield
+31,7/13/2020,1,Fairfield
+32,7/16/2020,1,Fairfield
+33,7/18/2020,3,Fairfield
+34,7/19/2020,3,Fairfield
+35,7/20/2020,3,Fairfield
+36,7/21/2020,5,Fairfield
+37,7/22/2020,2,Fairfield
+38,7/23/2020,2,Fairfield
+39,7/24/2020,5,Fairfield
+40,7/26/2020,1,Fairfield
+41,7/27/2020,1,Fairfield
+42,7/28/2020,3,Fairfield
+43,7/29/2020,3,Fairfield
+44,7/31/2020,6,Fairfield
+45,8/1/2020,1,Fairfield
+46,8/2/2020,1,Fairfield
+47,8/3/2020,3,Fairfield
+48,8/4/2020,4,Fairfield
+49,8/5/2020,3,Fairfield
+50,8/6/2020,2,Fairfield
+51,8/7/2020,5,Fairfield
+52,8/8/2020,4,Fairfield
+53,8/10/2020,3,Fairfield
+54,8/11/2020,4,Fairfield
+55,8/12/2020,2,Fairfield
+56,8/13/2020,4,Fairfield
+57,8/14/2020,3,Fairfield
+58,8/15/2020,1,Fairfield
+59,8/18/2020,3,Fairfield
+60,8/20/2020,2,Fairfield
+61,8/21/2020,1,Fairfield
+62,8/24/2020,1,Fairfield
+63,8/26/2020,2,Fairfield
+64,8/27/2020,3,Fairfield
+65,8/30/2020,1,Fairfield
+66,9/16/2020,1,Fairfield
+67,9/28/2020,1,Fairfield
+68,10/26/2020,1,Fairfield
+69,10/30/2020,1,Fairfield
+70,11/2/2020,1,Fairfield
+71,11/3/2020,2,Fairfield
+72,12/13/2020,1,Fairfield
+73,12/22/2020,1,Fairfield
+74,2/5/2021,1,Fairfield
+75,3/19/2021,2,Fairfield
+76,5/3/2021,1,Fairfield
+77,6/6/2021,1,Fairfield
+78,6/26/2021,2,Fairfield
+79,6/27/2021,1,Fairfield
+80,6/30/2021,1,Fairfield
+81,7/1/2021,3,Fairfield
+82,7/2/2021,4,Fairfield
+83,7/3/2021,3,Fairfield
+84,7/4/2021,1,Fairfield
+85,7/5/2021,2,Fairfield
+86,7/6/2021,11,Fairfield
+87,7/7/2021,10,Fairfield
+88,7/8/2021,9,Fairfield
+89,7/9/2021,19,Fairfield
+90,7/10/2021,59,Fairfield
+91,7/11/2021,74,Fairfield
+92,7/12/2021,38,Fairfield
+93,7/13/2021,48,Fairfield
+94,7/14/2021,41,Fairfield
+95,7/15/2021,56,Fairfield
+96,7/16/2021,60,Fairfield
+97,7/17/2021,63,Fairfield
+98,7/18/2021,50,Fairfield
+99,7/19/2021,27,Fairfield
+100,7/20/2021,33,Fairfield
+101,7/21/2021,40,Fairfield
+102,7/22/2021,29,Fairfield
+103,7/23/2021,37,Fairfield
+104,7/24/2021,33,Fairfield
+105,7/25/2021,16,Fairfield
+106,7/26/2021,27,Fairfield
+107,7/27/2021,37,Fairfield
+108,7/28/2021,48,Fairfield
+109,7/29/2021,21,Fairfield
+110,7/30/2021,22,Fairfield
+111,7/31/2021,43,Fairfield
+112,8/1/2021,15,Fairfield
+113,8/2/2021,15,Fairfield
+114,8/3/2021,18,Fairfield
+115,8/4/2021,25,Fairfield
+116,8/5/2021,20,Fairfield
+117,8/6/2021,27,Fairfield
+118,8/7/2021,24,Fairfield
+119,8/8/2021,21,Fairfield
+120,8/9/2021,19,Fairfield
+121,8/10/2021,26,Fairfield
+122,8/11/2021,37,Fairfield
+123,8/12/2021,25,Fairfield
+0,3/2/2020,1,Bayside
+1,3/11/2020,3,Bayside
+2,3/13/2020,1,Bayside
+3,3/16/2020,1,Bayside
+4,3/17/2020,2,Bayside
+5,3/20/2020,1,Bayside
+6,3/22/2020,2,Bayside
+7,3/23/2020,2,Bayside
+8,3/24/2020,2,Bayside
+9,3/25/2020,3,Bayside
+10,3/27/2020,3,Bayside
+11,3/28/2020,3,Bayside
+12,3/29/2020,7,Bayside
+13,3/30/2020,3,Bayside
+14,3/31/2020,5,Bayside
+15,4/1/2020,1,Bayside
+16,4/2/2020,1,Bayside
+17,4/3/2020,2,Bayside
+18,4/4/2020,5,Bayside
+19,4/5/2020,3,Bayside
+20,4/6/2020,6,Bayside
+21,4/7/2020,2,Bayside
+22,4/8/2020,2,Bayside
+23,4/10/2020,1,Bayside
+24,4/11/2020,1,Bayside
+25,4/12/2020,1,Bayside
+26,4/13/2020,1,Bayside
+27,4/16/2020,1,Bayside
+28,7/10/2020,1,Bayside
+29,7/12/2020,1,Bayside
+30,7/16/2020,1,Bayside
+31,7/19/2020,1,Bayside
+32,7/30/2020,1,Bayside
+33,8/27/2020,1,Bayside
+34,9/2/2020,1,Bayside
+35,9/22/2020,3,Bayside
+36,10/14/2020,1,Bayside
+37,10/20/2020,1,Bayside
+38,10/30/2020,1,Bayside
+39,11/1/2020,1,Bayside
+40,11/22/2020,1,Bayside
+41,12/29/2020,1,Bayside
+42,1/1/2021,1,Bayside
+43,1/20/2021,1,Bayside
+44,1/29/2021,1,Bayside
+45,2/10/2021,1,Bayside
+46,3/17/2021,2,Bayside
+47,3/20/2021,1,Bayside
+48,5/2/2021,1,Bayside
+49,5/8/2021,1,Bayside
+50,6/15/2021,1,Bayside
+51,6/20/2021,1,Bayside
+52,6/21/2021,1,Bayside
+53,6/22/2021,1,Bayside
+54,6/25/2021,1,Bayside
+55,6/26/2021,3,Bayside
+56,6/27/2021,1,Bayside
+57,6/29/2021,1,Bayside
+58,6/30/2021,2,Bayside
+59,7/2/2021,2,Bayside
+60,7/4/2021,1,Bayside
+61,7/5/2021,1,Bayside
+62,7/8/2021,4,Bayside
+63,7/9/2021,4,Bayside
+64,7/10/2021,1,Bayside
+65,7/12/2021,6,Bayside
+66,7/13/2021,3,Bayside
+67,7/14/2021,3,Bayside
+68,7/15/2021,1,Bayside
+69,7/16/2021,1,Bayside
+70,7/17/2021,1,Bayside
+71,7/18/2021,1,Bayside
+72,7/19/2021,3,Bayside
+73,7/20/2021,3,Bayside
+74,7/21/2021,3,Bayside
+75,7/22/2021,4,Bayside
+76,7/23/2021,2,Bayside
+77,7/24/2021,1,Bayside
+78,7/25/2021,4,Bayside
+79,7/26/2021,3,Bayside
+80,7/27/2021,6,Bayside
+81,7/28/2021,7,Bayside
+82,7/29/2021,4,Bayside
+83,7/30/2021,5,Bayside
+84,7/31/2021,2,Bayside
+85,8/1/2021,2,Bayside
+86,8/2/2021,3,Bayside
+87,8/3/2021,5,Bayside
+88,8/4/2021,8,Bayside
+89,8/5/2021,4,Bayside
+90,8/6/2021,9,Bayside
+91,8/7/2021,2,Bayside
+92,8/8/2021,16,Bayside
+93,8/9/2021,15,Bayside
+94,8/10/2021,8,Bayside
+95,8/11/2021,4,Bayside
+96,8/12/2021,11,Bayside
+0,3/3/2020,2,Canterbury-Bankstown
+1,3/15/2020,1,Canterbury-Bankstown
+2,3/16/2020,1,Canterbury-Bankstown
+3,3/18/2020,1,Canterbury-Bankstown
+4,3/19/2020,3,Canterbury-Bankstown
+5,3/20/2020,6,Canterbury-Bankstown
+6,3/21/2020,1,Canterbury-Bankstown
+7,3/22/2020,6,Canterbury-Bankstown
+8,3/23/2020,5,Canterbury-Bankstown
+9,3/24/2020,6,Canterbury-Bankstown
+10,3/25/2020,9,Canterbury-Bankstown
+11,3/26/2020,8,Canterbury-Bankstown
+12,3/27/2020,4,Canterbury-Bankstown
+13,3/28/2020,5,Canterbury-Bankstown
+14,3/29/2020,4,Canterbury-Bankstown
+15,3/30/2020,5,Canterbury-Bankstown
+16,3/31/2020,5,Canterbury-Bankstown
+17,4/1/2020,1,Canterbury-Bankstown
+18,4/2/2020,3,Canterbury-Bankstown
+19,4/3/2020,3,Canterbury-Bankstown
+20,4/4/2020,1,Canterbury-Bankstown
+21,4/5/2020,1,Canterbury-Bankstown
+22,4/8/2020,3,Canterbury-Bankstown
+23,4/9/2020,1,Canterbury-Bankstown
+24,4/10/2020,1,Canterbury-Bankstown
+25,4/15/2020,1,Canterbury-Bankstown
+26,4/18/2020,1,Canterbury-Bankstown
+27,4/19/2020,1,Canterbury-Bankstown
+28,4/23/2020,2,Canterbury-Bankstown
+29,4/28/2020,3,Canterbury-Bankstown
+30,4/29/2020,1,Canterbury-Bankstown
+31,5/19/2020,1,Canterbury-Bankstown
+32,6/9/2020,1,Canterbury-Bankstown
+33,6/12/2020,1,Canterbury-Bankstown
+34,6/13/2020,1,Canterbury-Bankstown
+35,6/21/2020,1,Canterbury-Bankstown
+36,6/23/2020,1,Canterbury-Bankstown
+37,6/26/2020,1,Canterbury-Bankstown
+38,6/27/2020,1,Canterbury-Bankstown
+39,6/30/2020,1,Canterbury-Bankstown
+40,7/4/2020,3,Canterbury-Bankstown
+41,7/5/2020,1,Canterbury-Bankstown
+42,7/6/2020,2,Canterbury-Bankstown
+43,7/12/2020,1,Canterbury-Bankstown
+44,7/16/2020,2,Canterbury-Bankstown
+45,7/17/2020,1,Canterbury-Bankstown
+46,7/18/2020,3,Canterbury-Bankstown
+47,7/21/2020,1,Canterbury-Bankstown
+48,7/24/2020,4,Canterbury-Bankstown
+49,7/25/2020,4,Canterbury-Bankstown
+50,7/26/2020,1,Canterbury-Bankstown
+51,7/27/2020,3,Canterbury-Bankstown
+52,7/30/2020,3,Canterbury-Bankstown
+53,7/31/2020,1,Canterbury-Bankstown
+54,8/3/2020,1,Canterbury-Bankstown
+55,8/5/2020,1,Canterbury-Bankstown
+56,8/10/2020,1,Canterbury-Bankstown
+57,8/11/2020,1,Canterbury-Bankstown
+58,8/12/2020,2,Canterbury-Bankstown
+59,8/13/2020,3,Canterbury-Bankstown
+60,8/15/2020,2,Canterbury-Bankstown
+61,8/21/2020,1,Canterbury-Bankstown
+62,8/28/2020,1,Canterbury-Bankstown
+63,8/30/2020,1,Canterbury-Bankstown
+64,9/1/2020,1,Canterbury-Bankstown
+65,9/2/2020,2,Canterbury-Bankstown
+66,9/3/2020,2,Canterbury-Bankstown
+67,9/4/2020,2,Canterbury-Bankstown
+68,9/5/2020,3,Canterbury-Bankstown
+69,9/7/2020,1,Canterbury-Bankstown
+70,9/13/2020,1,Canterbury-Bankstown
+71,9/16/2020,1,Canterbury-Bankstown
+72,10/1/2020,1,Canterbury-Bankstown
+73,10/10/2020,1,Canterbury-Bankstown
+74,10/11/2020,1,Canterbury-Bankstown
+75,10/13/2020,2,Canterbury-Bankstown
+76,10/14/2020,1,Canterbury-Bankstown
+77,10/18/2020,1,Canterbury-Bankstown
+78,11/5/2020,1,Canterbury-Bankstown
+79,11/7/2020,1,Canterbury-Bankstown
+80,11/11/2020,1,Canterbury-Bankstown
+81,11/18/2020,1,Canterbury-Bankstown
+82,11/19/2020,1,Canterbury-Bankstown
+83,11/30/2020,1,Canterbury-Bankstown
+84,12/1/2020,1,Canterbury-Bankstown
+85,12/14/2020,1,Canterbury-Bankstown
+86,12/16/2020,1,Canterbury-Bankstown
+87,12/18/2020,4,Canterbury-Bankstown
+88,12/21/2020,1,Canterbury-Bankstown
+89,12/24/2020,1,Canterbury-Bankstown
+90,12/29/2020,5,Canterbury-Bankstown
+91,12/31/2020,1,Canterbury-Bankstown
+92,1/1/2021,1,Canterbury-Bankstown
+93,1/3/2021,1,Canterbury-Bankstown
+94,1/4/2021,1,Canterbury-Bankstown
+95,1/7/2021,1,Canterbury-Bankstown
+96,1/8/2021,3,Canterbury-Bankstown
+97,1/9/2021,3,Canterbury-Bankstown
+98,1/10/2021,1,Canterbury-Bankstown
+99,1/11/2021,3,Canterbury-Bankstown
+100,1/14/2021,1,Canterbury-Bankstown
+101,1/15/2021,1,Canterbury-Bankstown
+102,1/16/2021,1,Canterbury-Bankstown
+103,1/25/2021,1,Canterbury-Bankstown
+104,1/30/2021,1,Canterbury-Bankstown
+105,2/7/2021,1,Canterbury-Bankstown
+106,2/22/2021,1,Canterbury-Bankstown
+107,2/25/2021,2,Canterbury-Bankstown
+108,2/26/2021,2,Canterbury-Bankstown
+109,3/2/2021,2,Canterbury-Bankstown
+110,3/4/2021,4,Canterbury-Bankstown
+111,3/5/2021,2,Canterbury-Bankstown
+112,3/6/2021,1,Canterbury-Bankstown
+113,3/11/2021,3,Canterbury-Bankstown
+114,3/13/2021,1,Canterbury-Bankstown
+115,3/23/2021,1,Canterbury-Bankstown
+116,3/25/2021,2,Canterbury-Bankstown
+117,4/2/2021,1,Canterbury-Bankstown
+118,4/4/2021,1,Canterbury-Bankstown
+119,4/18/2021,1,Canterbury-Bankstown
+120,4/21/2021,1,Canterbury-Bankstown
+121,4/26/2021,1,Canterbury-Bankstown
+122,5/3/2021,1,Canterbury-Bankstown
+123,5/5/2021,1,Canterbury-Bankstown
+124,5/7/2021,1,Canterbury-Bankstown
+125,5/9/2021,2,Canterbury-Bankstown
+126,5/13/2021,2,Canterbury-Bankstown
+127,5/15/2021,2,Canterbury-Bankstown
+128,5/21/2021,1,Canterbury-Bankstown
+129,6/6/2021,1,Canterbury-Bankstown
+130,6/7/2021,1,Canterbury-Bankstown
+131,6/8/2021,1,Canterbury-Bankstown
+132,6/9/2021,1,Canterbury-Bankstown
+133,6/13/2021,1,Canterbury-Bankstown
+134,6/25/2021,2,Canterbury-Bankstown
+135,6/26/2021,3,Canterbury-Bankstown
+136,6/27/2021,6,Canterbury-Bankstown
+137,6/28/2021,2,Canterbury-Bankstown
+138,6/29/2021,1,Canterbury-Bankstown
+139,6/30/2021,4,Canterbury-Bankstown
+140,7/1/2021,3,Canterbury-Bankstown
+141,7/2/2021,4,Canterbury-Bankstown
+142,7/3/2021,1,Canterbury-Bankstown
+143,7/4/2021,1,Canterbury-Bankstown
+144,7/5/2021,3,Canterbury-Bankstown
+145,7/6/2021,5,Canterbury-Bankstown
+146,7/7/2021,8,Canterbury-Bankstown
+147,7/8/2021,13,Canterbury-Bankstown
+148,7/9/2021,10,Canterbury-Bankstown
+149,7/10/2021,12,Canterbury-Bankstown
+150,7/11/2021,10,Canterbury-Bankstown
+151,7/12/2021,8,Canterbury-Bankstown
+152,7/13/2021,14,Canterbury-Bankstown
+153,7/14/2021,5,Canterbury-Bankstown
+154,7/15/2021,7,Canterbury-Bankstown
+155,7/16/2021,14,Canterbury-Bankstown
+156,7/17/2021,9,Canterbury-Bankstown
+157,7/18/2021,12,Canterbury-Bankstown
+158,7/19/2021,11,Canterbury-Bankstown
+159,7/20/2021,18,Canterbury-Bankstown
+160,7/21/2021,31,Canterbury-Bankstown
+161,7/22/2021,29,Canterbury-Bankstown
+162,7/23/2021,30,Canterbury-Bankstown
+163,7/24/2021,36,Canterbury-Bankstown
+164,7/25/2021,49,Canterbury-Bankstown
+165,7/26/2021,29,Canterbury-Bankstown
+166,7/27/2021,32,Canterbury-Bankstown
+167,7/28/2021,68,Canterbury-Bankstown
+168,7/29/2021,43,Canterbury-Bankstown
+169,7/30/2021,51,Canterbury-Bankstown
+170,7/31/2021,83,Canterbury-Bankstown
+171,8/1/2021,49,Canterbury-Bankstown
+172,8/2/2021,66,Canterbury-Bankstown
+173,8/3/2021,80,Canterbury-Bankstown
+174,8/4/2021,50,Canterbury-Bankstown
+175,8/5/2021,94,Canterbury-Bankstown
+176,8/6/2021,67,Canterbury-Bankstown
+177,8/7/2021,62,Canterbury-Bankstown
+178,8/8/2021,57,Canterbury-Bankstown
+179,8/9/2021,66,Canterbury-Bankstown
+180,8/10/2021,79,Canterbury-Bankstown
+181,8/11/2021,96,Canterbury-Bankstown
+182,8/12/2021,48,Canterbury-Bankstown
+0,3/3/2020,1,Ryde
+1,3/4/2020,4,Ryde
+2,3/5/2020,1,Ryde
+3,3/9/2020,1,Ryde
+4,3/11/2020,1,Ryde
+5,3/12/2020,1,Ryde
+6,3/13/2020,1,Ryde
+7,3/15/2020,1,Ryde
+8,3/16/2020,1,Ryde
+9,3/17/2020,1,Ryde
+10,3/19/2020,1,Ryde
+11,3/20/2020,4,Ryde
+12,3/21/2020,1,Ryde
+13,3/22/2020,3,Ryde
+14,3/23/2020,4,Ryde
+15,3/24/2020,5,Ryde
+16,3/25/2020,3,Ryde
+17,3/26/2020,3,Ryde
+18,3/27/2020,5,Ryde
+19,3/28/2020,7,Ryde
+20,3/29/2020,1,Ryde
+21,3/30/2020,4,Ryde
+22,3/31/2020,3,Ryde
+23,4/1/2020,5,Ryde
+24,4/3/2020,1,Ryde
+25,4/4/2020,1,Ryde
+26,4/5/2020,1,Ryde
+27,4/6/2020,1,Ryde
+28,4/10/2020,2,Ryde
+29,4/15/2020,2,Ryde
+30,7/14/2020,2,Ryde
+31,7/22/2020,1,Ryde
+32,8/10/2020,1,Ryde
+33,10/9/2020,2,Ryde
+34,12/2/2020,1,Ryde
+35,12/18/2020,1,Ryde
+36,12/29/2020,1,Ryde
+37,12/30/2020,1,Ryde
+38,1/5/2021,1,Ryde
+39,1/27/2021,1,Ryde
+40,3/8/2021,1,Ryde
+41,3/17/2021,1,Ryde
+42,3/21/2021,1,Ryde
+43,4/4/2021,1,Ryde
+44,4/16/2021,1,Ryde
+45,4/20/2021,1,Ryde
+46,4/21/2021,1,Ryde
+47,5/7/2021,1,Ryde
+48,6/4/2021,1,Ryde
+49,6/9/2021,1,Ryde
+50,6/13/2021,1,Ryde
+51,6/21/2021,1,Ryde
+52,7/11/2021,1,Ryde
+53,7/20/2021,1,Ryde
+54,7/23/2021,3,Ryde
+55,7/25/2021,1,Ryde
+56,7/26/2021,1,Ryde
+57,7/29/2021,3,Ryde
+58,7/30/2021,3,Ryde
+59,7/31/2021,2,Ryde
+60,8/1/2021,1,Ryde
+61,8/2/2021,1,Ryde
+62,8/4/2021,1,Ryde
+63,8/5/2021,3,Ryde
+64,8/6/2021,1,Ryde
+65,8/7/2021,2,Ryde
+66,8/8/2021,6,Ryde
+67,8/9/2021,4,Ryde
+68,8/10/2021,3,Ryde
+69,8/11/2021,2,Ryde
+70,8/12/2021,5,Ryde
+0,3/3/2020,2,The Hills Shire
+1,3/14/2020,1,The Hills Shire
+2,3/16/2020,2,The Hills Shire
+3,3/18/2020,1,The Hills Shire
+4,3/19/2020,2,The Hills Shire
+5,3/20/2020,1,The Hills Shire
+6,3/21/2020,2,The Hills Shire
+7,3/22/2020,4,The Hills Shire
+8,3/23/2020,3,The Hills Shire
+9,3/24/2020,4,The Hills Shire
+10,3/25/2020,3,The Hills Shire
+11,3/26/2020,1,The Hills Shire
+12,3/27/2020,1,The Hills Shire
+13,3/28/2020,8,The Hills Shire
+14,3/29/2020,6,The Hills Shire
+15,3/30/2020,1,The Hills Shire
+16,3/31/2020,5,The Hills Shire
+17,4/1/2020,4,The Hills Shire
+18,4/2/2020,3,The Hills Shire
+19,4/4/2020,2,The Hills Shire
+20,4/5/2020,1,The Hills Shire
+21,4/11/2020,1,The Hills Shire
+22,4/17/2020,1,The Hills Shire
+23,4/25/2020,1,The Hills Shire
+24,4/28/2020,1,The Hills Shire
+25,5/14/2020,1,The Hills Shire
+26,5/30/2020,2,The Hills Shire
+27,7/5/2020,1,The Hills Shire
+28,7/19/2020,2,The Hills Shire
+29,7/20/2020,2,The Hills Shire
+30,7/21/2020,1,The Hills Shire
+31,7/23/2020,1,The Hills Shire
+32,7/28/2020,1,The Hills Shire
+33,8/2/2020,1,The Hills Shire
+34,8/7/2020,1,The Hills Shire
+35,8/8/2020,1,The Hills Shire
+36,8/9/2020,7,The Hills Shire
+37,8/10/2020,3,The Hills Shire
+38,8/11/2020,1,The Hills Shire
+39,8/12/2020,1,The Hills Shire
+40,8/14/2020,1,The Hills Shire
+41,8/15/2020,2,The Hills Shire
+42,8/18/2020,2,The Hills Shire
+43,8/20/2020,1,The Hills Shire
+44,8/21/2020,1,The Hills Shire
+45,8/24/2020,1,The Hills Shire
+46,9/6/2020,1,The Hills Shire
+47,10/10/2020,1,The Hills Shire
+48,10/16/2020,1,The Hills Shire
+49,10/18/2020,1,The Hills Shire
+50,10/23/2020,1,The Hills Shire
+51,10/26/2020,1,The Hills Shire
+52,12/5/2020,1,The Hills Shire
+53,12/10/2020,1,The Hills Shire
+54,12/17/2020,1,The Hills Shire
+55,12/22/2020,1,The Hills Shire
+56,12/24/2020,1,The Hills Shire
+57,12/26/2020,1,The Hills Shire
+58,12/29/2020,1,The Hills Shire
+59,1/31/2021,1,The Hills Shire
+60,2/20/2021,1,The Hills Shire
+61,2/22/2021,1,The Hills Shire
+62,2/23/2021,2,The Hills Shire
+63,2/26/2021,1,The Hills Shire
+64,3/23/2021,1,The Hills Shire
+65,4/20/2021,2,The Hills Shire
+66,5/3/2021,1,The Hills Shire
+67,5/8/2021,2,The Hills Shire
+68,5/16/2021,1,The Hills Shire
+69,5/28/2021,1,The Hills Shire
+70,5/29/2021,1,The Hills Shire
+71,6/4/2021,1,The Hills Shire
+72,6/6/2021,1,The Hills Shire
+73,6/7/2021,1,The Hills Shire
+74,6/14/2021,1,The Hills Shire
+75,6/23/2021,1,The Hills Shire
+76,6/25/2021,1,The Hills Shire
+77,6/29/2021,1,The Hills Shire
+78,6/30/2021,1,The Hills Shire
+79,7/3/2021,5,The Hills Shire
+80,7/4/2021,3,The Hills Shire
+81,7/6/2021,1,The Hills Shire
+82,7/14/2021,2,The Hills Shire
+83,7/22/2021,1,The Hills Shire
+84,7/25/2021,5,The Hills Shire
+85,7/26/2021,1,The Hills Shire
+86,7/28/2021,2,The Hills Shire
+87,7/29/2021,2,The Hills Shire
+88,7/30/2021,5,The Hills Shire
+89,7/31/2021,1,The Hills Shire
+90,8/1/2021,2,The Hills Shire
+91,8/2/2021,1,The Hills Shire
+92,8/3/2021,4,The Hills Shire
+93,8/4/2021,1,The Hills Shire
+94,8/5/2021,1,The Hills Shire
+95,8/6/2021,2,The Hills Shire
+96,8/7/2021,5,The Hills Shire
+97,8/9/2021,2,The Hills Shire
+98,8/10/2021,1,The Hills Shire
+99,8/11/2021,3,The Hills Shire
+0,3/3/2020,1,Sutherland Shire
+1,3/5/2020,1,Sutherland Shire
+2,3/6/2020,1,Sutherland Shire
+3,3/12/2020,1,Sutherland Shire
+4,3/13/2020,1,Sutherland Shire
+5,3/14/2020,1,Sutherland Shire
+6,3/15/2020,1,Sutherland Shire
+7,3/16/2020,1,Sutherland Shire
+8,3/17/2020,7,Sutherland Shire
+9,3/18/2020,4,Sutherland Shire
+10,3/19/2020,2,Sutherland Shire
+11,3/20/2020,4,Sutherland Shire
+12,3/21/2020,7,Sutherland Shire
+13,3/22/2020,9,Sutherland Shire
+14,3/23/2020,8,Sutherland Shire
+15,3/24/2020,2,Sutherland Shire
+16,3/25/2020,5,Sutherland Shire
+17,3/26/2020,6,Sutherland Shire
+18,3/27/2020,2,Sutherland Shire
+19,3/28/2020,11,Sutherland Shire
+20,3/29/2020,3,Sutherland Shire
+21,3/30/2020,2,Sutherland Shire
+22,3/31/2020,4,Sutherland Shire
+23,4/1/2020,4,Sutherland Shire
+24,4/2/2020,8,Sutherland Shire
+25,4/3/2020,2,Sutherland Shire
+26,4/4/2020,2,Sutherland Shire
+27,4/5/2020,3,Sutherland Shire
+28,4/6/2020,2,Sutherland Shire
+29,4/7/2020,3,Sutherland Shire
+30,4/8/2020,1,Sutherland Shire
+31,4/9/2020,1,Sutherland Shire
+32,4/11/2020,1,Sutherland Shire
+33,4/16/2020,1,Sutherland Shire
+34,4/17/2020,1,Sutherland Shire
+35,4/18/2020,1,Sutherland Shire
+36,5/12/2020,2,Sutherland Shire
+37,6/12/2020,1,Sutherland Shire
+38,6/13/2020,1,Sutherland Shire
+39,7/3/2020,1,Sutherland Shire
+40,7/17/2020,1,Sutherland Shire
+41,7/19/2020,3,Sutherland Shire
+42,7/22/2020,1,Sutherland Shire
+43,7/30/2020,1,Sutherland Shire
+44,8/1/2020,1,Sutherland Shire
+45,8/8/2020,1,Sutherland Shire
+46,8/18/2020,1,Sutherland Shire
+47,8/27/2020,2,Sutherland Shire
+48,8/30/2020,1,Sutherland Shire
+49,9/4/2020,1,Sutherland Shire
+50,9/7/2020,1,Sutherland Shire
+51,9/18/2020,1,Sutherland Shire
+52,9/25/2020,1,Sutherland Shire
+53,10/18/2020,1,Sutherland Shire
+54,10/19/2020,1,Sutherland Shire
+55,10/29/2020,1,Sutherland Shire
+56,11/14/2020,1,Sutherland Shire
+57,11/20/2020,1,Sutherland Shire
+58,11/21/2020,2,Sutherland Shire
+59,12/5/2020,2,Sutherland Shire
+60,12/9/2020,2,Sutherland Shire
+61,12/17/2020,1,Sutherland Shire
+62,12/25/2020,1,Sutherland Shire
+63,12/28/2020,1,Sutherland Shire
+64,1/15/2021,1,Sutherland Shire
+65,5/11/2021,1,Sutherland Shire
+66,6/20/2021,1,Sutherland Shire
+67,6/23/2021,1,Sutherland Shire
+68,6/24/2021,1,Sutherland Shire
+69,7/6/2021,1,Sutherland Shire
+70,7/7/2021,1,Sutherland Shire
+71,7/9/2021,4,Sutherland Shire
+72,7/10/2021,2,Sutherland Shire
+73,7/12/2021,4,Sutherland Shire
+74,7/13/2021,3,Sutherland Shire
+75,7/14/2021,3,Sutherland Shire
+76,7/16/2021,1,Sutherland Shire
+77,7/18/2021,3,Sutherland Shire
+78,7/20/2021,1,Sutherland Shire
+79,7/22/2021,1,Sutherland Shire
+80,7/23/2021,3,Sutherland Shire
+81,7/24/2021,4,Sutherland Shire
+82,7/25/2021,2,Sutherland Shire
+83,7/27/2021,1,Sutherland Shire
+84,8/1/2021,1,Sutherland Shire
+85,8/2/2021,2,Sutherland Shire
+86,8/4/2021,1,Sutherland Shire
+87,8/6/2021,2,Sutherland Shire
+88,8/7/2021,2,Sutherland Shire
+89,8/8/2021,1,Sutherland Shire
+90,8/9/2021,2,Sutherland Shire
+91,8/10/2021,3,Sutherland Shire
+92,8/11/2021,1,Sutherland Shire
+93,8/12/2021,4,Sutherland Shire
+0,3/4/2020,1,Northern Beaches
+1,3/6/2020,1,Northern Beaches
+2,3/11/2020,1,Northern Beaches
+3,3/14/2020,2,Northern Beaches
+4,3/15/2020,1,Northern Beaches
+5,3/17/2020,7,Northern Beaches
+6,3/19/2020,3,Northern Beaches
+7,3/20/2020,4,Northern Beaches
+8,3/21/2020,12,Northern Beaches
+9,3/22/2020,7,Northern Beaches
+10,3/23/2020,6,Northern Beaches
+11,3/24/2020,11,Northern Beaches
+12,3/25/2020,11,Northern Beaches
+13,3/26/2020,12,Northern Beaches
+14,3/27/2020,8,Northern Beaches
+15,3/28/2020,11,Northern Beaches
+16,3/29/2020,6,Northern Beaches
+17,3/30/2020,7,Northern Beaches
+18,3/31/2020,10,Northern Beaches
+19,4/1/2020,7,Northern Beaches
+20,4/2/2020,2,Northern Beaches
+21,4/3/2020,7,Northern Beaches
+22,4/4/2020,3,Northern Beaches
+23,4/5/2020,2,Northern Beaches
+24,4/6/2020,1,Northern Beaches
+25,4/7/2020,1,Northern Beaches
+26,4/8/2020,2,Northern Beaches
+27,4/9/2020,2,Northern Beaches
+28,4/10/2020,1,Northern Beaches
+29,4/11/2020,1,Northern Beaches
+30,4/13/2020,1,Northern Beaches
+31,4/15/2020,2,Northern Beaches
+32,4/16/2020,1,Northern Beaches
+33,4/19/2020,2,Northern Beaches
+34,4/20/2020,1,Northern Beaches
+35,4/27/2020,1,Northern Beaches
+36,7/3/2020,1,Northern Beaches
+37,7/12/2020,1,Northern Beaches
+38,7/13/2020,1,Northern Beaches
+39,7/29/2020,1,Northern Beaches
+40,8/4/2020,1,Northern Beaches
+41,8/17/2020,1,Northern Beaches
+42,8/18/2020,1,Northern Beaches
+43,8/25/2020,1,Northern Beaches
+44,8/31/2020,1,Northern Beaches
+45,10/25/2020,1,Northern Beaches
+46,11/2/2020,1,Northern Beaches
+47,11/3/2020,1,Northern Beaches
+48,11/23/2020,1,Northern Beaches
+49,11/27/2020,2,Northern Beaches
+50,11/29/2020,1,Northern Beaches
+51,12/3/2020,2,Northern Beaches
+52,12/13/2020,1,Northern Beaches
+53,12/16/2020,3,Northern Beaches
+54,12/17/2020,21,Northern Beaches
+55,12/18/2020,14,Northern Beaches
+56,12/19/2020,22,Northern Beaches
+57,12/20/2020,10,Northern Beaches
+58,12/21/2020,4,Northern Beaches
+59,12/22/2020,3,Northern Beaches
+60,12/23/2020,7,Northern Beaches
+61,12/24/2020,2,Northern Beaches
+62,12/25/2020,4,Northern Beaches
+63,12/26/2020,4,Northern Beaches
+64,12/27/2020,5,Northern Beaches
+65,12/28/2020,1,Northern Beaches
+66,12/29/2020,5,Northern Beaches
+67,12/30/2020,1,Northern Beaches
+68,1/2/2021,1,Northern Beaches
+69,1/7/2021,1,Northern Beaches
+70,1/8/2021,1,Northern Beaches
+71,1/10/2021,1,Northern Beaches
+72,1/11/2021,1,Northern Beaches
+73,1/16/2021,2,Northern Beaches
+74,1/25/2021,1,Northern Beaches
+75,4/18/2021,1,Northern Beaches
+76,7/11/2021,1,Northern Beaches
+77,7/12/2021,1,Northern Beaches
+78,7/13/2021,1,Northern Beaches
+79,7/15/2021,1,Northern Beaches
+80,7/18/2021,1,Northern Beaches
+81,7/20/2021,2,Northern Beaches
+82,7/21/2021,2,Northern Beaches
+83,7/22/2021,1,Northern Beaches
+84,7/24/2021,2,Northern Beaches
+85,7/25/2021,9,Northern Beaches
+86,7/26/2021,2,Northern Beaches
+87,7/27/2021,1,Northern Beaches
+88,7/28/2021,1,Northern Beaches
+89,7/29/2021,2,Northern Beaches
+90,7/30/2021,1,Northern Beaches
+91,7/31/2021,1,Northern Beaches
+92,8/1/2021,2,Northern Beaches
+93,8/3/2021,1,Northern Beaches
+94,8/4/2021,1,Northern Beaches
+95,8/5/2021,6,Northern Beaches
+96,8/7/2021,3,Northern Beaches
+97,8/8/2021,4,Northern Beaches
+98,8/10/2021,1,Northern Beaches
+99,8/11/2021,4,Northern Beaches
+0,3/4/2020,1,Sydney
+1,3/9/2020,2,Sydney
+2,3/11/2020,1,Sydney
+3,3/13/2020,2,Sydney
+4,3/14/2020,3,Sydney
+5,3/15/2020,2,Sydney
+6,3/17/2020,5,Sydney
+7,3/18/2020,10,Sydney
+8,3/19/2020,6,Sydney
+9,3/20/2020,5,Sydney
+10,3/21/2020,4,Sydney
+11,3/22/2020,5,Sydney
+12,3/23/2020,7,Sydney
+13,3/24/2020,13,Sydney
+14,3/25/2020,8,Sydney
+15,3/26/2020,10,Sydney
+16,3/27/2020,9,Sydney
+17,3/28/2020,3,Sydney
+18,3/29/2020,10,Sydney
+19,3/30/2020,2,Sydney
+20,3/31/2020,3,Sydney
+21,4/1/2020,12,Sydney
+22,4/2/2020,6,Sydney
+23,4/3/2020,5,Sydney
+24,4/4/2020,8,Sydney
+25,4/5/2020,6,Sydney
+26,4/8/2020,1,Sydney
+27,4/9/2020,1,Sydney
+28,4/11/2020,1,Sydney
+29,4/13/2020,2,Sydney
+30,4/14/2020,1,Sydney
+31,4/15/2020,1,Sydney
+32,4/16/2020,1,Sydney
+33,4/17/2020,1,Sydney
+34,4/22/2020,1,Sydney
+35,4/24/2020,1,Sydney
+36,6/6/2020,1,Sydney
+37,6/14/2020,2,Sydney
+38,6/23/2020,1,Sydney
+39,7/12/2020,1,Sydney
+40,7/17/2020,1,Sydney
+41,7/22/2020,2,Sydney
+42,7/24/2020,1,Sydney
+43,7/26/2020,1,Sydney
+44,7/27/2020,1,Sydney
+45,7/28/2020,2,Sydney
+46,7/29/2020,1,Sydney
+47,7/30/2020,2,Sydney
+48,8/2/2020,1,Sydney
+49,8/3/2020,3,Sydney
+50,8/5/2020,3,Sydney
+51,8/7/2020,1,Sydney
+52,8/26/2020,1,Sydney
+53,8/28/2020,1,Sydney
+54,8/29/2020,1,Sydney
+55,8/31/2020,1,Sydney
+56,9/1/2020,2,Sydney
+57,9/9/2020,1,Sydney
+58,9/16/2020,1,Sydney
+59,9/23/2020,1,Sydney
+60,10/26/2020,2,Sydney
+61,11/7/2020,1,Sydney
+62,11/9/2020,1,Sydney
+63,11/14/2020,1,Sydney
+64,11/18/2020,1,Sydney
+65,11/21/2020,1,Sydney
+66,11/26/2020,1,Sydney
+67,11/27/2020,1,Sydney
+68,12/15/2020,2,Sydney
+69,12/19/2020,1,Sydney
+70,12/20/2020,1,Sydney
+71,12/22/2020,1,Sydney
+72,12/24/2020,2,Sydney
+73,12/25/2020,1,Sydney
+74,12/28/2020,2,Sydney
+75,12/29/2020,1,Sydney
+76,12/30/2020,1,Sydney
+77,12/31/2020,1,Sydney
+78,1/12/2021,1,Sydney
+79,2/7/2021,1,Sydney
+80,2/16/2021,1,Sydney
+81,3/10/2021,1,Sydney
+82,4/10/2021,1,Sydney
+83,4/17/2021,1,Sydney
+84,4/21/2021,2,Sydney
+85,5/14/2021,1,Sydney
+86,5/25/2021,1,Sydney
+87,6/16/2021,1,Sydney
+88,6/22/2021,3,Sydney
+89,6/23/2021,2,Sydney
+90,6/24/2021,2,Sydney
+91,6/25/2021,3,Sydney
+92,6/26/2021,3,Sydney
+93,6/27/2021,2,Sydney
+94,6/30/2021,2,Sydney
+95,7/1/2021,1,Sydney
+96,7/2/2021,4,Sydney
+97,7/4/2021,1,Sydney
+98,7/10/2021,7,Sydney
+99,7/11/2021,1,Sydney
+100,7/12/2021,3,Sydney
+101,7/13/2021,1,Sydney
+102,7/14/2021,1,Sydney
+103,7/16/2021,2,Sydney
+104,7/19/2021,1,Sydney
+105,7/21/2021,2,Sydney
+106,7/22/2021,3,Sydney
+107,7/23/2021,1,Sydney
+108,7/24/2021,1,Sydney
+109,7/25/2021,1,Sydney
+110,7/26/2021,2,Sydney
+111,7/27/2021,4,Sydney
+112,7/28/2021,1,Sydney
+113,7/30/2021,2,Sydney
+114,8/1/2021,1,Sydney
+115,8/2/2021,3,Sydney
+116,8/3/2021,1,Sydney
+117,8/4/2021,3,Sydney
+118,8/5/2021,4,Sydney
+119,8/6/2021,4,Sydney
+120,8/7/2021,2,Sydney
+121,8/9/2021,5,Sydney
+122,8/10/2021,1,Sydney
+123,8/11/2021,5,Sydney
+124,8/12/2021,3,Sydney
+0,3/5/2020,1,Goulburn Mulwaree
+1,3/23/2020,2,Goulburn Mulwaree
+2,3/24/2020,1,Goulburn Mulwaree
+3,3/25/2020,1,Goulburn Mulwaree
+4,3/26/2020,1,Goulburn Mulwaree
+5,3/28/2020,1,Goulburn Mulwaree
+6,3/30/2020,1,Goulburn Mulwaree
+7,5/12/2020,2,Goulburn Mulwaree
+8,10/8/2020,1,Goulburn Mulwaree
+9,10/19/2020,1,Goulburn Mulwaree
+10,11/9/2020,1,Goulburn Mulwaree
+11,7/26/2021,1,Goulburn Mulwaree
+0,3/6/2020,1,Cumberland
+1,3/12/2020,1,Cumberland
+2,3/14/2020,1,Cumberland
+3,3/15/2020,2,Cumberland
+4,3/17/2020,1,Cumberland
+5,3/18/2020,2,Cumberland
+6,3/19/2020,3,Cumberland
+7,3/21/2020,3,Cumberland
+8,3/22/2020,3,Cumberland
+9,3/23/2020,3,Cumberland
+10,3/24/2020,2,Cumberland
+11,3/25/2020,1,Cumberland
+12,3/26/2020,3,Cumberland
+13,3/27/2020,6,Cumberland
+14,3/28/2020,3,Cumberland
+15,3/29/2020,4,Cumberland
+16,3/30/2020,2,Cumberland
+17,3/31/2020,5,Cumberland
+18,4/1/2020,5,Cumberland
+19,4/2/2020,3,Cumberland
+20,4/3/2020,4,Cumberland
+21,4/4/2020,3,Cumberland
+22,4/5/2020,5,Cumberland
+23,4/6/2020,1,Cumberland
+24,4/9/2020,1,Cumberland
+25,4/30/2020,1,Cumberland
+26,5/2/2020,1,Cumberland
+27,5/4/2020,1,Cumberland
+28,5/19/2020,1,Cumberland
+29,5/21/2020,2,Cumberland
+30,5/31/2020,1,Cumberland
+31,6/1/2020,2,Cumberland
+32,6/11/2020,1,Cumberland
+33,6/13/2020,3,Cumberland
+34,6/19/2020,1,Cumberland
+35,6/22/2020,1,Cumberland
+36,6/23/2020,1,Cumberland
+37,6/24/2020,2,Cumberland
+38,6/25/2020,1,Cumberland
+39,6/27/2020,1,Cumberland
+40,6/28/2020,1,Cumberland
+41,7/1/2020,2,Cumberland
+42,7/3/2020,2,Cumberland
+43,7/5/2020,1,Cumberland
+44,7/7/2020,1,Cumberland
+45,7/8/2020,1,Cumberland
+46,7/10/2020,1,Cumberland
+47,7/18/2020,4,Cumberland
+48,7/20/2020,2,Cumberland
+49,7/21/2020,2,Cumberland
+50,7/23/2020,2,Cumberland
+51,7/24/2020,4,Cumberland
+52,7/26/2020,1,Cumberland
+53,7/28/2020,6,Cumberland
+54,7/29/2020,4,Cumberland
+55,7/31/2020,1,Cumberland
+56,8/1/2020,1,Cumberland
+57,8/2/2020,1,Cumberland
+58,8/5/2020,2,Cumberland
+59,8/6/2020,4,Cumberland
+60,8/9/2020,1,Cumberland
+61,8/11/2020,2,Cumberland
+62,8/14/2020,3,Cumberland
+63,8/15/2020,1,Cumberland
+64,8/16/2020,2,Cumberland
+65,8/30/2020,1,Cumberland
+66,8/31/2020,6,Cumberland
+67,9/1/2020,3,Cumberland
+68,9/2/2020,2,Cumberland
+69,9/7/2020,1,Cumberland
+70,9/9/2020,1,Cumberland
+71,9/11/2020,1,Cumberland
+72,9/13/2020,1,Cumberland
+73,9/29/2020,2,Cumberland
+74,10/1/2020,1,Cumberland
+75,10/4/2020,1,Cumberland
+76,10/7/2020,3,Cumberland
+77,10/12/2020,2,Cumberland
+78,10/13/2020,3,Cumberland
+79,10/14/2020,1,Cumberland
+80,10/17/2020,1,Cumberland
+81,10/23/2020,1,Cumberland
+82,10/29/2020,5,Cumberland
+83,11/3/2020,1,Cumberland
+84,11/8/2020,1,Cumberland
+85,11/14/2020,1,Cumberland
+86,11/15/2020,1,Cumberland
+87,11/27/2020,1,Cumberland
+88,11/29/2020,1,Cumberland
+89,12/2/2020,1,Cumberland
+90,12/18/2020,1,Cumberland
+91,12/20/2020,1,Cumberland
+92,12/23/2020,1,Cumberland
+93,12/29/2020,1,Cumberland
+94,12/30/2020,1,Cumberland
+95,12/31/2020,7,Cumberland
+96,1/1/2021,1,Cumberland
+97,1/2/2021,1,Cumberland
+98,1/3/2021,2,Cumberland
+99,1/4/2021,1,Cumberland
+100,1/5/2021,2,Cumberland
+101,1/6/2021,2,Cumberland
+102,1/8/2021,2,Cumberland
+103,1/9/2021,1,Cumberland
+104,1/10/2021,1,Cumberland
+105,1/11/2021,1,Cumberland
+106,1/12/2021,1,Cumberland
+107,1/15/2021,2,Cumberland
+108,1/16/2021,5,Cumberland
+109,2/9/2021,1,Cumberland
+110,2/21/2021,1,Cumberland
+111,2/28/2021,2,Cumberland
+112,3/4/2021,1,Cumberland
+113,3/11/2021,1,Cumberland
+114,3/17/2021,1,Cumberland
+115,3/24/2021,1,Cumberland
+116,3/28/2021,1,Cumberland
+117,4/4/2021,1,Cumberland
+118,4/5/2021,1,Cumberland
+119,4/9/2021,1,Cumberland
+120,4/15/2021,1,Cumberland
+121,4/17/2021,2,Cumberland
+122,4/18/2021,1,Cumberland
+123,4/19/2021,1,Cumberland
+124,4/24/2021,1,Cumberland
+125,4/26/2021,1,Cumberland
+126,4/28/2021,4,Cumberland
+127,5/2/2021,1,Cumberland
+128,5/4/2021,2,Cumberland
+129,5/5/2021,3,Cumberland
+130,5/12/2021,2,Cumberland
+131,5/16/2021,1,Cumberland
+132,5/17/2021,1,Cumberland
+133,5/19/2021,1,Cumberland
+134,5/21/2021,1,Cumberland
+135,5/27/2021,2,Cumberland
+136,6/7/2021,2,Cumberland
+137,6/10/2021,1,Cumberland
+138,6/18/2021,3,Cumberland
+139,6/19/2021,1,Cumberland
+140,6/24/2021,2,Cumberland
+141,6/29/2021,2,Cumberland
+142,6/30/2021,1,Cumberland
+143,7/1/2021,1,Cumberland
+144,7/2/2021,2,Cumberland
+145,7/3/2021,1,Cumberland
+146,7/4/2021,2,Cumberland
+147,7/6/2021,2,Cumberland
+148,7/7/2021,2,Cumberland
+149,7/8/2021,1,Cumberland
+150,7/9/2021,2,Cumberland
+151,7/10/2021,5,Cumberland
+152,7/11/2021,2,Cumberland
+153,7/13/2021,3,Cumberland
+154,7/14/2021,1,Cumberland
+155,7/15/2021,8,Cumberland
+156,7/16/2021,7,Cumberland
+157,7/17/2021,6,Cumberland
+158,7/18/2021,11,Cumberland
+159,7/19/2021,5,Cumberland
+160,7/20/2021,22,Cumberland
+161,7/21/2021,21,Cumberland
+162,7/22/2021,16,Cumberland
+163,7/23/2021,29,Cumberland
+164,7/24/2021,22,Cumberland
+165,7/25/2021,32,Cumberland
+166,7/26/2021,15,Cumberland
+167,7/27/2021,8,Cumberland
+168,7/28/2021,34,Cumberland
+169,7/29/2021,24,Cumberland
+170,7/30/2021,36,Cumberland
+171,7/31/2021,27,Cumberland
+172,8/1/2021,27,Cumberland
+173,8/2/2021,41,Cumberland
+174,8/3/2021,42,Cumberland
+175,8/4/2021,44,Cumberland
+176,8/5/2021,42,Cumberland
+177,8/6/2021,37,Cumberland
+178,8/7/2021,39,Cumberland
+179,8/8/2021,24,Cumberland
+180,8/9/2021,73,Cumberland
+181,8/10/2021,42,Cumberland
+182,8/11/2021,48,Cumberland
+183,8/12/2021,38,Cumberland
+0,3/8/2020,1,Woollahra
+1,3/10/2020,1,Woollahra
+2,3/11/2020,1,Woollahra
+3,3/13/2020,4,Woollahra
+4,3/14/2020,1,Woollahra
+5,3/15/2020,4,Woollahra
+6,3/16/2020,1,Woollahra
+7,3/17/2020,4,Woollahra
+8,3/18/2020,3,Woollahra
+9,3/19/2020,4,Woollahra
+10,3/20/2020,10,Woollahra
+11,3/21/2020,8,Woollahra
+12,3/22/2020,4,Woollahra
+13,3/23/2020,9,Woollahra
+14,3/24/2020,4,Woollahra
+15,3/25/2020,10,Woollahra
+16,3/26/2020,2,Woollahra
+17,3/27/2020,4,Woollahra
+18,3/28/2020,2,Woollahra
+19,3/29/2020,1,Woollahra
+20,3/30/2020,3,Woollahra
+21,3/31/2020,3,Woollahra
+22,4/1/2020,1,Woollahra
+23,4/2/2020,1,Woollahra
+24,4/4/2020,1,Woollahra
+25,4/5/2020,1,Woollahra
+26,4/9/2020,1,Woollahra
+27,4/10/2020,2,Woollahra
+28,4/11/2020,1,Woollahra
+29,4/29/2020,1,Woollahra
+30,6/11/2020,1,Woollahra
+31,7/19/2020,1,Woollahra
+32,8/13/2020,3,Woollahra
+33,8/28/2020,2,Woollahra
+34,9/1/2020,1,Woollahra
+35,9/3/2020,1,Woollahra
+36,11/28/2020,1,Woollahra
+37,12/17/2020,1,Woollahra
+38,12/20/2020,1,Woollahra
+39,12/21/2020,1,Woollahra
+40,12/23/2020,1,Woollahra
+41,12/24/2020,1,Woollahra
+42,12/26/2020,2,Woollahra
+43,12/30/2020,1,Woollahra
+44,1/1/2021,4,Woollahra
+45,1/6/2021,4,Woollahra
+46,1/15/2021,1,Woollahra
+47,1/25/2021,1,Woollahra
+48,5/5/2021,2,Woollahra
+49,6/18/2021,1,Woollahra
+50,6/21/2021,1,Woollahra
+51,6/23/2021,1,Woollahra
+52,6/24/2021,2,Woollahra
+53,6/25/2021,3,Woollahra
+54,6/26/2021,2,Woollahra
+55,6/28/2021,1,Woollahra
+56,6/29/2021,1,Woollahra
+57,6/30/2021,3,Woollahra
+58,7/1/2021,1,Woollahra
+59,7/2/2021,2,Woollahra
+60,7/5/2021,1,Woollahra
+61,7/9/2021,1,Woollahra
+62,7/11/2021,3,Woollahra
+63,7/15/2021,1,Woollahra
+64,7/27/2021,1,Woollahra
+65,7/28/2021,1,Woollahra
+66,8/8/2021,2,Woollahra
+67,8/9/2021,3,Woollahra
+68,8/11/2021,1,Woollahra
+69,8/12/2021,1,Woollahra
+0,3/8/2020,1,Liverpool
+1,3/12/2020,1,Liverpool
+2,3/16/2020,2,Liverpool
+3,3/19/2020,1,Liverpool
+4,3/20/2020,2,Liverpool
+5,3/21/2020,1,Liverpool
+6,3/22/2020,4,Liverpool
+7,3/23/2020,2,Liverpool
+8,3/24/2020,2,Liverpool
+9,3/25/2020,2,Liverpool
+10,3/26/2020,4,Liverpool
+11,3/27/2020,7,Liverpool
+12,3/29/2020,2,Liverpool
+13,3/31/2020,1,Liverpool
+14,4/2/2020,1,Liverpool
+15,4/7/2020,2,Liverpool
+16,4/8/2020,5,Liverpool
+17,4/9/2020,4,Liverpool
+18,4/10/2020,1,Liverpool
+19,4/11/2020,1,Liverpool
+20,4/14/2020,2,Liverpool
+21,4/15/2020,1,Liverpool
+22,4/18/2020,1,Liverpool
+23,6/13/2020,1,Liverpool
+24,6/28/2020,1,Liverpool
+25,7/4/2020,1,Liverpool
+26,7/8/2020,1,Liverpool
+27,7/11/2020,1,Liverpool
+28,7/12/2020,6,Liverpool
+29,7/13/2020,5,Liverpool
+30,7/14/2020,3,Liverpool
+31,7/15/2020,2,Liverpool
+32,7/17/2020,2,Liverpool
+33,7/18/2020,1,Liverpool
+34,7/19/2020,1,Liverpool
+35,7/20/2020,2,Liverpool
+36,7/21/2020,2,Liverpool
+37,7/22/2020,3,Liverpool
+38,7/24/2020,1,Liverpool
+39,7/25/2020,3,Liverpool
+40,7/26/2020,1,Liverpool
+41,7/27/2020,1,Liverpool
+42,7/29/2020,2,Liverpool
+43,7/30/2020,2,Liverpool
+44,7/31/2020,1,Liverpool
+45,8/1/2020,4,Liverpool
+46,8/3/2020,4,Liverpool
+47,8/5/2020,1,Liverpool
+48,8/11/2020,3,Liverpool
+49,8/16/2020,1,Liverpool
+50,8/19/2020,1,Liverpool
+51,8/21/2020,1,Liverpool
+52,8/23/2020,1,Liverpool
+53,8/30/2020,1,Liverpool
+54,9/3/2020,1,Liverpool
+55,9/19/2020,1,Liverpool
+56,9/30/2020,1,Liverpool
+57,10/8/2020,1,Liverpool
+58,10/10/2020,2,Liverpool
+59,10/14/2020,1,Liverpool
+60,10/18/2020,1,Liverpool
+61,10/21/2020,1,Liverpool
+62,10/24/2020,3,Liverpool
+63,10/28/2020,4,Liverpool
+64,11/1/2020,1,Liverpool
+65,11/5/2020,3,Liverpool
+66,11/21/2020,1,Liverpool
+67,11/24/2020,1,Liverpool
+68,12/26/2020,2,Liverpool
+69,12/28/2020,1,Liverpool
+70,12/29/2020,1,Liverpool
+71,1/16/2021,2,Liverpool
+72,1/20/2021,1,Liverpool
+73,2/8/2021,1,Liverpool
+74,3/14/2021,1,Liverpool
+75,4/5/2021,2,Liverpool
+76,4/8/2021,1,Liverpool
+77,4/16/2021,1,Liverpool
+78,5/1/2021,1,Liverpool
+79,5/3/2021,1,Liverpool
+80,5/17/2021,1,Liverpool
+81,5/27/2021,1,Liverpool
+82,6/7/2021,1,Liverpool
+83,6/22/2021,1,Liverpool
+84,6/23/2021,2,Liverpool
+85,6/24/2021,6,Liverpool
+86,6/25/2021,5,Liverpool
+87,6/26/2021,1,Liverpool
+88,6/27/2021,1,Liverpool
+89,6/28/2021,2,Liverpool
+90,6/29/2021,5,Liverpool
+91,6/30/2021,1,Liverpool
+92,7/2/2021,1,Liverpool
+93,7/5/2021,2,Liverpool
+94,7/6/2021,4,Liverpool
+95,7/7/2021,1,Liverpool
+96,7/8/2021,4,Liverpool
+97,7/9/2021,2,Liverpool
+98,7/10/2021,3,Liverpool
+99,7/11/2021,8,Liverpool
+100,7/12/2021,1,Liverpool
+101,7/13/2021,7,Liverpool
+102,7/14/2021,7,Liverpool
+103,7/15/2021,9,Liverpool
+104,7/16/2021,13,Liverpool
+105,7/17/2021,3,Liverpool
+106,7/18/2021,20,Liverpool
+107,7/19/2021,4,Liverpool
+108,7/20/2021,5,Liverpool
+109,7/21/2021,12,Liverpool
+110,7/22/2021,14,Liverpool
+111,7/23/2021,7,Liverpool
+112,7/24/2021,14,Liverpool
+113,7/25/2021,11,Liverpool
+114,7/26/2021,9,Liverpool
+115,7/27/2021,15,Liverpool
+116,7/28/2021,35,Liverpool
+117,7/29/2021,25,Liverpool
+118,7/30/2021,22,Liverpool
+119,7/31/2021,23,Liverpool
+120,8/1/2021,23,Liverpool
+121,8/2/2021,17,Liverpool
+122,8/3/2021,11,Liverpool
+123,8/4/2021,26,Liverpool
+124,8/5/2021,35,Liverpool
+125,8/6/2021,22,Liverpool
+126,8/7/2021,17,Liverpool
+127,8/8/2021,29,Liverpool
+128,8/9/2021,24,Liverpool
+129,8/10/2021,18,Liverpool
+130,8/11/2021,22,Liverpool
+131,8/12/2021,17,Liverpool
+0,3/8/2020,1,Blue Mountains
+1,3/10/2020,1,Blue Mountains
+2,3/13/2020,1,Blue Mountains
+3,3/19/2020,1,Blue Mountains
+4,3/20/2020,1,Blue Mountains
+5,3/23/2020,2,Blue Mountains
+6,3/24/2020,2,Blue Mountains
+7,3/25/2020,3,Blue Mountains
+8,3/26/2020,2,Blue Mountains
+9,3/27/2020,1,Blue Mountains
+10,3/28/2020,1,Blue Mountains
+11,3/29/2020,1,Blue Mountains
+12,3/30/2020,3,Blue Mountains
+13,4/1/2020,1,Blue Mountains
+14,4/3/2020,1,Blue Mountains
+15,4/23/2020,2,Blue Mountains
+16,4/24/2020,1,Blue Mountains
+17,5/3/2020,1,Blue Mountains
+18,5/13/2020,1,Blue Mountains
+19,7/9/2020,2,Blue Mountains
+20,7/10/2020,2,Blue Mountains
+21,7/20/2020,1,Blue Mountains
+22,9/9/2020,2,Blue Mountains
+23,9/11/2020,1,Blue Mountains
+24,9/14/2020,1,Blue Mountains
+25,9/15/2020,2,Blue Mountains
+26,1/8/2021,1,Blue Mountains
+27,7/16/2021,1,Blue Mountains
+28,7/17/2021,1,Blue Mountains
+29,8/4/2021,1,Blue Mountains
+30,8/6/2021,1,Blue Mountains
+31,8/10/2021,1,Blue Mountains
+32,8/12/2021,3,Blue Mountains
+0,3/9/2020,1,Willoughby
+1,3/14/2020,1,Willoughby
+2,3/17/2020,3,Willoughby
+3,3/21/2020,3,Willoughby
+4,3/23/2020,2,Willoughby
+5,3/24/2020,2,Willoughby
+6,3/25/2020,1,Willoughby
+7,3/26/2020,1,Willoughby
+8,3/27/2020,3,Willoughby
+9,3/28/2020,1,Willoughby
+10,3/29/2020,1,Willoughby
+11,3/31/2020,1,Willoughby
+12,4/14/2020,1,Willoughby
+13,4/16/2020,1,Willoughby
+14,4/23/2020,1,Willoughby
+15,7/4/2020,1,Willoughby
+16,7/30/2020,1,Willoughby
+17,9/3/2020,1,Willoughby
+18,9/28/2020,1,Willoughby
+19,12/30/2020,1,Willoughby
+20,1/1/2021,1,Willoughby
+21,1/27/2021,1,Willoughby
+22,4/3/2021,1,Willoughby
+23,4/21/2021,1,Willoughby
+24,4/26/2021,1,Willoughby
+25,6/30/2021,1,Willoughby
+26,7/1/2021,1,Willoughby
+27,7/4/2021,1,Willoughby
+28,7/22/2021,1,Willoughby
+29,7/26/2021,1,Willoughby
+30,7/28/2021,2,Willoughby
+31,8/1/2021,1,Willoughby
+32,8/2/2021,2,Willoughby
+33,8/3/2021,3,Willoughby
+34,8/6/2021,1,Willoughby
+0,3/9/2020,1,Lane Cove
+1,3/10/2020,1,Lane Cove
+2,3/15/2020,2,Lane Cove
+3,3/19/2020,2,Lane Cove
+4,3/21/2020,4,Lane Cove
+5,3/22/2020,1,Lane Cove
+6,3/23/2020,4,Lane Cove
+7,3/24/2020,3,Lane Cove
+8,3/25/2020,2,Lane Cove
+9,3/26/2020,1,Lane Cove
+10,3/27/2020,2,Lane Cove
+11,3/28/2020,1,Lane Cove
+12,3/29/2020,2,Lane Cove
+13,3/31/2020,3,Lane Cove
+14,4/1/2020,2,Lane Cove
+15,4/3/2020,3,Lane Cove
+16,4/4/2020,3,Lane Cove
+17,4/5/2020,1,Lane Cove
+18,4/6/2020,1,Lane Cove
+19,4/10/2020,1,Lane Cove
+20,6/24/2020,1,Lane Cove
+21,8/12/2020,1,Lane Cove
+22,8/27/2020,1,Lane Cove
+23,12/19/2020,1,Lane Cove
+24,12/23/2020,1,Lane Cove
+25,1/15/2021,1,Lane Cove
+26,2/7/2021,1,Lane Cove
+27,4/18/2021,1,Lane Cove
+28,7/18/2021,1,Lane Cove
+29,7/24/2021,1,Lane Cove
+30,7/29/2021,1,Lane Cove
+31,8/1/2021,1,Lane Cove
+32,8/7/2021,1,Lane Cove
+33,8/9/2021,2,Lane Cove
+34,8/10/2021,1,Lane Cove
+0,3/9/2020,3,Blacktown
+1,3/11/2020,2,Blacktown
+2,3/12/2020,1,Blacktown
+3,3/13/2020,1,Blacktown
+4,3/17/2020,1,Blacktown
+5,3/18/2020,1,Blacktown
+6,3/20/2020,2,Blacktown
+7,3/21/2020,1,Blacktown
+8,3/22/2020,3,Blacktown
+9,3/23/2020,5,Blacktown
+10,3/24/2020,4,Blacktown
+11,3/25/2020,8,Blacktown
+12,3/26/2020,6,Blacktown
+13,3/27/2020,7,Blacktown
+14,3/28/2020,4,Blacktown
+15,3/29/2020,12,Blacktown
+16,3/30/2020,6,Blacktown
+17,3/31/2020,6,Blacktown
+18,4/1/2020,7,Blacktown
+19,4/2/2020,5,Blacktown
+20,4/3/2020,7,Blacktown
+21,4/4/2020,2,Blacktown
+22,4/5/2020,1,Blacktown
+23,4/6/2020,2,Blacktown
+24,4/7/2020,1,Blacktown
+25,4/8/2020,1,Blacktown
+26,4/9/2020,6,Blacktown
+27,4/11/2020,2,Blacktown
+28,4/14/2020,1,Blacktown
+29,4/19/2020,1,Blacktown
+30,4/28/2020,2,Blacktown
+31,4/30/2020,1,Blacktown
+32,5/4/2020,1,Blacktown
+33,5/13/2020,1,Blacktown
+34,5/14/2020,2,Blacktown
+35,5/24/2020,1,Blacktown
+36,5/31/2020,3,Blacktown
+37,6/1/2020,2,Blacktown
+38,6/2/2020,1,Blacktown
+39,6/4/2020,3,Blacktown
+40,6/11/2020,1,Blacktown
+41,6/23/2020,2,Blacktown
+42,6/24/2020,1,Blacktown
+43,6/26/2020,2,Blacktown
+44,6/27/2020,1,Blacktown
+45,6/29/2020,2,Blacktown
+46,6/30/2020,3,Blacktown
+47,7/3/2020,2,Blacktown
+48,7/4/2020,1,Blacktown
+49,7/8/2020,1,Blacktown
+50,7/14/2020,1,Blacktown
+51,7/15/2020,1,Blacktown
+52,7/18/2020,1,Blacktown
+53,7/19/2020,1,Blacktown
+54,7/20/2020,2,Blacktown
+55,7/22/2020,1,Blacktown
+56,7/26/2020,1,Blacktown
+57,7/28/2020,2,Blacktown
+58,7/29/2020,1,Blacktown
+59,7/30/2020,2,Blacktown
+60,7/31/2020,1,Blacktown
+61,8/8/2020,1,Blacktown
+62,8/9/2020,1,Blacktown
+63,8/10/2020,1,Blacktown
+64,8/18/2020,1,Blacktown
+65,8/21/2020,1,Blacktown
+66,8/23/2020,1,Blacktown
+67,8/25/2020,2,Blacktown
+68,8/26/2020,3,Blacktown
+69,8/27/2020,2,Blacktown
+70,8/29/2020,1,Blacktown
+71,8/30/2020,1,Blacktown
+72,9/5/2020,1,Blacktown
+73,9/7/2020,1,Blacktown
+74,9/8/2020,1,Blacktown
+75,9/9/2020,2,Blacktown
+76,9/11/2020,1,Blacktown
+77,9/14/2020,1,Blacktown
+78,9/22/2020,1,Blacktown
+79,9/24/2020,1,Blacktown
+80,9/28/2020,1,Blacktown
+81,9/30/2020,2,Blacktown
+82,10/8/2020,2,Blacktown
+83,10/13/2020,1,Blacktown
+84,10/14/2020,2,Blacktown
+85,10/15/2020,1,Blacktown
+86,10/26/2020,1,Blacktown
+87,11/30/2020,1,Blacktown
+88,12/9/2020,2,Blacktown
+89,12/12/2020,1,Blacktown
+90,12/20/2020,1,Blacktown
+91,12/21/2020,2,Blacktown
+92,12/22/2020,4,Blacktown
+93,12/23/2020,1,Blacktown
+94,12/26/2020,1,Blacktown
+95,12/27/2020,1,Blacktown
+96,1/1/2021,1,Blacktown
+97,1/2/2021,1,Blacktown
+98,1/3/2021,1,Blacktown
+99,1/4/2021,1,Blacktown
+100,1/10/2021,1,Blacktown
+101,1/11/2021,1,Blacktown
+102,1/15/2021,1,Blacktown
+103,1/29/2021,1,Blacktown
+104,2/24/2021,1,Blacktown
+105,2/27/2021,1,Blacktown
+106,3/4/2021,4,Blacktown
+107,3/8/2021,1,Blacktown
+108,3/9/2021,1,Blacktown
+109,3/30/2021,3,Blacktown
+110,4/5/2021,1,Blacktown
+111,4/10/2021,1,Blacktown
+112,4/11/2021,1,Blacktown
+113,4/12/2021,1,Blacktown
+114,4/17/2021,1,Blacktown
+115,4/18/2021,1,Blacktown
+116,4/19/2021,1,Blacktown
+117,4/28/2021,2,Blacktown
+118,5/3/2021,2,Blacktown
+119,5/4/2021,1,Blacktown
+120,5/17/2021,1,Blacktown
+121,5/18/2021,1,Blacktown
+122,6/6/2021,1,Blacktown
+123,6/27/2021,1,Blacktown
+124,6/29/2021,1,Blacktown
+125,6/30/2021,1,Blacktown
+126,7/2/2021,1,Blacktown
+127,7/6/2021,1,Blacktown
+128,7/7/2021,1,Blacktown
+129,7/8/2021,1,Blacktown
+130,7/9/2021,1,Blacktown
+131,7/10/2021,1,Blacktown
+132,7/11/2021,2,Blacktown
+133,7/12/2021,1,Blacktown
+134,7/13/2021,1,Blacktown
+135,7/14/2021,3,Blacktown
+136,7/15/2021,5,Blacktown
+137,7/16/2021,4,Blacktown
+138,7/17/2021,3,Blacktown
+139,7/18/2021,2,Blacktown
+140,7/19/2021,5,Blacktown
+141,7/20/2021,6,Blacktown
+142,7/21/2021,12,Blacktown
+143,7/22/2021,9,Blacktown
+144,7/23/2021,20,Blacktown
+145,7/24/2021,13,Blacktown
+146,7/25/2021,8,Blacktown
+147,7/26/2021,15,Blacktown
+148,7/27/2021,24,Blacktown
+149,7/28/2021,15,Blacktown
+150,7/29/2021,13,Blacktown
+151,7/30/2021,14,Blacktown
+152,7/31/2021,24,Blacktown
+153,8/1/2021,16,Blacktown
+154,8/2/2021,11,Blacktown
+155,8/3/2021,18,Blacktown
+156,8/4/2021,19,Blacktown
+157,8/5/2021,30,Blacktown
+158,8/6/2021,33,Blacktown
+159,8/7/2021,20,Blacktown
+160,8/8/2021,30,Blacktown
+161,8/9/2021,41,Blacktown
+162,8/10/2021,43,Blacktown
+163,8/11/2021,43,Blacktown
+164,8/12/2021,52,Blacktown
+0,3/9/2020,1,Inner West
+1,3/12/2020,1,Inner West
+2,3/15/2020,2,Inner West
+3,3/16/2020,1,Inner West
+4,3/17/2020,1,Inner West
+5,3/18/2020,1,Inner West
+6,3/19/2020,1,Inner West
+7,3/20/2020,1,Inner West
+8,3/21/2020,3,Inner West
+9,3/22/2020,4,Inner West
+10,3/23/2020,5,Inner West
+11,3/25/2020,8,Inner West
+12,3/26/2020,5,Inner West
+13,3/27/2020,7,Inner West
+14,3/28/2020,3,Inner West
+15,3/29/2020,3,Inner West
+16,3/30/2020,3,Inner West
+17,3/31/2020,2,Inner West
+18,4/1/2020,2,Inner West
+19,4/2/2020,6,Inner West
+20,4/3/2020,7,Inner West
+21,4/4/2020,2,Inner West
+22,4/5/2020,3,Inner West
+23,4/21/2020,1,Inner West
+24,4/28/2020,1,Inner West
+25,5/4/2020,1,Inner West
+26,5/8/2020,1,Inner West
+27,7/4/2020,1,Inner West
+28,7/26/2020,1,Inner West
+29,7/28/2020,1,Inner West
+30,7/30/2020,2,Inner West
+31,8/1/2020,2,Inner West
+32,8/25/2020,1,Inner West
+33,8/27/2020,1,Inner West
+34,8/29/2020,1,Inner West
+35,9/1/2020,1,Inner West
+36,9/5/2020,1,Inner West
+37,10/19/2020,1,Inner West
+38,10/20/2020,1,Inner West
+39,10/25/2020,1,Inner West
+40,10/26/2020,2,Inner West
+41,11/16/2020,1,Inner West
+42,12/23/2020,2,Inner West
+43,12/24/2020,1,Inner West
+44,1/7/2021,1,Inner West
+45,1/31/2021,1,Inner West
+46,2/8/2021,2,Inner West
+47,3/9/2021,1,Inner West
+48,7/2/2021,1,Inner West
+49,7/9/2021,1,Inner West
+50,7/10/2021,1,Inner West
+51,7/12/2021,1,Inner West
+52,7/15/2021,2,Inner West
+53,7/16/2021,1,Inner West
+54,7/18/2021,1,Inner West
+55,7/21/2021,2,Inner West
+56,7/22/2021,2,Inner West
+57,7/26/2021,3,Inner West
+58,7/27/2021,3,Inner West
+59,7/28/2021,5,Inner West
+60,7/29/2021,1,Inner West
+61,7/30/2021,6,Inner West
+62,7/31/2021,10,Inner West
+63,8/1/2021,4,Inner West
+64,8/2/2021,4,Inner West
+65,8/3/2021,5,Inner West
+66,8/4/2021,7,Inner West
+67,8/5/2021,7,Inner West
+68,8/6/2021,7,Inner West
+69,8/7/2021,4,Inner West
+70,8/8/2021,2,Inner West
+71,8/9/2021,3,Inner West
+72,8/10/2021,4,Inner West
+73,8/11/2021,2,Inner West
+74,8/12/2021,3,Inner West
+0,3/9/2020,1,Canada Bay
+1,3/10/2020,1,Canada Bay
+2,3/14/2020,1,Canada Bay
+3,3/25/2020,3,Canada Bay
+4,3/26/2020,2,Canada Bay
+5,3/27/2020,2,Canada Bay
+6,3/28/2020,3,Canada Bay
+7,3/29/2020,3,Canada Bay
+8,4/1/2020,1,Canada Bay
+9,4/4/2020,1,Canada Bay
+10,4/6/2020,1,Canada Bay
+11,4/7/2020,1,Canada Bay
+12,4/8/2020,2,Canada Bay
+13,4/14/2020,1,Canada Bay
+14,4/16/2020,1,Canada Bay
+15,4/18/2020,1,Canada Bay
+16,4/24/2020,1,Canada Bay
+17,4/27/2020,2,Canada Bay
+18,4/28/2020,1,Canada Bay
+19,5/5/2020,2,Canada Bay
+20,7/30/2020,1,Canada Bay
+21,7/31/2020,1,Canada Bay
+22,8/1/2020,1,Canada Bay
+23,8/4/2020,1,Canada Bay
+24,8/6/2020,1,Canada Bay
+25,8/21/2020,1,Canada Bay
+26,9/1/2020,1,Canada Bay
+27,9/12/2020,2,Canada Bay
+28,12/9/2020,1,Canada Bay
+29,12/21/2020,1,Canada Bay
+30,1/20/2021,1,Canada Bay
+31,4/19/2021,1,Canada Bay
+32,6/19/2021,1,Canada Bay
+33,6/25/2021,1,Canada Bay
+34,6/26/2021,1,Canada Bay
+35,6/27/2021,1,Canada Bay
+36,6/28/2021,1,Canada Bay
+37,7/4/2021,2,Canada Bay
+38,7/13/2021,1,Canada Bay
+39,7/27/2021,1,Canada Bay
+40,7/31/2021,1,Canada Bay
+41,8/1/2021,2,Canada Bay
+42,8/2/2021,2,Canada Bay
+43,8/4/2021,1,Canada Bay
+44,8/6/2021,1,Canada Bay
+45,8/7/2021,1,Canada Bay
+46,8/8/2021,2,Canada Bay
+47,8/9/2021,1,Canada Bay
+48,8/10/2021,4,Canada Bay
+49,8/11/2021,2,Canada Bay
+50,8/12/2021,1,Canada Bay
+0,3/10/2020,1,Penrith
+1,3/14/2020,1,Penrith
+2,3/17/2020,3,Penrith
+3,3/18/2020,2,Penrith
+4,3/19/2020,1,Penrith
+5,3/21/2020,3,Penrith
+6,3/22/2020,1,Penrith
+7,3/23/2020,3,Penrith
+8,3/24/2020,10,Penrith
+9,3/25/2020,4,Penrith
+10,3/26/2020,3,Penrith
+11,3/27/2020,6,Penrith
+12,3/28/2020,5,Penrith
+13,3/29/2020,1,Penrith
+14,3/30/2020,4,Penrith
+15,3/31/2020,2,Penrith
+16,4/1/2020,2,Penrith
+17,4/2/2020,2,Penrith
+18,4/3/2020,3,Penrith
+19,4/4/2020,2,Penrith
+20,4/8/2020,1,Penrith
+21,4/10/2020,2,Penrith
+22,4/11/2020,1,Penrith
+23,4/12/2020,2,Penrith
+24,4/14/2020,9,Penrith
+25,4/15/2020,9,Penrith
+26,4/16/2020,9,Penrith
+27,4/17/2020,2,Penrith
+28,4/18/2020,8,Penrith
+29,4/19/2020,2,Penrith
+30,4/21/2020,1,Penrith
+31,4/24/2020,9,Penrith
+32,4/25/2020,1,Penrith
+33,4/27/2020,1,Penrith
+34,4/28/2020,1,Penrith
+35,4/29/2020,1,Penrith
+36,4/30/2020,5,Penrith
+37,5/6/2020,1,Penrith
+38,5/7/2020,1,Penrith
+39,5/12/2020,1,Penrith
+40,6/23/2020,1,Penrith
+41,6/25/2020,1,Penrith
+42,6/30/2020,1,Penrith
+43,7/8/2020,1,Penrith
+44,7/9/2020,2,Penrith
+45,7/16/2020,1,Penrith
+46,7/18/2020,1,Penrith
+47,7/19/2020,1,Penrith
+48,7/27/2020,1,Penrith
+49,8/11/2020,1,Penrith
+50,9/7/2020,1,Penrith
+51,9/11/2020,1,Penrith
+52,10/18/2020,1,Penrith
+53,10/19/2020,1,Penrith
+54,10/29/2020,1,Penrith
+55,10/31/2020,1,Penrith
+56,3/29/2021,1,Penrith
+57,4/13/2021,1,Penrith
+58,4/16/2021,1,Penrith
+59,4/19/2021,1,Penrith
+60,5/10/2021,1,Penrith
+61,7/8/2021,4,Penrith
+62,7/11/2021,2,Penrith
+63,7/12/2021,1,Penrith
+64,7/13/2021,1,Penrith
+65,7/14/2021,2,Penrith
+66,7/15/2021,1,Penrith
+67,7/20/2021,1,Penrith
+68,7/21/2021,1,Penrith
+69,7/22/2021,1,Penrith
+70,7/24/2021,1,Penrith
+71,7/26/2021,1,Penrith
+72,7/27/2021,3,Penrith
+73,7/28/2021,6,Penrith
+74,7/29/2021,3,Penrith
+75,7/30/2021,1,Penrith
+76,7/31/2021,1,Penrith
+77,8/1/2021,2,Penrith
+78,8/2/2021,11,Penrith
+79,8/3/2021,10,Penrith
+80,8/4/2021,16,Penrith
+81,8/5/2021,21,Penrith
+82,8/6/2021,27,Penrith
+83,8/7/2021,28,Penrith
+84,8/8/2021,20,Penrith
+85,8/9/2021,29,Penrith
+86,8/10/2021,41,Penrith
+87,8/11/2021,32,Penrith
+88,8/12/2021,22,Penrith
+0,3/11/2020,1,Central Coast
+1,3/15/2020,1,Central Coast
+2,3/17/2020,1,Central Coast
+3,3/18/2020,2,Central Coast
+4,3/19/2020,2,Central Coast
+5,3/20/2020,1,Central Coast
+6,3/21/2020,8,Central Coast
+7,3/22/2020,4,Central Coast
+8,3/23/2020,6,Central Coast
+9,3/24/2020,13,Central Coast
+10,3/25/2020,11,Central Coast
+11,3/26/2020,11,Central Coast
+12,3/27/2020,15,Central Coast
+13,3/28/2020,6,Central Coast
+14,3/29/2020,7,Central Coast
+15,3/30/2020,1,Central Coast
+16,3/31/2020,9,Central Coast
+17,4/1/2020,2,Central Coast
+18,4/2/2020,4,Central Coast
+19,4/3/2020,2,Central Coast
+20,4/4/2020,3,Central Coast
+21,4/5/2020,1,Central Coast
+22,4/6/2020,1,Central Coast
+23,4/7/2020,1,Central Coast
+24,4/8/2020,1,Central Coast
+25,4/9/2020,2,Central Coast
+26,4/18/2020,1,Central Coast
+27,4/30/2020,1,Central Coast
+28,5/8/2020,1,Central Coast
+29,6/13/2020,2,Central Coast
+30,6/26/2020,1,Central Coast
+31,6/27/2020,1,Central Coast
+32,7/2/2020,1,Central Coast
+33,7/28/2020,1,Central Coast
+34,8/10/2020,1,Central Coast
+35,8/26/2020,1,Central Coast
+36,8/31/2020,1,Central Coast
+37,10/17/2020,1,Central Coast
+38,12/13/2020,1,Central Coast
+39,12/18/2020,2,Central Coast
+40,12/28/2020,1,Central Coast
+41,12/29/2020,1,Central Coast
+42,1/4/2021,1,Central Coast
+43,1/18/2021,1,Central Coast
+44,1/31/2021,1,Central Coast
+45,3/10/2021,1,Central Coast
+46,7/2/2021,2,Central Coast
+47,7/10/2021,1,Central Coast
+48,7/23/2021,4,Central Coast
+49,7/25/2021,1,Central Coast
+50,7/30/2021,1,Central Coast
+51,8/4/2021,8,Central Coast
+52,8/5/2021,1,Central Coast
+53,8/7/2021,3,Central Coast
+54,8/10/2021,2,Central Coast
+55,8/12/2021,1,Central Coast
+0,3/11/2020,2,Orange
+1,3/12/2020,1,Orange
+2,3/17/2020,1,Orange
+3,3/20/2020,1,Orange
+4,3/27/2020,2,Orange
+5,4/3/2020,1,Orange
+6,4/6/2020,1,Orange
+7,4/17/2020,1,Orange
+8,5/19/2020,1,Orange
+9,6/20/2020,1,Orange
+10,7/30/2020,1,Orange
+11,12/27/2020,1,Orange
+0,3/11/2020,1,Hunters Hill
+1,3/14/2020,1,Hunters Hill
+2,3/15/2020,1,Hunters Hill
+3,3/17/2020,1,Hunters Hill
+4,3/19/2020,1,Hunters Hill
+5,3/22/2020,1,Hunters Hill
+6,3/24/2020,1,Hunters Hill
+7,3/25/2020,2,Hunters Hill
+8,3/26/2020,2,Hunters Hill
+9,3/30/2020,1,Hunters Hill
+10,4/1/2020,1,Hunters Hill
+11,4/2/2020,1,Hunters Hill
+12,4/3/2020,2,Hunters Hill
+13,4/5/2020,1,Hunters Hill
+14,4/7/2020,3,Hunters Hill
+15,4/8/2020,1,Hunters Hill
+16,4/17/2020,1,Hunters Hill
+17,8/10/2020,1,Hunters Hill
+18,8/26/2020,1,Hunters Hill
+19,9/6/2020,1,Hunters Hill
+20,9/10/2020,1,Hunters Hill
+21,9/15/2020,1,Hunters Hill
+22,10/3/2020,1,Hunters Hill
+23,12/19/2020,1,Hunters Hill
+24,12/29/2020,1,Hunters Hill
+25,7/2/2021,1,Hunters Hill
+0,3/12/2020,1,Hawkesbury
+1,3/15/2020,1,Hawkesbury
+2,3/19/2020,1,Hawkesbury
+3,3/21/2020,1,Hawkesbury
+4,3/22/2020,1,Hawkesbury
+5,3/23/2020,1,Hawkesbury
+6,3/24/2020,5,Hawkesbury
+7,3/25/2020,2,Hawkesbury
+8,3/26/2020,2,Hawkesbury
+9,3/27/2020,3,Hawkesbury
+10,3/28/2020,1,Hawkesbury
+11,3/29/2020,1,Hawkesbury
+12,3/31/2020,1,Hawkesbury
+13,4/1/2020,1,Hawkesbury
+14,4/3/2020,1,Hawkesbury
+15,4/9/2020,1,Hawkesbury
+16,4/16/2020,1,Hawkesbury
+17,12/12/2020,1,Hawkesbury
+18,12/20/2020,1,Hawkesbury
+19,7/10/2021,3,Hawkesbury
+20,7/12/2021,1,Hawkesbury
+21,7/17/2021,2,Hawkesbury
+22,8/10/2021,1,Hawkesbury
+23,8/12/2021,2,Hawkesbury
+0,3/12/2020,2,Waverley
+1,3/13/2020,2,Waverley
+2,3/14/2020,4,Waverley
+3,3/15/2020,2,Waverley
+4,3/16/2020,5,Waverley
+5,3/17/2020,3,Waverley
+6,3/18/2020,8,Waverley
+7,3/19/2020,3,Waverley
+8,3/20/2020,16,Waverley
+9,3/21/2020,21,Waverley
+10,3/22/2020,4,Waverley
+11,3/23/2020,15,Waverley
+12,3/24/2020,13,Waverley
+13,3/25/2020,10,Waverley
+14,3/26/2020,17,Waverley
+15,3/27/2020,10,Waverley
+16,3/28/2020,2,Waverley
+17,3/30/2020,2,Waverley
+18,3/31/2020,4,Waverley
+19,4/1/2020,9,Waverley
+20,4/2/2020,4,Waverley
+21,4/3/2020,3,Waverley
+22,4/4/2020,4,Waverley
+23,4/5/2020,4,Waverley
+24,4/7/2020,3,Waverley
+25,4/8/2020,4,Waverley
+26,4/9/2020,1,Waverley
+27,4/11/2020,1,Waverley
+28,4/12/2020,1,Waverley
+29,4/18/2020,2,Waverley
+30,6/14/2020,1,Waverley
+31,7/27/2020,1,Waverley
+32,7/28/2020,1,Waverley
+33,7/29/2020,1,Waverley
+34,7/31/2020,2,Waverley
+35,8/2/2020,1,Waverley
+36,8/25/2020,1,Waverley
+37,8/28/2020,1,Waverley
+38,8/29/2020,3,Waverley
+39,9/1/2020,2,Waverley
+40,9/2/2020,1,Waverley
+41,9/4/2020,1,Waverley
+42,9/5/2020,2,Waverley
+43,9/8/2020,1,Waverley
+44,9/9/2020,2,Waverley
+45,9/10/2020,1,Waverley
+46,9/11/2020,2,Waverley
+47,10/8/2020,1,Waverley
+48,10/21/2020,1,Waverley
+49,10/31/2020,2,Waverley
+50,11/1/2020,1,Waverley
+51,11/13/2020,1,Waverley
+52,11/27/2020,1,Waverley
+53,12/1/2020,2,Waverley
+54,12/6/2020,2,Waverley
+55,12/10/2020,2,Waverley
+56,12/11/2020,1,Waverley
+57,12/12/2020,1,Waverley
+58,12/20/2020,1,Waverley
+59,12/24/2020,1,Waverley
+60,12/29/2020,3,Waverley
+61,3/31/2021,1,Waverley
+62,4/10/2021,1,Waverley
+63,6/16/2021,2,Waverley
+64,6/17/2021,1,Waverley
+65,6/22/2021,7,Waverley
+66,6/23/2021,2,Waverley
+67,6/24/2021,5,Waverley
+68,6/25/2021,3,Waverley
+69,6/26/2021,7,Waverley
+70,6/27/2021,5,Waverley
+71,6/28/2021,4,Waverley
+72,6/29/2021,5,Waverley
+73,6/30/2021,5,Waverley
+74,7/1/2021,3,Waverley
+75,7/2/2021,1,Waverley
+76,7/3/2021,4,Waverley
+77,7/4/2021,5,Waverley
+78,7/5/2021,2,Waverley
+79,7/7/2021,3,Waverley
+80,7/8/2021,1,Waverley
+81,7/9/2021,2,Waverley
+82,7/10/2021,2,Waverley
+83,7/11/2021,8,Waverley
+84,7/12/2021,5,Waverley
+85,7/13/2021,1,Waverley
+86,7/14/2021,1,Waverley
+87,7/15/2021,1,Waverley
+88,7/16/2021,3,Waverley
+89,7/17/2021,2,Waverley
+90,7/19/2021,1,Waverley
+91,7/20/2021,1,Waverley
+92,7/23/2021,1,Waverley
+93,7/24/2021,3,Waverley
+94,7/27/2021,1,Waverley
+95,8/1/2021,1,Waverley
+96,8/2/2021,2,Waverley
+97,8/5/2021,1,Waverley
+98,8/6/2021,1,Waverley
+99,8/7/2021,2,Waverley
+100,8/8/2021,1,Waverley
+101,8/9/2021,3,Waverley
+102,8/10/2021,4,Waverley
+103,8/11/2021,1,Waverley
+104,8/12/2021,1,Waverley
+0,3/12/2020,1,Camden
+1,3/17/2020,3,Camden
+2,3/18/2020,1,Camden
+3,3/19/2020,2,Camden
+4,3/21/2020,3,Camden
+5,3/22/2020,3,Camden
+6,3/23/2020,1,Camden
+7,3/25/2020,1,Camden
+8,3/26/2020,6,Camden
+9,3/27/2020,4,Camden
+10,3/28/2020,1,Camden
+11,3/31/2020,2,Camden
+12,4/1/2020,1,Camden
+13,4/3/2020,2,Camden
+14,4/4/2020,1,Camden
+15,4/5/2020,1,Camden
+16,4/6/2020,1,Camden
+17,4/7/2020,1,Camden
+18,4/8/2020,1,Camden
+19,4/16/2020,2,Camden
+20,4/30/2020,1,Camden
+21,5/8/2020,1,Camden
+22,6/14/2020,1,Camden
+23,6/17/2020,2,Camden
+24,6/25/2020,1,Camden
+25,6/28/2020,1,Camden
+26,7/17/2020,1,Camden
+27,10/7/2020,4,Camden
+28,10/9/2020,1,Camden
+29,10/12/2020,6,Camden
+30,10/16/2020,5,Camden
+31,10/17/2020,1,Camden
+32,10/19/2020,3,Camden
+33,10/20/2020,1,Camden
+34,10/21/2020,1,Camden
+35,10/26/2020,2,Camden
+36,12/21/2020,1,Camden
+37,12/24/2020,1,Camden
+38,3/3/2021,1,Camden
+39,3/23/2021,1,Camden
+40,4/24/2021,1,Camden
+41,6/22/2021,3,Camden
+42,6/23/2021,1,Camden
+43,6/24/2021,1,Camden
+44,6/25/2021,1,Camden
+45,7/4/2021,1,Camden
+46,7/15/2021,1,Camden
+47,7/20/2021,1,Camden
+48,7/23/2021,1,Camden
+49,7/25/2021,1,Camden
+50,7/26/2021,3,Camden
+51,7/27/2021,3,Camden
+52,7/28/2021,3,Camden
+53,7/29/2021,1,Camden
+54,7/30/2021,1,Camden
+55,7/31/2021,1,Camden
+56,8/1/2021,2,Camden
+57,8/2/2021,8,Camden
+58,8/3/2021,2,Camden
+59,8/4/2021,2,Camden
+60,8/5/2021,3,Camden
+61,8/6/2021,2,Camden
+62,8/7/2021,4,Camden
+63,8/8/2021,3,Camden
+64,8/9/2021,5,Camden
+65,8/10/2021,1,Camden
+66,8/11/2021,8,Camden
+67,8/12/2021,3,Camden
+0,3/12/2020,1,Campbelltown
+1,3/21/2020,3,Campbelltown
+2,3/22/2020,4,Campbelltown
+3,3/23/2020,1,Campbelltown
+4,3/25/2020,4,Campbelltown
+5,3/26/2020,4,Campbelltown
+6,3/27/2020,3,Campbelltown
+7,3/28/2020,2,Campbelltown
+8,3/29/2020,3,Campbelltown
+9,3/31/2020,2,Campbelltown
+10,4/1/2020,1,Campbelltown
+11,4/3/2020,1,Campbelltown
+12,4/4/2020,1,Campbelltown
+13,4/5/2020,1,Campbelltown
+14,4/9/2020,1,Campbelltown
+15,4/11/2020,1,Campbelltown
+16,4/16/2020,1,Campbelltown
+17,6/9/2020,2,Campbelltown
+18,7/7/2020,1,Campbelltown
+19,7/8/2020,1,Campbelltown
+20,7/13/2020,2,Campbelltown
+21,7/14/2020,1,Campbelltown
+22,7/15/2020,1,Campbelltown
+23,7/16/2020,1,Campbelltown
+24,7/17/2020,1,Campbelltown
+25,7/21/2020,1,Campbelltown
+26,7/25/2020,2,Campbelltown
+27,7/28/2020,1,Campbelltown
+28,7/30/2020,1,Campbelltown
+29,7/31/2020,1,Campbelltown
+30,8/1/2020,1,Campbelltown
+31,8/2/2020,2,Campbelltown
+32,8/3/2020,2,Campbelltown
+33,8/4/2020,2,Campbelltown
+34,8/6/2020,1,Campbelltown
+35,8/8/2020,3,Campbelltown
+36,8/9/2020,2,Campbelltown
+37,8/10/2020,1,Campbelltown
+38,8/11/2020,2,Campbelltown
+39,8/13/2020,1,Campbelltown
+40,8/16/2020,1,Campbelltown
+41,8/17/2020,1,Campbelltown
+42,8/20/2020,1,Campbelltown
+43,8/21/2020,1,Campbelltown
+44,8/26/2020,1,Campbelltown
+45,8/27/2020,1,Campbelltown
+46,9/11/2020,1,Campbelltown
+47,9/12/2020,1,Campbelltown
+48,9/14/2020,1,Campbelltown
+49,9/17/2020,1,Campbelltown
+50,9/23/2020,1,Campbelltown
+51,10/6/2020,1,Campbelltown
+52,10/7/2020,1,Campbelltown
+53,10/13/2020,3,Campbelltown
+54,10/14/2020,1,Campbelltown
+55,10/19/2020,1,Campbelltown
+56,10/24/2020,1,Campbelltown
+57,10/27/2020,1,Campbelltown
+58,11/3/2020,1,Campbelltown
+59,12/2/2020,1,Campbelltown
+60,12/20/2020,1,Campbelltown
+61,1/1/2021,4,Campbelltown
+62,1/8/2021,1,Campbelltown
+63,1/12/2021,1,Campbelltown
+64,2/15/2021,1,Campbelltown
+65,3/30/2021,1,Campbelltown
+66,3/31/2021,1,Campbelltown
+67,4/10/2021,1,Campbelltown
+68,4/11/2021,1,Campbelltown
+69,4/14/2021,1,Campbelltown
+70,5/3/2021,1,Campbelltown
+71,5/10/2021,1,Campbelltown
+72,6/23/2021,1,Campbelltown
+73,6/25/2021,1,Campbelltown
+74,6/27/2021,1,Campbelltown
+75,6/28/2021,1,Campbelltown
+76,6/29/2021,1,Campbelltown
+77,7/2/2021,1,Campbelltown
+78,7/3/2021,4,Campbelltown
+79,7/6/2021,1,Campbelltown
+80,7/7/2021,1,Campbelltown
+81,7/10/2021,2,Campbelltown
+82,7/15/2021,1,Campbelltown
+83,7/16/2021,1,Campbelltown
+84,7/19/2021,1,Campbelltown
+85,7/21/2021,1,Campbelltown
+86,7/22/2021,5,Campbelltown
+87,7/23/2021,2,Campbelltown
+88,7/24/2021,2,Campbelltown
+89,7/25/2021,6,Campbelltown
+90,7/26/2021,12,Campbelltown
+91,7/27/2021,9,Campbelltown
+92,7/28/2021,11,Campbelltown
+93,7/29/2021,17,Campbelltown
+94,7/30/2021,8,Campbelltown
+95,7/31/2021,14,Campbelltown
+96,8/1/2021,20,Campbelltown
+97,8/2/2021,11,Campbelltown
+98,8/3/2021,15,Campbelltown
+99,8/4/2021,10,Campbelltown
+100,8/5/2021,16,Campbelltown
+101,8/6/2021,12,Campbelltown
+102,8/7/2021,11,Campbelltown
+103,8/8/2021,16,Campbelltown
+104,8/9/2021,20,Campbelltown
+105,8/10/2021,11,Campbelltown
+106,8/11/2021,16,Campbelltown
+107,8/12/2021,17,Campbelltown
+0,3/13/2020,1,Georges River
+1,3/19/2020,1,Georges River
+2,3/20/2020,1,Georges River
+3,3/21/2020,2,Georges River
+4,3/22/2020,2,Georges River
+5,3/23/2020,2,Georges River
+6,3/24/2020,2,Georges River
+7,3/25/2020,1,Georges River
+8,3/26/2020,2,Georges River
+9,3/27/2020,10,Georges River
+10,3/28/2020,3,Georges River
+11,3/29/2020,5,Georges River
+12,3/31/2020,2,Georges River
+13,4/1/2020,1,Georges River
+14,4/2/2020,3,Georges River
+15,4/3/2020,4,Georges River
+16,4/4/2020,4,Georges River
+17,4/5/2020,2,Georges River
+18,4/6/2020,3,Georges River
+19,4/7/2020,1,Georges River
+20,4/8/2020,2,Georges River
+21,4/9/2020,1,Georges River
+22,4/10/2020,1,Georges River
+23,4/15/2020,1,Georges River
+24,4/17/2020,1,Georges River
+25,4/23/2020,1,Georges River
+26,7/14/2020,1,Georges River
+27,7/16/2020,1,Georges River
+28,7/17/2020,1,Georges River
+29,7/21/2020,1,Georges River
+30,7/28/2020,1,Georges River
+31,9/13/2020,1,Georges River
+32,9/18/2020,1,Georges River
+33,9/20/2020,1,Georges River
+34,10/11/2020,1,Georges River
+35,12/1/2020,1,Georges River
+36,12/7/2020,1,Georges River
+37,12/16/2020,2,Georges River
+38,12/20/2020,1,Georges River
+39,1/2/2021,1,Georges River
+40,2/23/2021,1,Georges River
+41,2/24/2021,1,Georges River
+42,3/13/2021,1,Georges River
+43,4/24/2021,1,Georges River
+44,6/25/2021,1,Georges River
+45,6/26/2021,1,Georges River
+46,6/28/2021,1,Georges River
+47,6/30/2021,1,Georges River
+48,7/1/2021,6,Georges River
+49,7/2/2021,2,Georges River
+50,7/3/2021,3,Georges River
+51,7/4/2021,2,Georges River
+52,7/5/2021,1,Georges River
+53,7/6/2021,1,Georges River
+54,7/7/2021,5,Georges River
+55,7/8/2021,1,Georges River
+56,7/9/2021,2,Georges River
+57,7/10/2021,3,Georges River
+58,7/11/2021,2,Georges River
+59,7/12/2021,2,Georges River
+60,7/13/2021,4,Georges River
+61,7/14/2021,5,Georges River
+62,7/15/2021,2,Georges River
+63,7/16/2021,1,Georges River
+64,7/17/2021,3,Georges River
+65,7/18/2021,3,Georges River
+66,7/19/2021,3,Georges River
+67,7/20/2021,3,Georges River
+68,7/21/2021,7,Georges River
+69,7/22/2021,10,Georges River
+70,7/23/2021,6,Georges River
+71,7/24/2021,3,Georges River
+72,7/25/2021,6,Georges River
+73,7/26/2021,3,Georges River
+74,7/27/2021,5,Georges River
+75,7/28/2021,3,Georges River
+76,7/29/2021,7,Georges River
+77,7/30/2021,5,Georges River
+78,7/31/2021,4,Georges River
+79,8/1/2021,8,Georges River
+80,8/2/2021,2,Georges River
+81,8/3/2021,3,Georges River
+82,8/4/2021,4,Georges River
+83,8/5/2021,10,Georges River
+84,8/6/2021,11,Georges River
+85,8/7/2021,4,Georges River
+86,8/8/2021,3,Georges River
+87,8/9/2021,13,Georges River
+88,8/10/2021,6,Georges River
+89,8/11/2021,6,Georges River
+90,8/12/2021,3,Georges River
+0,3/13/2020,1,North Sydney
+1,3/15/2020,1,North Sydney
+2,3/16/2020,1,North Sydney
+3,3/17/2020,1,North Sydney
+4,3/18/2020,1,North Sydney
+5,3/20/2020,1,North Sydney
+6,3/21/2020,2,North Sydney
+7,3/22/2020,2,North Sydney
+8,3/23/2020,3,North Sydney
+9,3/24/2020,3,North Sydney
+10,3/25/2020,5,North Sydney
+11,3/26/2020,1,North Sydney
+12,3/27/2020,10,North Sydney
+13,3/28/2020,1,North Sydney
+14,3/29/2020,1,North Sydney
+15,3/30/2020,1,North Sydney
+16,3/31/2020,2,North Sydney
+17,4/1/2020,3,North Sydney
+18,4/2/2020,2,North Sydney
+19,4/3/2020,1,North Sydney
+20,4/4/2020,1,North Sydney
+21,4/8/2020,1,North Sydney
+22,4/9/2020,1,North Sydney
+23,4/14/2020,1,North Sydney
+24,4/20/2020,1,North Sydney
+25,8/27/2020,1,North Sydney
+26,8/31/2020,1,North Sydney
+27,9/8/2020,1,North Sydney
+28,11/20/2020,1,North Sydney
+29,12/2/2020,1,North Sydney
+30,12/14/2020,3,North Sydney
+31,12/18/2020,2,North Sydney
+32,12/19/2020,1,North Sydney
+33,12/25/2020,1,North Sydney
+34,12/31/2020,1,North Sydney
+35,3/16/2021,3,North Sydney
+36,4/16/2021,1,North Sydney
+37,5/6/2021,1,North Sydney
+38,5/8/2021,1,North Sydney
+39,6/27/2021,1,North Sydney
+40,7/2/2021,2,North Sydney
+41,7/17/2021,1,North Sydney
+42,8/10/2021,1,North Sydney
+0,3/13/2020,1,Wingecarribee
+1,3/15/2020,1,Wingecarribee
+2,3/16/2020,1,Wingecarribee
+3,3/17/2020,1,Wingecarribee
+4,3/20/2020,4,Wingecarribee
+5,3/22/2020,2,Wingecarribee
+6,3/23/2020,1,Wingecarribee
+7,3/24/2020,1,Wingecarribee
+8,3/25/2020,1,Wingecarribee
+9,3/27/2020,2,Wingecarribee
+10,3/28/2020,1,Wingecarribee
+11,3/29/2020,1,Wingecarribee
+12,3/30/2020,1,Wingecarribee
+13,4/2/2020,1,Wingecarribee
+14,4/4/2020,1,Wingecarribee
+15,4/5/2020,1,Wingecarribee
+16,4/6/2020,3,Wingecarribee
+17,4/10/2020,1,Wingecarribee
+18,4/23/2020,1,Wingecarribee
+19,7/14/2020,1,Wingecarribee
+20,11/5/2020,4,Wingecarribee
+21,11/6/2020,1,Wingecarribee
+22,3/26/2021,1,Wingecarribee
+23,4/9/2021,1,Wingecarribee
+24,7/17/2021,1,Wingecarribee
+25,7/18/2021,1,Wingecarribee
+26,7/23/2021,1,Wingecarribee
+27,7/31/2021,1,Wingecarribee
+0,3/13/2020,1,Cessnock
+1,3/15/2020,2,Cessnock
+2,3/17/2020,1,Cessnock
+3,3/20/2020,1,Cessnock
+4,3/23/2020,3,Cessnock
+5,3/24/2020,1,Cessnock
+6,3/25/2020,2,Cessnock
+7,3/26/2020,1,Cessnock
+8,3/27/2020,1,Cessnock
+9,3/28/2020,3,Cessnock
+10,3/30/2020,3,Cessnock
+11,4/1/2020,3,Cessnock
+12,4/2/2020,2,Cessnock
+0,3/13/2020,2,Coffs Harbour
+1,3/15/2020,1,Coffs Harbour
+2,3/25/2020,2,Coffs Harbour
+3,3/26/2020,2,Coffs Harbour
+4,3/28/2020,1,Coffs Harbour
+5,3/30/2020,1,Coffs Harbour
+6,4/1/2020,2,Coffs Harbour
+7,4/2/2020,1,Coffs Harbour
+8,4/3/2020,1,Coffs Harbour
+9,4/5/2020,1,Coffs Harbour
+10,4/9/2020,1,Coffs Harbour
+11,4/21/2020,2,Coffs Harbour
+12,6/23/2020,1,Coffs Harbour
+13,6/25/2020,1,Coffs Harbour
+14,4/2/2021,1,Coffs Harbour
+15,8/8/2021,1,Coffs Harbour
+0,3/14/2020,1,Byron
+1,3/17/2020,1,Byron
+2,3/24/2020,1,Byron
+3,3/25/2020,1,Byron
+4,3/26/2020,1,Byron
+5,3/29/2020,2,Byron
+6,3/30/2020,4,Byron
+7,4/1/2020,2,Byron
+8,4/6/2020,1,Byron
+9,4/8/2020,2,Byron
+10,7/25/2020,2,Byron
+11,11/1/2020,1,Byron
+12,11/14/2020,1,Byron
+13,3/8/2021,1,Byron
+0,3/15/2020,1,Wollongong
+1,3/16/2020,1,Wollongong
+2,3/18/2020,1,Wollongong
+3,3/19/2020,1,Wollongong
+4,3/20/2020,2,Wollongong
+5,3/21/2020,2,Wollongong
+6,3/22/2020,4,Wollongong
+7,3/23/2020,5,Wollongong
+8,3/24/2020,3,Wollongong
+9,3/25/2020,5,Wollongong
+10,3/26/2020,4,Wollongong
+11,3/27/2020,5,Wollongong
+12,3/28/2020,3,Wollongong
+13,3/29/2020,1,Wollongong
+14,3/30/2020,3,Wollongong
+15,3/31/2020,2,Wollongong
+16,4/1/2020,3,Wollongong
+17,4/2/2020,1,Wollongong
+18,4/3/2020,3,Wollongong
+19,4/7/2020,1,Wollongong
+20,4/17/2020,1,Wollongong
+21,4/30/2020,1,Wollongong
+22,5/28/2020,1,Wollongong
+23,6/27/2020,1,Wollongong
+24,7/22/2020,2,Wollongong
+25,7/25/2020,1,Wollongong
+26,7/31/2020,1,Wollongong
+27,9/4/2020,1,Wollongong
+28,9/9/2020,1,Wollongong
+29,9/10/2020,1,Wollongong
+30,10/26/2020,3,Wollongong
+31,11/6/2020,1,Wollongong
+32,11/17/2020,1,Wollongong
+33,11/18/2020,1,Wollongong
+34,11/22/2020,1,Wollongong
+35,12/29/2020,2,Wollongong
+36,1/2/2021,1,Wollongong
+37,2/7/2021,1,Wollongong
+38,2/18/2021,1,Wollongong
+39,3/9/2021,1,Wollongong
+40,4/30/2021,2,Wollongong
+41,5/9/2021,1,Wollongong
+42,5/23/2021,1,Wollongong
+43,6/18/2021,1,Wollongong
+44,6/19/2021,1,Wollongong
+45,6/21/2021,1,Wollongong
+46,6/22/2021,2,Wollongong
+47,6/30/2021,1,Wollongong
+48,7/18/2021,3,Wollongong
+49,7/19/2021,1,Wollongong
+50,7/21/2021,1,Wollongong
+51,7/22/2021,1,Wollongong
+52,7/25/2021,2,Wollongong
+53,7/27/2021,2,Wollongong
+54,7/28/2021,3,Wollongong
+55,8/3/2021,3,Wollongong
+0,3/15/2020,1,Lake Macquarie
+1,3/19/2020,3,Lake Macquarie
+2,3/20/2020,3,Lake Macquarie
+3,3/21/2020,1,Lake Macquarie
+4,3/22/2020,1,Lake Macquarie
+5,3/23/2020,8,Lake Macquarie
+6,3/24/2020,5,Lake Macquarie
+7,3/25/2020,6,Lake Macquarie
+8,3/26/2020,2,Lake Macquarie
+9,3/27/2020,3,Lake Macquarie
+10,3/28/2020,3,Lake Macquarie
+11,3/29/2020,3,Lake Macquarie
+12,3/30/2020,2,Lake Macquarie
+13,4/1/2020,1,Lake Macquarie
+14,4/2/2020,2,Lake Macquarie
+15,4/3/2020,1,Lake Macquarie
+16,4/4/2020,1,Lake Macquarie
+17,4/6/2020,2,Lake Macquarie
+18,4/9/2020,1,Lake Macquarie
+19,4/10/2020,1,Lake Macquarie
+20,4/12/2020,3,Lake Macquarie
+21,4/17/2020,1,Lake Macquarie
+22,4/30/2020,2,Lake Macquarie
+23,6/8/2020,1,Lake Macquarie
+24,7/13/2020,1,Lake Macquarie
+25,7/16/2020,1,Lake Macquarie
+26,7/22/2020,1,Lake Macquarie
+27,10/10/2020,1,Lake Macquarie
+28,11/30/2020,1,Lake Macquarie
+29,12/20/2020,1,Lake Macquarie
+30,1/6/2021,1,Lake Macquarie
+31,4/5/2021,1,Lake Macquarie
+32,7/30/2021,1,Lake Macquarie
+33,8/5/2021,1,Lake Macquarie
+34,8/7/2021,1,Lake Macquarie
+35,8/8/2021,2,Lake Macquarie
+36,8/9/2021,2,Lake Macquarie
+37,8/10/2021,11,Lake Macquarie
+38,8/11/2021,11,Lake Macquarie
+39,8/12/2021,1,Lake Macquarie
+0,3/15/2020,2,Mosman
+1,3/16/2020,2,Mosman
+2,3/17/2020,4,Mosman
+3,3/18/2020,1,Mosman
+4,3/21/2020,2,Mosman
+5,3/22/2020,8,Mosman
+6,3/24/2020,4,Mosman
+7,3/25/2020,2,Mosman
+8,3/26/2020,2,Mosman
+9,3/27/2020,1,Mosman
+10,3/30/2020,1,Mosman
+11,3/31/2020,1,Mosman
+12,4/2/2020,2,Mosman
+13,4/3/2020,4,Mosman
+14,4/4/2020,2,Mosman
+15,4/5/2020,1,Mosman
+16,4/7/2020,1,Mosman
+17,4/11/2020,1,Mosman
+18,9/1/2020,1,Mosman
+19,11/30/2020,1,Mosman
+20,12/23/2020,1,Mosman
+21,1/10/2021,2,Mosman
+22,1/11/2021,1,Mosman
+23,1/16/2021,2,Mosman
+24,2/25/2021,1,Mosman
+0,3/16/2020,2,Mid-Coast
+1,3/19/2020,1,Mid-Coast
+2,3/20/2020,2,Mid-Coast
+3,3/21/2020,1,Mid-Coast
+4,3/22/2020,1,Mid-Coast
+5,3/23/2020,2,Mid-Coast
+6,3/24/2020,6,Mid-Coast
+7,3/25/2020,5,Mid-Coast
+8,3/26/2020,3,Mid-Coast
+9,3/27/2020,5,Mid-Coast
+10,3/28/2020,2,Mid-Coast
+11,3/29/2020,1,Mid-Coast
+12,4/1/2020,2,Mid-Coast
+13,4/2/2020,2,Mid-Coast
+14,4/4/2020,2,Mid-Coast
+15,4/26/2020,1,Mid-Coast
+16,5/8/2020,1,Mid-Coast
+17,8/31/2020,1,Mid-Coast
+18,2/28/2021,1,Mid-Coast
+19,7/11/2021,3,Mid-Coast
+0,3/17/2020,3,Newcastle
+1,3/18/2020,1,Newcastle
+2,3/21/2020,4,Newcastle
+3,3/22/2020,3,Newcastle
+4,3/23/2020,7,Newcastle
+5,3/24/2020,4,Newcastle
+6,3/25/2020,6,Newcastle
+7,3/26/2020,3,Newcastle
+8,3/27/2020,2,Newcastle
+9,3/28/2020,4,Newcastle
+10,3/29/2020,3,Newcastle
+11,3/30/2020,1,Newcastle
+12,3/31/2020,2,Newcastle
+13,4/1/2020,3,Newcastle
+14,4/3/2020,1,Newcastle
+15,4/5/2020,1,Newcastle
+16,4/7/2020,4,Newcastle
+17,4/8/2020,1,Newcastle
+18,4/9/2020,1,Newcastle
+19,4/15/2020,1,Newcastle
+20,7/6/2020,1,Newcastle
+21,7/18/2020,1,Newcastle
+22,8/5/2020,1,Newcastle
+23,8/6/2020,2,Newcastle
+24,10/9/2020,1,Newcastle
+25,11/8/2020,1,Newcastle
+26,1/8/2021,1,Newcastle
+27,1/19/2021,1,Newcastle
+28,3/21/2021,1,Newcastle
+29,4/12/2021,1,Newcastle
+30,4/14/2021,1,Newcastle
+31,4/16/2021,1,Newcastle
+32,8/5/2021,1,Newcastle
+33,8/6/2021,3,Newcastle
+34,8/7/2021,6,Newcastle
+35,8/8/2021,5,Newcastle
+36,8/9/2021,5,Newcastle
+37,8/10/2021,9,Newcastle
+38,8/11/2021,3,Newcastle
+39,8/12/2021,2,Newcastle
+0,3/17/2020,1,Kiama
+1,3/19/2020,1,Kiama
+2,3/23/2020,1,Kiama
+3,3/31/2020,1,Kiama
+4,4/2/2020,1,Kiama
+5,4/4/2020,2,Kiama
+0,3/17/2020,1,Bathurst Regional
+1,3/20/2020,1,Bathurst Regional
+2,3/22/2020,2,Bathurst Regional
+3,3/24/2020,2,Bathurst Regional
+4,3/26/2020,1,Bathurst Regional
+5,3/28/2020,1,Bathurst Regional
+6,3/29/2020,1,Bathurst Regional
+7,7/29/2021,1,Bathurst Regional
+0,3/17/2020,1,Shoalhaven
+1,3/18/2020,1,Shoalhaven
+2,3/22/2020,1,Shoalhaven
+3,3/23/2020,2,Shoalhaven
+4,3/24/2020,2,Shoalhaven
+5,3/25/2020,1,Shoalhaven
+6,3/27/2020,6,Shoalhaven
+7,3/28/2020,2,Shoalhaven
+8,3/29/2020,3,Shoalhaven
+9,3/30/2020,2,Shoalhaven
+10,3/31/2020,1,Shoalhaven
+11,4/1/2020,3,Shoalhaven
+12,4/2/2020,1,Shoalhaven
+13,4/3/2020,3,Shoalhaven
+14,4/7/2020,1,Shoalhaven
+15,4/10/2020,1,Shoalhaven
+16,7/8/2020,1,Shoalhaven
+17,7/15/2020,1,Shoalhaven
+18,8/22/2020,1,Shoalhaven
+19,12/13/2020,1,Shoalhaven
+20,12/20/2020,1,Shoalhaven
+21,1/7/2021,1,Shoalhaven
+0,3/18/2020,2,Tweed
+1,3/23/2020,6,Tweed
+2,3/26/2020,3,Tweed
+3,3/30/2020,1,Tweed
+4,4/4/2020,1,Tweed
+5,4/7/2020,1,Tweed
+6,10/22/2020,1,Tweed
+7,12/26/2020,1,Tweed
+8,1/15/2021,1,Tweed
+9,4/24/2021,1,Tweed
+0,3/18/2020,1,Maitland
+1,3/20/2020,2,Maitland
+2,3/22/2020,1,Maitland
+3,3/23/2020,3,Maitland
+4,3/24/2020,3,Maitland
+5,3/25/2020,5,Maitland
+6,3/26/2020,4,Maitland
+7,3/27/2020,2,Maitland
+8,3/28/2020,1,Maitland
+9,3/29/2020,2,Maitland
+10,3/31/2020,2,Maitland
+11,4/1/2020,2,Maitland
+12,4/3/2020,1,Maitland
+13,4/11/2020,1,Maitland
+14,4/16/2020,1,Maitland
+15,11/8/2020,1,Maitland
+16,11/13/2020,1,Maitland
+17,5/9/2021,1,Maitland
+18,8/4/2021,1,Maitland
+19,8/5/2021,3,Maitland
+20,8/6/2021,2,Maitland
+21,8/8/2021,2,Maitland
+22,8/10/2021,1,Maitland
+23,8/11/2021,3,Maitland
+24,8/12/2021,1,Maitland
+0,3/19/2020,1,Dungog
+1,3/20/2020,1,Dungog
+2,3/23/2020,1,Dungog
+3,3/28/2020,1,Dungog
+4,4/1/2020,1,Dungog
+0,3/20/2020,1,Clarence Valley
+1,3/22/2020,2,Clarence Valley
+2,3/24/2020,1,Clarence Valley
+3,3/27/2020,3,Clarence Valley
+4,3/28/2020,1,Clarence Valley
+5,8/10/2021,1,Clarence Valley
+0,3/20/2020,1,Liverpool Plains
+1,3/23/2020,1,Liverpool Plains
+0,3/20/2020,1,Strathfield
+1,3/21/2020,1,Strathfield
+2,3/24/2020,1,Strathfield
+3,3/25/2020,1,Strathfield
+4,3/31/2020,1,Strathfield
+5,4/3/2020,1,Strathfield
+6,4/5/2020,2,Strathfield
+7,4/7/2020,1,Strathfield
+8,4/8/2020,3,Strathfield
+9,4/14/2020,1,Strathfield
+10,4/25/2020,1,Strathfield
+11,5/1/2020,1,Strathfield
+12,5/6/2020,1,Strathfield
+13,5/21/2020,1,Strathfield
+14,5/23/2020,1,Strathfield
+15,7/3/2020,1,Strathfield
+16,7/9/2020,2,Strathfield
+17,8/22/2020,1,Strathfield
+18,9/2/2020,1,Strathfield
+19,11/6/2020,1,Strathfield
+20,11/13/2020,1,Strathfield
+21,11/22/2020,1,Strathfield
+22,12/29/2020,1,Strathfield
+23,4/16/2021,1,Strathfield
+24,4/25/2021,1,Strathfield
+25,5/9/2021,1,Strathfield
+26,6/28/2021,1,Strathfield
+27,6/29/2021,3,Strathfield
+28,7/1/2021,3,Strathfield
+29,7/2/2021,1,Strathfield
+30,7/3/2021,1,Strathfield
+31,7/4/2021,1,Strathfield
+32,7/14/2021,1,Strathfield
+33,7/22/2021,4,Strathfield
+34,7/24/2021,2,Strathfield
+35,7/25/2021,2,Strathfield
+36,7/26/2021,2,Strathfield
+37,7/27/2021,3,Strathfield
+38,7/28/2021,3,Strathfield
+39,7/29/2021,6,Strathfield
+40,7/30/2021,4,Strathfield
+41,7/31/2021,5,Strathfield
+42,8/1/2021,7,Strathfield
+43,8/2/2021,5,Strathfield
+44,8/3/2021,3,Strathfield
+45,8/4/2021,2,Strathfield
+46,8/6/2021,3,Strathfield
+47,8/7/2021,1,Strathfield
+48,8/8/2021,1,Strathfield
+49,8/9/2021,6,Strathfield
+50,8/10/2021,1,Strathfield
+51,8/11/2021,5,Strathfield
+52,8/12/2021,2,Strathfield
+0,3/21/2020,1,Shellharbour
+1,3/22/2020,3,Shellharbour
+2,3/23/2020,2,Shellharbour
+3,3/25/2020,5,Shellharbour
+4,3/27/2020,3,Shellharbour
+5,3/28/2020,1,Shellharbour
+6,3/29/2020,2,Shellharbour
+7,3/30/2020,1,Shellharbour
+8,3/31/2020,1,Shellharbour
+9,4/2/2020,1,Shellharbour
+10,4/5/2020,1,Shellharbour
+11,6/14/2020,1,Shellharbour
+12,6/20/2020,5,Shellharbour
+13,7/13/2020,1,Shellharbour
+14,7/17/2020,1,Shellharbour
+15,9/5/2020,1,Shellharbour
+16,10/19/2020,1,Shellharbour
+17,8/10/2021,1,Shellharbour
+0,3/21/2020,2,Eurobodalla
+1,3/24/2020,1,Eurobodalla
+2,3/25/2020,1,Eurobodalla
+3,3/27/2020,2,Eurobodalla
+4,3/28/2020,2,Eurobodalla
+5,3/30/2020,1,Eurobodalla
+6,4/3/2020,1,Eurobodalla
+7,7/19/2020,3,Eurobodalla
+8,8/10/2020,3,Eurobodalla
+9,9/16/2020,1,Eurobodalla
+10,10/31/2020,1,Eurobodalla
+0,3/21/2020,2,Queanbeyan-Palerang Regional
+1,3/22/2020,1,Queanbeyan-Palerang Regional
+2,3/23/2020,1,Queanbeyan-Palerang Regional
+3,3/24/2020,1,Queanbeyan-Palerang Regional
+4,3/26/2020,2,Queanbeyan-Palerang Regional
+5,3/27/2020,1,Queanbeyan-Palerang Regional
+6,3/28/2020,1,Queanbeyan-Palerang Regional
+7,4/3/2020,1,Queanbeyan-Palerang Regional
+8,7/4/2020,1,Queanbeyan-Palerang Regional
+9,12/22/2020,1,Queanbeyan-Palerang Regional
+10,12/25/2020,1,Queanbeyan-Palerang Regional
+11,12/26/2020,1,Queanbeyan-Palerang Regional
+12,1/10/2021,1,Queanbeyan-Palerang Regional
+13,6/14/2021,2,Queanbeyan-Palerang Regional
+0,3/21/2020,2,Bega Valley
+1,3/22/2020,1,Bega Valley
+2,3/24/2020,1,Bega Valley
+3,3/25/2020,1,Bega Valley
+4,3/26/2020,2,Bega Valley
+5,3/27/2020,1,Bega Valley
+6,3/31/2020,1,Bega Valley
+7,2/20/2021,1,Bega Valley
+0,3/21/2020,1,Port Macquarie-Hastings
+1,3/22/2020,2,Port Macquarie-Hastings
+2,3/23/2020,1,Port Macquarie-Hastings
+3,3/24/2020,3,Port Macquarie-Hastings
+4,3/26/2020,2,Port Macquarie-Hastings
+5,3/27/2020,3,Port Macquarie-Hastings
+6,3/28/2020,5,Port Macquarie-Hastings
+7,3/29/2020,2,Port Macquarie-Hastings
+8,3/30/2020,1,Port Macquarie-Hastings
+9,3/31/2020,2,Port Macquarie-Hastings
+10,4/3/2020,2,Port Macquarie-Hastings
+11,4/14/2020,1,Port Macquarie-Hastings
+12,4/17/2020,1,Port Macquarie-Hastings
+0,3/22/2020,2,Tenterfield
+1,3/27/2020,1,Tenterfield
+0,3/22/2020,1,Albury
+1,3/24/2020,1,Albury
+2,3/25/2020,2,Albury
+3,3/26/2020,2,Albury
+4,4/9/2020,1,Albury
+5,4/16/2020,1,Albury
+6,7/6/2020,3,Albury
+0,3/22/2020,1,Ballina
+1,3/23/2020,1,Ballina
+2,3/25/2020,1,Ballina
+3,3/28/2020,1,Ballina
+4,4/2/2020,2,Ballina
+5,4/8/2020,1,Ballina
+6,4/14/2020,1,Ballina
+7,11/30/2020,1,Ballina
+8,12/30/2020,1,Ballina
+9,1/3/2021,2,Ballina
+10,3/23/2021,1,Ballina
+11,3/30/2021,1,Ballina
+12,7/1/2021,1,Ballina
+0,3/22/2020,2,Tamworth Regional
+1,3/23/2020,1,Tamworth Regional
+2,3/24/2020,4,Tamworth Regional
+3,3/25/2020,1,Tamworth Regional
+4,3/26/2020,1,Tamworth Regional
+5,3/27/2020,1,Tamworth Regional
+6,3/28/2020,1,Tamworth Regional
+7,3/29/2020,1,Tamworth Regional
+8,4/17/2020,1,Tamworth Regional
+0,3/22/2020,1,Blayney
+1,3/23/2020,2,Blayney
+0,3/22/2020,1,Port Stephens
+1,3/23/2020,3,Port Stephens
+2,3/24/2020,4,Port Stephens
+3,3/25/2020,3,Port Stephens
+4,3/26/2020,3,Port Stephens
+5,3/27/2020,2,Port Stephens
+6,3/28/2020,5,Port Stephens
+7,3/29/2020,2,Port Stephens
+8,3/30/2020,1,Port Stephens
+9,3/31/2020,1,Port Stephens
+10,4/1/2020,2,Port Stephens
+11,4/2/2020,1,Port Stephens
+12,4/4/2020,2,Port Stephens
+13,4/7/2020,1,Port Stephens
+14,4/8/2020,1,Port Stephens
+15,4/10/2020,1,Port Stephens
+16,7/21/2020,1,Port Stephens
+17,7/22/2020,3,Port Stephens
+18,7/27/2020,1,Port Stephens
+19,7/28/2020,1,Port Stephens
+20,7/29/2020,1,Port Stephens
+21,11/8/2020,1,Port Stephens
+22,12/10/2020,1,Port Stephens
+23,1/11/2021,1,Port Stephens
+24,4/28/2021,1,Port Stephens
+25,5/1/2021,1,Port Stephens
+26,5/2/2021,1,Port Stephens
+27,8/7/2021,2,Port Stephens
+28,8/8/2021,2,Port Stephens
+29,8/11/2021,1,Port Stephens
+30,8/12/2021,1,Port Stephens
+0,3/23/2020,2,Dubbo Regional
+1,3/25/2020,3,Dubbo Regional
+2,4/27/2021,2,Dubbo Regional
+3,5/4/2021,1,Dubbo Regional
+4,8/10/2021,1,Dubbo Regional
+5,8/11/2021,4,Dubbo Regional
+6,8/12/2021,2,Dubbo Regional
+0,3/23/2020,1,Mid-Western Regional
+1,3/25/2020,1,Mid-Western Regional
+2,3/28/2020,2,Mid-Western Regional
+3,4/15/2020,1,Mid-Western Regional
+4,4/16/2020,1,Mid-Western Regional
+0,3/23/2020,1,Nambucca
+1,3/31/2020,1,Nambucca
+2,4/2/2020,1,Nambucca
+0,3/23/2020,2,Inverell
+1,3/25/2020,1,Inverell
+2,11/2/2020,1,Inverell
+3,7/1/2021,1,Inverell
+0,3/23/2020,1,Kempsey
+1,3/27/2020,1,Kempsey
+2,3/30/2020,1,Kempsey
+3,4/1/2020,1,Kempsey
+0,3/23/2020,1,Lithgow
+1,4/2/2020,1,Lithgow
+2,4/3/2020,1,Lithgow
+3,4/22/2020,1,Lithgow
+4,11/29/2020,1,Lithgow
+5,12/1/2020,1,Lithgow
+6,5/7/2021,1,Lithgow
+0,3/23/2020,1,Lismore
+1,3/25/2020,1,Lismore
+2,3/27/2020,2,Lismore
+3,3/29/2020,1,Lismore
+4,7/15/2020,1,Lismore
+0,3/23/2020,1,Warrumbungle Shire
+1,3/27/2020,1,Warrumbungle Shire
+0,3/24/2020,2,Wagga Wagga
+1,3/25/2020,1,Wagga Wagga
+2,3/26/2020,1,Wagga Wagga
+3,3/30/2020,4,Wagga Wagga
+4,3/31/2020,1,Wagga Wagga
+5,4/2/2020,1,Wagga Wagga
+6,8/1/2020,1,Wagga Wagga
+7,8/2/2020,3,Wagga Wagga
+8,9/7/2020,1,Wagga Wagga
+9,12/4/2020,2,Wagga Wagga
+10,2/27/2021,1,Wagga Wagga
+11,5/21/2021,1,Wagga Wagga
+0,3/24/2020,1,Cootamundra-Gundagai Regional
+1,4/9/2020,1,Cootamundra-Gundagai Regional
+0,3/24/2020,2,Federation
+1,3/26/2020,2,Federation
+2,3/27/2020,2,Federation
+3,3/31/2020,1,Federation
+0,3/24/2020,1,Griffith
+1,3/26/2020,2,Griffith
+0,3/24/2020,2,Singleton
+1,3/28/2020,1,Singleton
+2,4/2/2020,1,Singleton
+3,7/28/2020,1,Singleton
+0,3/24/2020,1,Cabonne
+1,3/27/2020,1,Cabonne
+2,4/4/2020,3,Cabonne
+3,7/20/2021,1,Cabonne
+0,3/25/2020,1,Narromine
+0,3/25/2020,1,Snowy Monaro Regional
+1,3/26/2020,4,Snowy Monaro Regional
+2,3/30/2020,1,Snowy Monaro Regional
+3,11/29/2020,1,Snowy Monaro Regional
+4,11/30/2020,1,Snowy Monaro Regional
+5,12/22/2020,1,Snowy Monaro Regional
+6,1/6/2021,1,Snowy Monaro Regional
+7,1/11/2021,1,Snowy Monaro Regional
+0,3/25/2020,2,Greater Hume Shire
+1,3/29/2020,1,Greater Hume Shire
+0,3/25/2020,1,Weddin
+0,3/25/2020,1,Upper Hunter Shire
+1,9/10/2020,1,Upper Hunter Shire
+2,11/16/2020,1,Upper Hunter Shire
+0,3/25/2020,1,Wollondilly
+1,3/26/2020,1,Wollondilly
+2,5/2/2020,1,Wollondilly
+3,5/9/2020,1,Wollondilly
+4,7/12/2020,1,Wollondilly
+5,7/13/2020,3,Wollondilly
+6,7/19/2020,1,Wollondilly
+7,8/11/2020,1,Wollondilly
+8,8/16/2020,1,Wollondilly
+9,9/6/2020,1,Wollondilly
+10,10/7/2020,2,Wollondilly
+11,10/13/2020,1,Wollondilly
+12,10/14/2020,1,Wollondilly
+13,7/13/2021,1,Wollondilly
+14,7/25/2021,1,Wollondilly
+15,7/29/2021,2,Wollondilly
+16,7/31/2021,1,Wollondilly
+17,8/11/2021,1,Wollondilly
+0,3/25/2020,2,Glen Innes Severn
+1,6/26/2021,1,Glen Innes Severn
+0,3/26/2020,2,Yass Valley
+1,3/29/2020,4,Yass Valley
+2,11/2/2020,1,Yass Valley
+3,11/3/2020,1,Yass Valley
+0,3/26/2020,1,Warren
+0,3/26/2020,1,Muswellbrook
+0,3/27/2020,2,Murrumbidgee
+1,3/28/2020,1,Murrumbidgee
+0,3/27/2020,2,Upper Lachlan Shire
+1,3/31/2020,1,Upper Lachlan Shire
+0,3/28/2020,1,Hay
+0,3/28/2020,1,Armidale Regional
+1,4/6/2020,1,Armidale Regional
+2,4/10/2020,1,Armidale Regional
+3,4/17/2020,1,Armidale Regional
+4,1/10/2021,1,Armidale Regional
+5,8/7/2021,2,Armidale Regional
+6,8/8/2021,1,Armidale Regional
+7,8/12/2021,1,Armidale Regional
+0,3/28/2020,1,Bellingen
+0,3/29/2020,1,Berrigan
+1,3/31/2020,1,Berrigan
+2,4/2/2020,1,Berrigan
+3,4/3/2020,2,Berrigan
+0,3/30/2020,1,Narrandera
+0,3/31/2020,1,Broken Hill
+1,4/2/2020,1,Broken Hill
+0,3/31/2020,1,Richmond Valley
+1,4/28/2020,1,Richmond Valley
+0,3/31/2020,1,Uralla
+0,4/1/2020,2,Hilltops
+0,4/2/2020,1,Gunnedah
+1,7/17/2021,1,Gunnedah
+0,4/6/2020,1,Parkes
+1,8/8/2020,1,Parkes
+0,4/17/2020,1,Moree Plains
+0,7/11/2020,1,Snowy Valleys
+1,8/2/2021,1,Snowy Valleys
+0,7/16/2020,1,Junee
+0,9/2/2020,1,Temora
+0,11/27/2020,1,Coonamble
+0,8/11/2021,1,Walgett
