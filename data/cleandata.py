@@ -3,13 +3,14 @@ from collections import defaultdict
 
 
 dtypes = {
-    "lga_name19": "category"
+    "lga_name19": "category",
+    "SType": "category"
 }
 
 df = pd.read_csv(
     "confirmed_cases_14082021.csv",
     dtype=dtypes,
-    usecols=list(dtypes) + ["notification_date"],
+    usecols=list(dtypes) + ["notification_date", "TY"],
     parse_dates=["notification_date"]
 )
 
