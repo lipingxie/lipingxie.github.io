@@ -133,7 +133,7 @@
                     //var parseTime = d3.timeParse("%m/%d/%Y");
                     var months = ["1/01/2020", "2/01/2020", "3/01/2020", "4/01/2020", "5/01/2020", "6/01/2020",
                         "7/01/2020", "8/01/2020", "9/01/2020", "10/01/2020", "11/01/2020", "12/01/2020", "1/01/2021",
-                        "2/01/2021", "3/01/2021", "4/01/2021", "5/01/2021", "6/01/2021", "7/01/2021", "8/01/2021"];
+                        "2/01/2021", "3/01/2021", "4/01/2021", "5/01/2021", "6/01/2021", "7/01/2021", "8/01/2021","9/01/2021"];
                     var dates = [];
                     for (let obj of months) {
                         dates.push(parseTime2(obj));
@@ -142,7 +142,7 @@
 
                     //var xScale = d3.scaleLinear().domain([0, 200]).range([0, width]);
                     var xScale = d3.scaleTime().domain(domain).range([0, width]);
-                    yScale = d3.scaleLinear().domain([0, 265]).range([height, 0]);
+                    yScale = d3.scaleLinear().domain([0, 500]).range([height, 0]);
 
                     // Step 5
                     // Title
